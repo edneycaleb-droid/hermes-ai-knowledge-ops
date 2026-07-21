@@ -1,0 +1,21 @@
+schema_version: 1
+project: hermes-agent
+policy: official-first
+sources:
+  - id: github-repository
+    type: git
+    url: https://github.com/NousResearch/hermes-agent
+    authority: official
+    tracks:
+      - skills
+      - mcp
+      - releases
+      - tools
+      - profiles
+      - cron
+      - plugins
+      - learning-loop
+automation:
+  mode: read-only
+  execute_discovered_code: false
+  install_discovered_code: false
