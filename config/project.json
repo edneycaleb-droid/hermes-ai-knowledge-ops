@@ -1,0 +1,30 @@
+{
+  "candidate_quality_score": 80,
+  "compatibility_targets": [
+    "hermes",
+    "mcp",
+    "python",
+    "typescript",
+    "openai-compatible"
+  ],
+  "createos_unique_name": "hermes-knowledge-ops",
+  "dataset_name": "hermes_github_intelligence",
+  "display_name": "Hermes AI Knowledge Ops",
+  "max_results_per_query": 6,
+  "min_quality_score": 60,
+  "project_id": "hermes",
+  "schema_version": 1,
+  "search_queries": [
+    "\"hermes agent\" skill in:name,description,readme",
+    "\"model context protocol\" hermes in:name,description,readme",
+    "topic:mcp-server language:python stars:>10",
+    "topic:mcp-server language:typescript stars:>10",
+    "\"agent skill\" topic:ai-agent stars:>10"
+  ],
+  "seed_repositories": [
+    "NousResearch/hermes-agent"
+  ],
+  "trusted_owners": [
+    "NousResearch"
+  ]
+}
