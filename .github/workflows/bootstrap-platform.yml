@@ -1,0 +1,33 @@
+name: Bootstrap tested agent platform
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Materialize tested platform
+        run: python .bootstrap/materialize.py
+      - name: Verify exact materialized tree
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m compileall -q src pipelines scripts tests
+          python -m unittest discover -s tests -v
+          python scripts/quality_gate.py
+          python scripts/security_gate.py
+      - name: Commit verified platform
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "knowledge-ops[bot]"
+          git config user.email "knowledge-ops[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: build autonomous knowledge-ops agent platform"
+          git push origin HEAD:main
