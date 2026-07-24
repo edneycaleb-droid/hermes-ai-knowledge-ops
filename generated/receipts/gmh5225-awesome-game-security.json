@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/gmh5225/awesome-game-security",
+  "canonical_repository": "gmh5225/awesome-game-security",
+  "canonical_url": "https://github.com/gmh5225/awesome-game-security",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:42:58.687229Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3207f437a7197b8288dd14873b95eac91edd29ceda638d2a0311f5519ae9fb55",
+  "sampled_file_digests": {
+    "LICENSE": "17b38bbcaccff891ad3af44b961447dbe8806fd67a598b6f38a6d1412bdc595a"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/labring/sealos-skills",
+  "canonical_repository": "labring/sealos-skills",
+  "canonical_url": "https://github.com/labring/sealos-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:44:13.016688Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3e4c267889e34477bac7ea145c2ea045c440c6ea167461f6fef9d826738a04ea",
+  "sampled_file_digests": {
+    "README.md": "fe7d4e355999c3ff04beaffc0436cfd163d64cdb5abc54b33063995022e41469"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

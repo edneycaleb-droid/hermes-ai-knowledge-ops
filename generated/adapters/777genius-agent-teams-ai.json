@@ -1,0 +1,96 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentteams.live/",
+    "https://claude.com/pricing).",
+    "https://code.claude.com/docs/en/agent-teams),",
+    "https://code.claude.com/docs/en/cli-usage),",
+    "https://code.claude.com/docs/en/common-workflows),",
+    "https://code.claude.com/docs/en/costs),",
+    "https://code.claude.com/docs/en/sub-agents),",
+    "https://code.claude.com/docs/en/worktrees),",
+    "https://cursor.com/changelog/04-24-26),",
+    "https://cursor.com/changelog/cloud-in-agents-window),",
+    "https://cursor.com/docs/account/teams/pricing),",
+    "https://cursor.com/docs/agent/agent-review),",
+    "https://cursor.com/docs/agent/terminal),",
+    "https://cursor.com/docs/bugbot),",
+    "https://cursor.com/docs/cloud-agent),",
+    "https://cursor.com/docs/configuration/worktrees),",
+    "https://cursor.com/docs/models-and-pricing),",
+    "https://discord.gg/qtqSZSyuEc",
+    "https://fsf.org/",
+    "https://github.com/777genius/agent-teams-ai",
+    "https://github.com/777genius/agent-teams-ai.git",
+    "https://github.com/777genius/agent-teams-ai/actions/workflows/ci.yml",
+    "https://github.com/777genius/agent-teams-ai/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/777genius/agent-teams-ai/issues",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/Agent.Teams.AI-2.7.0-arm64.dmg",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/Agent.Teams.AI-2.7.0-x64.dmg",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/Agent.Teams.AI-2.7.0.AppImage",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/Agent.Teams.AI.Setup.2.7.0.exe",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/agent-teams-ai-2.7.0.pacman",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/agent-teams-ai-2.7.0.x86_64.rpm",
+    "https://github.com/777genius/agent-teams-ai/releases/download/v2.7.0/agent-teams-ai_2.7.0_amd64.deb",
+    "https://github.com/777genius/agent-teams-ai/releases/latest",
+    "https://github.com/gastownhall/gastown),",
+    "https://github.com/gastownhall/gastown/blob/main/docs/agent-provider-integration.md),",
+    "https://github.com/gastownhall/gastown/blob/main/docs/design/scheduler.md),",
+    "https://github.com/gastownhall/gastown/blob/main/internal/web/templates/convoy.html),",
+    "https://github.com/gastownhall/gastown/releases/tag/v1.2.1),",
+    "https://github.com/paperclipai/paperclip#the-systems),",
+    "https://github.com/paperclipai/paperclip),",
+    "https://github.com/paperclipai/paperclip/blob/master/docs/adapters/overview.md),"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "playwright-electron": {
+          "args": [
+            "-y",
+            "@playwright/mcp@0.0.75",
+            "--cdp-endpoint",
+            "http://127.0.0.1:9222",
+            "--caps",
+            "devtools",
+            "--console-level",
+            "info"
+          ],
+          "command": "npx"
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/777genius-agent-teams-ai.json",
+  "schema_version": 1,
+  "source_repository": "777genius/agent-teams-ai",
+  "source_url": "https://github.com/777genius/agent-teams-ai",
+  "status": "disabled_pending_review"
+}

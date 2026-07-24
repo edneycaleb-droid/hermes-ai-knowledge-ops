@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/WhiteK0T/Base-of-knowledge",
+  "canonical_repository": "WhiteK0T/Base-of-knowledge",
+  "canonical_url": "https://github.com/WhiteK0T/Base-of-knowledge",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:42:21.430448Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7a1020d2d27c7476a9f43e868b88ebd46c4c290bdc83394af5b4d9e7d1324500",
+  "sampled_file_digests": {
+    "LICENSE": "ce36f3c61bfe615e58e15bcb7bbd83364511edfd10272e68c3337660423f3e4e",
+    "README.md": "0dc5001cc2ab0a4d0d55f5de66a88e35256d8be30f0b1b674242debfd1ac4460"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

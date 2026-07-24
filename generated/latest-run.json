@@ -1,5 +1,55 @@
 {
-  "entries": [
+  "agent_metrics": {
+    "agents": {
+      "classification": {
+        "status": "completed"
+      },
+      "compatibility": {
+        "status": "completed"
+      },
+      "decision": {
+        "status": "completed"
+      },
+      "deduplication": {
+        "inputs": 29,
+        "outputs": 29,
+        "removed": 0
+      },
+      "discovery": {
+        "outputs": 29
+      },
+      "extraction": {
+        "status": "completed"
+      },
+      "learning": {
+        "status": "completed"
+      },
+      "proposal": {
+        "status": "completed"
+      },
+      "provenance": {
+        "status": "completed"
+      },
+      "quality": {
+        "status": "completed"
+      },
+      "security": {
+        "status": "completed"
+      }
+    },
+    "decisions": {
+      "blocked": 10,
+      "candidate": 6,
+      "review": 13
+    },
+    "safety": {
+      "auto_merged": false,
+      "executed_discovered_code": false,
+      "installed_discovered_dependencies": false,
+      "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431"
+    }
+  },
+  "assessments": [
     {
       "adapter_path": "generated/adapters/777genius-agent-teams-ai.json",
       "categories": [
@@ -6568,7 +6618,13 @@
       ]
     }
   ],
-  "generated_at": "2026-07-24T19:44:27.075897Z",
+  "blocked": 10,
+  "candidates_discovered": 29,
+  "candidates_unique": 29,
+  "finished_at": "2026-07-24T19:44:27.101861Z",
+  "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431",
   "project_id": "hermes",
-  "schema_version": 1
+  "proposals_created": 19,
+  "run_id": "2026-07-24-157e37e469",
+  "started_at": "2026-07-24T19:42:10.237754Z"
 }

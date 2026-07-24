@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/rrbanda/agent-lens",
+  "canonical_repository": "rrbanda/agent-lens",
+  "canonical_url": "https://github.com/rrbanda/agent-lens",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:42:25.969278Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e88ac616a462550a0a31fe1e8e4b28ae0bf911445c4e2041cef60bf83d87d8a7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2f22b98dc665c849c2be8ddd1381b02813dc2d6d9c06505c9ba2cacee587c692",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "9b446d24899b1f5b201bf5d0ff5527e38c960b544b32c54e98f3e28adf7c8f51"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/vibheksoni/stealth-browser-mcp",
+  "canonical_repository": "vibheksoni/stealth-browser-mcp",
+  "canonical_url": "https://github.com/vibheksoni/stealth-browser-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:43:26.975121Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a97461a27c8c8f06ea26dc3c483d47898be99331f47dca8ee25f7fb58ddaba2e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0d87fbec7d881421b91a0025cdc76a59293cf82dcb89751d8d31d95229f37386",
+    "Dockerfile": "3a72fbe259a8f9a22afb019af7c2f2bb0f961a71647fc171e3c4d928f81d732f",
+    "LICENSE": "4cf9ac505861e08eaf3fbe45a955ede2513a4cb88636370d47b00502ee066009",
+    "README.md": "a2d20f4a9955690dd33ca0dc0a84f4c687686160d0e28878550498d693a10497",
+    "pyproject.toml": "bd0dd9e040e4853ab9df4a19038fc2904c6780c300d984ab3915063032cc7b29",
+    "requirements.txt": "8efc4328214c6cfb66fc3683d55e10b6691381eff0d96eeb684e4fc1f6ab7414"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,42 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "https://img.shields.io/badge/",
+    "https://img.shields.io/badge/License-CC%20BY%204.0-green)](LICENSE)",
+    "https://img.shields.io/badge/Made%20with-Markdown-1f425f?logo=markdown&logoColor=white)",
+    "https://img.shields.io/badge/Obsidian-483699?logo=obsidian&logoColor=white)",
+    "https://img.shields.io/github/last-commit/WhiteK0T/Base-of-knowledge)",
+    "https://img.shields.io/github/repo-size/WhiteK0T/Base-of-knowledge)",
+    "https://obsidian.md/)"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/whitek0t-base-of-knowledge.json",
+  "schema_version": 1,
+  "source_repository": "WhiteK0T/Base-of-knowledge",
+  "source_url": "https://github.com/WhiteK0T/Base-of-knowledge",
+  "status": "disabled_pending_review"
+}

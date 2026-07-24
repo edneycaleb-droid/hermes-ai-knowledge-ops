@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/nzkbuild/hco-mcp",
+  "canonical_repository": "nzkbuild/hco-mcp",
+  "canonical_url": "https://github.com/nzkbuild/hco-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:42:49.488950Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c9cd9ef3511ffe00c81f411aac95611396e868ffe2bb960ea530f5a86e0567cc",
+  "sampled_file_digests": {
+    "README.md": "45811407a47968db673280d4ae621e83a99c3532da4282ed4ae4b7e7e43fd671",
+    "package.json": "d0c065b68dbe2da220537a2776b0129f50f34a2ccaa69dac17e27aa0c277dc9e"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

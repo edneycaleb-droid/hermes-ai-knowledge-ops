@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent-bom.internal.example.com",
+    "https://agent-bom.internal.example.com/v1/fleet/sync",
+    "https://demo.agent-bom.com",
+    "https://demo.agent-bom.com)",
+    "https://discord.gg/3YmYPqKZh5).",
+    "https://example.invalid/agent-bom-$",
+    "https://get.helm.sh/$",
+    "https://github.com/google/osv-scanner/releases/download/$",
+    "https://github.com/marketplace/actions/agent-bom",
+    "https://github.com/marketplace/actions/agent-bom)",
+    "https://github.com/msaad00/agent-bom",
+    "https://github.com/msaad00/agent-bom#readme",
+    "https://github.com/msaad00/agent-bom/actions/workflows/ci.yml",
+    "https://github.com/msaad00/agent-bom/blob/main/LICENSE",
+    "https://github.com/msaad00/agent-bom/blob/main/PERMISSIONS.md",
+    "https://github.com/msaad00/agent-bom/blob/main/SECURITY.md",
+    "https://github.com/msaad00/agent-bom/issues",
+    "https://github.com/msaad00/agent-bom/issues).",
+    "https://github.com/msaad00/agent-bom/issues/2255",
+    "https://github.com/msaad00/agent-bom/issues/930",
+    "https://github.com/msaad00/agent-bom/releases",
+    "https://glama.ai/mcp/servers/msaad00/agent-bom",
+    "https://hub.docker.com/r/agentbom/agent-bom",
+    "https://img.shields.io/badge/License-Apache%202.0-blue?style=flat",
+    "https://img.shields.io/badge/MCP-Glama-7c3aed?style=flat",
+    "https://img.shields.io/badge/MCP-Smithery-1f6feb?style=flat",
+    "https://img.shields.io/docker/pulls/agentbom/agent-bom?style=flat&label=Docker%20pulls",
+    "https://img.shields.io/github/actions/workflow/status/msaad00/agent-bom/ci.yml?branch=main&style=flat&label=Build",
+    "https://img.shields.io/ossf-scorecard/github.com/msaad00/agent-bom?style=flat&label=OpenSSF%20scorecard",
+    "https://img.shields.io/pypi/v/agent-bom?style=flat&label=Latest%20version&cacheSeconds=60",
+    "https://msaad00.github.io/agent-bom/",
+    "https://pypi.org/project/agent-bom/",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/deploy/docker-compose.pilot.yml",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/blast-radius-dark.svg",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/blast-radius-light.svg",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/cloud-accounts-live.png",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/context-map-live.png",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/dashboard-live.png",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/demo-latest.gif",
+    "https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/dependency-map-live.png"
+  ],
+  "environment_variable_names": [
+    "AGENT_BOM_GRAPH_SCHEMA_URL",
+    "AGENT_BOM_POSTGRES_ADMIN_URL",
+    "AGENT_BOM_POSTGRES_URL",
+    "ALEMBIC_DATABASE_URL",
+    "CURL_CA_BUNDLE",
+    "HOSTED_POC",
+    "NEXT_EXPORT",
+    "NEXT_PUBLIC_API_URL",
+    "NVD_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/msaad00-agent-bom.json",
+  "schema_version": 1,
+  "source_repository": "msaad00/agent-bom",
+  "source_url": "https://github.com/msaad00/agent-bom",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/trending-claude-skills",
+  "canonical_repository": "linny006/trending-claude-skills",
+  "canonical_url": "https://github.com/linny006/trending-claude-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:43:31.556805Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "86db6ef4877957959e0138b9e411348227fc70ad6f2fd23229aa627c55482e28",
+  "sampled_file_digests": {
+    "README.md": "0b0ccef494bd47c01cad0489384524acd15c431263d09e04b77799598a6b8f09",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

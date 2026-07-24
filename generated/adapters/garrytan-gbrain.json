@@ -1,0 +1,62 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/NousResearch/hermes-agent)**",
+    "https://github.com/garrytan/gbrain-evals)",
+    "https://github.com/garrytan/gbrain/issues)",
+    "https://github.com/openclaw/openclaw)**",
+    "https://github.com/praveen-ks-2001/hermes-agent-template)",
+    "https://huggingface.co/datasets/xiaowu0162/longmemeval)",
+    "https://raw.githubusercontent.com/garrytan/gbrain/master/INSTALL_FOR_AGENTS.md",
+    "https://render.com/deploy?repo=https://github.com/chrysb/alphaclaw)",
+    "https://www.ycombinator.com/rfs#company-brain)",
+    "https://your-brain/ingest",
+    "https://your-host/mcp",
+    "https://zeroentropy.dev))"
+  ],
+  "environment_variable_names": [
+    "DATABASE_URL",
+    "GBRAIN_REMOTE_TOKEN",
+    "GITHUB_TOKEN",
+    "OPENAI_API_KEY",
+    "TOKEN",
+    "URL",
+    "VOYAGE_API_KEY",
+    "ZEROENTROPY_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/garrytan-gbrain.json",
+  "schema_version": 1,
+  "source_repository": "garrytan/gbrain",
+  "source_url": "https://github.com/garrytan/gbrain",
+  "status": "disabled_pending_review"
+}

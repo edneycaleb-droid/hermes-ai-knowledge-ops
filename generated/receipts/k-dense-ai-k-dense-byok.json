@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/K-Dense-AI/k-dense-byok",
+  "canonical_repository": "K-Dense-AI/k-dense-byok",
+  "canonical_url": "https://github.com/K-Dense-AI/k-dense-byok",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:44:08.620139Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b052d896e45d88302a8f026202618d62bc7484236fa228b8e7b3f1ee4ea9850f",
+  "sampled_file_digests": {
+    "LICENSE": "d5a79316dec7f93a89701af72b118ff77030a8db38acd3e1aa05f4a4e7757241",
+    "README.md": "299791deacdd2b8f8e7cca254bcf019fa9b0520c8f116ad8fdbc0ccd166b2e92",
+    "package.json": "d25e7c92335d1bdd6a56eb4e0eebb140e3ea539f16adc62200e335c647548b51"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}
