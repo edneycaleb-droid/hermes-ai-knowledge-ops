@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/mandubian/autonoetic",
+  "canonical_repository": "mandubian/autonoetic",
+  "canonical_url": "https://github.com/mandubian/autonoetic",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:42:44.529724Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "434776863705de7e0baf668e584440acd1d973d2492b2615a88c85285815a65c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4fe995aa694fe970b2581691f4317605909627c493a382b28ae4dccb8558b1ad",
+    "LICENSE": "8cbd0414a8a9f02201ee2381f012742936de359ded62d1dd9b9ac2436f60fe1c",
+    "README.md": "b5d6164e892ab95392b3f5d7b38afaad8ce9268adeaf0f05e767e1f22c0066a6"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

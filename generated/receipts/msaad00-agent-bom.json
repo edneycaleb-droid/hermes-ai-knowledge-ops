@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/msaad00/agent-bom",
+  "canonical_repository": "msaad00/agent-bom",
+  "canonical_url": "https://github.com/msaad00/agent-bom",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:43:17.827633Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d46d3dcd52d85fc91a1aa463f037cbf412a1e80d0a3179f7e6da865869f2a47e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f4c31c98fd893544e8317df41ba38ed28544f91f61995d2081acb7594fd80077",
+    "Dockerfile": "977ac8bed52ef78d4b76db7b338885e969190b0b5e268bc96ff5f84ee9f727e0",
+    "LICENSE": "9daae02ff0b984314360df2f77727d857260bd9a492ed1e8ad114b2527ebac68",
+    "README.md": "5a4a22f795331d1b19525c72d8b95820e44f9ff32e2194595d2797c21a44660d",
+    "pyproject.toml": "ae6b05983353457f74d09faf1bffae5b4568ba98e1c0a94f184f83ae6835f85f"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

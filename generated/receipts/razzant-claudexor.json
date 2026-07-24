@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/razzant/claudexor",
+  "canonical_repository": "razzant/claudexor",
+  "canonical_url": "https://github.com/razzant/claudexor",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:43:41.308518Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2bfd37eb0ad2153855833af3d66791f8e71064db5c136c68ffc98ec2657fe4b4",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "06797c0af63ac4678b71bd46d4f8b481574a6c7f23529961272f67ce6d09db93",
+    "LICENSE": "471f75bc6ef38333696dd6549c4355adef05291a74135649131f0a5728f5a45c",
+    "README.md": "91a7832b23d6faf1c98fbdf21ab88b94946a71b68d701265f731322176bab36a",
+    "package.json": "44571fb6b55a2ec3e495eb9d3b17592c305ae30b9acafa8c9e8c3c989e8f9ce0"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/garrytan/gbrain",
+  "canonical_repository": "garrytan/gbrain",
+  "canonical_url": "https://github.com/garrytan/gbrain",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T19:42:35.476036Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "eee6fe012e0681c297421f554a80cd149fd70de9e503cd72abf21058756933ce",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "bd6582927f0a5e9bf1e2ec4b303e68a56e878e42dc619792a89ba76941b7a1f3",
+    "LICENSE": "e56fbb5b3d95756f3fa1cfefa24732ec79f18ece1ad08a4e79e00df57e8b198c",
+    "README.md": "71f85e44903442b4cabab7623d2cfc338eed9ac0575140c184167f3fc8557426",
+    "package.json": "e1b32fd495cc667bb5837d1313c02e06a3bae5860b27e62d94e997a8bce2d949"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
