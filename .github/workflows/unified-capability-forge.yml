@@ -1,0 +1,47 @@
+name: Unified Capability Forge
+
+on:
+  pull_request:
+    paths:
+      - "governance/unified_capability_forge.json"
+      - ".agents/skills/**"
+      - "docs/UNIFIED_CAPABILITY_FORGE.md"
+      - "scripts/validate_unified_capability_forge.py"
+      - "scripts/run_all_checks.py"
+      - "tests/test_unified_capability_forge.py"
+      - ".github/workflows/unified-capability-forge.yml"
+  push:
+    branches: [main]
+    paths:
+      - "governance/unified_capability_forge.json"
+      - ".agents/skills/**"
+      - "docs/UNIFIED_CAPABILITY_FORGE.md"
+      - "scripts/validate_unified_capability_forge.py"
+      - "scripts/run_all_checks.py"
+      - "tests/test_unified_capability_forge.py"
+      - ".github/workflows/unified-capability-forge.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: unified-capability-forge-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Report Python runtime
+        run: python3 --version
+
+      - name: Validate capability forge
+        run: python3 scripts/validate_unified_capability_forge.py
+
+      - name: Run focused tests
+        run: python3 -m unittest tests.test_unified_capability_forge -v
