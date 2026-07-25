@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import subprocess
@@ -8,6 +7,7 @@ import sys
 COMMANDS = [
     [sys.executable, "-m", "compileall", "-q", "src", "pipelines", "scripts", "tests"],
     [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"],
+    [sys.executable, "scripts/validate_unified_capability_forge.py"],
     [sys.executable, "scripts/quality_gate.py"],
     [sys.executable, "scripts/security_gate.py"],
 ]
