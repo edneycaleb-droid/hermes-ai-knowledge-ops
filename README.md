@@ -78,3 +78,41 @@ CreateOS auto-deploys on push after the repository is connected.
 
 `scripts/quality_gate.py` requires all ten platform controls to pass. The score is a
 verifiable repository gate, not a claim that unknown third-party software is perfect.
+
+## Unified Capability Forge
+
+The Forge consolidates the full reviewed agent, skill, MCP, memory, research, design,
+marketing, browser, finance, and trading ecosystem into one governed registry rather
+than bulk-installing conflicting projects.
+
+- Registry: `governance/unified_capability_forge.json`
+- Architecture: `docs/UNIFIED_CAPABILITY_FORGE.md`
+- Validator: `scripts/validate_unified_capability_forge.py`
+- New project-local skills: `.agents/skills/`
+- Focused tests: `tests/test_unified_capability_forge.py`
+- CI: `.github/workflows/unified-capability-forge.yml`
+
+The registry preserves useful ideas from quarantined sources as non-executing patterns,
+tests, schemas, or simulation fixtures. It does not install upstream dependencies,
+connect wallets, place trades, bypass access controls, silently mutate shared skills,
+or permit self-promotion.
+
+The new skill pack adds ten original capabilities:
+
+1. Constraint Drift Radar
+2. Counterfactual Sandbox Designer
+3. Capability Compression Cartographer
+4. Provenance Entropy Auditor
+5. Failure Pattern Immunizer
+6. Reversible Automation Designer
+7. Interface Contract Miner
+8. Agent Disagreement Resolver
+9. Cross-Project Opportunity Radar
+10. Shadow Work Eliminator
+
+Run the focused gate with:
+
+```bash
+python scripts/validate_unified_capability_forge.py
+python -m unittest tests.test_unified_capability_forge -v
+```
