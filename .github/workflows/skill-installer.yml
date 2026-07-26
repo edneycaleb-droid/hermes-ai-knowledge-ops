@@ -64,7 +64,9 @@ jobs:
         env:
           HOME: ${{ runner.temp }}/skill-home
         run: |
-          for root in .codex .claude .hermes; do
-            test -f "$HOME/$root/skills/claude-codex-frenemy-bridge/SKILL.md"
-            test -f "$HOME/$root/skills/governed-skill-installer/SKILL.md"
-          done
+          test -f "$HOME/.codex/skills/claude-codex-frenemy-bridge/SKILL.md"
+          test -f "$HOME/.codex/skills/governed-skill-installer/SKILL.md"
+          test -f "$HOME/.claude/skills/claude-codex-frenemy-bridge/SKILL.md"
+          test -f "$HOME/.claude/skills/governed-skill-installer/SKILL.md"
+          test -f "$HOME/.hermes/skills/claude-codex-frenemy-bridge/SKILL.md"
+          test -f "$HOME/.hermes/skills/governed-skill-installer/SKILL.md"
