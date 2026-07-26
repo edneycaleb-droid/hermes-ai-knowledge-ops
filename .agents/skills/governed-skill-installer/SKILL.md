@@ -134,11 +134,13 @@ Require both command and filesystem evidence:
 - no credentials were created or committed;
 - target agent was restarted before claiming activation.
 
-Default global roots:
+Verified global roots for this selected cross-agent installer:
 
-- Codex: `~/.codex/skills/`;
+- Codex: `~/.agents/skills/` because the installer classifies Codex as a universal Agent Skills consumer;
 - Claude Code: `~/.claude/skills/`;
 - Hermes Agent: `~/.hermes/skills/`.
+
+The native Codex `$skill-installer` is separate and installs into `$CODEX_HOME/skills`, normally `~/.codex/skills/`. Do not use that native destination to verify a `vercel-labs/skills` installation.
 
 Status labels:
 
