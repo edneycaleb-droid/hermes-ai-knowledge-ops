@@ -74,7 +74,7 @@ class GovernedSkillInstallerTests(unittest.TestCase):
             "workflow must isolate global installation under the runner temp directory",
         )
         for path in (
-            ".codex/skills/governed-skill-installer/SKILL.md",
+            ".agents/skills/governed-skill-installer/SKILL.md",
             ".claude/skills/governed-skill-installer/SKILL.md",
             ".hermes/skills/governed-skill-installer/SKILL.md",
         ):
