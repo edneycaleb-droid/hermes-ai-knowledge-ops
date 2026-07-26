@@ -40,14 +40,17 @@ bash tools/install-skill-library.sh
 
 The default operation:
 
-1. checks for Node.js and `npx`;
+1. checks for Node.js, `npx`, and Python 3;
 2. requires Node.js `22.20.0` or newer;
-3. runs `scripts/validate_skill_library.py` when Python is available;
-4. uses `npx --yes skills@1.5.20`;
-5. installs every registered skill globally for `codex`, `claude-code`, and `hermes-agent`;
-6. copies files rather than creating fragile global symlinks;
-7. lists the resulting installations;
-8. instructs the operator to restart each agent.
+3. runs `scripts/validate_skill_library.py`;
+4. selects only skills in the `approved` lifecycle state;
+5. uses `npx --yes skills@1.5.20`;
+6. installs eligible skills globally for `codex`, `claude-code`, and `hermes-agent`;
+7. copies files rather than creating fragile global symlinks;
+8. lists the resulting installations;
+9. instructs the operator to restart each agent.
+
+If no skills are approved, the wrapper exits without installing anything. Review-state skills require an explicit override and are intended only for isolated CI or deliberate pre-merge testing.
 
 Expected global destinations are:
 
@@ -55,7 +58,7 @@ Expected global destinations are:
 - Claude Code: `~/.claude/skills/`
 - Hermes Agent: `~/.hermes/skills/`
 
-## Install a specific skill
+## Install a specific approved skill
 
 PowerShell:
 
@@ -68,6 +71,18 @@ Shell:
 ```bash
 bash tools/install-skill-library.sh --skill claude-codex-frenemy-bridge
 ```
+
+For isolated testing of a review-state skill:
+
+```powershell
+.\tools\install-skill-library.ps1 -AllowReview -Skill governed-skill-installer
+```
+
+```bash
+bash tools/install-skill-library.sh --allow-review --skill governed-skill-installer
+```
+
+Do not use the review override as a permanent workstation default.
 
 Install into project-local directories instead of global directories:
 
@@ -97,15 +112,17 @@ List the skills discoverable in this checkout without installing:
 npx --yes skills@1.5.20 add . --list
 ```
 
-Install one local skill globally into Codex:
+Direct CLI installation bypasses the repository lifecycle selector. Use it only after independently confirming that the registry state is `approved`.
 
 ```bash
+python scripts/select_installable_skills.py --state approved --skill claude-codex-frenemy-bridge
 npx --yes skills@1.5.20 add . --skill claude-codex-frenemy-bridge --agent codex --global --copy --yes
 ```
 
-Use a skill temporarily without installing it:
+Use a skill temporarily without installing it only after the same eligibility check:
 
 ```bash
+python scripts/select_installable_skills.py --state approved --skill claude-codex-frenemy-bridge
 npx --yes skills@1.5.20 use . --skill claude-codex-frenemy-bridge
 ```
 
@@ -118,7 +135,7 @@ python scripts/validate_skill_library.py
 python -m unittest tests.test_skill_library tests.test_skill_installer -v
 ```
 
-The CI smoke test installs the two registered skills into an isolated temporary home directory and verifies that each target agent receives a `SKILL.md` copy.
+The CI smoke test explicitly permits the two review-state skills, installs them into an isolated temporary home directory, and verifies that each target agent receives a `SKILL.md` copy. That override is visible in the workflow and cannot silently affect normal installation.
 
 Runtime installation on an operator workstation is confirmed only when the installer exits successfully and the expected skill files exist. Restart the target agent before claiming the skill is active.
 
@@ -151,6 +168,8 @@ Rollback must remove only the named skills. Do not delete an agent's entire skil
 
 - No credentials are accepted or written by the wrapper.
 - The local library must validate before installation.
+- Normal installation permits only `approved` skills.
+- Review-state installation requires an explicit visible override.
 - Installation does not approve write-capable tools or agent actions.
 - Remote skills must first pass the repository's discovery, provenance, security, compatibility, registration, and review process.
 - No installer or installed skill may self-promote into an approved lifecycle state.
