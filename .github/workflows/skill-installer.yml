@@ -9,6 +9,7 @@ on:
       - "docs/SKILL_INSTALLER.md"
       - "tools/install-skill-library.*"
       - "scripts/validate_skill_library.py"
+      - "scripts/select_installable_skills.py"
       - "tests/test_skill_installer.py"
       - ".github/workflows/skill-installer.yml"
   push:
@@ -20,6 +21,7 @@ on:
       - "docs/SKILL_INSTALLER.md"
       - "tools/install-skill-library.*"
       - "scripts/validate_skill_library.py"
+      - "scripts/select_installable_skills.py"
       - "tests/test_skill_installer.py"
       - ".github/workflows/skill-installer.yml"
 
@@ -47,13 +49,14 @@ jobs:
       - name: Run focused tests
         run: python -m unittest tests.test_skill_library tests.test_skill_installer -v
 
-      - name: Install registered skills into isolated agent homes
+      - name: Install registered review skills into isolated agent homes
         env:
           HOME: ${{ runner.temp }}/skill-home
         run: |
           mkdir -p "$HOME"
           bash tools/install-skill-library.sh \
             --global \
+            --allow-review \
             --skill claude-codex-frenemy-bridge \
             --skill governed-skill-installer
 
