@@ -161,3 +161,34 @@ python -m unittest tests.test_skill_library -v
 
 Skills cannot promote themselves, store credentials, auto-approve write-capable tools,
 or claim runtime success without evidence.
+
+## Governed skill installer
+
+The canonical library is distributed with the open-source `vercel-labs/skills` CLI,
+pinned to `skills@1.5.20` and reviewed upstream commit
+`e173b8c88f2581cfdaa1b6767c6519a08155790e`.
+
+Windows:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\tools\install-skill-library.ps1
+```
+
+macOS or Linux:
+
+```bash
+bash tools/install-skill-library.sh
+```
+
+By default, the wrappers validate the registry and copy all registered skills into the
+global skill directories for Codex, Claude Code, and Hermes Agent. The installer
+selection, alternatives, update policy, CI smoke test, and rollback commands are in
+`docs/SKILL_INSTALLER.md` and `governance/skill_installers.json`.
+
+Run the focused installer gate with:
+
+```bash
+python scripts/validate_skill_library.py
+python -m unittest tests.test_skill_library tests.test_skill_installer -v
+```
