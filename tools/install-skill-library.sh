@@ -5,8 +5,9 @@ SKILLS_CLI="skills@1.5.20"
 REVIEWED_UPSTREAM_COMMIT="e173b8c88f2581cfdaa1b6767c6519a08155790e"
 SCOPE="global"
 COPY_MODE=1
+ALLOW_REVIEW=0
 AGENTS=("codex" "claude-code" "hermes-agent")
-SKILLS=("*")
+REQUESTED_SKILLS=("*")
 
 usage() {
   cat <<'EOF'
@@ -17,6 +18,7 @@ Options:
   --project                Install into project-local agent directories.
   --agent NAME             Replace defaults on first use; may be repeated.
   --skill NAME             Replace defaults on first use; may be repeated.
+  --allow-review           Permit review-state skills for isolated testing only.
   --no-copy                Use the installer's symlink mode instead of copying.
   -h, --help               Show this help.
 EOF
@@ -37,9 +39,10 @@ while (($#)); do
     --skill)
       shift
       [[ $# -gt 0 ]] || { echo "--skill requires a value" >&2; exit 2; }
-      if [[ $custom_skills -eq 0 ]]; then SKILLS=(); custom_skills=1; fi
-      SKILLS+=("$1")
+      if [[ $custom_skills -eq 0 ]]; then REQUESTED_SKILLS=(); custom_skills=1; fi
+      REQUESTED_SKILLS+=("$1")
       ;;
+    --allow-review) ALLOW_REVIEW=1 ;;
     --no-copy) COPY_MODE=0 ;;
     -h|--help) usage; exit 0 ;;
     *) echo "Unknown option: $1" >&2; usage >&2; exit 2 ;;
@@ -49,6 +52,14 @@ done
 
 command -v node >/dev/null 2>&1 || { echo "node is required" >&2; exit 1; }
 command -v npx >/dev/null 2>&1 || { echo "npx is required" >&2; exit 1; }
+if command -v python3 >/dev/null 2>&1; then
+  PYTHON=python3
+elif command -v python >/dev/null 2>&1; then
+  PYTHON=python
+else
+  echo "Python 3 is required to validate the registry and enforce lifecycle eligibility." >&2
+  exit 1
+fi
 
 node -e '
 const current = process.versions.node.split(".").map(Number);
@@ -59,22 +70,31 @@ for (let i = 0; i < minimum.length; i++) {
 }
 ' || { echo "Node.js 22.20.0 or newer is required; found $(node --version)" >&2; exit 1; }
 
-if [[ -f scripts/validate_skill_library.py ]]; then
-  if command -v python3 >/dev/null 2>&1; then
-    python3 scripts/validate_skill_library.py
-  elif command -v python >/dev/null 2>&1; then
-    python scripts/validate_skill_library.py
-  fi
+"$PYTHON" scripts/validate_skill_library.py
+
+selector=(scripts/select_installable_skills.py --state approved)
+[[ $ALLOW_REVIEW -eq 1 ]] && selector+=(--state review)
+for skill in "${REQUESTED_SKILLS[@]}"; do selector+=(--skill "$skill"); done
+
+if ! selected_output=$("$PYTHON" "${selector[@]}"); then
+  echo "One or more requested skills are unknown or not eligible for installation." >&2
+  exit 1
 fi
+if [[ -z "$selected_output" ]]; then
+  echo "No skills are eligible for installation in the requested lifecycle states."
+  exit 0
+fi
+mapfile -t SELECTED_SKILLS <<< "$selected_output"
 
 args=(--yes "$SKILLS_CLI" add . --yes)
 [[ "$SCOPE" == "global" ]] && args+=(--global)
 for agent in "${AGENTS[@]}"; do args+=(--agent "$agent"); done
-for skill in "${SKILLS[@]}"; do args+=(--skill "$skill"); done
+for skill in "${SELECTED_SKILLS[@]}"; do args+=(--skill "$skill"); done
 [[ $COPY_MODE -eq 1 ]] && args+=(--copy)
 
 echo "Installing governed skills with $SKILLS_CLI"
 echo "Reviewed upstream commit: $REVIEWED_UPSTREAM_COMMIT"
+echo "Eligible skills: ${SELECTED_SKILLS[*]}"
 npx "${args[@]}"
 
 list_args=(--yes "$SKILLS_CLI" list)
