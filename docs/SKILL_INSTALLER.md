@@ -52,11 +52,15 @@ The default operation:
 
 If no skills are approved, the wrapper exits without installing anything. Review-state skills require an explicit override and are intended only for isolated CI or deliberate pre-merge testing.
 
-Expected global destinations are:
+## Verified global destinations
 
-- Codex: `~/.codex/skills/`
+The selected CLI's implementation treats Codex as a universal Agent Skills consumer. In global copy mode it writes Codex's copy to the canonical universal directory rather than its agent-specific metadata path.
+
+- Codex through `vercel-labs/skills`: `~/.agents/skills/`
 - Claude Code: `~/.claude/skills/`
 - Hermes Agent: `~/.hermes/skills/`
+
+The native Codex `$skill-installer` is a separate Codex-only mechanism and targets `$CODEX_HOME/skills`, normally `~/.codex/skills/`. Do not mix these destinations in verification rules.
 
 ## Install a specific approved skill
 
@@ -135,7 +139,7 @@ python scripts/validate_skill_library.py
 python -m unittest tests.test_skill_library tests.test_skill_installer -v
 ```
 
-The CI smoke test explicitly permits the two review-state skills, installs them into an isolated temporary home directory, and verifies that each target agent receives a `SKILL.md` copy. That override is visible in the workflow and cannot silently affect normal installation.
+The CI smoke test explicitly permits the two review-state skills, installs them into an isolated temporary home directory, and verifies exact copies under `~/.agents/skills/`, `~/.claude/skills/`, and `~/.hermes/skills/`. That override is visible in the workflow and cannot silently affect normal installation.
 
 Runtime installation on an operator workstation is confirmed only when the installer exits successfully and the expected skill files exist. Restart the target agent before claiming the skill is active.
 
