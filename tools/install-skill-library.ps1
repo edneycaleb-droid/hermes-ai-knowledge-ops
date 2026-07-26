@@ -7,6 +7,8 @@ param(
 
     [string[]]$Skill = @("*"),
 
+    [switch]$AllowReview,
+
     [switch]$NoCopy
 )
 
@@ -27,6 +29,14 @@ function Require-Command {
 Require-Command "node"
 Require-Command "npx"
 
+$Python = Get-Command python -ErrorAction SilentlyContinue
+if (-not $Python) {
+    $Python = Get-Command python3 -ErrorAction SilentlyContinue
+}
+if (-not $Python) {
+    throw "Python 3 is required to validate the registry and enforce lifecycle eligibility."
+}
+
 $NodeVersionText = (& node --version).Trim().TrimStart("v")
 try {
     $NodeVersion = [version]$NodeVersionText
@@ -39,15 +49,26 @@ if ($NodeVersion -lt $MinimumNodeVersion) {
     throw "Node.js $MinimumNodeVersion or newer is required; found $NodeVersion."
 }
 
-$Python = Get-Command python -ErrorAction SilentlyContinue
-if (-not $Python) {
-    $Python = Get-Command python3 -ErrorAction SilentlyContinue
+& $Python.Source scripts/validate_skill_library.py
+if ($LASTEXITCODE -ne 0) {
+    throw "The canonical skill library failed validation."
 }
-if ($Python -and (Test-Path "scripts/validate_skill_library.py")) {
-    & $Python.Source scripts/validate_skill_library.py
-    if ($LASTEXITCODE -ne 0) {
-        throw "The canonical skill library failed validation."
-    }
+
+$SelectorArguments = @("scripts/select_installable_skills.py", "--state", "approved")
+if ($AllowReview) {
+    $SelectorArguments += @("--state", "review")
+}
+foreach ($Name in $Skill) {
+    $SelectorArguments += @("--skill", $Name)
+}
+
+$SelectedSkills = @(& $Python.Source @SelectorArguments)
+if ($LASTEXITCODE -ne 0) {
+    throw "One or more requested skills are unknown or not eligible for installation."
+}
+if ($SelectedSkills.Count -eq 0) {
+    Write-Host "No skills are eligible for installation in the requested lifecycle states."
+    return
 }
 
 $Arguments = @("--yes", $SkillsCli, "add", ".", "--yes")
@@ -57,7 +78,7 @@ if ($Scope -eq "Global") {
 foreach ($Name in $Agent) {
     $Arguments += @("--agent", $Name)
 }
-foreach ($Name in $Skill) {
+foreach ($Name in $SelectedSkills) {
     $Arguments += @("--skill", $Name)
 }
 if (-not $NoCopy) {
@@ -66,6 +87,7 @@ if (-not $NoCopy) {
 
 Write-Host "Installing governed skills with $SkillsCli"
 Write-Host "Reviewed upstream commit: $ReviewedUpstreamCommit"
+Write-Host "Eligible skills: $($SelectedSkills -join ', ')"
 & npx @Arguments
 if ($LASTEXITCODE -ne 0) {
     throw "Skill installation failed with exit code $LASTEXITCODE."
