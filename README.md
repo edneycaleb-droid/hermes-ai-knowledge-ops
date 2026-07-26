@@ -116,3 +116,20 @@ Run the focused gate with:
 python scripts/validate_unified_capability_forge.py
 python -m unittest tests.test_unified_capability_forge -v
 ```
+
+## Claude ↔ Codex bridge
+
+A governed integration for `noblehacks/frenemy` lets Codex consult Claude and lets
+Claude delegate to Codex without copying prompts between sessions or adding API keys.
+The installer pins a reviewed full upstream commit SHA and keeps write-capable Claude
+delegation approval-gated.
+
+Windows installation:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\tools\install-frenemy.ps1
+```
+
+Architecture, operating policy, smoke tests, and evaluated free alternatives are in
+`docs/CLAUDE_CODEX_BRIDGE.md`.
