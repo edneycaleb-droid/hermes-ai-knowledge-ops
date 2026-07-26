@@ -5,10 +5,13 @@ import re
 import unittest
 from pathlib import Path
 
+from scripts.select_installable_skills import select
+
 ROOT = Path(__file__).resolve().parents[1]
 INSTALLERS = ROOT / "governance" / "skill_installers.json"
 POWERSHELL = ROOT / "tools" / "install-skill-library.ps1"
 SHELL = ROOT / "tools" / "install-skill-library.sh"
+SELECTOR = ROOT / "scripts" / "select_installable_skills.py"
 SKILL = ROOT / ".agents" / "skills" / "governed-skill-installer" / "SKILL.md"
 WORKFLOW = ROOT / ".github" / "workflows" / "skill-installer.yml"
 
@@ -25,17 +28,27 @@ class GovernedSkillInstallerTests(unittest.TestCase):
 
     def test_wrappers_pin_the_same_package_and_commit(self) -> None:
         data = json.loads(INSTALLERS.read_text(encoding="utf-8"))
-        selected = data["selected_installer"]
-        expected_package = f'{selected["npm_package"]}@{selected["version"]}'
+        selected_installer = data["selected_installer"]
+        expected_package = f'{selected_installer["npm_package"]}@{selected_installer["version"]}'
         for path in (POWERSHELL, SHELL):
             text = path.read_text(encoding="utf-8")
             self.assertIn(expected_package, text)
-            self.assertIn(selected["reviewed_commit"], text)
+            self.assertIn(selected_installer["reviewed_commit"], text)
             self.assertNotRegex(text, r"skills@latest|npx\s+skills\s")
             self.assertIn("validate_skill_library.py", text)
+            self.assertIn("select_installable_skills.py", text)
             self.assertIn("--copy", text)
             for agent in ("codex", "claude-code", "hermes-agent"):
                 self.assertIn(agent, text)
+
+    def test_review_skills_require_explicit_override(self) -> None:
+        with self.assertRaises(ValueError):
+            select(["governed-skill-installer"], {"approved"})
+        self.assertEqual(
+            ["governed-skill-installer"],
+            select(["governed-skill-installer"], {"approved", "review"}),
+        )
+        self.assertIn("allowed states", SELECTOR.read_text(encoding="utf-8"))
 
     def test_installer_skill_has_required_governance_sections(self) -> None:
         text = SKILL.read_text(encoding="utf-8")
@@ -55,6 +68,7 @@ class GovernedSkillInstallerTests(unittest.TestCase):
         text = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("node-version: 22.20.0", text)
         self.assertIn("install-skill-library.sh", text)
+        self.assertIn("--allow-review", text)
         self.assertTrue(
             "$RUNNER_TEMP/skill-home" in text or "${{ runner.temp }}/skill-home" in text,
             "workflow must isolate global installation under the runner temp directory",
