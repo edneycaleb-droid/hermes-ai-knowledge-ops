@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "selected_installer": {
+    "name": "skills",
+    "repository": "vercel-labs/skills",
+    "npm_package": "skills",
+    "version": "1.5.20",
+    "reviewed_commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
+    "license": "MIT",
+    "minimum_node": "22.20.0",
+    "disposition": "adopt",
+    "reasons": [
+      "discovers the repository's canonical .agents/skills layout",
+      "supports Codex, Claude Code, Hermes Agent, and many additional agents",
+      "supports local, GitHub, GitLab, and git sources",
+      "supports non-interactive copy installation for CI and managed deployment",
+      "provides list, find, update, remove, init, and temporary-use commands"
+    ]
+  },
+  "approved_targets": [
+    {"agent": "codex", "global_path": "~/.codex/skills/"},
+    {"agent": "claude-code", "global_path": "~/.claude/skills/"},
+    {"agent": "hermes-agent", "global_path": "~/.hermes/skills/"}
+  ],
+  "alternatives": [
+    {
+      "name": "Codex skill-installer",
+      "repository": "openai/skills",
+      "disposition": "native-codex-fallback",
+      "reason": "official and automatically available in current Codex releases, but Codex-specific"
+    },
+    {
+      "name": "OpenSkills",
+      "repository": "numman-ali/openskills",
+      "disposition": "reference",
+      "reason": "strong universal SKILL.md loader, but the selected CLI has broader current agent targeting and native .agents/skills discovery"
+    },
+    {
+      "name": "gh skill install",
+      "repository": "cli/cli",
+      "disposition": "conditional",
+      "reason": "useful when GitHub CLI is already the managed distribution channel"
+    },
+    {
+      "name": "ags",
+      "repository": "agentskill-sh/learn",
+      "disposition": "sandbox",
+      "reason": "large searchable catalog and SHA tracking require a separate trust and registry review"
+    }
+  ],
+  "hard_invariants": [
+    "Do not use latest or another floating npm version.",
+    "Do not install an unregistered local skill.",
+    "Validate the canonical library before installation.",
+    "Default to copy mode for global installation.",
+    "Do not overwrite credentials or unrelated agent configuration.",
+    "Do not claim installation succeeded without command output or filesystem evidence.",
+    "Updates require explicit review of the new package version and upstream commit."
+  ]
+}
