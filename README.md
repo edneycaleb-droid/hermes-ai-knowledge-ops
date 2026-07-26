@@ -133,3 +133,31 @@ Set-ExecutionPolicy -Scope Process Bypass
 
 Architecture, operating policy, smoke tests, and evaluated free alternatives are in
 `docs/CLAUDE_CODEX_BRIDGE.md`.
+
+## Canonical skill library
+
+This repository is also the authoritative, version-controlled library for reusable
+ChatGPT, Claude, Codex, Hermes, and compatible agent workflows.
+
+- Skill root: `.agents/skills/`
+- Registry: `governance/skill_library.json`
+- Policy: `docs/SKILL_LIBRARY.md`
+- Validator: `scripts/validate_skill_library.py`
+- Tests: `tests/test_skill_library.py`
+- CI: `.github/workflows/skill-library.yml`
+
+The default reusable-workflow lifecycle is:
+
+```text
+implement → verify → skillize → register → review
+```
+
+Run the focused skill-library gate with:
+
+```bash
+python scripts/validate_skill_library.py
+python -m unittest tests.test_skill_library -v
+```
+
+Skills cannot promote themselves, store credentials, auto-approve write-capable tools,
+or claim runtime success without evidence.
