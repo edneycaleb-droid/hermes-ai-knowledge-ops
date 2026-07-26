@@ -149,7 +149,7 @@ ChatGPT, Claude, Codex, Hermes, and compatible agent workflows.
 The default reusable-workflow lifecycle is:
 
 ```text
-implement → verify → skillize → register → review
+implement → verify → skillize → register → review → install → runtime verify
 ```
 
 Run the focused skill-library gate with:
@@ -181,10 +181,11 @@ macOS or Linux:
 bash tools/install-skill-library.sh
 ```
 
-By default, the wrappers validate the registry and copy all registered skills into the
-global skill directories for Codex, Claude Code, and Hermes Agent. The installer
-selection, alternatives, update policy, CI smoke test, and rollback commands are in
-`docs/SKILL_INSTALLER.md` and `governance/skill_installers.json`.
+By default, the wrappers validate the registry and copy only `approved` skills into the
+global skill directories for Codex, Claude Code, and Hermes Agent. Review-state skills
+require an explicit isolated-test override. The installer selection, alternatives,
+update policy, CI smoke test, and rollback commands are in `docs/SKILL_INSTALLER.md`
+and `governance/skill_installers.json`.
 
 Run the focused installer gate with:
 
