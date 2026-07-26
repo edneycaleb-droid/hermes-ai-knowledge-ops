@@ -37,6 +37,30 @@
         "no recursive agent ping-pong",
         "no unbounded multi-agent swarm"
       ]
+    },
+    {
+      "name": "governed-skill-installer",
+      "path": ".agents/skills/governed-skill-installer/SKILL.md",
+      "version": "1.0.0",
+      "state": "review",
+      "profile": "implementation",
+      "source_pr": 5,
+      "capabilities": [
+        "cross-agent-skill-installation",
+        "installer-discovery-and-selection",
+        "pinned-package-deployment",
+        "local-skill-library-distribution",
+        "isolated-installation-smoke-testing",
+        "named-skill-update-and-rollback"
+      ],
+      "negative_contracts": [
+        "no unreviewed remote skill installation",
+        "no floating installer package version",
+        "no credential collection or storage",
+        "no whole-directory destructive rollback",
+        "no self-promotion of installed skills",
+        "no runtime-success claim without agent reload evidence"
+      ]
     }
   ]
 }
