@@ -20,20 +20,29 @@ class SkillLibraryTests(unittest.TestCase):
         self.assertTrue(governance["floating_upstream_refs_forbidden"])
         self.assertTrue(governance["write_capabilities_require_explicit_approval"])
 
-    def test_frenemy_skill_is_registered(self) -> None:
+    def test_core_reusable_skills_are_registered(self) -> None:
         data = json.loads(REGISTRY.read_text(encoding="utf-8"))
         entries = {entry["name"]: entry for entry in data["skills"]}
-        skill = entries["claude-codex-frenemy-bridge"]
-        self.assertEqual("review", skill["state"])
-        self.assertEqual("1.0.0", skill["version"])
-        self.assertIn("no automatic approval of write-capable delegation", skill["negative_contracts"])
-        self.assertTrue((ROOT / skill["path"]).is_file())
 
-    def test_library_policy_documents_implementation_to_skillization(self) -> None:
+        frenemy = entries["claude-codex-frenemy-bridge"]
+        self.assertEqual("review", frenemy["state"])
+        self.assertEqual("1.0.0", frenemy["version"])
+        self.assertIn("no automatic approval of write-capable delegation", frenemy["negative_contracts"])
+        self.assertTrue((ROOT / frenemy["path"]).is_file())
+
+        installer = entries["governed-skill-installer"]
+        self.assertEqual("review", installer["state"])
+        self.assertEqual("1.0.0", installer["version"])
+        self.assertIn("no floating installer package version", installer["negative_contracts"])
+        self.assertTrue((ROOT / installer["path"]).is_file())
+
+    def test_library_policy_documents_full_lifecycle(self) -> None:
         policy = (ROOT / "docs" / "SKILL_LIBRARY.md").read_text(encoding="utf-8")
         self.assertIn("implement → verify → skillize → register", policy)
+        self.assertIn("review → install → runtime verify", policy)
         self.assertIn("Never commit passwords, tokens, cookies, API keys", policy)
         self.assertIn("Never auto-approve write-capable tools", policy)
+        self.assertIn("only `approved` skills", policy)
 
 
 if __name__ == "__main__":
