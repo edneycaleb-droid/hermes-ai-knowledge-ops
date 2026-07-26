@@ -1,3 +1,10 @@
+---
+name: ai-ecosystem-curator
+description: Evaluate AI tools, repositories, models, MCP servers, agent frameworks, research feeds, and infrastructure; preserve useful findings; classify adoption risk; and keep decisions easy to find across repositories. Use whenever the user shares AI-related URLs, asks whether a component belongs in the ecosystem, requests cross-repository implementation, or wants prior AI research organized for future agents.
+metadata:
+  short-description: Curate, verify, classify, and preserve AI ecosystem decisions
+---
+
 # AI Ecosystem Curator
 
 ## Purpose
