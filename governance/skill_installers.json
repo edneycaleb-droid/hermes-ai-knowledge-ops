@@ -18,9 +18,21 @@
     ]
   },
   "approved_targets": [
-    {"agent": "codex", "global_path": "~/.codex/skills/"},
-    {"agent": "claude-code", "global_path": "~/.claude/skills/"},
-    {"agent": "hermes-agent", "global_path": "~/.hermes/skills/"}
+    {
+      "agent": "codex",
+      "global_path": "~/.agents/skills/",
+      "installer_behavior": "universal-agent canonical directory"
+    },
+    {
+      "agent": "claude-code",
+      "global_path": "~/.claude/skills/",
+      "installer_behavior": "agent-specific directory"
+    },
+    {
+      "agent": "hermes-agent",
+      "global_path": "~/.hermes/skills/",
+      "installer_behavior": "agent-specific directory"
+    }
   ],
   "lifecycle_policy": {
     "default_installable_states": ["approved"],
@@ -32,7 +44,7 @@
       "name": "Codex skill-installer",
       "repository": "openai/skills",
       "disposition": "native-codex-fallback",
-      "reason": "official and automatically available in current Codex releases, but Codex-specific"
+      "reason": "official Codex-specific installer targeting $CODEX_HOME/skills, normally ~/.codex/skills"
     },
     {
       "name": "OpenSkills",
@@ -59,6 +71,7 @@
     "Do not install a non-approved skill without an explicit isolated-test override.",
     "Validate the canonical library before installation.",
     "Default to copy mode for global installation.",
+    "Verify destinations against the selected installer implementation, not only its README table.",
     "Do not overwrite credentials or unrelated agent configuration.",
     "Do not claim installation succeeded without command output or filesystem evidence.",
     "Updates require explicit review of the new package version and upstream commit."
