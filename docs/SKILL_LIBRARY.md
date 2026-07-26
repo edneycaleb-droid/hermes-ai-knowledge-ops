@@ -1,105 +1,136 @@
 # Hermes Skill Library
 
-This repository is the canonical, version-controlled skill library for reusable ChatGPT, Claude, Codex, Hermes, and compatible agent workflows owned by `edneycaleb-droid`.
+This repository is the canonical, review-gated library for reusable ChatGPT, Claude,
+Codex, Hermes, and compatible agent workflows owned by `edneycaleb-droid`.
 
-## Canonical locations
+## Canonical layout
 
-- Skill definitions: `.agents/skills/<skill-name>/SKILL.md`
-- Machine-readable registry: `governance/skill_library.json`
-- Validation: `scripts/validate_skill_library.py`
-- Regression tests: `tests/test_skill_library.py`
+- Skills: `.agents/skills/<skill-name>/SKILL.md`
+- Registry: `governance/skill_library.json`
+- Installer selection: `governance/skill_installers.json`
+- Library validator: `scripts/validate_skill_library.py`
+- Distribution wrappers: `tools/install-skill-library.ps1` and `tools/install-skill-library.sh`
+- Tests: `tests/test_skill_library.py` and `tests/test_skill_installer.py`
+- CI: `.github/workflows/skill-library.yml` and `.github/workflows/skill-installer.yml`
 
-A skill is not considered part of the library merely because a Markdown file exists. It must be registered, validated, reviewed, and associated with evidence.
+A skill file is not considered part of the library until it is registered. Registration
+does not make it approved: lifecycle state remains independently review-gated.
 
-## Standard lifecycle
+## Default lifecycle
 
-1. **Draft** — the workflow is captured but may be incomplete.
-2. **Review** — static validation passes and a pull request is open.
-3. **Approved** — the skill has been reviewed and merged.
-4. **Deprecated** — a replacement exists or the workflow is no longer preferred.
-5. **Retired** — the skill must no longer be selected for new work.
+Use this workflow after substantial implementation work:
 
-Skills cannot promote themselves. Lifecycle changes require a reviewed repository change.
+```text
+implement → verify → skillize → register → review → install → runtime verify
+```
+
+1. **Implement** the requested capability on a dedicated branch.
+2. **Verify** it with tests, static gates, and runtime evidence where available.
+3. **Skillize** the reusable procedure, decisions, guardrails, rollback, and evidence rules.
+4. **Register** the skill with version, state, capabilities, and negative contracts.
+5. **Review** the code and skill together. A skill cannot approve or promote itself.
+6. **Install** only registered, eligible skills with the pinned governed installer.
+7. **Runtime verify** after the target agent reloads and correctly discovers the skill.
 
 ## Required skill contract
 
-Every skill must include YAML frontmatter with:
+Every skill must include:
 
-- `name`
-- `description`
-- `metadata.version`
-- `metadata.profile`
+- lowercase hyphenated `name`;
+- clear `description` with trigger conditions;
+- semantic `metadata.version`;
+- `metadata.profile`;
+- `## Contract` with input, output, done condition, and non-goals;
+- `## Trigger conditions`;
+- bounded `## Retry and stop` behavior;
+- evidence and status-reporting rules appropriate to the capability;
+- explicit negative contracts in the registry.
 
-Every skill body must define:
+A skill may bundle scripts, references, templates, schemas, or fixtures beneath its own
+directory when required. Executable material requires focused tests and a documented
+security boundary.
 
-- Contract: input, output, done condition, and non-goals
-- Trigger conditions
-- Bounded workflow
-- Evidence rules
-- Safety and negative contracts
-- Tests or validation expectations
-- Retry and stop conditions
-- Rollback when the skill can change files, configuration, services, or external state
+## Lifecycle states
 
-## Default implementation workflow
+- `draft`: incomplete or not yet internally coherent;
+- `review`: structurally complete and awaiting evidence or human review;
+- `approved`: reviewed and eligible for governed reuse and installation;
+- `deprecated`: still available for compatibility but should not be selected by default;
+- `retired`: preserved for provenance and rollback history but not used.
 
-For substantial repository work:
+Only a human-reviewed change may promote a skill to `approved`.
 
-1. Inspect the target repository, current branch, issue, and pull request state.
-2. Establish authoritative requirements and immutable safety constraints.
-3. Implement the smallest coherent change set on a dedicated branch.
-4. Add or strengthen tests, documentation, rollback, and verification evidence.
-5. Open or update a reviewable pull request.
-6. After the implementation is complete, extract the reusable process into a new or updated skill.
-7. Add the skill to `.agents/skills/` and register it in `governance/skill_library.json`.
-8. Run the skill-library validator and focused tests.
-9. Report exact paths, versions, commits, pull requests, evidence, and remaining runtime verification.
+## Safety rules
 
-This "implement → verify → skillize → register" sequence is the repository default for reusable workflows.
+- Never commit passwords, tokens, cookies, API keys, private keys, or live credentials.
+- Never use a floating upstream branch as executable installation truth.
+- Never auto-approve write-capable tools, relays, or delegated edits.
+- Never permit a skill, installer, or agent to promote itself.
+- Never claim runtime verification when only static checks ran.
+- Never install a discovered remote skill before provenance, security, compatibility,
+  registration, and review gates pass.
+- Never delete an agent's entire skill directory during rollback.
+- Keep retries bounded and preserve a stop condition for missing evidence or ambiguity.
 
-## Governance rules
+## Installer policy
 
-- Never commit passwords, tokens, cookies, API keys, private keys, or session material.
-- Never treat a floating upstream branch as an executable source of truth; pin reviewed full commit SHAs.
-- Never auto-approve write-capable tools or agents by default.
-- Never claim a runtime integration works based only on static inspection.
-- Never install or execute discovered third-party software during discovery.
-- Never create recursive agent delegation without explicit depth and cycle controls.
-- Prefer one canonical skill over several overlapping variants.
-- Preserve source provenance and distinguish confirmed, statically verified, and runtime-pending claims.
+The selected cross-agent installer is pinned in `governance/skill_installers.json`.
+Managed wrappers must use the exact reviewed package version rather than `latest`.
+They validate the library first and use copy mode by default for global installation.
 
-## Adding a skill
+The installer may distribute approved skills; it cannot change their registry state,
+security policy, permissions, or runtime approval boundaries. Installation success only
+proves that expected files were written. Agent discovery and correct skill invocation
+require a restart and skill-specific runtime evidence.
 
-Create:
+## Versioning
 
-```text
-.agents/skills/<skill-name>/SKILL.md
-```
+Increment versions using semantic versioning:
 
-Then add one registry entry containing at least:
+- patch: wording, examples, or non-behavioral corrections;
+- minor: backward-compatible workflow or capability additions;
+- major: changed authority, safety boundary, required inputs, outputs, or behavior.
 
-- `name`
-- `path`
-- `version`
-- `state`
-- `profile`
-- `capabilities`
-- `negative_contracts`
+Registry and frontmatter versions must match exactly.
+
+## Validation
 
 Run:
 
 ```bash
 python scripts/validate_skill_library.py
-python -m unittest tests.test_skill_library -v
+python -m unittest tests.test_skill_library tests.test_skill_installer -v
 ```
 
-## Updating a skill
+The validator rejects missing files, duplicate names or paths, invalid semantic versions,
+unregistered states, missing required sections, empty capabilities, and empty negative
+contracts. The installer smoke test writes registered skills only into isolated temporary
+agent homes and verifies exact `SKILL.md` copies.
 
-- Increment its semantic version when behavior or contract changes.
-- Update the corresponding registry version in the same pull request.
-- Preserve compatibility notes or migration steps when replacing prior behavior.
-- Add regression coverage for every corrected failure or newly enforced constraint.
+## Reuse and installation
+
+The library is the persistent source of truth. ChatGPT itself does not gain a mutable
+private internal skill store from this repository; instead, connected agents and future
+sessions retrieve or install these version-controlled skills from the repository.
+
+Install the approved library with:
+
+```powershell
+.\tools\install-skill-library.ps1
+```
+
+or:
+
+```bash
+bash tools/install-skill-library.sh
+```
+
+After installation, restart the target agent and verify it discovers the requested skill
+before reporting `RUNTIME_VERIFIED`.
 
 ## Removing a skill
 
-Do not immediately delete an approved skill. Mark it `deprecated`, name the replacement, and provide a migration path. Delete only after dependents have migrated and the registry records retirement.
+Do not immediately delete an approved skill. Mark it `deprecated`, name the replacement,
+and provide a migration path. Remove only the named installed skill from target agents;
+do not delete an entire agent skill directory. Delete the canonical source only after
+dependents have migrated and the registry records retirement.
