@@ -42,7 +42,8 @@ class SkillLibraryTests(unittest.TestCase):
         self.assertIn("review → install → runtime verify", policy)
         self.assertIn("Never commit passwords, tokens, cookies, API keys", policy)
         self.assertIn("Never auto-approve write-capable tools", policy)
-        self.assertIn("only `approved` skills", policy)
+        self.assertIn("approved skills", policy)
+        self.assertIn("cannot change their registry state", policy)
 
 
 if __name__ == "__main__":
