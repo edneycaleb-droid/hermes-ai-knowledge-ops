@@ -55,7 +55,10 @@ class GovernedSkillInstallerTests(unittest.TestCase):
         text = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("node-version: 22.20.0", text)
         self.assertIn("install-skill-library.sh", text)
-        self.assertIn("$RUNNER_TEMP/skill-home", text)
+        self.assertTrue(
+            "$RUNNER_TEMP/skill-home" in text or "${{ runner.temp }}/skill-home" in text,
+            "workflow must isolate global installation under the runner temp directory",
+        )
         for path in (
             ".codex/skills/governed-skill-installer/SKILL.md",
             ".claude/skills/governed-skill-installer/SKILL.md",
