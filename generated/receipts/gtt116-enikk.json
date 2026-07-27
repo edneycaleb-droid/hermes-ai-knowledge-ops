@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/gtt116/enikk",
+  "canonical_repository": "gtt116/enikk",
+  "canonical_url": "https://github.com/gtt116/enikk",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:41.259783Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2c358c35b19c08777c5daaa51e0b6bc866694199271a7f7a9be237bc77893c59",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "1f04517d407b3f44a9029a9e43edeaa885f1205ed5f4820a6f6484a5b1e2f1fa",
+    "LICENSE": "440a80b297e58f9f5d1c5ac67d87f2e1e2a28b8efae620eb8335efef00fd9064",
+    "README.md": "37560d69f98b3b4ea0fa49651446378dccd2905b5e9fc4524151cb8998328d7e",
+    "pyproject.toml": "f77c6de9e1d4532dcc4da1c63a4be4641d9b77965885c0f12800ae2459753793"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

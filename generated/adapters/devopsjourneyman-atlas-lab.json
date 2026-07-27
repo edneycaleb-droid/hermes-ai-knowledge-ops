@@ -1,0 +1,39 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [
+    "SECRET"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/devopsjourneyman-atlas-lab.json",
+  "schema_version": 1,
+  "source_repository": "DevOPsJourneyman/atlas-lab",
+  "source_url": "https://github.com/DevOPsJourneyman/atlas-lab",
+  "status": "disabled_pending_review"
+}

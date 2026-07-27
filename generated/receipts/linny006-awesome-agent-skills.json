@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/awesome-agent-skills",
+  "canonical_repository": "linny006/awesome-agent-skills",
+  "canonical_url": "https://github.com/linny006/awesome-agent-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:08.183288Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "18c460774790792abaaf5df6d78ee2dfb34cd7d5db8e2043f25abbdf439011a4",
+  "sampled_file_digests": {
+    "README.md": "b2b828b845b3182851613a3596091cee5b18af33bd12830b719ba3e3d45f5949",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

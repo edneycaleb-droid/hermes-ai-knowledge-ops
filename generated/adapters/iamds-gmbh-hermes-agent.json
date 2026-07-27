@@ -1,0 +1,67 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io",
+    "https://build.nvidia.com)",
+    "https://dev.botframework.com/",
+    "https://github.com/IAMDS-GMBH/hermes-agent/blob/main/LICENSE",
+    "https://github.com/NousResearch/Hermes-Agent#readme",
+    "https://github.com/NousResearch/Hermes-Agent.git",
+    "https://github.com/NousResearch/Hermes-Agent/issues",
+    "https://github.com/just-containers/s6-overlay/releases/download/v$",
+    "https://github.com/plastic-labs/honcho",
+    "https://huggingface.co),",
+    "https://img.shields.io/badge/License-MIT-green?style=for-the-badge",
+    "https://nousresearch.com).",
+    "https://nousresearch.com).**",
+    "https://novita.ai)",
+    "https://openrouter.ai)",
+    "https://platform.moonshot.ai),",
+    "https://platform.xiaomimimo.com),",
+    "https://portal.nousresearch.com),",
+    "https://support.example.com/upload",
+    "https://www.minimax.io),",
+    "https://z.ai),"
+  ],
+  "environment_variable_names": [
+    "API_SERVER_HOST",
+    "API_SERVER_KEY",
+    "TEAMS_CLIENT_SECRET",
+    "TEAMS_PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/iamds-gmbh-hermes-agent.json",
+  "schema_version": 1,
+  "source_repository": "IAMDS-GMBH/hermes-agent",
+  "source_url": "https://github.com/IAMDS-GMBH/hermes-agent",
+  "status": "disabled_pending_review"
+}

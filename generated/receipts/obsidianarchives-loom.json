@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/ObsidianArchives/LOOM",
+  "canonical_repository": "ObsidianArchives/LOOM",
+  "canonical_url": "https://github.com/ObsidianArchives/LOOM",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:53.429216Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "36d9eb712be9c921595f7b65202e61306ea7d45cf91bb7a366b0cde235e89363",
+  "sampled_file_digests": {
+    "LICENSE": "23bf91d789b20a26f44630bfcd6b7436dd8f6ef756ebcfe47d190be7bc34f299",
+    "README.md": "e955de768b1635356d052b217373f14d5c84a9ced2171378352e9cbbf4998906"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

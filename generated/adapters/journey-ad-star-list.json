@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "hermes",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://307.run/eggcode",
+    "https://aidn.jp/mikutap",
+    "https://alibaba.github.io/hooks/",
+    "https://arxiv.org/abs/1703.07511",
+    "https://asoul.infedg.xyz/,",
+    "https://awesome-selfhosted.net",
+    "https://blog.alliot.tech/post/cloudflare-tunnel-proxy-support",
+    "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+    "https://codeberg.org/Freeyourgadget/Gadgetbridge",
+    "https://diafygi.github.io/webrtc-ips/",
+    "https://discord.gg/5NJB6dD",
+    "https://discord.gg/jP8KfhDhyN",
+    "https://dos.zczc.cz",
+    "https://e-hentai.org.",
+    "https://git.ffmpeg.org/ffmpeg.git",
+    "https://github.com/0xHJK/dumpall)",
+    "https://github.com/0xor0ne/awesome-list)",
+    "https://github.com/1Panel-dev/MaxKB)",
+    "https://github.com/2noise/ChatTTS)",
+    "https://github.com/404-novel-project/novel-downloader)",
+    "https://github.com/4074/DrawingPlace)",
+    "https://github.com/521xueweihan/HelloGitHub)",
+    "https://github.com/52cik/bilibili-haruna)",
+    "https://github.com/52cik/github-hans)",
+    "https://github.com/78/ssbc)",
+    "https://github.com/78/xiaozhi-esp32)",
+    "https://github.com/7kms/react-illustration-series)",
+    "https://github.com/91yun/serverspeeder)",
+    "https://github.com/A-Soul-Database/A-Soul-Database)",
+    "https://github.com/ASoulCnki/ASoulCnkiFrontEndV3)",
+    "https://github.com/AUTOMATIC1111/stable-diffusion-webui)",
+    "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery)",
+    "https://github.com/Aaalice233/ShiQi_Workflow)",
+    "https://github.com/AaronFeng753/Waifu2x-Extension-GUI)",
+    "https://github.com/Ackites/KillWxapkg)",
+    "https://github.com/ActivityLauncher/ActivityLauncher)",
+    "https://github.com/Advanced-Frontend/Daily-Interview-Question)",
+    "https://github.com/AlanDecode/Typecho-Theme-VOID)",
+    "https://github.com/AlistGo/alist)",
+    "https://github.com/AlliotTech/cloudflared_proxy)"
+  ],
+  "environment_variable_names": [
+    "URL",
+    "YOURLS"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/journey-ad-star-list.json",
+  "schema_version": 1,
+  "source_repository": "journey-ad/star-list",
+  "source_url": "https://github.com/journey-ad/star-list",
+  "status": "disabled_pending_review"
+}

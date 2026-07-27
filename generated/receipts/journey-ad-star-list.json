@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/journey-ad/star-list",
+  "canonical_repository": "journey-ad/star-list",
+  "canonical_url": "https://github.com/journey-ad/star-list",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:50.316959Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1f3d22606f6a0e038d6dd955802a8e273918e9fb929d95cd36c3714f1564b47e",
+  "sampled_file_digests": {
+    "README.md": "603b064b0303275158f3cba58548a7cb94963b9d4db4c265ca61203be2e592b0"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

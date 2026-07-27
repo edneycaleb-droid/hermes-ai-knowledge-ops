@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.zoodata.ai/openapi/v2",
+    "https://discord.gg/YfDFU9BDp5",
+    "https://discord.gg/YfDFU9BDp5)",
+    "https://github.com/SerendipityOneInc/ZooData-Skills.git",
+    "https://github.com/SerendipityOneInc/ZooData-Skills/actions/workflows/test-zoodata.yml",
+    "https://github.com/SerendipityOneInc/ZooData-Skills/actions/workflows/test-zoodata.yml/badge.svg",
+    "https://github.com/SerendipityOneInc/ZooData-Skills/issues)",
+    "https://github.com/SerendipityOneInc/ZooData-Skills/stargazers",
+    "https://github.com/user-attachments/assets/305a161b-7a53-49b8-afdc-4469a4fbf361",
+    "https://img.shields.io/badge/API-zoodata.ai-orange",
+    "https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white",
+    "https://img.shields.io/badge/license-MIT-blue.svg",
+    "https://img.shields.io/github/stars/SerendipityOneInc/ZooData-Skills?style=social",
+    "https://zoodata.ai",
+    "https://zoodata.ai)",
+    "https://zoodata.ai/en/api-keys",
+    "https://zoodata.ai/en/api-keys))"
+  ],
+  "environment_variable_names": [
+    "URL",
+    "ZOODATA_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/serendipityoneinc-zoodata-skills.json",
+  "schema_version": 1,
+  "source_repository": "SerendipityOneInc/ZooData-Skills",
+  "source_url": "https://github.com/SerendipityOneInc/ZooData-Skills",
+  "status": "disabled_pending_review"
+}
