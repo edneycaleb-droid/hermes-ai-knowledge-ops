@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/JEFF7712/nix-agent",
+  "canonical_repository": "JEFF7712/nix-agent",
+  "canonical_url": "https://github.com/JEFF7712/nix-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:26.089977Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3d6717544ea1823b02f9d0bdc5c175c4ab230679796fd7fe899dc9bb6064393e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "7d989777ed9b57481512e7f2c5e89532757a45d530417f8174eee0133e1ed5e7",
+    "LICENSE": "0bc943d7464dac25911f7a74c1fa83c144316bc498d4b7bba8bfe75221be47c2",
+    "README.md": "a72d305577e42d3c1cc943c16cad09484a9e3b7c52dbd459b7551abe19e93c70",
+    "pyproject.toml": "7dda23b24a138447141f8a70370ba0f63908cb951e0b08749d1a557c51221aff"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

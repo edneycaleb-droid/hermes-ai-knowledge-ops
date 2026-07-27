@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://discord.gg/cck9qWukTg",
+    "https://github.com/NousResearch/hermes-agent)",
+    "https://github.com/RapidAI/RapidOCR)",
+    "https://github.com/gtt116/enikk",
+    "https://github.com/gtt116/enikk.git",
+    "https://github.com/gtt116/enikk/issues",
+    "https://github.com/gtt116/enikk/issues)",
+    "https://github.com/gtt116/enikk/releases)",
+    "https://github.com/microsoft/OmniParser)",
+    "https://github.com/user-attachments/assets/32ca3e94-fdd5-4e8d-b3d2-19222fd437c6",
+    "https://github.com/user-attachments/assets/9ac22c98-672d-4652-9f17-258476152cc2",
+    "https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)]()",
+    "https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)",
+    "https://qm.qq.com/q/tJT45pTynK",
+    "https://www.youtube.com/watch?v=oYyria7cMSk"
+  ],
+  "environment_variable_names": [
+    "IMPORTANT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/gtt116-enikk.json",
+  "schema_version": 1,
+  "source_repository": "gtt116/enikk",
+  "source_url": "https://github.com/gtt116/enikk",
+  "status": "disabled_pending_review"
+}

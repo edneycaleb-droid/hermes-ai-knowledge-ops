@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/DevOPsJourneyman/atlas-lab",
+  "canonical_repository": "DevOPsJourneyman/atlas-lab",
+  "canonical_url": "https://github.com/DevOPsJourneyman/atlas-lab",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:59.696138Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2df65671ddae71194ac565d8200f6f997d74e1e1aed78fba6d461b9acdd0780b",
+  "sampled_file_digests": {
+    "README.md": "3703b226dd3dbe7649857c44915e7c96d762a165f5064c683d221dbe849faf1d"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

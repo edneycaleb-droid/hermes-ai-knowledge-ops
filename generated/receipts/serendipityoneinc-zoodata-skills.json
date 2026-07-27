@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/SerendipityOneInc/ZooData-Skills",
+  "canonical_repository": "SerendipityOneInc/ZooData-Skills",
+  "canonical_url": "https://github.com/SerendipityOneInc/ZooData-Skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:59.921993Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a8f482ca8808c1a1f8ee972f628025f19dec1e2edf6f2f05496598371dafbd11",
+  "sampled_file_digests": {
+    "LICENSE": "2c189a567dbc9a363eafdc53e8d681fa9766721c2d733338d2506850f510c4cc",
+    "README.md": "ff7e9c02ffda54263e381e0da831811a24f14ac9d4a8b71a4ff87e4af1e383ea"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

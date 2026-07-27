@@ -1,0 +1,36 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/obsidianarchives-loom.json",
+  "schema_version": 1,
+  "source_repository": "ObsidianArchives/LOOM",
+  "source_url": "https://github.com/ObsidianArchives/LOOM",
+  "status": "disabled_pending_review"
+}

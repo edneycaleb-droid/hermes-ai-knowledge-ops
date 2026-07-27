@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/IAMDS-GMBH/hermes-agent",
+  "canonical_repository": "IAMDS-GMBH/hermes-agent",
+  "canonical_url": "https://github.com/IAMDS-GMBH/hermes-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:47.193019Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "218c34fff9ea085d6d1658b6f56ee350a786e6286d583c115aa158806ab1f92a",
+  "sampled_file_digests": {
+    "Dockerfile": "8ac4277ecf4e2b2110687a5336bc548b8c32a5428989d044ff56886ac6178788",
+    "LICENSE": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+    "README.md": "9cbbc20ce181bf1472262a0b082bb38f056e48013857c625620a40c475b2245b",
+    "docker-compose.yml": "cf2cd030fcb516e904a422eb64619164636db3724199c912fa2883f072bcf9ad",
+    "package.json": "b2efbbe25ad64be5d7c3570de55b8a2c019ed83ba835a824eed00b23f6960a1a",
+    "pyproject.toml": "a958352fe1bfab89e84a7d608e08e52cec62380395d2350ada00df98efe3aa30"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
