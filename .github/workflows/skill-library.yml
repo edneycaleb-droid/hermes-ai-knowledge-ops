@@ -1,0 +1,37 @@
+name: Skill Library
+
+on:
+  pull_request:
+    paths:
+      - '.agents/skills/**'
+      - 'governance/skill_library.json'
+      - 'docs/SKILL_LIBRARY.md'
+      - 'scripts/validate_skill_library.py'
+      - 'tests/test_skill_library.py'
+      - '.github/workflows/skill-library.yml'
+  push:
+    branches: [main]
+    paths:
+      - '.agents/skills/**'
+      - 'governance/skill_library.json'
+      - 'docs/SKILL_LIBRARY.md'
+      - 'scripts/validate_skill_library.py'
+      - 'tests/test_skill_library.py'
+      - '.github/workflows/skill-library.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate registry
+        run: python scripts/validate_skill_library.py
+      - name: Run focused tests
+        run: python -m unittest tests.test_skill_library -v

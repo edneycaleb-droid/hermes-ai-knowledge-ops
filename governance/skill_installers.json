@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "selected_installer": {
+    "name": "skills",
+    "repository": "vercel-labs/skills",
+    "npm_package": "skills",
+    "version": "1.5.20",
+    "reviewed_commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
+    "license": "MIT",
+    "minimum_node": "22.20.0",
+    "disposition": "adopt",
+    "reasons": [
+      "discovers the repository's canonical .agents/skills layout",
+      "supports Codex, Claude Code, Hermes Agent, and many additional agents",
+      "supports local, GitHub, GitLab, and git sources",
+      "supports non-interactive copy installation for CI and managed deployment",
+      "provides list, find, update, remove, init, and temporary-use commands"
+    ]
+  },
+  "approved_targets": [
+    {
+      "agent": "codex",
+      "global_path": "~/.agents/skills/",
+      "installer_behavior": "universal-agent canonical directory"
+    },
+    {
+      "agent": "claude-code",
+      "global_path": "~/.claude/skills/",
+      "installer_behavior": "agent-specific directory"
+    },
+    {
+      "agent": "hermes-agent",
+      "global_path": "~/.hermes/skills/",
+      "installer_behavior": "agent-specific directory"
+    }
+  ],
+  "lifecycle_policy": {
+    "default_installable_states": ["approved"],
+    "review_override": "explicit isolated testing only",
+    "selector": "scripts/select_installable_skills.py"
+  },
+  "alternatives": [
+    {
+      "name": "Codex skill-installer",
+      "repository": "openai/skills",
+      "disposition": "native-codex-fallback",
+      "reason": "official Codex-specific installer targeting $CODEX_HOME/skills, normally ~/.codex/skills"
+    },
+    {
+      "name": "OpenSkills",
+      "repository": "numman-ali/openskills",
+      "disposition": "reference",
+      "reason": "strong universal SKILL.md loader, but the selected CLI has broader current agent targeting and native .agents/skills discovery"
+    },
+    {
+      "name": "gh skill install",
+      "repository": "cli/cli",
+      "disposition": "conditional",
+      "reason": "useful when GitHub CLI is already the managed distribution channel"
+    },
+    {
+      "name": "ags",
+      "repository": "agentskill-sh/learn",
+      "disposition": "sandbox",
+      "reason": "large searchable catalog and SHA tracking require a separate trust and registry review"
+    }
+  ],
+  "hard_invariants": [
+    "Do not use latest or another floating npm version.",
+    "Do not install an unregistered local skill.",
+    "Do not install a non-approved skill without an explicit isolated-test override.",
+    "Validate the canonical library before installation.",
+    "Default to copy mode for global installation.",
+    "Verify destinations against the selected installer implementation, not only its README table.",
+    "Do not overwrite credentials or unrelated agent configuration.",
+    "Do not claim installation succeeded without command output or filesystem evidence.",
+    "Updates require explicit review of the new package version and upstream commit."
+  ]
+}

@@ -116,3 +116,80 @@ Run the focused gate with:
 python scripts/validate_unified_capability_forge.py
 python -m unittest tests.test_unified_capability_forge -v
 ```
+
+## Claude ↔ Codex bridge
+
+A governed integration for `noblehacks/frenemy` lets Codex consult Claude and lets
+Claude delegate to Codex without copying prompts between sessions or adding API keys.
+The installer pins a reviewed full upstream commit SHA and keeps write-capable Claude
+delegation approval-gated.
+
+Windows installation:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\tools\install-frenemy.ps1
+```
+
+Architecture, operating policy, smoke tests, and evaluated free alternatives are in
+`docs/CLAUDE_CODEX_BRIDGE.md`.
+
+## Canonical skill library
+
+This repository is also the authoritative, version-controlled library for reusable
+ChatGPT, Claude, Codex, Hermes, and compatible agent workflows.
+
+- Skill root: `.agents/skills/`
+- Registry: `governance/skill_library.json`
+- Policy: `docs/SKILL_LIBRARY.md`
+- Validator: `scripts/validate_skill_library.py`
+- Tests: `tests/test_skill_library.py`
+- CI: `.github/workflows/skill-library.yml`
+
+The default reusable-workflow lifecycle is:
+
+```text
+implement → verify → skillize → register → review → install → runtime verify
+```
+
+Run the focused skill-library gate with:
+
+```bash
+python scripts/validate_skill_library.py
+python -m unittest tests.test_skill_library -v
+```
+
+Skills cannot promote themselves, store credentials, auto-approve write-capable tools,
+or claim runtime success without evidence.
+
+## Governed skill installer
+
+The canonical library is distributed with the open-source `vercel-labs/skills` CLI,
+pinned to `skills@1.5.20` and reviewed upstream commit
+`e173b8c88f2581cfdaa1b6767c6519a08155790e`.
+
+Windows:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\tools\install-skill-library.ps1
+```
+
+macOS or Linux:
+
+```bash
+bash tools/install-skill-library.sh
+```
+
+By default, the wrappers validate the registry and copy only `approved` skills into the
+global skill directories for Codex, Claude Code, and Hermes Agent. Review-state skills
+require an explicit isolated-test override. The installer selection, alternatives,
+update policy, CI smoke test, and rollback commands are in `docs/SKILL_INSTALLER.md`
+and `governance/skill_installers.json`.
+
+Run the focused installer gate with:
+
+```bash
+python scripts/validate_skill_library.py
+python -m unittest tests.test_skill_library tests.test_skill_installer -v
+```

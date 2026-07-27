@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "library_name": "Hermes Skill Library",
+  "canonical_root": ".agents/skills",
+  "owner": "edneycaleb-droid",
+  "governance": {
+    "review_required": true,
+    "self_promotion_forbidden": true,
+    "credentials_forbidden": true,
+    "floating_upstream_refs_forbidden": true,
+    "runtime_claims_require_evidence": true,
+    "write_capabilities_require_explicit_approval": true
+  },
+  "required_skill_files": ["SKILL.md"],
+  "required_frontmatter": ["name", "description", "metadata.version", "metadata.profile"],
+  "lifecycle_states": ["draft", "review", "approved", "deprecated", "retired"],
+  "skills": [
+    {
+      "name": "claude-codex-frenemy-bridge",
+      "path": ".agents/skills/claude-codex-frenemy-bridge/SKILL.md",
+      "version": "1.0.0",
+      "state": "review",
+      "profile": "implementation",
+      "source_pr": 5,
+      "capabilities": [
+        "claude-to-codex-delegation",
+        "codex-to-claude-consultation",
+        "open-source-alternative-evaluation",
+        "pinned-upstream-installation",
+        "approval-gated-write-path",
+        "rollback-and-smoke-testing"
+      ],
+      "negative_contracts": [
+        "no credential storage",
+        "no floating upstream branch installation",
+        "no automatic approval of write-capable delegation",
+        "no recursive agent ping-pong",
+        "no unbounded multi-agent swarm"
+      ]
+    },
+    {
+      "name": "governed-skill-installer",
+      "path": ".agents/skills/governed-skill-installer/SKILL.md",
+      "version": "1.0.0",
+      "state": "review",
+      "profile": "implementation",
+      "source_pr": 5,
+      "capabilities": [
+        "cross-agent-skill-installation",
+        "installer-discovery-and-selection",
+        "pinned-package-deployment",
+        "local-skill-library-distribution",
+        "isolated-installation-smoke-testing",
+        "named-skill-update-and-rollback"
+      ],
+      "negative_contracts": [
+        "no unreviewed remote skill installation",
+        "no floating installer package version",
+        "no credential collection or storage",
+        "no whole-directory destructive rollback",
+        "no self-promotion of installed skills",
+        "no runtime-success claim without agent reload evidence"
+      ]
+    }
+  ]
+}

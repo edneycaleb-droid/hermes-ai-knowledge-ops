@@ -1,0 +1,72 @@
+name: Governed Skill Installer
+
+on:
+  pull_request:
+    paths:
+      - ".agents/skills/**"
+      - "governance/skill_library.json"
+      - "governance/skill_installers.json"
+      - "docs/SKILL_INSTALLER.md"
+      - "tools/install-skill-library.*"
+      - "scripts/validate_skill_library.py"
+      - "scripts/select_installable_skills.py"
+      - "tests/test_skill_installer.py"
+      - ".github/workflows/skill-installer.yml"
+  push:
+    branches: [main]
+    paths:
+      - ".agents/skills/**"
+      - "governance/skill_library.json"
+      - "governance/skill_installers.json"
+      - "docs/SKILL_INSTALLER.md"
+      - "tools/install-skill-library.*"
+      - "scripts/validate_skill_library.py"
+      - "scripts/select_installable_skills.py"
+      - "tests/test_skill_installer.py"
+      - ".github/workflows/skill-installer.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.20.0
+
+      - name: Validate canonical skill library
+        run: python scripts/validate_skill_library.py
+
+      - name: Run focused tests
+        run: python -m unittest tests.test_skill_library tests.test_skill_installer -v
+
+      - name: Install registered review skills into isolated agent homes
+        env:
+          HOME: ${{ runner.temp }}/skill-home
+        run: |
+          mkdir -p "$HOME"
+          bash tools/install-skill-library.sh \
+            --global \
+            --allow-review \
+            --skill claude-codex-frenemy-bridge \
+            --skill governed-skill-installer
+
+      - name: Verify installed skill copies
+        env:
+          HOME: ${{ runner.temp }}/skill-home
+        run: |
+          test -f "$HOME/.agents/skills/claude-codex-frenemy-bridge/SKILL.md"
+          test -f "$HOME/.agents/skills/governed-skill-installer/SKILL.md"
+          test -f "$HOME/.claude/skills/claude-codex-frenemy-bridge/SKILL.md"
+          test -f "$HOME/.claude/skills/governed-skill-installer/SKILL.md"
+          test -f "$HOME/.hermes/skills/claude-codex-frenemy-bridge/SKILL.md"
+          test -f "$HOME/.hermes/skills/governed-skill-installer/SKILL.md"
