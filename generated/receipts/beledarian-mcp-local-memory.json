@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Beledarian/mcp-local-memory",
+  "canonical_repository": "Beledarian/mcp-local-memory",
+  "canonical_url": "https://github.com/Beledarian/mcp-local-memory",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:07:02.955958Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9ff49b1ab4f5cc214c9f837fc8e5ae51f47faa66f627a27240a9543a59182413",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "10eea3f915e8fe58148df2204dc87d6dbfb1c66e40377d7aded93d71b1a44947",
+    "LICENSE": "1a16f987a9cfc8a82fc0fea916adb0abab3da4e45839bf065117483cda3b15f5",
+    "README.md": "0169cda38cc1289d5a8234765db6d33bff960e25eabe431cb8e6158003af9252",
+    "package.json": "8b8de1406d26bd0a90cb12ec18d788ee4d36626bf542037eaacc45fc6a2f34d8"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

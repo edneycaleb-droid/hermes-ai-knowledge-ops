@@ -1,0 +1,62 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/ihor-sokoliuk/mcp-searxng/badge)](https://scorecard.dev/viewer/?uri=github.com/ihor-sokoliuk/mcp-searxng)",
+    "https://docs.searxng.org)",
+    "https://docs.searxng.org/admin/settings/settings.html)",
+    "https://github.com/ihor-sokoliuk)",
+    "https://github.com/ihor-sokoliuk/mcp-searxng",
+    "https://github.com/ihor-sokoliuk/mcp-searxng/issues",
+    "https://github.com/mcp/ihor-sokoliuk/mcp-searxng).",
+    "https://github.com/searxng/searxng/discussions/1789)",
+    "https://glama.ai/mcp/servers/ihor-sokoliuk/mcp-searxng/badges/score.svg)](https://glama.ai/mcp/servers/ihor-sokoliuk/mcp-searxng)",
+    "https://img.shields.io/badge/GitHub_MCP_Registry-listed-2da44e?style=flat-square&logo=github&logoColor=white)](https://github.com/mcp/ihor-sokoliuk/mcp-searxng)",
+    "https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)",
+    "https://img.shields.io/docker/pulls/isokoliuk/mcp-searxng?style=flat-square&logo=docker)](https://hub.docker.com/r/isokoliuk/mcp-searxng)",
+    "https://img.shields.io/github/stars/ihor-sokoliuk/mcp-searxng?style=flat-square&logo=github&label=stars)](https://github.com/ihor-sokoliuk/mcp-searxng/stargazers)",
+    "https://img.shields.io/npm/dm/mcp-searxng?style=flat-square&logo=npm&label=downloads%2Fmo)](https://www.npmjs.com/package/mcp-searxng)",
+    "https://img.shields.io/npm/v/mcp-searxng?style=flat-square&logo=npm)](https://www.npmjs.com/package/mcp-searxng)",
+    "https://modelcontextprotocol.io/introduction)",
+    "https://one.example.com;https://two.example.com",
+    "https://searxng.example.com",
+    "https://test-searx.example.com",
+    "https://www.bestpractices.dev/projects/13143/badge)](https://www.bestpractices.dev/projects/13143)"
+  ],
+  "environment_variable_names": [
+    "MCP_HTTP_HOST",
+    "MCP_HTTP_PORT",
+    "SEARXNG_URL",
+    "URL",
+    "YOUR_SEARXNG_INSTANCE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/ihor-sokoliuk-mcp-searxng.json",
+  "schema_version": 1,
+  "source_repository": "ihor-sokoliuk/mcp-searxng",
+  "source_url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,62 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/chart?repos=Clawdi-AI/clawdi&type=date&legend=top-left&transparent=true",
+    "https://api.star-history.com/chart?repos=Clawdi-AI/clawdi&type=date&theme=dark&legend=top-left&transparent=true",
+    "https://clawdi.ai",
+    "https://clawdi.ai)",
+    "https://deepwiki.com/Clawdi-AI/clawdi",
+    "https://github.com/Clawdi-AI/clawdi",
+    "https://github.com/Clawdi-AI/clawdi.git",
+    "https://github.com/Clawdi-AI/clawdi/actions/workflows/cli-publish.yml",
+    "https://github.com/Clawdi-AI/clawdi/issues).",
+    "https://github.com/Clawdi-AI/clawdi/stargazers",
+    "https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge",
+    "https://img.shields.io/github/actions/workflow/status/Clawdi-AI/clawdi/cli-publish.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI",
+    "https://img.shields.io/github/stars/Clawdi-AI/clawdi?style=for-the-badge&logo=github",
+    "https://img.shields.io/npm/v/clawdi?style=for-the-badge&logo=npm&color=cb3837",
+    "https://www.npmjs.com/package/clawdi",
+    "https://www.star-history.com/?repos=Clawdi-AI%2Fclawdi&type=date&legend=top-left"
+  ],
+  "environment_variable_names": [
+    "INFRA_POSTGRES_HOST",
+    "INFRA_POSTGRES_PORT",
+    "OPENAI_API_KEY",
+    "URL",
+    "VITE_CLAWDI_API_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/clawdi-ai-clawdi.json",
+  "schema_version": 1,
+  "source_repository": "Clawdi-AI/clawdi",
+  "source_url": "https://github.com/Clawdi-AI/clawdi",
+  "status": "disabled_pending_review"
+}

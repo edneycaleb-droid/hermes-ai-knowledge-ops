@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://)",
+    "https://api.litmus.io/agents.md),",
+    "https://caddyserver.com/),",
+    "https://central.litmus.io).",
+    "https://code.visualstudio.com/docs/copilot/chat/mcp-servers)",
+    "https://docs.anthropic.com/en/docs/agents-and-tools/mcp)",
+    "https://docs.cursor.com/context/model-context-protocol)",
+    "https://docs.litmus.io",
+    "https://docs.litmus.io)",
+    "https://docs.windsurf.com/windsurf/mcp)",
+    "https://github.com/litmusautomation/litmus-mcp-server.git",
+    "https://github.com/litmusautomation/litmus-sdk-releases/releases",
+    "https://github.com/litmusautomation/litmus-sdk-releases/releases/download/$",
+    "https://github.com/litmusautomation/litmus-sdk-releases/releases/download/2.7.4/litmussdk-2.7.4-py3-none-any.whl",
+    "https://glama.ai/mcp/servers/@litmusautomation/litmus-mcp-server",
+    "https://glama.ai/mcp/servers/@litmusautomation/litmus-mcp-server)",
+    "https://glama.ai/mcp/servers/@litmusautomation/litmus-mcp-server/badge",
+    "https://img.shields.io/badge/LinkedIn-Follow-0a66c2?style=flat-square",
+    "https://img.shields.io/badge/Litmus-Docs-2acfa6?style=flat-square",
+    "https://litmus.io",
+    "https://litmus.io)",
+    "https://litmus.io/products/litmus-edge)",
+    "https://mcp.example.com/mcp",
+    "https://mcp.so/server/litmus-mcp-server/litmusautomation)",
+    "https://modelcontextprotocol.io/).",
+    "https://modelcontextprotocol.io/legacy/concepts/transports",
+    "https://www.linkedin.com/company/litmus-automation/"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "EDGE_API_CLIENT_SECRET",
+    "EDGE_API_TOKEN",
+    "EDGE_MANAGER_ADMIN_URL",
+    "EDGE_MANAGER_URL",
+    "EDGE_URL",
+    "GEMINI_API_KEY",
+    "INFLUX_HOST",
+    "INFLUX_PORT",
+    "MCP_SSE_URL",
+    "NATS_PORT",
+    "OPENAI_API_KEY",
+    "SSL_KEYFILE",
+    "SSL_KEYFILE_PASSWORD",
+    "UNS_URL",
+    "URL",
+    "WEB_UI_HOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/litmusautomation-litmus-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "litmusautomation/litmus-mcp-server",
+  "source_url": "https://github.com/litmusautomation/litmus-mcp-server",
+  "status": "disabled_pending_review"
+}

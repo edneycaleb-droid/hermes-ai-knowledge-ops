@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/shaftoe/awesome-pi-coding-agent",
+  "canonical_repository": "shaftoe/awesome-pi-coding-agent",
+  "canonical_url": "https://github.com/shaftoe/awesome-pi-coding-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:41.614413Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5ee5eb15f1328d74c8bc1a9dee7dccff17e89f94fa8db102a04f34fcffea9989",
+  "sampled_file_digests": {
+    "LICENSE": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+    "package.json": "ebb5854180ba42193c7618bf843f0811c5b8b4b0287ba70659caf53e470834e2"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

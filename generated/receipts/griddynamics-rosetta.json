@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/griddynamics/rosetta",
+  "canonical_repository": "griddynamics/rosetta",
+  "canonical_url": "https://github.com/griddynamics/rosetta",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:07:05.998261Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "79204d58a72913e6fd7f75abae93a178f7c5b36b988d181615d332e5c583c832",
+  "sampled_file_digests": {
+    "LICENSE": "66fd570cee63e97d817f97e773db56972606b4cf60646bd8bff714875fb47661",
+    "README.md": "1e3f8defe903820f0273518fd20dee3c2332508cbb01a2d9a24450a673a39019",
+    "requirements.txt": "ecd26570d0551eb1c8fdf737020fcfa8265453f80c25cdc2880d6e3cc75baba8"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

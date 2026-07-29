@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Mineru98/skills-store",
+  "canonical_repository": "Mineru98/skills-store",
+  "canonical_url": "https://github.com/Mineru98/skills-store",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:34.881877Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "206f32081d5c54c3bbb6fa55eba5e01c35daed75eb3e154b7a1dcb15d7d3fa31",
+  "sampled_file_digests": {
+    "LICENSE": "8de659363b84041a4f65ded0b9a883259ca62282d318dee2c5708f9c3af5a48b",
+    "README.md": "7ab8721191161b56aa48a2bf27306dd10d0fc516fb47c7effea6ac8d130ca843"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

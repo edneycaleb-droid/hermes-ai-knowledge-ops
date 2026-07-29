@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/cursor-rules-live",
+  "canonical_repository": "linny006/cursor-rules-live",
+  "canonical_url": "https://github.com/linny006/cursor-rules-live",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:32.906548Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7672a45526943261ad6382f250cd88135e2e518cae98730e00361cd43e90329a",
+  "sampled_file_digests": {
+    "README.md": "4ca786d2b239b3a3d32a72cb7808ad4dedc9960c89807569a431e3d2adf433e9",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

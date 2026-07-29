@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Clawdi-AI/clawdi",
+  "canonical_repository": "Clawdi-AI/clawdi",
+  "canonical_url": "https://github.com/Clawdi-AI/clawdi",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:46.949145Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "73e8279f08f02161b0b471215d23ec6ae30bcd080c943eb9598ad8c4560e8a2d",
+  "sampled_file_digests": {
+    "LICENSE": "5bc315221ef1392c53c93a40071488bba911556549249b8b34f31e677f0d84f0",
+    "README.md": "77fb35278ba8057b8b640caa4f959a6e218fdc27ffca7c313a3a0298df1f80a6",
+    "docker-compose.yml": "1b9703d4ec2e6c04865954400afb8fc71d64452a7cd469e47720aafa3d557651",
+    "package.json": "490513e39a3d4515685363d7bda2d6e8e833b68272bd581e1b7eacd818fbfd15"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/ikaijua/Awesome-AITools",
+  "canonical_repository": "ikaijua/Awesome-AITools",
+  "canonical_url": "https://github.com/ikaijua/Awesome-AITools",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:36.543688Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6592f2a30b650e63f6fa192effbab28f57d39e71e266c00e81aa2702ee8c5cd8",
+  "sampled_file_digests": {
+    "README.md": "6753f980c448b4d7cd64b10e4789283280352f22a15200d020932ec3877392f6"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
