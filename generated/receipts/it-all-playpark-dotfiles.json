@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/it-all-playpark/dotfiles",
+  "canonical_repository": "it-all-playpark/dotfiles",
+  "canonical_url": "https://github.com/it-all-playpark/dotfiles",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:14.799180Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "60a03917b7f0b7dd6352e6b0f379354e8c6602e513efcc33b5bad113affdea33",
+  "sampled_file_digests": {
+    "README.md": "f532bda10493d964557221db1b7da694845949db621218194b0218ece0c182e7"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

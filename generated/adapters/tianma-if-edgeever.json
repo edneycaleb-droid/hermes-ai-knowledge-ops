@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://chromewebstore.google.com/detail/edgeever-web-clipper/gjadpfmanienmlofajibkfkkpfdkclgo)",
+    "https://demo.edgeever.org](https://demo.edgeever.org)",
+    "https://fsf.org/",
+    "https://github.com/isjiamu/gzh-design-skill).",
+    "https://github.com/kepano/obsidian-minimal).",
+    "https://github.com/outline/outline).",
+    "https://github.com/tianma-if/edgeever.",
+    "https://github.com/tianma-if/edgeever/issues)",
+    "https://github.com/tianma-if/edgeever/releases).",
+    "https://play.google.com/store/apps/details?id=org.edgeever.mobile),",
+    "https://www.gnu.org/licenses/",
+    "https://your-domain/api/openapi.json"
+  ],
+  "environment_variable_names": [
+    "EDGE_EVER_USE_EXISTING_AUTH_SECRET"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/tianma-if-edgeever.json",
+  "schema_version": 1,
+  "source_repository": "tianma-if/edgeever",
+  "source_url": "https://github.com/tianma-if/edgeever",
+  "status": "disabled_pending_review"
+}

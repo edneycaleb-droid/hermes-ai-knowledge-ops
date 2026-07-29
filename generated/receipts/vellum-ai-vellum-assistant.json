@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/vellum-ai/vellum-assistant",
+  "canonical_repository": "vellum-ai/vellum-assistant",
+  "canonical_url": "https://github.com/vellum-ai/vellum-assistant",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:33:57.685334Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f4871255a68eaaf48fb3d97b287276446a56aac01e8aa406cd20dd36ea64d53b",
+  "sampled_file_digests": {
+    "LICENSE": "3c708617f63998dd1e4cfb888e231974bba5cdbd6786504152561410d35f7f4a",
+    "README.md": "19ade9817694c39278c92b23e72b1e535773fe4e49f865d6d8944245a2fc3f84",
+    "package.json": "a7dd344452a0b8d2787df408d73cc2bfe274f2413b7f8d48867ce69d64566f65"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

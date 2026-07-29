@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/jmagly/aiwg",
+  "canonical_repository": "jmagly/aiwg",
+  "canonical_url": "https://github.com/jmagly/aiwg",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:32.956297Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5a3763fa84e9c54aee8e86bea923a017132561516164eb5eab93ceaa9f1d2950",
+  "sampled_file_digests": {
+    "LICENSE": "e72dbc70a915ee87e595240952db7ee7354b869952910942b76509971dcc7cf0",
+    "README.md": "b5a51f1aafbbe037b26a010f5b5ac165c3a9cc84b9b7ce4b680acd4b39abb26e",
+    "package.json": "4aef926fff7a4cb4ba4b8104ba2554ca14bc26dfbef36efcceaa27b34a0765c6"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

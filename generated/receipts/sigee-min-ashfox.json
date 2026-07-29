@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/sigee-min/ashfox",
+  "canonical_repository": "sigee-min/ashfox",
+  "canonical_url": "https://github.com/sigee-min/ashfox",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:15.260726Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "48e37836e2c792abcf6e1664cee901fb1ce003f789b94cc51f3bd4d239df2aec",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "456d3d2967ba3dcccfcc29b7bff60e0ac055d59ccdb74a1dcadfdcb1cb1fa048",
+    "LICENSE": "1977c907cb87d511214ec24792c2cad4c139a1b1c1b3d6bfbffabf0de6cf2b36",
+    "README.md": "0b406cf4a59dce6631cab2a4b3bde63f5e3c9e692fddd56908e12618b0cc7fc9",
+    "package.json": "51f281c917823c4135cd68aedca4c93427fbc138d1c3723216c78f6015b39e95"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

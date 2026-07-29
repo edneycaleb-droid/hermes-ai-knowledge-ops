@@ -1,14 +1,14 @@
-# Integration proposal: 0xsline/OpenChatCut
+# Integration proposal: RobertDWhite/whitehouse-rke2
 
 ## Decision
 
-**CANDIDATE** — quality 80/100; bounded learning adjustment +0.
+**REVIEW** — quality 63/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/0xsline/OpenChatCut
-- Categories: agent, mcp_server, plugin, skill, tool, workflow
-- License: AGPL-3.0
+- Repository: https://github.com/RobertDWhite/whitehouse-rke2
+- Categories: mcp_server, plugin, workflow
+- License: unverified
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 24525
-- license: **4/10** — SPDX AGPL-3.0
+- documentation: **10/10** — README length 18644
+- license: **0/10** — SPDX missing
 - testing: **4/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
-- interoperability: **7/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **8/10** — 589 stars
+- interoperability: **5/10** — Compatibility target matches
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **2/10** — 2 stars
 
 ## Static security review
 
@@ -31,7 +31,7 @@
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/0xsline-openchatcut.json`.
+A disabled metadata adapter was generated at `generated/adapters/robertdwhite-whitehouse-rke2.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

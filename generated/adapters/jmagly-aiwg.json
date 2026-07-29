@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aclanthology.org/2025.acl-long.1394.pdf).",
+    "https://aiwg.io",
+    "https://aiwg.io)",
+    "https://aiwg.io/assets/badges/aiwg-hero-dark.png",
+    "https://aiwg.io/assets/badges/built-with-aiwg-dark.png)](https://aiwg.io)",
+    "https://aiwg.io/assets/badges/built-with-aiwg-dark.png)](https://aiwg.io/badges)",
+    "https://aiwg.io/badges)",
+    "https://aiwg.io/badges)**.",
+    "https://arxiv.org/abs/1410.5401).",
+    "https://arxiv.org/abs/2005.11401).",
+    "https://arxiv.org/abs/2201.11903).",
+    "https://arxiv.org/abs/2203.02155).",
+    "https://arxiv.org/abs/2203.11171).",
+    "https://arxiv.org/abs/2205.11916).",
+    "https://arxiv.org/abs/2207.10342).",
+    "https://arxiv.org/abs/2210.03629).",
+    "https://arxiv.org/abs/2210.11610).",
+    "https://arxiv.org/abs/2212.06094).",
+    "https://arxiv.org/abs/2212.08073).",
+    "https://arxiv.org/abs/2301.00234).",
+    "https://arxiv.org/abs/2302.04761).",
+    "https://arxiv.org/abs/2302.12813).",
+    "https://arxiv.org/abs/2303.11366).",
+    "https://arxiv.org/abs/2303.17580).",
+    "https://arxiv.org/abs/2303.17651).",
+    "https://arxiv.org/abs/2304.03442).",
+    "https://arxiv.org/abs/2305.10601).",
+    "https://arxiv.org/abs/2305.17256).",
+    "https://arxiv.org/abs/2307.03172).",
+    "https://arxiv.org/abs/2307.07924).",
+    "https://arxiv.org/abs/2307.09702).",
+    "https://arxiv.org/abs/2308.00352).",
+    "https://arxiv.org/abs/2308.08155).",
+    "https://arxiv.org/abs/2309.06180).",
+    "https://arxiv.org/abs/2310.03714).",
+    "https://arxiv.org/abs/2310.04406).",
+    "https://arxiv.org/abs/2310.08560).",
+    "https://arxiv.org/abs/2402.01030).",
+    "https://arxiv.org/abs/2403.10131).",
+    "https://arxiv.org/abs/2403.17927)."
+  ],
+  "environment_variable_names": [
+    "REPORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/jmagly-aiwg.json",
+  "schema_version": 1,
+  "source_repository": "jmagly/aiwg",
+  "source_url": "https://github.com/jmagly/aiwg",
+  "status": "disabled_pending_review"
+}

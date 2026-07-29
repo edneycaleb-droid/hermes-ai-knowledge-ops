@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/tianma-if/edgeever",
+  "canonical_repository": "tianma-if/edgeever",
+  "canonical_url": "https://github.com/tianma-if/edgeever",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:29.492749Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ee68f7022805ad2966941bdb031f13dc701fea4fb98e0abffd8d0335951b498c",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "317fd061380401538667a8272249f1b0ff4ec99151748dbfe6ef26c2dbeef40e",
+    "package.json": "66231cfdbe7bead4f1367db03d84ed7a2ad60a073ae6cd4090325e4878210311"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

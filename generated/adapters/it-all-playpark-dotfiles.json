@@ -1,0 +1,36 @@
+{
+  "categories": [
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io)",
+    "https://github.com/it-all-playpark/skills)",
+    "https://github.com/numtide/treefmt-nix)",
+    "https://github.com/playpark-llc/hermes)",
+    "https://nixos.org/download.html)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/it-all-playpark-dotfiles.json",
+  "schema_version": 1,
+  "source_repository": "it-all-playpark/dotfiles",
+  "source_url": "https://github.com/it-all-playpark/dotfiles",
+  "status": "disabled_pending_review"
+}

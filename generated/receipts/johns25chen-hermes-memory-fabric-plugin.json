@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/johns25chen/hermes-memory-fabric-plugin",
+  "canonical_repository": "johns25chen/hermes-memory-fabric-plugin",
+  "canonical_url": "https://github.com/johns25chen/hermes-memory-fabric-plugin",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:08.088688Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ff37adbe11448eb25b43e883202d2d4441ea302adf55e5dbedfd146e285bf421",
+  "sampled_file_digests": {
+    "README.md": "5cb85d20b4dc9cad588c4d720dc4ee6cd8bd4be5fcf2b3a829a2034b1729ed89",
+    "pyproject.toml": "7136c871d48ba61b28a87c76daf5a851e0f7663251c04f740da06cb3ed0b8eb1"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

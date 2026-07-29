@@ -5,9 +5,9 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T00:07:10.729956Z",
+  "fetched_at": "2026-07-29T03:35:38.196188Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "6ff74209a745f0f4024bf2064c2a92e66921036e475ae74d8e05a61eab2fe058",
+  "metadata_digest": "9ae6d3bad89eb802bcb2e221a4f58db7ebd9fe0b4bc7bc1c0ce24f7af553c145",
   "sampled_file_digests": {
     ".mcp.json": "eb15a5caf8be1bbfe8e9b25855cb9c3187094eaf9898bf5b9cf2f6482dfd88bd",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",

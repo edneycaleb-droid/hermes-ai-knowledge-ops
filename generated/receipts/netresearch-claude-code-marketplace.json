@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/claude-code-marketplace",
+  "canonical_repository": "netresearch/claude-code-marketplace",
+  "canonical_url": "https://github.com/netresearch/claude-code-marketplace",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:31.129947Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "90c343a330f0640470aa1d1807d9cf59e58d97fa6269678acfbb31ea260a11c2",
+  "sampled_file_digests": {
+    "LICENSE": "50487c000f47946394a337ec66cfa959ef0be3b508def946208527792e3b654c",
+    "README.md": "032128e8286cc07e12a67190ce195ddeab347859bc71881b3656092ad308f738"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}
