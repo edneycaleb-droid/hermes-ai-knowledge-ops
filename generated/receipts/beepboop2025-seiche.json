@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/beepboop2025/seiche",
+  "canonical_repository": "beepboop2025/seiche",
+  "canonical_url": "https://github.com/beepboop2025/seiche",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:01.286564Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "93a65b5fd1c34d00367e1c5ad5c93afc6dbbaee31c7e443b93458916522459b1",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "b2a37af990d6b23909703b35951299846d79f1055e33af9aa2b84708bc08edc1",
+    "server.json": "8c01637c906b1fae6b9cccc3fe6087f7d555f761edbc3db99d78b97def21f2a7"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

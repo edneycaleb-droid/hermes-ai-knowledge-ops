@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/punkpeye/awesome-mcp-servers",
+  "canonical_repository": "punkpeye/awesome-mcp-servers",
+  "canonical_url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:18.670434Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d5493594569466eb00c564165ece76121904ca65dca507ab0d53cfe5956c61b7",
+  "sampled_file_digests": {
+    "LICENSE": "8cb2c0a4c6590502ffb793005c0f1b440ca4db34dcc209bbe9cf34d3b52a7e07"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

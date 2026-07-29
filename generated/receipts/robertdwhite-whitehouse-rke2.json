@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/RobertDWhite/whitehouse-rke2",
+  "canonical_repository": "RobertDWhite/whitehouse-rke2",
+  "canonical_url": "https://github.com/RobertDWhite/whitehouse-rke2",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:22.142754Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d3fe6f06f911a4c862de57ae981a89eae330745b28c6cc44f3179185aa243362",
+  "sampled_file_digests": {
+    "README.md": "bd6b1111c570b175453a5f4a01d99c08192614540893fae878880709be9fc20a"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

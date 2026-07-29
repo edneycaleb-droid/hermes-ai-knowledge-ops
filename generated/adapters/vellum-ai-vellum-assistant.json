@@ -1,0 +1,64 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://creativecommons.org/publicdomain/zero/1.0/).",
+    "https://github.com/simple-icons/simple-icons),",
+    "https://github.com/vellum-ai/vellum-assistant.git",
+    "https://github.com/vellum-ai/vellum-assistant/blob/main/LICENSE",
+    "https://github.com/vellum-ai/vellum-assistant/issues)",
+    "https://github.com/vellum-ai/vellum-assistant?tab=MIT-1-ov-file).",
+    "https://img.shields.io/badge/Built%20by-Vellum-blueviolet?style=for-the-badge",
+    "https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white",
+    "https://img.shields.io/badge/Docs-vellum.ai%2Fdocs-FFD700?style=for-the-badge",
+    "https://img.shields.io/badge/License-MIT-green?style=for-the-badge",
+    "https://vellum.ai",
+    "https://vellum.ai),",
+    "https://vellum.ai/community",
+    "https://vellum.ai/community)",
+    "https://vellum.ai/docs",
+    "https://vellum.ai/docs)",
+    "https://vellum.ai/docs)**",
+    "https://vellum.ai/docs/developer-guide/api)",
+    "https://vellum.ai/docs/developer-guide/architecture)",
+    "https://vellum.ai/docs/developer-guide/development-workflow)",
+    "https://vellum.ai/docs/developer-guide/features)",
+    "https://vellum.ai/docs/developer-guide/security)",
+    "https://vellum.ai/download)**",
+    "https://vellum.ai/platform),",
+    "https://vellum.ai/signup)",
+    "https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=vellum-assistant),"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/vellum-ai-vellum-assistant.json",
+  "schema_version": 1,
+  "source_repository": "vellum-ai/vellum-assistant",
+  "source_url": "https://github.com/vellum-ai/vellum-assistant",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,77 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io)",
+    "https://agentskills.io).",
+    "https://api.securityscorecards.dev/projects/github.com/netresearch/claude-code-marketplace/badge)](https://scorecard.dev/viewer/?uri=github.com/netresearch/claude-code-marketplace)",
+    "https://github.com/netresearch/",
+    "https://github.com/netresearch/agent-harness-skill)",
+    "https://github.com/netresearch/agent-rules-skill)",
+    "https://github.com/netresearch/automated-assessment-skill)",
+    "https://github.com/netresearch/claude-coach-plugin)",
+    "https://github.com/netresearch/cli-tools-skill)",
+    "https://github.com/netresearch/composer-agent-skill-plugin)",
+    "https://github.com/netresearch/concourse-ci-skill)",
+    "https://github.com/netresearch/context7-skill)",
+    "https://github.com/netresearch/data-tools-skill)",
+    "https://github.com/netresearch/docker-development-skill)",
+    "https://github.com/netresearch/enterprise-readiness-skill)",
+    "https://github.com/netresearch/file-search-skill)",
+    "https://github.com/netresearch/german-technical-writing-skill)",
+    "https://github.com/netresearch/git-workflow-skill)",
+    "https://github.com/netresearch/github-project-skill)",
+    "https://github.com/netresearch/github-release-skill)",
+    "https://github.com/netresearch/go-development-skill)",
+    "https://github.com/netresearch/jira-skill)",
+    "https://github.com/netresearch/jujutsu-workflow-skill)",
+    "https://github.com/netresearch/markdown-to-pdf-skill)",
+    "https://github.com/netresearch/matrix-skill)",
+    "https://github.com/netresearch/netresearch-branding-skill)",
+    "https://github.com/netresearch/node-agent-skill-coordinator)",
+    "https://github.com/netresearch/orocommerce-skill)",
+    "https://github.com/netresearch/pagerangers-skill)",
+    "https://github.com/netresearch/peer-qa-review-skill)",
+    "https://github.com/netresearch/php-modernization-skill)",
+    "https://github.com/netresearch/retro-skill)",
+    "https://github.com/netresearch/security-audit-skill)",
+    "https://github.com/netresearch/skill-repo-skill)",
+    "https://github.com/netresearch/typo3-a11y-skill)",
+    "https://github.com/netresearch/typo3-ckeditor5-skill)",
+    "https://github.com/netresearch/typo3-conformance-skill)",
+    "https://github.com/netresearch/typo3-core-contributions-skill)",
+    "https://github.com/netresearch/typo3-ddev-skill)",
+    "https://github.com/netresearch/typo3-docs-skill)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/netresearch-claude-code-marketplace.json",
+  "schema_version": 1,
+  "source_repository": "netresearch/claude-code-marketplace",
+  "source_url": "https://github.com/netresearch/claude-code-marketplace",
+  "status": "disabled_pending_review"
+}
