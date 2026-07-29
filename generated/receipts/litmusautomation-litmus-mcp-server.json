@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/litmusautomation/litmus-mcp-server",
+  "canonical_repository": "litmusautomation/litmus-mcp-server",
+  "canonical_url": "https://github.com/litmusautomation/litmus-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:58.165006Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "230feb7e1c4c08d931ba275412422466b7fa9687d00cfab08e83e2c08624b81a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "eaf20574d56ef223cdf8896d84096226cee1c2660553571a751d20720aeba5e5",
+    "Dockerfile": "be090f734d6c261a213a0681d39343c90e6809ddacac63f9f5e8cccdad731c21",
+    "LICENSE": "eaae8bf39986f5896c1ddfd4a8e4b32057d6e5cfc16e6dbbd09e9fc1d7f40256",
+    "README.md": "d6eddf58d98598a4ebea5030bb6106ccd7bd44ef4176c1d9cedbff7a58928d8a",
+    "pyproject.toml": "d2926b6d34e6bf88b8f3cc020ab416622f0c1863776e7cfd7193ec628775715d"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

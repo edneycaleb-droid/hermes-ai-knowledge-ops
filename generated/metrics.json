@@ -10,12 +10,12 @@
       "status": "completed"
     },
     "deduplication": {
-      "inputs": 30,
-      "outputs": 30,
+      "inputs": 29,
+      "outputs": 29,
       "removed": 0
     },
     "discovery": {
-      "outputs": 30
+      "outputs": 29
     },
     "extraction": {
       "status": "completed"
@@ -37,9 +37,9 @@
     }
   },
   "decisions": {
-    "blocked": 8,
-    "candidate": 7,
-    "review": 15
+    "blocked": 10,
+    "candidate": 8,
+    "review": 11
   },
   "safety": {
     "auto_merged": false,

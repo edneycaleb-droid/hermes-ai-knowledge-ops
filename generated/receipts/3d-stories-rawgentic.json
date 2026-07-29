@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/3D-Stories/rawgentic",
+  "canonical_repository": "3D-Stories/rawgentic",
+  "canonical_url": "https://github.com/3D-Stories/rawgentic",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:38.213979Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "827f4358f44096cb5f41ad24fdbd5307d16a202e59a43b72a9936cc7c6f61737",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "70e29dd953e7e33fe4372811ea57aaa88cdfb45b01493b7de9a93e3c20777150",
+    "LICENSE": "beaaca266bc56d38fab319bf2775691d31c3e34fb497cba4211561aa0b26bedc"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

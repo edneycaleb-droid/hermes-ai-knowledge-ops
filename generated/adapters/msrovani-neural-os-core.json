@@ -1,0 +1,59 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://discord.gg/neural-os-core)",
+    "https://fsf.org/",
+    "https://github.com/msrovani/jarvis)",
+    "https://github.com/msrovani/neural-os-core)",
+    "https://github.com/sponsors/msrovani)",
+    "https://huggingface.co/aios-k2chj)",
+    "https://huggingface.co/datasets/aios-k2chj)",
+    "https://huggingface.co/datasets/aios-k2chj/aios-k2chj-firmware-metadata)",
+    "https://huggingface.co/datasets/aios-k2chj/aios-k2chj-pci-usb-ids)",
+    "https://huggingface.co/datasets/aios-k2chj/aios-k2chj-sdio-hwids)",
+    "https://img.shields.io/badge/",
+    "https://img.shields.io/badge/ADRs-47%2B-red?style=flat-square)](docs/architecture/INDEX.md)",
+    "https://img.shields.io/badge/HWIDs-61.453-success?style=flat-square)](TECNOLOGIAS.md)",
+    "https://img.shields.io/badge/LOC-%7E26K-brightgreen?style=flat-square)](TECNOLOGIAS.md)",
+    "https://img.shields.io/badge/agents-%7E50-9cf?style=flat-square)](AGENTS.md)",
+    "https://img.shields.io/badge/build-0%20errors-brightgreen?style=flat-square&logo=rust)](https://github.com/msrovani/neural-os-core)",
+    "https://img.shields.io/badge/chat-discord-7289DA?style=flat-square)](https://discord.gg/neural-os-core)",
+    "https://img.shields.io/badge/datasets-HuggingFace-FF6F00?style=flat-square)](https://huggingface.co/aios-k2chj)",
+    "https://img.shields.io/badge/license-AGPLv3-blue?style=flat-square)](LICENSE)",
+    "https://img.shields.io/badge/rust-nightly_1.98-orange?style=flat-square&logo=rust)](https://www.rust-lang.org/)",
+    "https://img.shields.io/badge/v1.9.9%20TEST-blueviolet?style=flat-square)](https://github.com/msrovani/neural-os-core/releases)",
+    "https://www.gnu.org/licenses/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/msrovani-neural-os-core.json",
+  "schema_version": 1,
+  "source_repository": "msrovani/neural-os-core",
+  "source_url": "https://github.com/msrovani/neural-os-core",
+  "status": "disabled_pending_review"
+}

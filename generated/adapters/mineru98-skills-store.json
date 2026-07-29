@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "api",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://acme.atlassian.net",
+    "https://acme.atlassian.net/wiki",
+    "https://github.com/Mineru98/skills-store",
+    "https://github.com/Mineru98/skills-store/tree/main/.claude/skills/premium-korean-aesthetic",
+    "https://github.com/Mineru98/skills-store/tree/main/.claude/skills/visual-companion",
+    "https://github.com/Mineru98/skills-store/tree/main/.codex/skills/kill-process",
+    "https://github.com/Mineru98/skills-store/tree/main/.codex/skills/visual-companion",
+    "https://github.com/Q00/ouroboros)",
+    "https://github.com/Yeachan-Heo/oh-my-claudecode)",
+    "https://github.com/hackertaco/skill-forge)"
+  ],
+  "environment_variable_names": [
+    "CONFLUENCE_API_TOKEN",
+    "JIRA_API_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/mineru98-skills-store.json",
+  "schema_version": 1,
+  "source_repository": "Mineru98/skills-store",
+  "source_url": "https://github.com/Mineru98/skills-store",
+  "status": "disabled_pending_review"
+}

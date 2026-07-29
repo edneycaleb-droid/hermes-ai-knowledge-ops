@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/msrovani/neural-os-core",
+  "canonical_repository": "msrovani/neural-os-core",
+  "canonical_url": "https://github.com/msrovani/neural-os-core",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:06:48.424321Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "57fd33325b67ca4d13a51e0eaaef48f64d301299fc52106f6fffed43177880af",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "ef85af462120463ff5c4c7c511e2297395d15328908111ba7289980bcabe67cb"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

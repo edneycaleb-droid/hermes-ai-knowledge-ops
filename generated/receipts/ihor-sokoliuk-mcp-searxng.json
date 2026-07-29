@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/ihor-sokoliuk/mcp-searxng",
+  "canonical_repository": "ihor-sokoliuk/mcp-searxng",
+  "canonical_url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T00:07:04.522785Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "bd50ba18d87b2523c4b18b884de44bddcb69ff3248b27a043bcfd2aecd166705",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "472961442bb5d36bd2a5e184af571092e6c07f8d0852edc927c80c9194c65ee0",
+    "Dockerfile": "c7f405796216961277be979d60b95c1bd964416c55bf9a39a641c955e4fe1645",
+    "LICENSE": "d5d54589b2be70312c163de0716cc3da4109bf3ed05c1e4d4d5b633025312e5f",
+    "README.md": "f8d5dca73e4f943abbb0dfd001ba7354a1bcb7d9979b916dd14d2240081bb608",
+    "docker-compose.yml": "bf6106f4c5ae8b09fba603c95c7b06c36253936b3f239f7abfbe8952e9e0a7d6",
+    "package.json": "3154f5da915a5f2745273e075ef6d1bee5542d675f1b1a62b4927bac0d44dfb2"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,78 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/0xwilliamortiz/ponytail-improved)",
+    "https://github.com/Amirun99/agency-orchestrator)",
+    "https://github.com/Bastioned-successor320/learn-nanobot)",
+    "https://github.com/Bita71/Agent-Workflow-Kit)",
+    "https://github.com/Erkan3034/aegis)",
+    "https://github.com/GeiserX/homebrew-lynxprompt)",
+    "https://github.com/GeiserX/lynxprompt-vscode)",
+    "https://github.com/GeiserX/n8n-nodes-lynxprompt)",
+    "https://github.com/Hyanthropological659/clarify-skill)",
+    "https://github.com/J-nowcow/awesome-korean-agent-skills)",
+    "https://github.com/KbWen/agentic-os)",
+    "https://github.com/Laurellagloomy260/cursor-rules-generator)",
+    "https://github.com/Luxvil/ai-coding-rules)",
+    "https://github.com/MicSm/boffin)",
+    "https://github.com/MnemeHQ/mneme)",
+    "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md)",
+    "https://github.com/SalesforceAIResearch/agentforce-adlc)",
+    "https://github.com/Trentobobbi/uikit-mastery-playbook)",
+    "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks)",
+    "https://github.com/VirtusLab-Open-Source/astro-strapi-loader)",
+    "https://github.com/VirtusLab-Open-Source/astro-strapi-starter)",
+    "https://github.com/XAKLESK/cre-agent-skills)",
+    "https://github.com/agrawalshreya10/autonomous-quality-engine)",
+    "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components)",
+    "https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill)",
+    "https://github.com/danielvm-git/bigpowers)",
+    "https://github.com/djtelicloud/grok-mcp-server)",
+    "https://github.com/dwsilvar/LBaC)",
+    "https://github.com/edsondviana8/ai-humanizer-core)",
+    "https://github.com/fluzzy/archive)",
+    "https://github.com/glowElephant/context-forge)",
+    "https://github.com/ilindaniel/ponytail-lite)",
+    "https://github.com/jnMetaCode/agency-agents-zh)",
+    "https://github.com/johnwall123459885/skene-cookbook)",
+    "https://github.com/jonaskahn/agent-context)",
+    "https://github.com/linny006/agent-eval-harness)",
+    "https://github.com/linny006/agent-framework-radar)",
+    "https://github.com/linny006/awesome-agent-skills)",
+    "https://github.com/linny006/claude-code-plugin-tracker)",
+    "https://github.com/linny006/cursor-rules-live)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/linny006-cursor-rules-live.json",
+  "schema_version": 1,
+  "source_repository": "linny006/cursor-rules-live",
+  "source_url": "https://github.com/linny006/cursor-rules-live",
+  "status": "disabled_pending_review"
+}
