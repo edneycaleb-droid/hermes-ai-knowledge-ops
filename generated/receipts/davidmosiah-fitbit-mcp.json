@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/davidmosiah/fitbit-mcp",
+  "canonical_repository": "davidmosiah/fitbit-mcp",
+  "canonical_url": "https://github.com/davidmosiah/fitbit-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:06.564880Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d935ec32f4c66dd8d172d50afca274f7a0831eee38df554de7734e5174ea2644",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a024963bbbacf6dea44a027ce01bf70d68d69a3dd6f69ce4dc40448dd3c05cb2",
+    "LICENSE": "b79b98c47c703a3deaa4a25447b0808b2221c07c26e5201e0cd5ae06d6ecf326",
+    "README.md": "b3e2c05b8abd13c3e1b0aef0e88100fb51f9c7ad95af126e84207bb3940be9ca",
+    "package.json": "bbb9abab54616a2a1c97540ea325ea2a98bd9593fcaf1cb375cdd3c6dab8c4f8",
+    "server.json": "5030555cecda1ad0a92e988c5e85641330da37d6b2d37c99cf104388811f9e9c"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

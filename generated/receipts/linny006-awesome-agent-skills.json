@@ -5,12 +5,12 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "master",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-27T11:36:08.183288Z",
+  "fetched_at": "2026-07-30T13:11:54.774338Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "18c460774790792abaaf5df6d78ee2dfb34cd7d5db8e2043f25abbdf439011a4",
+  "metadata_digest": "572ccbe89d928c0d0785ac72f815a21f7fc946e9599fb0b51a0ced89fd019897",
   "sampled_file_digests": {
-    "README.md": "b2b828b845b3182851613a3596091cee5b18af33bd12830b719ba3e3d45f5949",
+    "README.md": "a50aa2df6cf0220f555f35ebe7de06bb4d8e7a1d962b63d58581b9f01a8bab1d",
     "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
   },
-  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
 }

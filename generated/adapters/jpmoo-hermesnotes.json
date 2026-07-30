@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png",
+    "https://example.com/notes",
+    "https://github.com/jpmoo/hermesnotes.git",
+    "https://ollama.com)**",
+    "https://pm2.keymetrics.io/),",
+    "https://www.buymeacoffee.com/jpmoo"
+  ],
+  "environment_variable_names": [
+    "AUTH_SECRET",
+    "DATABASE_URL",
+    "HOST",
+    "PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/jpmoo-hermesnotes.json",
+  "schema_version": 1,
+  "source_repository": "jpmoo/hermesnotes",
+  "source_url": "https://github.com/jpmoo/hermesnotes",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/nicknisi/sessions",
+  "canonical_repository": "nicknisi/sessions",
+  "canonical_url": "https://github.com/nicknisi/sessions",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:40.812554Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0a57a732afbb1f0b3e506a3bdbb58eb87a7fbae5c68140ef6f2d7e96edff6ffc",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f8dfa25751abc72e0a70370d8d2905b043976ffea0d650fa199c29fff7c5929b",
+    "LICENSE": "c7199523e61c0d8f84a9e38dc1d4620179b9420bbc69680921f62f281ef2ada0",
+    "README.md": "dd716bd9762c9269e9d9d985f5c1512b54ec0f1140452ddef7a355d3721043c2",
+    "package.json": "2f11e2e98d45376c4b8dc753e5dc17cfa3aab94e03ed88a249e9236a12a78717"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
