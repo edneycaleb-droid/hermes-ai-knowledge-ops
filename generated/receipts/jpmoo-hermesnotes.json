@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/jpmoo/hermesnotes",
+  "canonical_repository": "jpmoo/hermesnotes",
+  "canonical_url": "https://github.com/jpmoo/hermesnotes",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:19.727867Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "19066021f5a8ddfa4f6ad4da0b3bf51092522f1871f8ae8a64d834cafdd0f464",
+  "sampled_file_digests": {
+    "LICENSE": "bb037c3d5536215288230ffdceee2f65cb5ae4c785968894159efd5d4940709b",
+    "README.md": "3d2596e654b10338b5f8ecbf4dbeacbc3c42d44b83ab26dbe259fae26c90e85d",
+    "package.json": "932298b8440a86ed5ee88c4883de0df085611bfb199607daa3cd24df2a510375"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

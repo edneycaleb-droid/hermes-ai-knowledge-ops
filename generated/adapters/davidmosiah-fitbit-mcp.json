@@ -1,0 +1,163 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://dev.fitbit.com/apps",
+    "https://dev.fitbit.com/apps))",
+    "https://dev.fitbit.com/build/reference/web-api/",
+    "https://dev.fitbit.com/build/reference/web-api/)",
+    "https://fitbitmcp.vercel.app/",
+    "https://github.com/davidmosiah)",
+    "https://github.com/davidmosiah/apple-health-mcp)",
+    "https://github.com/davidmosiah/delx-wellness",
+    "https://github.com/davidmosiah/delx-wellness),",
+    "https://github.com/davidmosiah/delx-wellness-hermes",
+    "https://github.com/davidmosiah/delx-wellness-hermes).",
+    "https://github.com/davidmosiah/delx-wellness-hermes):",
+    "https://github.com/davidmosiah/delx-wellness/blob/main/docs/connector-quality-standard.md",
+    "https://github.com/davidmosiah/fitbit-mcp",
+    "https://github.com/davidmosiah/fitbit-mcp)",
+    "https://github.com/davidmosiah/fitbit-mcp.git",
+    "https://github.com/davidmosiah/fitbit-mcp/issues",
+    "https://github.com/davidmosiah/fitbit-mcp/issues)",
+    "https://github.com/davidmosiah/fitbit-mcp/stargazers",
+    "https://github.com/davidmosiah/garminmcp)",
+    "https://github.com/davidmosiah/ouramcp)",
+    "https://github.com/davidmosiah/polarmcp)",
+    "https://github.com/davidmosiah/strava-mcp)",
+    "https://github.com/davidmosiah/wellness-nourish)",
+    "https://github.com/davidmosiah/whoop-mcp)",
+    "https://github.com/davidmosiah/withingsmcp)",
+    "https://img.shields.io/badge/BUILT_FOR-MCP-7C3AED?style=for-the-badge&labelColor=0F172A",
+    "https://img.shields.io/badge/Fitbit-00B0B9?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=fitbit&logoColor=white",
+    "https://img.shields.io/badge/HERMES-one--command_setup-10B981?style=for-the-badge&labelColor=0F172A",
+    "https://img.shields.io/badge/LICENSE-MIT-22C55E?style=for-the-badge&labelColor=0F172A",
+    "https://img.shields.io/badge/SITE-wellness.delx.ai-0EA5A3?style=for-the-badge&labelColor=0F172A",
+    "https://img.shields.io/github/stars/davidmosiah/fitbit-mcp?style=for-the-badge&labelColor=0F172A&color=FBBF24&logo=github",
+    "https://img.shields.io/npm/dm/fitbit-mcp-unofficial?style=for-the-badge&labelColor=0F172A&color=0EA5A3&logo=npm&logoColor=white",
+    "https://img.shields.io/npm/v/fitbit-mcp-unofficial?style=for-the-badge&labelColor=0F172A&color=10B981&logo=npm&logoColor=white",
+    "https://modelcontextprotocol.io",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://wellness.delx.ai)",
+    "https://wellness.delx.ai/connectors/fitbit",
+    "https://www.npmjs.com/package/apple-health-mcp-unofficial)",
+    "https://www.npmjs.com/package/fitbit-mcp-unofficial"
+  ],
+  "environment_variable_names": [
+    "FITBIT_CLIENT_SECRET",
+    "FITBIT_TOKEN_PATH",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Privacy-first, unofficial Fitbit MCP server for AI health, sleep, activity and heart-rate agents.",
+      "name": "io.github.davidmosiah/fitbitmcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Fitbit OAuth client ID. Optional when configured with fitbit-mcp-server setup.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_CLIENT_ID"
+            },
+            {
+              "description": "Fitbit OAuth client secret. Prefer fitbit-mcp-server setup so this secret is stored in ~/.fitbit-mcp/config.json instead of MCP client config.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "FITBIT_CLIENT_SECRET"
+            },
+            {
+              "description": "Redirect URI configured in the Fitbit Developer Dashboard. Optional when configured with fitbit-mcp-server setup.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_REDIRECT_URI"
+            },
+            {
+              "description": "Optional local path for OAuth tokens. Defaults to ~/.fitbit-mcp/tokens.json.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_TOKEN_PATH"
+            },
+            {
+              "description": "Optional payload mode: summary, structured, or raw. Defaults to structured. raw means full Fitbit API payloads, not continuous 24/7 raw sensor telemetry.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_PRIVACY_MODE"
+            },
+            {
+              "description": "Optional SQLite cache toggle. Set to true or sqlite to enable.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_CACHE"
+            },
+            {
+              "description": "Optional local SQLite cache path. Defaults to ~/.fitbit-mcp/cache.sqlite.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_CACHE_PATH"
+            },
+            {
+              "description": "Set to true to bypass the in-memory HTTP response cache (60s TTL for GET only). POST/PUT/DELETE and 4xx/5xx responses are never cached regardless.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FITBIT_NO_CACHE"
+            }
+          ],
+          "identifier": "fitbit-mcp-unofficial",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.4.7"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/davidmosiah/fitbit-mcp"
+      },
+      "version": "0.4.7",
+      "websiteUrl": "https://wellness.delx.ai/connectors/fitbit"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/davidmosiah-fitbit-mcp.json",
+  "schema_version": 1,
+  "source_repository": "davidmosiah/fitbit-mcp",
+  "source_url": "https://github.com/davidmosiah/fitbit-mcp",
+  "status": "disabled_pending_review"
+}

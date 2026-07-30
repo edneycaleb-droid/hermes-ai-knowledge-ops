@@ -1,0 +1,61 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "openai-compatible",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Superfish1000/Attache.git",
+    "https://github.com/softeria/ms-365-mcp-server)",
+    "https://hermes-agent.nousresearch.com)",
+    "https://llm.internal.example.com/v1"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "ATTACHE_API_HOST",
+    "ATTACHE_API_PORT",
+    "CORP_TOKEN",
+    "CUSTOM_BASE_URL",
+    "KEY",
+    "MS365_MCP_TOKEN_CACHE_PATH",
+    "MY_GATEWAY_API_KEY",
+    "MY_LLM_KEY",
+    "OLLAMA_LOCAL_KEY",
+    "OPENAI_API_KEY",
+    "OPENAI_BASE_URL",
+    "TOKEN",
+    "TOKEN_CACHE_PATH",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/superfish1000-attache.json",
+  "schema_version": 1,
+  "source_repository": "Superfish1000/Attache",
+  "source_url": "https://github.com/Superfish1000/Attache",
+  "status": "disabled_pending_review"
+}

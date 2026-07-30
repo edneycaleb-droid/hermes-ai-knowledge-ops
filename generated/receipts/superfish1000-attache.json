@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Superfish1000/Attache",
+  "canonical_repository": "Superfish1000/Attache",
+  "canonical_url": "https://github.com/Superfish1000/Attache",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:17.238436Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5e00c97571a633fb78eae8ff4a114711e97996c524a7cff1d98e555ce4d92114",
+  "sampled_file_digests": {
+    "README.md": "5af79abe7b938ea429d19c94cb036a3ca97f9cd064f041dcb1ce9404e01523e8",
+    "package.json": "f91b8779fda0e5f0183c65c982be1ca787f12dc5d8cd83207404fa7aed28ecc3"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://deeptutor",
+    "https://git.io/typing-svg",
+    "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JiwaniZakir&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=58A6FF",
+    "https://github-readme-stats-sigma-five.vercel.app/api?username=JiwaniZakir&show_icons=true&theme=github_dark&hide_border=true&count_private=true&icon_color=58A6FF&title_color=58A6FF&include_all_commits=true&rank_icon=percentile",
+    "https://github.com/AkaliKong/MiniOneRec)",
+    "https://github.com/AkaliKong/MiniOneRec/pull/69)",
+    "https://github.com/CursorTouch/Windows-MCP)",
+    "https://github.com/CursorTouch/Windows-MCP/pull/166)",
+    "https://github.com/FranciscoMoretti/chat-js)",
+    "https://github.com/FranciscoMoretti/chat-js/pull/183)",
+    "https://github.com/GCWing/BitFun)",
+    "https://github.com/GCWing/BitFun/pull/414)",
+    "https://github.com/HKUDS/DeepTutor)",
+    "https://github.com/HKUDS/DeepTutor/pull/340)",
+    "https://github.com/IAAR-Shanghai/Awesome-AI-Memory)",
+    "https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/38)",
+    "https://github.com/JiwaniZakir/Partnerships_OS)",
+    "https://github.com/JiwaniZakir/aegis)",
+    "https://github.com/JiwaniZakir/evictionchatbot)",
+    "https://github.com/JiwaniZakir/lattice)",
+    "https://github.com/JiwaniZakir/osbot)",
+    "https://github.com/JiwaniZakir/sentinel)",
+    "https://github.com/JiwaniZakir/spectra)",
+    "https://github.com/LearningCircuit/local-deep-research)",
+    "https://github.com/LearningCircuit/local-deep-research/pull/3359)",
+    "https://github.com/Lightning-AI/torchmetrics)",
+    "https://github.com/Lightning-AI/torchmetrics/pull/3354)",
+    "https://github.com/Ma-Lab-Berkeley/deep-representation-learning-book)",
+    "https://github.com/Ma-Lab-Berkeley/deep-representation-learning-book/pull/57)",
+    "https://github.com/Nixtla/mlforecast)",
+    "https://github.com/Nixtla/mlforecast/pull/624)",
+    "https://github.com/NousResearch/hermes-agent)",
+    "https://github.com/NousResearch/hermes-agent/pull/2098)",
+    "https://github.com/OpenPipe/ART)",
+    "https://github.com/OpenPipe/ART/pull/644)",
+    "https://github.com/RedPlanetHQ/core)",
+    "https://github.com/RedPlanetHQ/core/pull/762)",
+    "https://github.com/SilentVoid13/Templater)",
+    "https://github.com/SilentVoid13/Templater/pull/1709)",
+    "https://github.com/agentscope-ai/QwenPaw)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/jiwanizakir-jiwanizakir.json",
+  "schema_version": 1,
+  "source_repository": "JiwaniZakir/JiwaniZakir",
+  "source_url": "https://github.com/JiwaniZakir/JiwaniZakir",
+  "status": "disabled_pending_review"
+}

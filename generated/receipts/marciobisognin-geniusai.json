@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/marciobisognin/GeniusAI",
+  "canonical_repository": "marciobisognin/GeniusAI",
+  "canonical_url": "https://github.com/marciobisognin/GeniusAI",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:47.521065Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "55ea9325bc54f1e575c1b61da1fae1b2f21d68200ea0926767a532debf495854",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0cbd10c04de2902e5aa2ba937c752ac636e03fa1d20361bcf1b3460ae4108e2f",
+    "LICENSE": "b434be9fb897fcf727adcfd557b83f55b2dda060c9200a0ae487a2e1cfcdc7da",
+    "README.md": "a9f0900287ceef8cb1633cdd1aa01371404462109f380838b420fbc4abeeb723",
+    "package.json": "e90fb78aa5b560a4eb17c5075ca3edabf58143c052155fabc71d3c88ed33ea67"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/davidmosiah/strava-mcp",
+  "canonical_repository": "davidmosiah/strava-mcp",
+  "canonical_url": "https://github.com/davidmosiah/strava-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:09.245833Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7c56c28c5e463ab75d5dc5dcccb1b4d2593a33636fb0327f2f71fb0069e79a3f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a024963bbbacf6dea44a027ce01bf70d68d69a3dd6f69ce4dc40448dd3c05cb2",
+    "LICENSE": "b79b98c47c703a3deaa4a25447b0808b2221c07c26e5201e0cd5ae06d6ecf326",
+    "README.md": "ad98c8078d7a22e5e2230656e3889330e3a8a01bea049f7b75831f14c12ec75c",
+    "package.json": "cb747d89dbf83019cf5018943f38dbfa665ea0c6eabddbe9996c755a19af15a0",
+    "server.json": "640e2dafc3af1f4033e086b37f0b88b355ca52b9a2da46c7732fd9a4323747e0"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

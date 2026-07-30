@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/JiwaniZakir/JiwaniZakir",
+  "canonical_repository": "JiwaniZakir/JiwaniZakir",
+  "canonical_url": "https://github.com/JiwaniZakir/JiwaniZakir",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:03.511339Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b12feec7e1d40c356a8d8f0d197df0eadc503a0d98f5241ce250cc6717a6b7e4",
+  "sampled_file_digests": {
+    "README.md": "535dedaaee230bce303e125be16e0ee81638f7372c59c108b784837f43fab9fb"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/awslabs/mcp",
+  "canonical_repository": "awslabs/mcp",
+  "canonical_url": "https://github.com/awslabs/mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:35.262768Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e674be904e466f08b49275377c9756449dcb3e4258a38fbee2acdb8f79144661",
+  "sampled_file_digests": {
+    "LICENSE": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
