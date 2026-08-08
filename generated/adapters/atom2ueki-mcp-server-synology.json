@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://example.com/file.zip",
+    "https://github.com/atom2ueki/mcp-server-synology.git",
+    "https://github.com/sparfenyuk/mcp-proxy",
+    "https://nas.lan:5001",
+    "https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html",
+    "https://synology-mcp.example.com/sse"
+  ],
+  "environment_variable_names": [
+    "SYNOLOGY_URL",
+    "URL",
+    "XIAOZHI_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/atom2ueki-mcp-server-synology.json",
+  "schema_version": 1,
+  "source_repository": "atom2ueki/mcp-server-synology",
+  "source_url": "https://github.com/atom2ueki/mcp-server-synology",
+  "status": "disabled_pending_review"
+}

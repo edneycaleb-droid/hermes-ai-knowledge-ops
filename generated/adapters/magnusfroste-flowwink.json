@@ -25,13 +25,12 @@
   "documented_https_endpoints": [
     "https://example.supabase.co",
     "https://github.com/magnusfroste/flowwink.git",
-    "https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)",
-    "https://img.shields.io/badge/release-v1.3.0-brightgreen)](https://github.com/magnusfroste/flowwink/releases)",
-    "https://supabase.com/)",
-    "https://vercel.com/),",
-    "https://www.clawable.org)**",
-    "https://www.clawable.org)**,",
-    "https://www.clawable.org)**."
+    "https://github.com/magnusfroste/flowwink/releases",
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/release-v1.3.0-brightgreen",
+    "https://supabase.com/",
+    "https://vercel.com/",
+    "https://www.clawable.org"
   ],
   "environment_variable_names": [
     "DATABASE_URL",

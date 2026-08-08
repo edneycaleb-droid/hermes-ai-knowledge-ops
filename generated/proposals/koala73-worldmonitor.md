@@ -7,7 +7,7 @@
 ## Source
 
 - Repository: https://github.com/koala73/worldmonitor
-- Categories: api, mcp_server, plugin, tool
+- Categories: api, mcp_server, plugin, tool, workflow
 - License: NOASSERTION
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,18 +17,19 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 13011
+- documentation: **10/10** — README length 13098
 - license: **4/10** — SPDX NOASSERTION
 - testing: **10/10** — Test/CI signal in sampled metadata
 - security: **3/10** — 0 critical, 1 high findings
 - interoperability: **9/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 76785 stars
+- adoption: **10/10** — 79904 stars
 
 ## Static security review
 
 - `high` `SEC007` in `package.json`: Package installation lifecycle hook
 - `medium` `SEC008` in `Dockerfile`: Elevated execution or privilege
+- `medium` `SEC008` in `.github/workflows/test.yml`: Elevated execution or privilege
 
 ## Generated implementation
 

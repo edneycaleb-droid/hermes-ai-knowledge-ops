@@ -1,0 +1,75 @@
+{
+  "categories": [
+    "agent",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://colorlib.com/wp/template/cloudnest/",
+    "https://colorlib.com/wp/template/dreamrs/",
+    "https://colorlib.com/wp/template/heaven/",
+    "https://colorlib.com/wp/template/interior-design/",
+    "https://colorlib.com/wp/template/ironforge/",
+    "https://colorlib.com/wp/template/kd/",
+    "https://colorlib.com/wp/template/launchpad/",
+    "https://colorlib.com/wp/template/learnhub/",
+    "https://colorlib.com/wp/template/loaft/",
+    "https://colorlib.com/wp/template/racks/",
+    "https://colorlib.com/wp/template/sierra/",
+    "https://colorlib.com/wp/template/square/",
+    "https://colorlib.com/wp/template/standout/",
+    "https://colorlib.com/wp/template/transcend/",
+    "https://colorlib.com/wp/template/unapp/",
+    "https://colorlib.com/wp/template/webapp/",
+    "https://free-react-templates-abode.surge.sh",
+    "https://free-react-templates-animal-shelter.surge.sh",
+    "https://free-react-templates-anvil.surge.sh",
+    "https://free-react-templates-appco.surge.sh",
+    "https://free-react-templates-appdeck.surge.sh",
+    "https://free-react-templates-applab.surge.sh",
+    "https://free-react-templates-appli.surge.sh",
+    "https://free-react-templates-appru.surge.sh",
+    "https://free-react-templates-apps.surge.sh",
+    "https://free-react-templates-appson.surge.sh",
+    "https://free-react-templates-appy.surge.sh",
+    "https://free-react-templates-archon.surge.sh",
+    "https://free-react-templates-arlo.surge.sh",
+    "https://free-react-templates-atrium.surge.sh",
+    "https://free-react-templates-aurora.surge.sh",
+    "https://free-react-templates-azure.surge.sh",
+    "https://free-react-templates-bastion.surge.sh",
+    "https://free-react-templates-beamline.surge.sh",
+    "https://free-react-templates-blastoff.surge.sh",
+    "https://free-react-templates-blaze.surge.sh",
+    "https://free-react-templates-blueprint.surge.sh",
+    "https://free-react-templates-blush.surge.sh",
+    "https://free-react-templates-bold.surge.sh",
+    "https://free-react-templates-boost.surge.sh"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/free-templates-cc-free-react-templates.json",
+  "schema_version": 1,
+  "source_repository": "Free-Templates-cc/free-react-templates",
+  "source_url": "https://github.com/Free-Templates-cc/free-react-templates",
+  "status": "disabled_pending_review"
+}

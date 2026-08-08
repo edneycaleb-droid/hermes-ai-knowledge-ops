@@ -5,16 +5,16 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T03:34:54.213628Z",
+  "fetched_at": "2026-08-08T19:39:16.956831Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "7631904f14c5fdf908b17e2f57fdcd9a21589fe5e78216d810b14729df5c94af",
+  "metadata_digest": "99dd6a0b754bef16408541702639f660cf057b8b0b0c4c85cda6756cbeb12eed",
   "sampled_file_digests": {
-    ".github/workflows/ci.yml": "a9c4426b3fdfd62b7a41959a395a3d0b30edfb56da04c570062d6eb9a546025b",
+    ".github/workflows/ci.yml": "4b124160ef0c8cc87c9422a463f178cc13ffe8d67b2d3c18bf12d964e0662a88",
     "Dockerfile": "f6777373ff7c6453403a49f3cbe0dab20f92f473690e0c00d283988e9b33fb91",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "d8362bcad261732091f5b08c0b3b7656b9a627ab4fb17066bc8fce1578ff394c",
+    "README.md": "e82a971e1902e0b0f2e168d295bb6063398ac6f48df1b3681ed3fe0934b04a3e",
     "docker-compose.yml": "3078370b5769df04658630aadab73a54c036318dd2634d811200df6a92683249",
-    "server.json": "fb4f673c1804cde7385621057e0ac65c793864ef8637a22ac39fb72f788fe74c"
+    "server.json": "9b51e9bb263e34073a8cebc7e22262665682cf6b66b5a81dbc661d685fc30f66"
   },
   "source_query": "topic:mcp-server language:python stars:>10"
 }

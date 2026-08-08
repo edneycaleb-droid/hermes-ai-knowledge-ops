@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Franzferdinan51/Duck-Agent",
+  "canonical_repository": "Franzferdinan51/Duck-Agent",
+  "canonical_url": "https://github.com/Franzferdinan51/Duck-Agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:26.143847Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f22b7d63266f9b7f407c04ba787a8da68823eccae6210bb7d47826be99716465",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "96ac7cee55351f8530828a158b7105534eaf0b62e33e5f556a93becb490f3152",
+    ".github/workflows/test.yml": "c8e057889095080f2b3e1ab6d573d17fa611c99453e3d6742e43bd8e7992920c",
+    "README.md": "708bae2218fd50d798fbe62a259aa47109b4bc7af5340b9c9f8da3e56adbba51"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

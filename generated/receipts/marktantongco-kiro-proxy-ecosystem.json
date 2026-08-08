@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/marktantongco/kiro-proxy-ecosystem",
+  "canonical_repository": "marktantongco/kiro-proxy-ecosystem",
+  "canonical_url": "https://github.com/marktantongco/kiro-proxy-ecosystem",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:54.236432Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e935d6b3f0e44bddd7da0c254d19076427a94b534ad88461a942c028867690c6",
+  "sampled_file_digests": {
+    "README.md": "d30299a861a63ffcab5140923b4924b3ae889242a5483a3ebf1ec11724365a5c"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}
