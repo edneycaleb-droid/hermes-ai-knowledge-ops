@@ -1,0 +1,42 @@
+{
+  "categories": [
+    "agent",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://gaofeng21cn.github.io/one-person-lab/latest/whitepapers/",
+    "https://github.com/gaofeng21cn/med-autogrant",
+    "https://github.com/gaofeng21cn/med-autoscience",
+    "https://github.com/gaofeng21cn/one-person-lab-app/releases/latest",
+    "https://github.com/gaofeng21cn/one-person-lab.git",
+    "https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md",
+    "https://github.com/gaofeng21cn/opl-bookforge",
+    "https://github.com/gaofeng21cn/opl-meta-agent",
+    "https://github.com/gaofeng21cn/redcube-ai"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/gaofeng21cn-one-person-lab.json",
+  "schema_version": 1,
+  "source_repository": "gaofeng21cn/one-person-lab",
+  "source_url": "https://github.com/gaofeng21cn/one-person-lab",
+  "status": "disabled_pending_review"
+}

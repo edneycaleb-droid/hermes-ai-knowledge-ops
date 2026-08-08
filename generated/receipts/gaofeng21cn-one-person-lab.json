@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/gaofeng21cn/one-person-lab",
+  "canonical_repository": "gaofeng21cn/one-person-lab",
+  "canonical_url": "https://github.com/gaofeng21cn/one-person-lab",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:45.982561Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "357fd0035c202d4fc28a482d962730db7b0137043e9c2ea55aa5b2c0617aceeb",
+  "sampled_file_digests": {
+    "LICENSE": "833ec30eb6223cb0ff2caab6a7c25ea305b0bb62a373f37c8c78193a0cc4d575",
+    "README.md": "7aa4c5ec22bf3d3a3f9a226a1c1b187cb671b08be1d2046e344e946423c24d68",
+    "package.json": "7cc3e5c886bc571ab0c3d6527c1d725fbf1eb93a122ba8c72f2d07fbf01a82aa"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

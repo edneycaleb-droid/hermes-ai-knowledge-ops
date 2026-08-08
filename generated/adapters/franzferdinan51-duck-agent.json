@@ -1,0 +1,47 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Franzferdinan51/Duck-Agent",
+    "https://github.com/Franzferdinan51/Duck-Agent.git"
+  ],
+  "environment_variable_names": [
+    "CI_TIMINGS_REPORT_URL",
+    "COMMIT_URL",
+    "GITHUB_TOKEN",
+    "REPORT_URL",
+    "RUN_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/franzferdinan51-duck-agent.json",
+  "schema_version": 1,
+  "source_repository": "Franzferdinan51/Duck-Agent",
+  "source_url": "https://github.com/Franzferdinan51/Duck-Agent",
+  "status": "disabled_pending_review"
+}

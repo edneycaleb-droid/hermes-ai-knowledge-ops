@@ -5,15 +5,15 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-27T11:35:44.164717Z",
+  "fetched_at": "2026-08-08T19:38:34.358592Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "36aa2efcb5d71dce473b3d230d9b27b784b3808cfefc0aea6847d3ca220cabc8",
+  "metadata_digest": "ebd3a5daebf907ef307fa9c033d306f1bec5135867878021f710befa2a217dd8",
   "sampled_file_digests": {
     ".github/workflows/ci.yml": "ac702fdbcc6e6949db0fc63832a3d625b78478df57970532d5ba19937d6841f9",
     "Dockerfile": "99c639e6337bb9c1e4e4c7a3b9e4bc6fd7f68e82e7906e9b75a530ced8ac1352",
     "LICENSE": "e222d491ab604a082b599aaeb539e802e3b57963978a20cf44ca1d19c5f09917",
     "README.md": "d44b0975a6f297b44e639d31346a116b24959214308fc131d4504f8f1ed818d7",
-    "package.json": "3987118aea2a74f78d9f74b51678b5eeac52c332af8feaeee612dc5f9c38c09c"
+    "package.json": "32468d26a6ad64256953a6b9acba71376b005d05d060fb54ccd596f7ff1b45bb"
   },
   "source_query": "\"hermes agent\" skill in:name,description,readme"
 }

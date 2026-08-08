@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/vuralozsen/ai-agent-team",
+  "canonical_repository": "vuralozsen/ai-agent-team",
+  "canonical_url": "https://github.com/vuralozsen/ai-agent-team",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:42.099893Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1fea5d76e5b343b31bfa3eefc2f4b139f69c1afa27c2707e0709166e2442ff6b",
+  "sampled_file_digests": {
+    "README.md": "0c8c55c7cab02b530640b063c015b4affbedfb18c3b9c2a41c718ea69344bf7f",
+    "docker-compose.yml": "b68856b4c023ca9f38d4e969e066469705e74ccd03e9442db8a7d14a51430519"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

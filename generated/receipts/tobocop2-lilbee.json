@@ -5,14 +5,14 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T00:06:51.713508Z",
+  "fetched_at": "2026-08-08T19:39:05.479870Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "03304fe5479d6926afa1b27fdd0e5d32ddad793fe7047178b93a14d42aebf449",
+  "metadata_digest": "a5dc356f161e1fbfb0a9d84b4a22c5a819b24ad25aeadd1631ab43eb86161856",
   "sampled_file_digests": {
-    ".github/workflows/ci.yml": "f876a3a82253e6625c82347777c74cdcff28d6807cb300aa3a2d3476ceb56069",
+    ".github/workflows/ci.yml": "2fe28229588db50d6172842a6e13fc55aa00ac3a752deb46ab8b132002d653d8",
     "LICENSE": "df2a5baeb62316859c54212b7e6e437bdbc67933104ebfaa7010238bd785aafb",
-    "README.md": "7e2e8e6d55602f9a4ce481de6c5ce6539539ec6a74f6ad402d5de1f9ca0fbd4e",
-    "pyproject.toml": "92a28048a024ccf0e7f9a94d196f530e43cb2254e4f1fb6eaa4a3518a07d3f9b"
+    "README.md": "6c6a2351dd6f5bb05cc4a9c7822ef131d79ad9000a66279ca921586e746b20dd",
+    "pyproject.toml": "a7d692bed701252744cceaf22235caab39296c987ec5a7d6c71c928d785de561"
   },
-  "source_query": "topic:mcp-server language:python stars:>10"
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
 }

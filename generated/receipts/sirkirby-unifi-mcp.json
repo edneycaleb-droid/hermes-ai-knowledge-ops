@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/sirkirby/unifi-mcp",
+  "canonical_repository": "sirkirby/unifi-mcp",
+  "canonical_url": "https://github.com/sirkirby/unifi-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:39:13.206469Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b1fea537d66d7b7cd514ac5bf8c32d2f9c0086d49e4e7ce4c4e2f2778c0582b3",
+  "sampled_file_digests": {
+    "LICENSE": "d6d307380097e0db1ed43ce048ab9faef4c6ced4fc912ef52c4f25dbd200beda",
+    "README.md": "29441f07a2e7e811f3d1f309a96be59d05f63f52e2d073b1306260ad52dabb0a",
+    "pyproject.toml": "3a8452998e281bcb94b9793bf3724131065fa55a3f0c2a63b4319c1aada14a20"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

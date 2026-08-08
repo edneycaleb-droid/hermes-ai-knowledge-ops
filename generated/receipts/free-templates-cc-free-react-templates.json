@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Free-Templates-cc/free-react-templates",
+  "canonical_repository": "Free-Templates-cc/free-react-templates",
+  "canonical_url": "https://github.com/Free-Templates-cc/free-react-templates",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:30.285681Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b854286ab1a758c01b17e426935928f8dafbdf983f1a7d631d40695d4fc11be3",
+  "sampled_file_digests": {
+    "README.md": "9e5212abb68835bc5141f33a254f06cdbf3fa8079349830f21b7aade88620e8a",
+    "package.json": "398a4911b0e6d9e82af90c9b85e3f58b8dff9383d6181ab9d4fbbd0a3855ae61"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

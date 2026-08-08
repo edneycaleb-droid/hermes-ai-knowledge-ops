@@ -23,7 +23,7 @@
 - security: **8/10** — 0 critical, 0 high findings
 - interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **4/10** — 15 stars
+- adoption: **4/10** — 19 stars
 
 ## Static security review
 

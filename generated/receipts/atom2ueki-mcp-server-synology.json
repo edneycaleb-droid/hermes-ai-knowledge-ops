@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/atom2ueki/mcp-server-synology",
+  "canonical_repository": "atom2ueki/mcp-server-synology",
+  "canonical_url": "https://github.com/atom2ueki/mcp-server-synology",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:39:24.586937Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e32bd589fe9fa7c6c041e0eec4931e7b525af3b6437a1bc9c1ade5b4e491c143",
+  "sampled_file_digests": {
+    "Dockerfile": "abd665e3550d7d67698a843e3bf6852cb9d72e51567c1ce373417452204723fe",
+    "LICENSE": "e1e976e69c463fdb782b35c358a5104e8c74dab480079fe56870676f7c06954a",
+    "README.md": "41ba9208a53814a6117f08d479145768d62cde984d593c9ed78fbf66125020a7",
+    "docker-compose.yml": "27b1417ca58dc9789cea475a5e80e956a85a4adee859984019845e7cc1c94abe",
+    "pyproject.toml": "9f0dc5fc45e83ad4bb2e9ed53a1c94fc502527c45ec7af40a392318fc59bdccc",
+    "requirements.txt": "5b99c413d3e0df5179baf609f7590da96942131f3e8cdab11964a9f73a425640"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
