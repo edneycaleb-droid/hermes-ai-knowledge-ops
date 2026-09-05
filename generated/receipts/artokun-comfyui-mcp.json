@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/artokun/comfyui-mcp",
+  "canonical_repository": "artokun/comfyui-mcp",
+  "canonical_url": "https://github.com/artokun/comfyui-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:11.664715Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "13fddd9b31b27083c0ddee89659dfcd43c0961369c94c09a06fb8a6a86ef9a38",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4d2963e889db8f59c8ef2a064d555de71325fdbeb4341501565fef34fa9487b0",
+    "Dockerfile": "0f88cf3d3d66eeefdebd699f1891fa5c3da4774346cb8995b0d55189a8357062",
+    "LICENSE": "5110e81ef1f46c9a942c912ec517092ba9e5384c37891a9d70adefc37f17074a",
+    "README.md": "8e6d404115688793201c73bbd2b8477d09a232d3b70c6c78472cbd1ebbae8d9c",
+    "package.json": "0601bd93b97913d7a63988caab4ecf4b39757ef32edd014e197fbaf494849dae",
+    "server.json": "5add1cb14b13b2910acddfe24d2e1d23d36a6acac8618bbedccbbe76db91c92b"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

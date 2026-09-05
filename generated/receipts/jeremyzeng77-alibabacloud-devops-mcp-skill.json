@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/JeremyZeng77/alibabacloud-devops-mcp-skill",
+  "canonical_repository": "JeremyZeng77/alibabacloud-devops-mcp-skill",
+  "canonical_url": "https://github.com/JeremyZeng77/alibabacloud-devops-mcp-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:05.935180Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2512f5e97750ef6ba61d1e80941464ce0d91487804db44a03ab28d989cc18e30",
+  "sampled_file_digests": {
+    "README.md": "fbb7bcfa4d2cdb700f6082fef6f9fbe1f4e684ec08aa542d5994ba7ae8d1f3e7",
+    "mcp.json": "b7108ba3a86d064ad425c08db66487c4d8868526d01f5c4f4cfbe25dd6cccc18"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

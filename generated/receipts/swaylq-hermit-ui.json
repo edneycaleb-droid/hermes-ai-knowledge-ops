@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/swaylq/hermit-ui",
+  "canonical_repository": "swaylq/hermit-ui",
+  "canonical_url": "https://github.com/swaylq/hermit-ui",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:45:54.327123Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "975d50050afcc7c6f70b75e40ee751de1c3070aca7447c20364a966b49072da9",
+  "sampled_file_digests": {
+    "LICENSE": "c683f6e9444311e8230b36fa8f989ceb6a4a767fd0f56635a111bc2de8d9e5e3",
+    "README.md": "8154c4811f23b046bdd148e61b8ee0ca3a481ec6b728cb8ae87574a609ac32dc",
+    "package.json": "7a5b18ed473d3f1483a7b87a92dbd04514095d1d89c32c67efc9ed744f9fa881"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

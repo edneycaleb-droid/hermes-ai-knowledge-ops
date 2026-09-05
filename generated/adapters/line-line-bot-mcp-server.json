@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://badge.fury.io/js/%40line%2Fline-bot-mcp-server.svg",
+    "https://developers.line.biz/en/docs/basics/channel-access-token/#long-lived-channel-access-token",
+    "https://developers.line.biz/en/docs/messaging-api/getting-started/#create-oa",
+    "https://developers.line.biz/en/docs/messaging-api/getting-started/#using-oa-manager",
+    "https://developers.line.biz/en/docs/messaging-api/getting-user-ids/#get-own-user-id",
+    "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansJP-Bold.otf",
+    "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansJP-Regular.otf",
+    "https://github.com/line/line-bot-mcp-server",
+    "https://github.com/line/line-bot-mcp-server/issues",
+    "https://github.com/modelcontextprotocol",
+    "https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip",
+    "https://nodejs.org/en/about/releases/",
+    "https://www.apache.org/licenses/",
+    "https://www.apache.org/licenses/LICENSE-2.0",
+    "https://www.npmjs.com/package/@line/line-bot-mcp-server"
+  ],
+  "environment_variable_names": [
+    "CHANNEL_ACCESS_TOKEN",
+    "URL",
+    "YOUR_CHANNEL_ACCESS_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/line-line-bot-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "line/line-bot-mcp-server",
+  "source_url": "https://github.com/line/line-bot-mcp-server",
+  "status": "disabled_pending_review"
+}

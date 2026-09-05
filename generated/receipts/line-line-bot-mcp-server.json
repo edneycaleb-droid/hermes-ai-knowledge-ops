@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/line/line-bot-mcp-server",
+  "canonical_repository": "line/line-bot-mcp-server",
+  "canonical_url": "https://github.com/line/line-bot-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:42.523015Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "096544e67c6b6ed02958299d939b37c5ac950bf965f13920c5de6ced2175d5b3",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "214514d384c1419e38bbad496a57b8e7c9d4b80817a55737491a5745954e77c1",
+    "Dockerfile": "7c8b339b1a9ceae32523d088154580dc1624db236b2389842d596ba72bac71f2",
+    "LICENSE": "e8957be0f7220d7185692048492851666f7e1d5a4aebbd2d38d0b280a9cef3ea",
+    "README.md": "f773e70693fca70982802477e6870853a8e58066cd4fbf25227dfcf8b682df19",
+    "package.json": "daf34501cb87d6c31d9dc051ddd65f6fa0aaefb5df128653e2a9768cb8c99e3b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

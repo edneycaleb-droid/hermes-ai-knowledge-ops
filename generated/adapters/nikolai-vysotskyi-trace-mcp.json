@@ -1,0 +1,111 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+    "https://api.securityscorecards.dev/projects/github.com/nikolai-vysotskyi/trace-mcp/badge",
+    "https://api.star-history.com/svg?repos=nikolai-vysotskyi/trace-mcp&type=Date",
+    "https://api.star-history.com/svg?repos=nikolai-vysotskyi/trace-mcp&type=Date&theme=dark",
+    "https://cosmos.gl",
+    "https://developers.google.com/analytics/devguides/collection/protocol/ga4",
+    "https://github.com/kkdub/skill-scan",
+    "https://github.com/nikolai-vysotskyi",
+    "https://github.com/nikolai-vysotskyi/trace-mcp",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/actions/workflows/ci.yml",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/actions/workflows/ci.yml/badge.svg?branch=master",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/actions/workflows/codeql.yml",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/actions/workflows/codeql.yml/badge.svg",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/actions/workflows/semgrep.yml",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/actions/workflows/semgrep.yml/badge.svg",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/issues",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/pull/915",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/releases/latest",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/security",
+    "https://github.com/nikolai-vysotskyi/trace-mcp/security/dependabot",
+    "https://glama.ai/mcp/servers/nikolai-vysotskyi/trace-mcp",
+    "https://glama.ai/mcp/servers/nikolai-vysotskyi/trace-mcp/badges/score.svg",
+    "https://img.shields.io/badge/Dependabot-enabled-success",
+    "https://img.shields.io/badge/license-MIT-blue",
+    "https://img.shields.io/badge/security-policy-blue",
+    "https://img.shields.io/node/v/trace-mcp",
+    "https://img.shields.io/npm/v/trace-mcp",
+    "https://modelcontextprotocol.io",
+    "https://registry.npmjs.org",
+    "https://securityscorecards.dev/viewer/?uri=github.com/nikolai-vysotskyi/trace-mcp",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://trace-mcp.com",
+    "https://trace-mcp.com/",
+    "https://trace-mcp.com/analytics.html",
+    "https://trace-mcp.com/architecture.html",
+    "https://trace-mcp.com/comparisons.html",
+    "https://trace-mcp.com/configuration.html",
+    "https://trace-mcp.com/configuration.html#ai-configuration",
+    "https://trace-mcp.com/configuration.html#cli",
+    "https://trace-mcp.com/configuration.html#how-config-works"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "mcp.json": {
+      "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+      "mcpServers": {
+        "trace-mcp": {
+          "command": "trace-mcp",
+          "type": "stdio"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Code intelligence for agents: 81 languages, 87 frameworks, 177 tools, 90.6% fewer PR-review tokens",
+      "name": "io.github.nikolai-vysotskyi/trace-mcp",
+      "packages": [
+        {
+          "identifier": "trace-mcp",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "3.18.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/nikolai-vysotskyi/trace-mcp"
+      },
+      "version": "3.18.0",
+      "websiteUrl": "https://trace-mcp.com"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/nikolai-vysotskyi-trace-mcp.json",
+  "schema_version": 1,
+  "source_repository": "nikolai-vysotskyi/trace-mcp",
+  "source_url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+  "status": "disabled_pending_review"
+}

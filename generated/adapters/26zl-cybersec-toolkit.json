@@ -24,26 +24,35 @@
     ]
   },
   "documented_https_endpoints": [
-    "https://docs.astral.sh/uv/).",
-    "https://docs.claude.com/en/docs/claude-code/plugins)",
-    "https://docs.docker.com/engine/install/).",
+    "https://docs.astral.sh/uv/",
+    "https://docs.claude.com/en/docs/claude-code/plugins",
+    "https://docs.docker.com/engine/install/",
+    "https://github.com/26zl/cybersec-toolkit",
     "https://github.com/26zl/cybersec-toolkit.git",
-    "https://github.com/26zl/cybersec-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/ci.yml)",
-    "https://github.com/26zl/cybersec-toolkit/actions/workflows/integration.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/integration.yml)",
-    "https://github.com/26zl/cybersec-toolkit/actions/workflows/security.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/security.yml)",
-    "https://github.com/26zl/cybersec-toolkit/actions/workflows/uv-update.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/uv-update.yml)",
-    "https://github.com/SnailSploit/Claude-Red)",
-    "https://github.com/mark3labs/kit))",
-    "https://github.com/mukul975/Anthropic-Cybersecurity-Skills)",
-    "https://github.com/multica-ai/andrej-karpathy-skills)",
-    "https://github.com/settings/tokens)",
-    "https://github.com/shuvonsec/claude-bug-bounty)",
-    "https://github.com/trailofbits/skills)",
-    "https://github.com/transilienceai/communitytools)",
-    "https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)",
-    "https://img.shields.io/badge/status-under%20active%20development-blue)",
-    "https://modelcontextprotocol.io/)",
-    "https://wiki.debian.org/AptCacherNg)"
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/ci.yml",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/integration.yml",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/integration.yml/badge.svg",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/security.yml",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/security.yml/badge.svg",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/uv-update.yml",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/uv-update.yml/badge.svg",
+    "https://github.com/26zl/cybersec-toolkit/pkgs/container/cybersec-toolkit",
+    "https://github.com/26zl/cybersec-toolkit/releases",
+    "https://github.com/SnailSploit/Claude-Red",
+    "https://github.com/mark3labs/kit",
+    "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "https://github.com/multica-ai/andrej-karpathy-skills",
+    "https://github.com/settings/tokens",
+    "https://github.com/shuvonsec/claude-bug-bounty",
+    "https://github.com/trailofbits/skills",
+    "https://github.com/transilienceai/communitytools",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/ghcr.io-cybersec--toolkit-2496ED?logo=docker&logoColor=white",
+    "https://img.shields.io/badge/status-under%20active%20development-blue",
+    "https://modelcontextprotocol.io/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://wiki.debian.org/AptCacherNg"
   ],
   "environment_variable_names": [
     "GITHUB_TOKEN",
@@ -77,6 +86,82 @@
           }
         }
       }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Authorization-gated MCP server to discover and run 670+ security tools for CTF, pentest, and DFIR.",
+      "name": "io.github.26zl/cybersec-toolkit",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "default": "0",
+              "description": "Set to 1 only for explicitly authorized external scopes.",
+              "name": "CYBERSEC_MCP_ALLOW_EXTERNAL"
+            },
+            {
+              "default": "0",
+              "description": "Set to 1 to enable unsandboxed run_script execution.",
+              "name": "CYBERSEC_MCP_ALLOW_SCRIPTS"
+            }
+          ],
+          "identifier": "ghcr.io/26zl/cybersec-toolkit:1.1.1",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "run"
+            },
+            {
+              "type": "positional",
+              "value": "--directory"
+            },
+            {
+              "type": "positional",
+              "value": "mcp_server"
+            },
+            {
+              "type": "positional",
+              "value": "fastmcp"
+            },
+            {
+              "type": "positional",
+              "value": "run"
+            },
+            {
+              "type": "positional",
+              "value": "server.py"
+            },
+            {
+              "type": "positional",
+              "value": "--transport"
+            },
+            {
+              "type": "positional",
+              "value": "stdio"
+            },
+            {
+              "type": "positional",
+              "value": "--no-banner"
+            }
+          ],
+          "registryType": "oci",
+          "runtimeArguments": [
+            {
+              "name": "--entrypoint",
+              "type": "named",
+              "value": "uv"
+            }
+          ],
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/26zl/cybersec-toolkit"
+      },
+      "version": "1.1.1"
     }
   },
   "project": "hermes",

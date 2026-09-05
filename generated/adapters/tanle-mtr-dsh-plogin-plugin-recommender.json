@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://billliao.github.io/awesome-dsh-plugin",
+    "https://github.com/0xsline/awesome-deepseek-harness",
+    "https://github.com/1692775560/dsh-Mimir-Academic-research",
+    "https://github.com/777-Zen/dsh-capability-index",
+    "https://github.com/AdamPlatin123/dsh-plugin-radar",
+    "https://github.com/Alex-Yanggg/awesome-DSH-plugin",
+    "https://github.com/Alisa0808/vox-director",
+    "https://github.com/Anil-matcha/awesome-dsh-plugin",
+    "https://github.com/Anionex/dsh-vision-toolkit",
+    "https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia",
+    "https://github.com/Clarklevis1995/dsh-mobile",
+    "https://github.com/DCspirit-23/DSH-inspired-Code-Simplification-Skill",
+    "https://github.com/Devin-AXIS/deepseek-design",
+    "https://github.com/Devin-AXIS/iPolloWork",
+    "https://github.com/Dominic789654/awesome-deepseek-harness",
+    "https://github.com/EverMind-AI/EverOS",
+    "https://github.com/EverMind-AI/SkillCorpus",
+    "https://github.com/FTShare-Lab/dsh_kline",
+    "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+    "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+    "https://github.com/FlashingChen/dsh-desktop-hub",
+    "https://github.com/GCWing/BitFun",
+    "https://github.com/GordenSun/awesome-dsh-plugins",
+    "https://github.com/GraySilver/dsh-evolve-modes",
+    "https://github.com/Han-1413141/dsh-cost-meter",
+    "https://github.com/Herdeny/awesome-dsh-plugins-2026",
+    "https://github.com/JNLXG/awesome-dsh-plugins",
+    "https://github.com/Jesseovo/last30days-skill-cn",
+    "https://github.com/JingHao-Leon/dsh-alpha-desk",
+    "https://github.com/LaplaceYoung/dsh-directorx",
+    "https://github.com/LayneChai/superpowers-dsh",
+    "https://github.com/Lyn-77/ProMentor",
+    "https://github.com/MJorgin/dsh-media-skills",
+    "https://github.com/Max-Samson/dsh-usage-chart",
+    "https://github.com/MemTensor/MemOS",
+    "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+    "https://github.com/MiaoQichuan/new-litigation-visualization",
+    "https://github.com/MichengAI/dsh-skills-manager",
+    "https://github.com/Minglink/dsh-infinite-gen-3",
+    "https://github.com/Molunerfinn/PicGo"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/tanle-mtr-dsh-plogin-plugin-recommender.json",
+  "schema_version": 1,
+  "source_repository": "tanle-mtr/dsh-plogin-plugin-recommender",
+  "source_url": "https://github.com/tanle-mtr/dsh-plogin-plugin-recommender",
+  "status": "disabled_pending_review"
+}

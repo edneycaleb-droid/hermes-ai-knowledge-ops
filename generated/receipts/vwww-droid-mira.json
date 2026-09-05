@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/vwww-droid/Mira",
+  "canonical_repository": "vwww-droid/Mira",
+  "canonical_url": "https://github.com/vwww-droid/Mira",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:28.624071Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d9c7a224b65eb3b8708cb0329b59d0d3f5072ab1075a3a405c010d587bfb79e9",
+  "sampled_file_digests": {
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "d4227a70336183efb84b02de5d88131a2aafba87e5baca7395eb1c617c795b25",
+    "pyproject.toml": "0f639c1fdb785f437f3d6951a8e301b7129305647c014f82a36175ccb72c027c"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

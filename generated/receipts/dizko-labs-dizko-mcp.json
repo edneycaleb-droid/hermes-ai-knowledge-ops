@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/Dizko-Labs/dizko-mcp",
+  "canonical_repository": "Dizko-Labs/dizko-mcp",
+  "canonical_url": "https://github.com/Dizko-Labs/dizko-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:08.907999Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b3829f96c2d2f99ab95e45b901788eae9be28f6f92d743e85beb184cf5bfc631",
+  "sampled_file_digests": {
+    "Dockerfile": "e3d9cbe7348d4d6335673f66590063dfafd46dcf8a42b4797a2138820b98ff03",
+    "LICENSE": "4bc322eed9b260e81217e4f543019a7b1649bc52652c4c5ec23839708f3e17aa",
+    "README.md": "3dcd7e3b0899bca45ff65d941076117331e6ac0c2e7e7a7f207413dd219db94f",
+    "package.json": "41fd3816abe5435541502874310143c93584c6294c4f28c16ea442ff3d8619be",
+    "server.json": "183826b072222763538c880078f935ad55ea31cd1c434711137a5c4fb322007e"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,91 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://derivative.ca/",
+    "https://docs.anthropic.com/en/docs/claude-code",
+    "https://dylanroscover.github.io/Embody/",
+    "https://dylanroscover.github.io/Embody/changelog/",
+    "https://dylanroscover.github.io/Embody/convoy/",
+    "https://dylanroscover.github.io/Embody/embody/",
+    "https://dylanroscover.github.io/Embody/embody/auto-update/",
+    "https://dylanroscover.github.io/Embody/embody/getting-started/",
+    "https://dylanroscover.github.io/Embody/embody/keyboard-shortcuts/",
+    "https://dylanroscover.github.io/Embody/embody/python-environment/",
+    "https://dylanroscover.github.io/Embody/embody/setup-wizard/",
+    "https://dylanroscover.github.io/Embody/embody/troubleshooting/",
+    "https://dylanroscover.github.io/Embody/envoy/",
+    "https://dylanroscover.github.io/Embody/envoy/local-models/",
+    "https://dylanroscover.github.io/Embody/envoy/tools-reference/",
+    "https://dylanroscover.github.io/Embody/manifesto/",
+    "https://dylanroscover.github.io/Embody/tdxn/",
+    "https://dylanroscover.github.io/Embody/tdxn/specification/",
+    "https://dylanroscover.github.io/Embody/testing/",
+    "https://embody.tools",
+    "https://github.com/dylanroscover/Embody",
+    "https://github.com/dylanroscover/Embody/releases",
+    "https://github.com/dylanroscover/Embody/releases/latest",
+    "https://github.com/dylanroscover/Embody/stargazers",
+    "https://github.com/features/copilot",
+    "https://github.com/franklin113/",
+    "https://github.com/franklin113/External-Tox-Saver",
+    "https://github.com/google-gemini/gemini-cli",
+    "https://github.com/openai/codex",
+    "https://img.shields.io/badge/MCP_tools-65-6ee668?style=flat-square&labelColor=181e1e",
+    "https://img.shields.io/badge/TouchDesigner-2025-6ee668?style=flat-square&labelColor=181e1e",
+    "https://img.shields.io/badge/license-MIT-6ee668?style=flat-square&labelColor=181e1e",
+    "https://img.shields.io/badge/version-6.2.13-6ee668?style=flat-square&labelColor=181e1e",
+    "https://img.shields.io/github/downloads/dylanroscover/Embody/total?style=flat-square&labelColor=181e1e&color=6ee668",
+    "https://img.shields.io/github/stars/dylanroscover/Embody?style=flat-square&labelColor=181e1e&color=6ee668",
+    "https://modelcontextprotocol.io/",
+    "https://opencode.ai/",
+    "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "https://windsurf.com/",
+    "https://www.cursor.com/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "description": "62-tool MCP server that lets AI assistants create operators, set parameters, wire connections, and manage externalizations in a live TouchDesigner session. Automates TouchDesigner externalization for version control.",
+      "name": "io.github.dylanroscover/embody",
+      "packages": [],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/dylanroscover/Embody"
+      },
+      "title": "Embody - MCP Server for TouchDesigner",
+      "version": "1.4.0"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/dylanroscover-embody.json",
+  "schema_version": 1,
+  "source_repository": "dylanroscover/Embody",
+  "source_url": "https://github.com/dylanroscover/Embody",
+  "status": "disabled_pending_review"
+}

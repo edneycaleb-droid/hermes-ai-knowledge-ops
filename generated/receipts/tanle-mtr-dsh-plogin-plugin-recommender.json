@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/tanle-mtr/dsh-plogin-plugin-recommender",
+  "canonical_repository": "tanle-mtr/dsh-plogin-plugin-recommender",
+  "canonical_url": "https://github.com/tanle-mtr/dsh-plogin-plugin-recommender",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:03.433337Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0015cbc36fb7c1e14d5cf262a52abdf3b9b05a42fc85c6020492202bcb6888c1",
+  "sampled_file_digests": {
+    "LICENSE": "8e6a369c18d9fbeebd702d78f4640f0d8621ee68d010fdfb6f09e53ec8307d35",
+    "README.md": "1ea67e3e8d725ffab671fc484dc7f5775cc4916c689c34e94a2d1b655ee0bdc1",
+    "package.json": "1031afb31c0e227cc3922f17f9ebae0bef3a21d98bd4896d84b36bfea9571eb4"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}
