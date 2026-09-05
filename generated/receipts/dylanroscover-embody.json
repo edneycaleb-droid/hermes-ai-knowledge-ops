@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/dylanroscover/Embody",
+  "canonical_repository": "dylanroscover/Embody",
+  "canonical_url": "https://github.com/dylanroscover/Embody",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:25.819572Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0c30f33068d5166deca693980fe6b3657198cbbb25ce233cd04c235be3b67b87",
+  "sampled_file_digests": {
+    "LICENSE": "a206cbad062398455ca3258a5c7b570a7c84dcb43daee48ebfe809cb66c07bcc",
+    "README.md": "9d68272b5be4389c90f17762bfd58622e47dd7918477318c35e8d723a5b5daf5",
+    "server.json": "6b2ae91079d2cb38a5a38fa3a1738913b4453d40b42edb133b59e02d47e7a855"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

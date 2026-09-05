@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/kliewerdaniel/sovereign-agent-stack",
+  "canonical_repository": "kliewerdaniel/sovereign-agent-stack",
+  "canonical_url": "https://github.com/kliewerdaniel/sovereign-agent-stack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:00.394085Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0ed3502bc348e6d5cac4755f3be887e26c14fe7a784b9b75ef4b29603ce2caa6",
+  "sampled_file_digests": {
+    "LICENSE": "4828562929b80035e91d2dd30b211b8dc5f7ce45fd455c35c1e918bf1aa9bc6f",
+    "README.md": "b518bb900a8ea54b9607c015ee816ebbd15b32a6730e6e5fc67f1f4b5d73c3aa",
+    "pyproject.toml": "0a3fe10877fb6b02519496ac8f8ee20bf59bdd12047b9dc1c8c5c68097972d61"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/joecastelino/jay-skill-pack",
+  "canonical_repository": "joecastelino/jay-skill-pack",
+  "canonical_url": "https://github.com/joecastelino/jay-skill-pack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:45:48.692173Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b4fc416cd73595ac758cc0ac3ed991881a3b89752afd9388ed3855b3bf236590",
+  "sampled_file_digests": {
+    "README.md": "645cd1ea18e69382b0fbc9ed597e6659b5d47252919177d0173aaf0070218e0c"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

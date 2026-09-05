@@ -1,0 +1,91 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://claude.ai",
+    "https://crewai.com",
+    "https://cursor.sh",
+    "https://deepwiki.com/badge.svg",
+    "https://deepwiki.com/doobidoo/mcp-memory-service",
+    "https://download.pytorch.org/whl/cpu",
+    "https://drive.google.com/file/d/1NJDLetJ5CE7Jiek9OtyXCrt-zm768YB6/view",
+    "https://github.com/MemPalace/mempalace",
+    "https://github.com/MemPalace/mempalace/issues/27",
+    "https://github.com/PL-Peter",
+    "https://github.com/doobidoo/mcp-memory-service",
+    "https://github.com/doobidoo/mcp-memory-service#readme",
+    "https://github.com/doobidoo/mcp-memory-service.git",
+    "https://github.com/doobidoo/mcp-memory-service/issues",
+    "https://github.com/doobidoo/mcp-memory-service/releases",
+    "https://github.com/doobidoo/mcp-memory-service/wiki",
+    "https://github.com/doobidoo/mcp-memory-service/wiki/Claude-AI-Remote-MCP-Integration",
+    "https://github.com/doobidoo/mcp-memory-service/wiki/Web-Dashboard-Guide",
+    "https://github.com/jeremykoerber",
+    "https://github.com/langchain-ai/langgraph",
+    "https://github.com/loglux/authmcp-gateway",
+    "https://github.com/microsoft/autogen",
+    "https://github.com/sigbit/mcp-auth-proxy",
+    "https://github.com/snap-research/locomo",
+    "https://github.com/varun29ankuS/shodh-memory",
+    "https://github.com/varun29ankuS/shodh-memory/blob/main/specs/openapi.yaml",
+    "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned",
+    "https://img.shields.io/badge/Auth-OAuth%202.0%20%2B%20DCR-green",
+    "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+    "https://img.shields.io/badge/MCP-Remote%20Support-blue?logo=anthropic",
+    "https://img.shields.io/badge/Website-mcpmemory.services-00e5ff?logo=cloudflare&logoColor=white",
+    "https://img.shields.io/badge/Works%20with-AutoGen-purple",
+    "https://img.shields.io/badge/Works%20with-Claude-blue",
+    "https://img.shields.io/badge/Works%20with-CrewAI-orange",
+    "https://img.shields.io/badge/Works%20with-Cursor-orange",
+    "https://img.shields.io/badge/Works%20with-LangGraph-green",
+    "https://img.shields.io/badge/claude.ai-Browser%20Compatible-orange?logo=anthropic",
+    "https://img.shields.io/github/stars/doobidoo/mcp-memory-service?logo=github&label=stars",
+    "https://img.shields.io/pypi/pyversions/mcp-memory-service?logo=python&logoColor=white",
+    "https://img.shields.io/pypi/v/mcp-memory-service?color=blue&logo=pypi&logoColor=white"
+  ],
+  "environment_variable_names": [
+    "BASE_URL",
+    "MCP_API_KEY",
+    "MCP_DCR_REGISTRATION_KEY",
+    "MCP_HTTP_HOST",
+    "MCP_OAUTH_ACCESS_TOKEN_EXPIRE_MINUTES",
+    "MCP_OAUTH_REFRESH_TOKEN_EXPIRE_DAYS",
+    "MCP_QUALITY_AI_API_KEY",
+    "MCP_QUALITY_AI_BASE_URL",
+    "MCP_SSE_HOST",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/doobidoo-mcp-memory-service.json",
+  "schema_version": 1,
+  "source_repository": "doobidoo/mcp-memory-service",
+  "source_url": "https://github.com/doobidoo/mcp-memory-service",
+  "status": "disabled_pending_review"
+}

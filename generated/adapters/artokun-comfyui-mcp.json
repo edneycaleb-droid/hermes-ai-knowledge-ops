@@ -1,0 +1,124 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://abcd1234-3000.proxy.runpod.net",
+    "https://antigravity.google",
+    "https://cloud.comfy.org",
+    "https://comfy.example.com:8443",
+    "https://comfyui-mcp.artokun.io/docs",
+    "https://comfyui-mcp.artokun.io/docs/arena",
+    "https://comfyui-mcp.artokun.io/docs/backends",
+    "https://comfyui-mcp.artokun.io/docs/local-llms",
+    "https://comfyui-mcp.artokun.io/docs/local-vs-comfy-cloud",
+    "https://comfyui-mcp.artokun.io/docs/panel",
+    "https://comfyui-mcp.artokun.io/docs/plugin",
+    "https://comfyui-mcp.artokun.io/docs/remote-connector",
+    "https://console.runpod.io/deploy?template=bnqtkvcer3&ref=dkx71w9b",
+    "https://discord.gg/cW9arBhzCu",
+    "https://docs.comfy.org/agent-tools",
+    "https://docs.comfy.org/comfy-cli/getting-started#install-cli",
+    "https://dstack.ai",
+    "https://gateway.example.com/comfyapi",
+    "https://github.com/Comfy-Org/ComfyUI/pull/12550",
+    "https://github.com/Comfy-Org/ComfyUI/pull/12683",
+    "https://github.com/Comfy-Org/ComfyUI/pulls?q=is%3Apr+author%3Aartokun",
+    "https://github.com/Comfy-Org/ComfyUI_frontend/pulls?q=is%3Apr+author%3Aartokun",
+    "https://github.com/artokun",
+    "https://github.com/artokun/comfyui-mcp",
+    "https://github.com/artokun/comfyui-mcp-panel",
+    "https://github.com/artokun/comfyui-mcp.git",
+    "https://github.com/cloudflare/cloudflared",
+    "https://github.com/comfyanonymous/ComfyUI",
+    "https://glama.ai",
+    "https://glama.ai/mcp/servers/artokun/comfyui-mcp",
+    "https://glama.ai/mcp/servers/artokun/comfyui-mcp/badges/card.svg",
+    "https://glama.ai/mcp/servers/artokun/comfyui-mcp/badges/score.svg",
+    "https://host/comfyapi",
+    "https://img.shields.io/badge/Deploy_on-RunPod-673AB7?style=for-the-badge",
+    "https://img.shields.io/badge/Discord-Join_%26_get_help-5865F2?style=for-the-badge&logo=discord&logoColor=white",
+    "https://img.shields.io/badge/docs-comfyui--mcp.artokun.io-2563EB?logo=readthedocs&logoColor=white",
+    "https://img.shields.io/badge/node-%3E%3D22.0.0-brightgreen",
+    "https://img.shields.io/npm/l/comfyui-mcp",
+    "https://img.shields.io/npm/v/comfyui-mcp",
+    "https://modelcontextprotocol.io"
+  ],
+  "environment_variable_names": [
+    "CIVITAI_API_TOKEN",
+    "CLOUD_UNSUPPORTED",
+    "COMFYUI_API_KEY",
+    "COMFYUI_AUTH_TOKEN",
+    "COMFYUI_CLOUD_URL",
+    "COMFYUI_HOST",
+    "COMFYUI_MCP_BRIDGE_HOST",
+    "COMFYUI_MCP_BRIDGE_TOKEN",
+    "COMFYUI_MCP_HTTP_TOKEN",
+    "COMFYUI_PORT",
+    "COMFYUI_URL",
+    "GITHUB_TOKEN",
+    "HUGGINGFACE_TOKEN",
+    "MCP_HOST",
+    "MCP_PORT",
+    "MCP_TRANSPORT",
+    "PORT",
+    "REGISTRY_ACCESS_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "description": "MCP server + Claude Code plugin for ComfyUI: run workflows, generate images, manage models & VRAM.",
+      "name": "io.github.artokun/comfyui-mcp",
+      "packages": [
+        {
+          "identifier": "comfyui-mcp",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.51.57"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/artokun/comfyui-mcp"
+      },
+      "version": "0.51.57"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/artokun-comfyui-mcp.json",
+  "schema_version": 1,
+  "source_repository": "artokun/comfyui-mcp",
+  "source_url": "https://github.com/artokun/comfyui-mcp",
+  "status": "disabled_pending_review"
+}

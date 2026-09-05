@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/googleworkspace/cli",
+  "canonical_repository": "googleworkspace/cli",
+  "canonical_url": "https://github.com/googleworkspace/cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:48.514772Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d5367d4e5822737ea693faabbfc02dc21b466cecdaabbc96f00f18e7d0db6931",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8b0fec6b33f838fc5b1292cbe41610b6157543c18d290ac70c0bf923aef790d1",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "499ff9600cc36f6c547e16ef5b56e7baee05afa35240c010b8873441928a39aa",
+    "package.json": "1039693ca485540a2377b0a951732478f3af6b902df21ce3e2f5dffceeff3325"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

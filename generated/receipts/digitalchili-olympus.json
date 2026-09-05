@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/digitalchili/olympus",
+  "canonical_repository": "digitalchili/olympus",
+  "canonical_url": "https://github.com/digitalchili/olympus",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:45:51.584942Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "907fc189b3af2ea10b841938e61a2480fe6855b4b1283f7e9bdbb606c2d2db15",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "399bdb28c991da276007e4ea9b0e26a8971ad45120f2e25dfc861b7f34950685",
+    "Dockerfile": "718ea1609c3f4b1b026fcc4962a99ddb581314a5a28b6a7a4f191d1ef456ea10",
+    "LICENSE": "98c11fa4800d30b4a00ab1285111a46ba38bda674fbd50789a4f619619835fb7",
+    "README.md": "b45dfa9407a1fe686892d787d7dfbba135136de1d5ba92e8c134814b2fa9c413",
+    "docker-compose.yml": "a42f48337a5214d5ae392079f0d177e29a63a8aed5e09a1e422e23f95a814b08",
+    "package.json": "60a96249ffa7925e189704f9f8607e5eb26af23829c663c05d3f6bd5cb77a8e1"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

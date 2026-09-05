@@ -1,14 +1,14 @@
-# Integration proposal: netresearch/skill-repo-skill
+# Integration proposal: artokun/comfyui-mcp
 
 ## Decision
 
-**REVIEW** — quality 74/100; bounded learning adjustment +0.
+**REVIEW** — quality 85/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/netresearch/skill-repo-skill
-- Categories: agent, plugin, skill, workflow
-- License: NOASSERTION
+- Repository: https://github.com/artokun/comfyui-mcp
+- Categories: agent, api, mcp_server, memory, plugin, skill, tool, workflow
+- License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 9229
-- license: **4/10** — SPDX NOASSERTION
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
-- interoperability: **5/10** — Compatibility target matches
+- documentation: **10/10** — README length 53382
+- license: **10/10** — SPDX MIT
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **3/10** — 0 critical, 1 high findings
+- interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **4/10** — 18 stars
+- adoption: **8/10** — 725 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/netresearch-skill-repo-skill.json`.
+A disabled metadata adapter was generated at `generated/adapters/artokun-comfyui-mcp.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

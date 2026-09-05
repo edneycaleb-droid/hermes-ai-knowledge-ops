@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/TensorBlock/awesome-mcp-servers",
+  "canonical_repository": "TensorBlock/awesome-mcp-servers",
+  "canonical_url": "https://github.com/TensorBlock/awesome-mcp-servers",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T16:46:34.525329Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1766f4c80f12e370b427d12ab9d72b1ce9d6b7c26f323ca635522e119422a027",
+  "sampled_file_digests": {
+    "LICENSE": "14b8c4589cf5d0d2d831c92b104daf6457869c39cb25a899adc7412413135867",
+    "README.md": "f060c62dd1abdea69765c2b0c2787cc6bb4d90ea99a1a02e8d3c2f06f4825a05",
+    "package.json": "102d1ed4c4e814aa1f4225d9de8dcab65e5819d040760c9d24cb4db59e451471"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
