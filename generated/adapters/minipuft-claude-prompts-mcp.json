@@ -1,0 +1,114 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+    "https://github.com/minipuft/claude-prompts-mcp",
+    "https://github.com/minipuft/claude-prompts-mcp.git",
+    "https://github.com/minipuft/claude-prompts-mcp/releases/latest",
+    "https://github.com/minipuft/codex-prompts",
+    "https://github.com/minipuft/codex-prompts#requirements",
+    "https://github.com/minipuft/gemini-prompts",
+    "https://github.com/minipuft/minipuft-plugins.git",
+    "https://github.com/minipuft/opencode-prompts",
+    "https://img.shields.io/badge/Claude_Code-Set_up_plugin-D97757?style=flat-square&amp;logo=anthropic&amp;logoColor=white&amp;labelColor=111715",
+    "https://img.shields.io/badge/Codex-Set_up_experimental-2A8F83?style=flat-square&amp;logo=openai&amp;logoColor=white&amp;labelColor=111715",
+    "https://img.shields.io/badge/License-MIT-555E5A.svg?style=flat-square&amp;labelColor=111715",
+    "https://img.shields.io/npm/v/claude-prompts.svg?style=flat-square&amp;logo=npm&amp;logoColor=white&amp;labelColor=111715&amp;color=2A8F83",
+    "https://opensource.org/licenses/MIT",
+    "https://registry.npmjs.org",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.npmjs.com/package/claude-prompts"
+  ],
+  "environment_variable_names": [
+    "IMPORTANT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "claude-prompts": {
+          "args": [
+            "${CLAUDE_PLUGIN_ROOT}/server/dist/index.js",
+            "--transport=stdio"
+          ],
+          "command": "node",
+          "env": {
+            "MCP_WORKSPACE": "${CLAUDE_PLUGIN_ROOT}"
+          }
+        }
+      }
+    },
+    "mcp.json": {
+      "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+      "mcpServers": {
+        "claude-prompts": {
+          "args": [
+            "${PLUGIN_ROOT}/server/dist/index.js",
+            "--transport=stdio"
+          ],
+          "command": "node",
+          "env": {
+            "MCP_RUNTIME_ROOT": "${PLUGIN_DATA}",
+            "MCP_WORKSPACE": "${PLUGIN_ROOT}"
+          },
+          "type": "stdio"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Reusable prompt templates, multi-step workflow chains, and quality gates for any MCP client.",
+      "name": "io.github.minipuft/claude-prompts-mcp",
+      "packages": [
+        {
+          "identifier": "claude-prompts",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "4.0.1"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/minipuft/claude-prompts-mcp"
+      },
+      "version": "4.0.1"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/minipuft-claude-prompts-mcp.json",
+  "schema_version": 1,
+  "source_repository": "minipuft/claude-prompts-mcp",
+  "source_url": "https://github.com/minipuft/claude-prompts-mcp",
+  "status": "disabled_pending_review"
+}

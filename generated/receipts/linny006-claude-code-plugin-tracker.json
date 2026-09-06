@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/claude-code-plugin-tracker",
+  "canonical_repository": "linny006/claude-code-plugin-tracker",
+  "canonical_url": "https://github.com/linny006/claude-code-plugin-tracker",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:00.685068Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f8bcb47afb00e9f8a46a4fb3715c6ccf4b24ccb13ad5dd152e709863bf528b37",
+  "sampled_file_digests": {
+    "README.md": "a87e979f6ab49e0480f58086d5c133a1797ff3269e34ea2a73da46975a1b7617",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

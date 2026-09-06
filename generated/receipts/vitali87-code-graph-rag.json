@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/vitali87/code-graph-rag",
+  "canonical_repository": "vitali87/code-graph-rag",
+  "canonical_url": "https://github.com/vitali87/code-graph-rag",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:02.768501Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "66c08269c13f57cef54b02ca9465a77d92a33476f9c241c8b08b694705997344",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "dd871790936a453c9fd1d4b879075c72fabdf939eb0552ecb40450b4edde2c56",
+    "Dockerfile": "e460d45f2e8ff72d61c59a70cfb2e9c0336515292596076b756115100eee427b",
+    "LICENSE": "b0c4bc8ac9df66d9d0a9d204af48b5cba2e7d469c2ff6ab51512de5e31319963",
+    "README.md": "cdc2f2ca7f95bff15b5645355dfc78f01ac9e44b32915a2982bde2f7302e3760",
+    "pyproject.toml": "b2fd9d382cff5c807525043b6b9ec9f511a9ae54bb2af51c2a3d0fcdf3e27e63",
+    "server.json": "cc2ef3b089931f34ed3a2b81b1b88b20a70798058a7b06537b6b4348cdaace07"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

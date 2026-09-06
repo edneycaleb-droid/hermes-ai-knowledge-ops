@@ -5,13 +5,14 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:13:01.028892Z",
+  "fetched_at": "2026-09-06T21:40:31.038158Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "a4d5bfe4a0c5d56bf1126d058e0db3b41486c35d73f0a2027ea237be7efe5656",
+  "metadata_digest": "e8697cf3ceafc5709362f1ef0200774619e749ac49fab4df349b1304b3eabd82",
   "sampled_file_digests": {
     "LICENSE": "22401c14e67fc2f4b5bc4987a5ee367e52e833066901b94ad798d46eaf7917f8",
-    "README.md": "d5051090ed595440182777b9b14a8f66dd20273cc5e9757e71e79c3389a9cd65",
-    "requirements.txt": "3c3e1f5b822d486f432eb9ad9d84d4ef40ad8128c2ea2e071ca68b0a311434d5"
+    "README.md": "216a54dee35019d6a425ef456c19275601ceedb7e9716b37a30a56940ef8140c",
+    "pyproject.toml": "03ffc62bbc68c7b495d653ee1b654cb83b72f00de9065c7c39aba660b523e537",
+    "requirements.txt": "82b8fb9b7042a8bab4a510399ebe60c877843e2391a2a121baa6f4619c38607c"
   },
   "source_query": "\"agent skill\" topic:ai-agent stars:>10"
 }

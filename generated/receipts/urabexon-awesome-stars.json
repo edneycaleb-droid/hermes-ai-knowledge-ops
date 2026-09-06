@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/urabexon/awesome-stars",
+  "canonical_repository": "urabexon/awesome-stars",
+  "canonical_url": "https://github.com/urabexon/awesome-stars",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:57.224494Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "de4cc07f0c0319eb603837d018d6f5dc344f6e30977a5afef2f95d2b0621f681",
+  "sampled_file_digests": {
+    "README.md": "723c38f656f53f7ee39ddb4e65facc92d7e614ed11ee8b5d87e78a41f666b42e"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

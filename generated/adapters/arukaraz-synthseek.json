@@ -1,0 +1,85 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.docker.com/compose/install/",
+    "https://docs.docker.com/get-docker/",
+    "https://docs.synthseek.dev",
+    "https://docs.synthseek.dev/ai-assistants/",
+    "https://docs.synthseek.dev/configuration/",
+    "https://docs.synthseek.dev/download-engine/",
+    "https://docs.synthseek.dev/download-sources/",
+    "https://docs.synthseek.dev/faq/",
+    "https://docs.synthseek.dev/features/",
+    "https://docs.synthseek.dev/getting-started/",
+    "https://docs.synthseek.dev/integrations/",
+    "https://docs.synthseek.dev/operations/",
+    "https://docs.synthseek.dev/overview/",
+    "https://docs.synthseek.dev/patch-notes/",
+    "https://docs.synthseek.dev/users-permissions/",
+    "https://github.com/arukaraz",
+    "https://github.com/arukaraz/synthseek.git",
+    "https://github.com/arukaraz/synthseek/issues",
+    "https://github.com/slskd/slskd",
+    "https://github.com/sponsors/arukaraz",
+    "https://github.com/user-attachments/assets/4a320ff1-4176-4860-8125-b6fb3325c6a2",
+    "https://github.com/user-attachments/assets/50c3988e-7ec1-41dc-9a9e-a8407043b552",
+    "https://github.com/user-attachments/assets/7ebcecba-680d-4ca9-9a66-c8a760df7a57",
+    "https://github.com/user-attachments/assets/80186e94-e060-4dd7-85d4-df7a594206e9",
+    "https://img.shields.io/badge/Sponsor_",
+    "https://img.shields.io/codecov/c/github/arukaraz/synthseek",
+    "https://img.shields.io/github/last-commit/arukaraz/synthseek",
+    "https://img.shields.io/github/license/arukaraz/synthseek",
+    "https://img.shields.io/github/sponsors/arukaraz",
+    "https://img.shields.io/github/stars/arukaraz/synthseek",
+    "https://ko-fi.com/arukaraz",
+    "https://ko-fi.com/img/githubbutton_sm.svg",
+    "https://synthseek.dev",
+    "https://synthseek.yourdomain.com"
+  ],
+  "environment_variable_names": [
+    "ACOUSTID_API_KEY",
+    "API_HOST",
+    "AUTH_SECRET",
+    "DATABASE_URL",
+    "ENABLE_BEETS_IMPORT",
+    "FANART_API_KEY",
+    "HOSTNAME",
+    "LASTFM_API_KEY",
+    "PLEX_TOKEN",
+    "PLEX_URL",
+    "PUBLIC_BASE_URL",
+    "SLSKD_API_KEY",
+    "SLSKD_API_URL",
+    "URL",
+    "WEB_UI_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/arukaraz-synthseek.json",
+  "schema_version": 1,
+  "source_repository": "arukaraz/synthseek",
+  "source_url": "https://github.com/arukaraz/synthseek",
+  "status": "disabled_pending_review"
+}

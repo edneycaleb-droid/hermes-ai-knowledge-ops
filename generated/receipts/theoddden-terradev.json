@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/theoddden/Terradev",
+  "canonical_repository": "theoddden/Terradev",
+  "canonical_url": "https://github.com/theoddden/Terradev",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:10.136179Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f83d662a7743fd2386c8032ef860062b074c472c84797d1d17b7d1a0a3296706",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c9c5bc4c4a1e606fa3393c9bf8b1c4b577c6bc91cd15de9b73680fa48acfe6fb",
+    "Dockerfile": "88d7bed87868d8becbc8368b3cc6dcc9d6dc04cafa8fcd286e350b33e2a537c9",
+    "LICENSE": "d27ee31f0ceaff7bd70651166959ddf5c0cdfb3be9c353ffccaff04fba75ad7c",
+    "README.md": "677c60eae897758b150f327389e648238f4bd3a2baff85ab5758c8ac4a1a9f37",
+    "pyproject.toml": "77fd5b3fca5e1e7017cfa8c4f3878d154d636291185869e5fb744e534f4714e5",
+    "server.json": "bac5a281673485a8f0748e38a1c11a3f1ce26d94416c5a7fac25345fd9e7275e"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/ZhaoXingPeng/DBJavaGenix",
+  "canonical_repository": "ZhaoXingPeng/DBJavaGenix",
+  "canonical_url": "https://github.com/ZhaoXingPeng/DBJavaGenix",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:04.592449Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "92079f2a2563e92acb70153ad27c1703ff4d66b67475faa1d9c07d9a60bbf31d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "91d2e8e24d814a28db204b066a0c74227d6dd1204ca226fe2b9e8c0f61d948f2",
+    "Dockerfile": "1c51b56e2aa95cb2655ba5b965c455cd9b99a22ea04ab0e2a322857e054d6337",
+    "LICENSE": "bff7d05cb6336d1a1747fc71a65ea53c9ba1c265dbebb92a438672c15f973ca4",
+    "README.md": "0752b9820c8604dceb4cc7bb3baf2f57ed34e5f1c9f61ee08ef11bfd1bf0a9ef",
+    "docker-compose.yml": "e011b3df6da21f346e59587c73a767bcf39d677f28bca3ccf10cf6d9f0e8deb2",
+    "package.json": "0c28f86086e9d7f46f82e3736ac6277a069d1bbcfc94dfad6513cc14ddf313e1",
+    "pyproject.toml": "a46ba819c297b56219a18d01196667bd3e8ac1172ddaf1367b1e46604a0fa50d",
+    "requirements.txt": "fbcb248929b9d606df75d9b45c651b96257073cff73d71525df4756a0827e185"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

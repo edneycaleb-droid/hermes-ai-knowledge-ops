@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/diegosouzapw/OmniRoute",
+  "canonical_repository": "diegosouzapw/OmniRoute",
+  "canonical_url": "https://github.com/diegosouzapw/OmniRoute",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "release/v3.8.51",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:49.734592Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "466b5cf03b756529ed8fc2644ee26b4a94a2e96a7beda94784909b5f4bf23969",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a7930da9ad95bc631bd23d694e401bf1019aa16a556b925dc72f0698e4cdd5a3",
+    "Dockerfile": "31edbabd5a2618d03bfe7dcac1bf3897bec955b329ea071f5427f98db2ce1ed0",
+    "LICENSE": "5f3caa52b2c2ce5dfb40c85404a370d23b6dc3e26a1447d17dc7e56f773b91de",
+    "README.md": "bb69cc3d662f7c12a82772c9084724149f332e988a46ad8aab37a53b40a6f8ef",
+    "docker-compose.yml": "f2b6d8beddf53467cc04a900630321de92abbf05dd25948beed38b95fe49b8d2",
+    "package.json": "9e166fb050ac2911b9f0861f62d489fa5b1dab92f3c1e9dc806d7b7abf5d8fed"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -5,13 +5,13 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:13:06.619476Z",
+  "fetched_at": "2026-09-06T21:39:42.489409Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "afba71d0371104acd32e6374fafe08113c810844d77331623b81ab7ac00ec490",
+  "metadata_digest": "b9953150b8fe2495a55cff502a6a0e6bab56e5e1a1d141a2960a7c36165a7001",
   "sampled_file_digests": {
     "LICENSE": "1a22c10158c857bb4b3ab10a98fcfe713d0af6886c6f562561972efac04e5ba2",
-    "README.md": "f22ec2938f3c0042e30e1850660798673494115b5498df7f1f8bcd1bd962447a",
+    "README.md": "bce1eb7dce37027cac7150296fa2422b2724e7b72e9d96ee7125176cc376ffc6",
     "package.json": "c21da9b2519acd18c01a21724b7c6c5f0d603f36af3cb15b4a454c1984362b14"
   },
-  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
 }

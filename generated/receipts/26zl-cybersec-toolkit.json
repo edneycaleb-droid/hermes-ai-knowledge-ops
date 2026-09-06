@@ -5,16 +5,17 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:12:56.387603Z",
+  "fetched_at": "2026-09-06T21:40:33.003603Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "8ff4d251add0d8f05b84492b86458d3c9c931de4570d547b56f2d9355fdf0036",
+  "metadata_digest": "fd8ef3831f4f1cf1c68d87cbd23eb5b70fff97693a18c486dafa342dcb62f6d5",
   "sampled_file_digests": {
-    ".github/workflows/ci.yml": "b7f2c0e6e8a2135fdbe02db035fb6e539d2e69402c55d561748562c51d415958",
+    ".github/workflows/ci.yml": "9463535cce27611e8f061581b4324b5fd9ebc6de835d37db8c9ce49f49120cfb",
     ".mcp.json": "8d332479adcc2e61d8b3111b2182a6d02024e32a2671de1617480cebf9eb7e5a",
-    "Dockerfile": "a76297795a3e1442fbf285501282f93d5251e10afd52d1c7f06045c16d5be334",
+    "Dockerfile": "782a3ce74ac97824a3dcb4ca932f93cf01624edd7a7e8906618909c0c07fae0f",
     "LICENSE": "e4d66745aba2f9defa0834e298b5e4ff1a7ca2a7979034ba2a7fce28a30676dc",
-    "README.md": "6c8a6b8a6e136c6b9cff6531657e4745d6a8bc7d248426c1eb1390a4ecf21f39",
-    "docker-compose.yml": "f10d26f33176f96486ce36d3020ceb4a4fac95137e718919fae6b90341e9fadf"
+    "README.md": "6ee53567da18c922d0e408116403f06dde1802f36725e552ca94b2af6ebd2d8c",
+    "docker-compose.yml": "f10d26f33176f96486ce36d3020ceb4a4fac95137e718919fae6b90341e9fadf",
+    "server.json": "ec0455bff5f6aac0b0c8103af177c8f6438cf2e14bec4202b1cb6ff9c548fc2b"
   },
   "source_query": "\"agent skill\" topic:ai-agent stars:>10"
 }

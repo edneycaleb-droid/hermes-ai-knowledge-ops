@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/Noveum/orbit",
+  "canonical_repository": "Noveum/orbit",
+  "canonical_url": "https://github.com/Noveum/orbit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:23.791492Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2cb998b2f980719e956ebecd7e56e85c47a1b7d0fbf5062c5071a4b215a1a9cf",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "99e539d151abf031dd60236441380b7a0740fe2066974c376081d6cda54d6610",
+    "LICENSE": "73fcde52b74355bb4d0a71681330f013ea8c498f149b82ebd4cc08a729bc84a0",
+    "README.md": "cb587d3a6b7a925c08bb980f398af16195a1a8fa24a683a76e499b8f09b9547b",
+    "docker-compose.yml": "fd4b04e0e167a04f4a1dba5ec98a40ea259228a19f9129a7dea24db4917fd045",
+    "package.json": "8d79ea3af25ac78cdb61860d7219d481dfa2fe441b2dd5abd7761cda3f6a00f8",
+    "server.json": "93f37bc23597ba8a8b6e8cdcb0e9f6afa256b5a4eac29a3a3de494d2d495618b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

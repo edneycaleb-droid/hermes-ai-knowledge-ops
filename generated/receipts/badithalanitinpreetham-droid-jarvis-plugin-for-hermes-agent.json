@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/badithalanitinpreetham-droid/jarvis-plugin-for-hermes-agent",
+  "canonical_repository": "badithalanitinpreetham-droid/jarvis-plugin-for-hermes-agent",
+  "canonical_url": "https://github.com/badithalanitinpreetham-droid/jarvis-plugin-for-hermes-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:44.343820Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "cd9884e2b2c3fdaac8e9bf560c101e513cd69004930ed11d99bd258552f071ce",
+  "sampled_file_digests": {
+    "README.md": "9237e567d58c5ae86abdde61b43742347910576fed011d3af794a274912f2be9",
+    "pyproject.toml": "d80bad2842a83ed1b7c9645b91ccbbdcf5fd60bc7880cd840d1c56056ae0c61d"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

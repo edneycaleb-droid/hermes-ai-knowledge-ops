@@ -1,0 +1,109 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://crew.studiomeyer.io",
+    "https://crm.studiomeyer.io",
+    "https://geo.studiomeyer.io",
+    "https://github.com/danieleugenewilliams/local-memory-releases",
+    "https://github.com/studiomeyer-io/local-memory-mcp",
+    "https://github.com/studiomeyer-io/local-memory-mcp#readme",
+    "https://github.com/studiomeyer-io/local-memory-mcp/releases/latest",
+    "https://github.com/studiomeyer-io/studiomeyer-memory",
+    "https://img.shields.io/badge/TypeScript-strict-blue.svg",
+    "https://img.shields.io/badge/license-MIT-blue.svg",
+    "https://img.shields.io/github/last-commit/studiomeyer-io/local-memory-mcp?style=flat-square&color=88c0d0&label=updated",
+    "https://img.shields.io/github/license/studiomeyer-io/local-memory-mcp?style=flat-square&color=22c55e&label=license",
+    "https://img.shields.io/github/stars/studiomeyer-io/local-memory-mcp?style=flat-square&color=ffd700&logo=github&label=stars",
+    "https://img.shields.io/npm/dm/%40studiomeyer%2Flocal-memory-mcp?style=flat-square&color=cb3837&logo=npm&label=installs%2Fmo",
+    "https://img.shields.io/npm/v/%40studiomeyer%2Flocal-memory-mcp?style=flat-square&color=cb3837&logo=npm&label=npm",
+    "https://img.shields.io/npm/v/@studiomeyer/local-memory-mcp",
+    "https://memory.studiomeyer.io",
+    "https://modelcontextprotocol.io/quickstart/user",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://studiomeyer.io",
+    "https://www.npmjs.com/package/@studiomeyer/local-memory-mcp"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Persistent local AI memory. SQLite + FTS5 + vector search, knowledge graph. No cloud, no API keys.",
+      "name": "io.github.studiomeyer-io/local-memory-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Custom path for the SQLite database file",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MEMORY_DB_PATH"
+            },
+            {
+              "description": "Disable the local embedding pipeline (forces FTS5-only search). Useful in restricted networks where the model can't be downloaded.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MEMORY_EMBED_DISABLED"
+            },
+            {
+              "description": "Override the embedding model id (defaults to Xenova/multilingual-e5-small).",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MEMORY_EMBED_MODEL"
+            },
+            {
+              "description": "Override the Transformers.js cache directory (defaults to the OS data dir).",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MEMORY_EMBED_CACHE_DIR"
+            }
+          ],
+          "identifier": "@studiomeyer/local-memory-mcp",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.4.3"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/studiomeyer-io/local-memory-mcp"
+      },
+      "title": "Local Memory",
+      "version": "2.4.3"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/studiomeyer-io-local-memory-mcp.json",
+  "schema_version": 1,
+  "source_repository": "studiomeyer-io/local-memory-mcp",
+  "source_url": "https://github.com/studiomeyer-io/local-memory-mcp",
+  "status": "disabled_pending_review"
+}
