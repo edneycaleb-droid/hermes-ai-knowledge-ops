@@ -1,0 +1,153 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bun.sh",
+    "https://contrib.rocks/image?repo=Noveum/orbit",
+    "https://github.com/Noveum/orbit",
+    "https://github.com/Noveum/orbit.git",
+    "https://github.com/Noveum/orbit/actions/workflows/ci.yml",
+    "https://github.com/Noveum/orbit/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/Noveum/orbit/blob/main/docs/mcp.md",
+    "https://github.com/Noveum/orbit/commits/main",
+    "https://github.com/Noveum/orbit/discussions",
+    "https://github.com/Noveum/orbit/graphs/contributors",
+    "https://github.com/Noveum/orbit/issues",
+    "https://github.com/Noveum/orbit/labels/good%20first%20issue",
+    "https://github.com/Noveum/orbit/labels/help%20wanted",
+    "https://github.com/Noveum/orbit/stargazers",
+    "https://img.shields.io/badge/PRs-welcome-0e8a16.svg",
+    "https://img.shields.io/badge/built%20with-Bun-000000?logo=bun",
+    "https://img.shields.io/badge/license-Apache%202.0-blue.svg",
+    "https://img.shields.io/badge/sponsored%20by-Noveum%20AI-5a63c8",
+    "https://img.shields.io/github/commit-activity/t/Noveum/orbit?color=5a63c8",
+    "https://img.shields.io/github/issues/Noveum/orbit/good%20first%20issue?label=good%20first%20issues&color=7057ff",
+    "https://img.shields.io/github/last-commit/Noveum/orbit?color=5a63c8",
+    "https://img.shields.io/github/stars/Noveum/orbit?style=flat&color=5a63c8",
+    "https://noveum.ai",
+    "https://noveum.github.io/orbit/",
+    "https://orbit.example.com/mcp",
+    "https://orbit.noveum.ai",
+    "https://orbit.noveum.ai/mcp",
+    "https://raw.githubusercontent.com/Noveum/orbit/main/apps/web/public/logo.png",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://vercel.com/button",
+    "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNoveum%2Forbit&root-directory=apps%2Fweb&env=DATABASE_URL,REDIS_URL,BETTER_AUTH_SECRET,BETTER_AUTH_URL,NEXT_PUBLIC_APP_URL,RESEND_API_KEY,EMAIL_FROM&project-name=orbit&repository-name=orbit"
+  ],
+  "environment_variable_names": [
+    "BETTER_AUTH_SECRET",
+    "BETTER_AUTH_URL",
+    "DATABASE_URL",
+    "GITHUB_APP_CLIENT_SECRET",
+    "GITHUB_APP_PRIVATE_KEY",
+    "GITHUB_CLIENT_SECRET",
+    "GOOGLE_CLIENT_SECRET",
+    "HOSTNAME",
+    "MINIO_CONSOLE_PORT",
+    "MINIO_PORT",
+    "NEXT_PUBLIC_APP_URL",
+    "NEXT_PUBLIC_REALTIME_URL",
+    "ORBIT_CI_KEY_EOF",
+    "ORBIT_E2E_BASE_URL",
+    "PORT",
+    "POSTGRES_PORT",
+    "REALTIME_PORT",
+    "REDIS_PORT",
+    "REDIS_URL",
+    "RESEND_API_KEY",
+    "S3_ACCESS_KEY_ID",
+    "S3_SECRET_ACCESS_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "documentation": "https://github.com/Noveum/orbit/blob/main/docs/mcp.md",
+          "examples": [
+            {
+              "description": "Create, assign, prioritize, and update issues across teams and sprints.",
+              "name": "Plan and update work"
+            },
+            {
+              "description": "Summarize completed work, blockers, sprint progress, and project status.",
+              "name": "Summarize delivery"
+            },
+            {
+              "description": "Read, create, update, comment on, and attach files to Orbit docs.",
+              "name": "Work with project docs"
+            }
+          ],
+          "keywords": [
+            "task-management",
+            "project-management",
+            "issues",
+            "sprints",
+            "docs",
+            "productivity",
+            "oauth",
+            "mcp"
+          ],
+          "publisher": "Noveum AI",
+          "support": "https://github.com/Noveum/orbit/discussions"
+        }
+      },
+      "description": "Task management for people and AI agents, with scoped OAuth access to issues, projects, and docs.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ],
+          "src": "https://raw.githubusercontent.com/Noveum/orbit/main/apps/web/public/logo.png"
+        }
+      ],
+      "name": "io.github.Noveum/orbit",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://orbit.noveum.ai/mcp"
+        }
+      ],
+      "repository": {
+        "id": "1308968229",
+        "source": "github",
+        "subfolder": "packages/mcp-server",
+        "url": "https://github.com/Noveum/orbit"
+      },
+      "title": "Orbit",
+      "version": "0.1.0",
+      "websiteUrl": "https://orbit.noveum.ai"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/noveum-orbit.json",
+  "schema_version": 1,
+  "source_repository": "Noveum/orbit",
+  "source_url": "https://github.com/Noveum/orbit",
+  "status": "disabled_pending_review"
+}

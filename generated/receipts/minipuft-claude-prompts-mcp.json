@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/minipuft/claude-prompts-mcp",
+  "canonical_repository": "minipuft/claude-prompts-mcp",
+  "canonical_url": "https://github.com/minipuft/claude-prompts-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:16.604986Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c4cac319b25cc100b72052251d2e7a4a1c6fef25d786291368823b294a9a47b8",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "ad7a6bb8af568fbafd8b13cc27320d51db668b5f20e1801f974d7c14a2ae2293",
+    ".mcp.json": "e02f419ab97cd96fdedd289a4a1e83a916def745b839c1e73cdca7fbb6755df5",
+    "LICENSE": "d768d9ff01e9be4d5c56f951368000f044fe6539a1c894ebc7c8229e2ce2f54c",
+    "README.md": "41134537cf358001637a8811959bff9953b6af02713dd0f571ada6535f8cb6a6",
+    "mcp.json": "0515dade97c4a41e94092b4feae1804af493913905d929d5829c4a35646f0a2b",
+    "package.json": "48d277e9dd7c45425782a7bf296cf573908e40b85b7fe6cd91cbbfbf23c91b34",
+    "pyproject.toml": "0e726fbf954a97d74f987ac951aed0ae6754bc807cfc8ae5c6fa0a36ad243e20",
+    "server.json": "6cd5ee6a43d0a9b0dfa4ded73027b6126baf048a50540f70c39765630e3e2de5"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

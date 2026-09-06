@@ -1,0 +1,184 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bun.sh/",
+    "https://caddyserver.com/",
+    "https://datatracker.ietf.org/doc/html/rfc6761",
+    "https://docs.docker.com/compose/install/",
+    "https://docs.docker.com/get-started/",
+    "https://github.com/ridafkih/keeper.sh",
+    "https://github.com/ridafkih/keeper.sh/issues",
+    "https://github.com/ridafkih/keeper.sh/issues/140",
+    "https://keeper.example.com",
+    "https://keeper.example.com/",
+    "https://keeper.example.com/api/v1/calendars",
+    "https://keeper.example.com/mcp",
+    "https://keeper.localhost",
+    "https://learn.microsoft.com/en-us/answers/questions/4705805/how-to-set-up-oauth-2-0-for-outlook",
+    "https://otel-collector.example.com:4318",
+    "https://registry.modelcontextprotocol.io",
+    "https://sedna.sh/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://support.google.com/cloud/answer/15549257",
+    "https://visitors.now",
+    "https://www.keeper.sh/192x192-on-dark.png",
+    "https://www.keeper.sh/192x192-on-light.png",
+    "https://www.keeper.sh/48x48-on-dark.png",
+    "https://www.keeper.sh/48x48-on-light.png",
+    "https://www.keeper.sh/512x512-on-dark.png",
+    "https://www.keeper.sh/512x512-on-light.png",
+    "https://www.keeper.sh/96x96-on-dark.png",
+    "https://www.keeper.sh/96x96-on-light.png",
+    "https://www.keeper.sh/docs/mcp",
+    "https://www.keeper.sh/mcp",
+    "https://www.keeper.sh/register"
+  ],
+  "environment_variable_names": [
+    "API_PORT",
+    "BETTER_AUTH_SECRET",
+    "BETTER_AUTH_URL",
+    "DATABASE_URL",
+    "ENCRYPTION_KEY",
+    "GOOGLE_CLIENT_SECRET",
+    "IMPORTANT",
+    "MCP_API_URL",
+    "MCP_PORT",
+    "MCP_PUBLIC_URL",
+    "MICROSOFT_CLIENT_SECRET",
+    "OTEL_EXPORTER_OTLP_ENDPOINT",
+    "OTEL_EXPORTER_OTLP_HEADERS",
+    "OTEL_EXPORTER_OTLP_PROTOCOL",
+    "PASSKEY_ORIGIN",
+    "PASSKEY_RP_ID",
+    "PASSKEY_RP_NAME",
+    "POLAR_ACCESS_TOKEN",
+    "POLAR_WEBHOOK_SECRET",
+    "PORT",
+    "REDIS_URL",
+    "RESEND_API_KEY",
+    "URL",
+    "VITE_API_URL",
+    "VITE_MCP_URL",
+    "VITE_VISITORS_NOW_TOKEN",
+    "WEBHOOK_PUBLIC_URL",
+    "WEBSOCKET_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Read and manage calendars synced from Google, Outlook, iCloud, Fastmail, CalDAV, and iCal feeds.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "48x48"
+          ],
+          "src": "https://www.keeper.sh/48x48-on-light.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "96x96"
+          ],
+          "src": "https://www.keeper.sh/96x96-on-light.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "192x192"
+          ],
+          "src": "https://www.keeper.sh/192x192-on-light.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ],
+          "src": "https://www.keeper.sh/512x512-on-light.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "48x48"
+          ],
+          "src": "https://www.keeper.sh/48x48-on-dark.png",
+          "theme": "dark"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "96x96"
+          ],
+          "src": "https://www.keeper.sh/96x96-on-dark.png",
+          "theme": "dark"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "192x192"
+          ],
+          "src": "https://www.keeper.sh/192x192-on-dark.png",
+          "theme": "dark"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ],
+          "src": "https://www.keeper.sh/512x512-on-dark.png",
+          "theme": "dark"
+        }
+      ],
+      "name": "sh.keeper/keeper",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://www.keeper.sh/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "subfolder": "services/mcp",
+        "url": "https://github.com/ridafkih/keeper.sh"
+      },
+      "title": "Keeper.sh",
+      "version": "1.0.0",
+      "websiteUrl": "https://www.keeper.sh/docs/mcp"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/ridafkih-keeper-sh.json",
+  "schema_version": 1,
+  "source_repository": "ridafkih/keeper.sh",
+  "source_url": "https://github.com/ridafkih/keeper.sh",
+  "status": "disabled_pending_review"
+}

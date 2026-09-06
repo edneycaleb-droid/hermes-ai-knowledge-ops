@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/skills-tracker",
+  "canonical_repository": "linny006/skills-tracker",
+  "canonical_url": "https://github.com/linny006/skills-tracker",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:55.489913Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "05af7e274480c0d673e3b71b56fa720ad8e69a0c0d081e0ecbc02e82dc60293e",
+  "sampled_file_digests": {
+    "README.md": "bcbc8983781b1d1cac04893a4f9943104193e990e55a213a4b8e4089af9ef099",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/studiomeyer-io/local-memory-mcp",
+  "canonical_repository": "studiomeyer-io/local-memory-mcp",
+  "canonical_url": "https://github.com/studiomeyer-io/local-memory-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:25.511162Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "75cfde0141aa33694b5ca65c40af883320c9f9075e8e68f02baff97c74bc36ae",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "74fb73f4fb0e1d1b6df1bb35eb31a4176e75008021a140b845966ca379705313",
+    "LICENSE": "47d3e3ae45a6257e9b66a0ee0e3fcd26d1623627072add6bccf0771bfe95b627",
+    "README.md": "2eaa35193960496d4c7bb37103dec26cd43642a94e909124e2d24aa41eda1a8f",
+    "package.json": "9b1e17aff4fe48868110ca67a6e02ec1fae4cf3f46bb73d3bef9d98886990c71",
+    "server.json": "ea89f9a7954b413cb2939059d18c62eb8d92988e7b8acbe2923d1471ca6622bb"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

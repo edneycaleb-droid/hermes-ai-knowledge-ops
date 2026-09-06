@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/starodubtsevconsulting/ai-fleas",
+  "canonical_repository": "starodubtsevconsulting/ai-fleas",
+  "canonical_url": "https://github.com/starodubtsevconsulting/ai-fleas",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:58.970512Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "92a254472b5a9780a9ac4919b1215bda2dacd0a6a39da3eb9da83ced989f192f",
+  "sampled_file_digests": {
+    "LICENSE": "0ec80ba4b761bde5d9ce4ecab2e6e1efec721e4cbbe0e9e158e144970f2b59ba",
+    "README.md": "6ab9b7c39c14a46175da02693b099d041f50ee81208bedad2e43227de2c416e4",
+    "package.json": "c9e6e5db937d0daaa569b2866d58bb93f718bc834a30f29f77e3a00fc105b807"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

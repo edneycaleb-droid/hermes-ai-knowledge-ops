@@ -1,0 +1,30 @@
+{
+  "categories": [
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/NousResearch/hermes-agent"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/rmsantista-farma-assist-bot.json",
+  "schema_version": 1,
+  "source_repository": "RMSantista/Farma_Assist_Bot",
+  "source_url": "https://github.com/RMSantista/Farma_Assist_Bot",
+  "status": "disabled_pending_review"
+}

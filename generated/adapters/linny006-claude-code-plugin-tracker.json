@@ -1,0 +1,83 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Aquaticat/Monochromatic",
+    "https://github.com/Belkins/ai-dive-deep",
+    "https://github.com/Berserk-hub150/skillhawk",
+    "https://github.com/CorvinLabs/CorvinOS",
+    "https://github.com/Digital-Process-Tools/claude-remember",
+    "https://github.com/Kayforkind/reimagine-it",
+    "https://github.com/KiaroSama/Revayat-Comic-Skill",
+    "https://github.com/M-A-S-T-E-R-M-I-N-D/AUTOPILOT",
+    "https://github.com/MatthewDuke1/aws-onboarding",
+    "https://github.com/OthmanAdi/commit-fm",
+    "https://github.com/RahmanFirmansyah/page-turner-ai",
+    "https://github.com/Vironnimo/vbot",
+    "https://github.com/adianiz/claude-code-legacy-migration",
+    "https://github.com/agenticluke/customer-billing-ops-plus",
+    "https://github.com/aicanvas-me/aicanvas",
+    "https://github.com/alxmax/excalidraw-diagram",
+    "https://github.com/anthony-chaudhary/fak",
+    "https://github.com/assafkip/kipi-system",
+    "https://github.com/bendrucker/claude",
+    "https://github.com/braboj/solid-ai-templates",
+    "https://github.com/chaitanya-aws/mjlab-ai-migration-toolkit",
+    "https://github.com/datacore-one/datacore",
+    "https://github.com/dork-labs/dorkos",
+    "https://github.com/drknowhow/code-context-control",
+    "https://github.com/erayendes/kortext",
+    "https://github.com/fysoul17/devlyn-cli",
+    "https://github.com/jiangyurong609/motion-pages",
+    "https://github.com/linny006/agent-eval-harness",
+    "https://github.com/linny006/agent-framework-radar",
+    "https://github.com/linny006/awesome-agent-skills",
+    "https://github.com/linny006/claude-code-plugin-tracker/commits",
+    "https://github.com/linny006/claude-code-plugin-tracker/stargazers",
+    "https://github.com/linny006/cursor-rules-live",
+    "https://github.com/linny006/llm-agents-radar",
+    "https://github.com/linny006/llm-eval-tracker",
+    "https://github.com/linny006/llmops-radar",
+    "https://github.com/linny006/mcp-servers-live",
+    "https://github.com/linny006/prompt-tools-live",
+    "https://github.com/linny006/rag-radar",
+    "https://github.com/linny006/skills-tracker"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/linny006-claude-code-plugin-tracker.json",
+  "schema_version": 1,
+  "source_repository": "linny006/claude-code-plugin-tracker",
+  "source_url": "https://github.com/linny006/claude-code-plugin-tracker",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/RMSantista/Farma_Assist_Bot",
+  "canonical_repository": "RMSantista/Farma_Assist_Bot",
+  "canonical_url": "https://github.com/RMSantista/Farma_Assist_Bot",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:47.983814Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "58f6c9b04a758b1f9bad2b08392f5637fb46185269b758f066014acd1e53210c",
+  "sampled_file_digests": {
+    "LICENSE.md": "48fed37d796f5f3e4398a98e1874502fb45a8bd974aa20e848cea5c83768c17d",
+    "README.md": "90e400195c340e5d0bb8ab5caf3c66e446ff50a5cbe0b3174486bd0487d5daf9"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

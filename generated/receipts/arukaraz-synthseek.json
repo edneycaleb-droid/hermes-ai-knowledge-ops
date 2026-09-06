@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/arukaraz/synthseek",
+  "canonical_repository": "arukaraz/synthseek",
+  "canonical_url": "https://github.com/arukaraz/synthseek",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:20.091092Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "36a7d37e1b666d971c1ede72dc55fe910ec90aa2b9e975def846ac73d71420b5",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4980546e9360c5470eb508bb63f8d5b288cf569a8ad06ed514a87a409cda013e",
+    "Dockerfile": "417bfadee9252d84c50d92d5fe6da7a2a75f0041cecde008cbf29cf08056861e",
+    "LICENSE": "967f492d6e7f48459a0e0259e8ea606e22840b2909868c56067e17a50f1d83dc",
+    "README.md": "bc528dd423127762037d087b02e218d69fd353a6dc8fbf34ae29165973fec049",
+    "docker-compose.yml": "56e490959848219374b6a7028456c8638ca8206afccb290597757e580667c6d5",
+    "package.json": "45ab505e2426ea6de4827df338c80f163d2535044bb00c57110de167a32d9178"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

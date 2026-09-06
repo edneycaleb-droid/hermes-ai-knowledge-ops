@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/21StarkCom/stark-skills",
+    "https://github.com/Acrazie/skills",
+    "https://github.com/AgentDraven/merit-agent-skills",
+    "https://github.com/AlexanderAlcazar/skills-introduction-to-github",
+    "https://github.com/BlaiseBaptist/claude-skills",
+    "https://github.com/CoveMB/accessible-reading-writing-skills-plugin",
+    "https://github.com/DrOlu/agent-skills",
+    "https://github.com/Esteban-GV/skills-publish-docker-images",
+    "https://github.com/FabianSieper/skills",
+    "https://github.com/Fusion-Data-Company/fusion-skills",
+    "https://github.com/GavenWang1014/skills-communicate-using-markdown",
+    "https://github.com/GavenWang1014/skills-introduction-to-github",
+    "https://github.com/HelloJJJie/claude-multi-session-research-skills",
+    "https://github.com/Larslllllll/skillsmith-web",
+    "https://github.com/LawrenceHua/skills-log",
+    "https://github.com/MCERQUA/jam-skills",
+    "https://github.com/Mingo07-dev/claude_skills",
+    "https://github.com/NinjaSln-labs/agent-skills",
+    "https://github.com/Rodrigom96/skills",
+    "https://github.com/SectorDesign/awesome-ai-agent-skills",
+    "https://github.com/SilentUniverse/CosmosSkills",
+    "https://github.com/Snippify/skills",
+    "https://github.com/Surya97141/skills-copilot-codespaces-vscode",
+    "https://github.com/UiPath/skills",
+    "https://github.com/Yatharth514/farmer_skills",
+    "https://github.com/ZMS-Labs/epistemic-skills",
+    "https://github.com/anatelgovbr/ai-skills",
+    "https://github.com/batuta-ai/skills",
+    "https://github.com/beavieirasantos/skills-communicate-using-markdown",
+    "https://github.com/bhatia4/skills-expand-your-team-with-copilot",
+    "https://github.com/bsafronov/prosto-skills",
+    "https://github.com/cbusillo/codex-skills",
+    "https://github.com/cmu-yshi4/skills-communicate-using-markdown",
+    "https://github.com/cmu-yshi4/skills-introduction-to-github",
+    "https://github.com/conradoqg/agent-skills",
+    "https://github.com/dariuszcfastrans-cmyk/skills-code-with-codespaces",
+    "https://github.com/dengrish/obsidian-skills",
+    "https://github.com/dragonadam/nature-skills",
+    "https://github.com/drinkspiller/skills",
+    "https://github.com/egawilldoit/ega-skills"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/linny006-skills-tracker.json",
+  "schema_version": 1,
+  "source_repository": "linny006/skills-tracker",
+  "source_url": "https://github.com/linny006/skills-tracker",
+  "status": "disabled_pending_review"
+}

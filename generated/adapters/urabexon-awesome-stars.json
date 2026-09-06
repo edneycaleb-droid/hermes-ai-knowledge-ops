@@ -1,0 +1,83 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://awesome.re/badge.svg",
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    "https://github.com/0daryo/github-watch",
+    "https://github.com/20tyamato/42ft_transcendence",
+    "https://github.com/APTRS/APTRS",
+    "https://github.com/AndreAugusto11/XChainDataGen",
+    "https://github.com/AnnLvu/cpp_module",
+    "https://github.com/BunnyWay/es-wasm-application",
+    "https://github.com/Capsize-Games/airunner",
+    "https://github.com/CodebuffAI/freebuff",
+    "https://github.com/Comfy-Org/ComfyUI",
+    "https://github.com/ComfyUI-Workflow/awesome-comfyui",
+    "https://github.com/CopilotKit/CopilotKit",
+    "https://github.com/CyberAgentHack/42tokyo-road-to-dojo-go",
+    "https://github.com/D4Vinci/Scrapling",
+    "https://github.com/DIYgod/RSSHub",
+    "https://github.com/DataDog/datadog-agent",
+    "https://github.com/DenverCoder1/readme-typing-svg",
+    "https://github.com/ESAOpenSR/opensr-model",
+    "https://github.com/EbookFoundation/free-programming-books",
+    "https://github.com/Effect-TS/effect",
+    "https://github.com/Elliop/42-Matcha",
+    "https://github.com/Engineer-Guild-Hackathon/team-8-app",
+    "https://github.com/FFmpeg/asm-lessons",
+    "https://github.com/FRISKSYA/inception",
+    "https://github.com/FluentRead/FluentRead",
+    "https://github.com/GLips/Figma-Context-MCP",
+    "https://github.com/GawinGowin/ft_irc",
+    "https://github.com/GitoxideLabs/gitoxide",
+    "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "https://github.com/GoogleChromeLabs/template-for-polyfill",
+    "https://github.com/GoogleCloudPlatform/kubectl-ai",
+    "https://github.com/GoogleCloudPlatform/magic-modules",
+    "https://github.com/HFO4/gameboy.live",
+    "https://github.com/HKUDS/RAG-Anything",
+    "https://github.com/HKUDS/VideoRAG",
+    "https://github.com/HeyPuter/Oops.js",
+    "https://github.com/Iltotore/iron",
+    "https://github.com/Infinite-Chess/infinitechess.org",
+    "https://github.com/Integrated-gw-2024/VisualPaintTool"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/urabexon-awesome-stars.json",
+  "schema_version": 1,
+  "source_repository": "urabexon/awesome-stars",
+  "source_url": "https://github.com/urabexon/awesome-stars",
+  "status": "disabled_pending_review"
+}

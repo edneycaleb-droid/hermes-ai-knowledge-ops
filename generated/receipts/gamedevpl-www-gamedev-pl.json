@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/gamedevpl/www.gamedev.pl",
+  "canonical_repository": "gamedevpl/www.gamedev.pl",
+  "canonical_url": "https://github.com/gamedevpl/www.gamedev.pl",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:18.400825Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6960ac601ccd1ef6c155ddfcace3d3f32d730fbd011c3130a9354f0a00e5b29c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2cfaca1074336a3c23b068ab6c642c1ea11121b92a8b9287fa420c9dd24d2e83",
+    "LICENSE": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+    "README.md": "c096e6577a9a556c6da6bf52ff9d06722bc7cbd8e5d4fd5820a756ecf8c802b8",
+    "mcp.json": "a6a02f2005aed5c3930326a6b7a96dfef9a25ae048c493e710617f3ea37ef2cd",
+    "package.json": "f8266f0f29278fd9e2972824a160aa52ddf1ecd3f4e9ecb34e18ce63ff7df2de"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ystemsrx/sql_to_ER",
+  "canonical_repository": "ystemsrx/sql_to_ER",
+  "canonical_url": "https://github.com/ystemsrx/sql_to_ER",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:34.719498Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e380fbfc4efd55add428e6af167c1e509bbe44431aaa07496dade246e5420181",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9d0880f553d997d5d0999afeb9163cdcdb3b16c3f4bf53e54d8bcdce3713526c",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "README.md": "d54021132c229d9283b6f6a88a87a4b48d59e40155ef99934dac76ca9014aad5",
+    "package.json": "16eed6ffb3a2a99a7ebbf9cbb1816f46ee210278be2d7ee5cade4661dc853327"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ridafkih/keeper.sh",
+  "canonical_repository": "ridafkih/keeper.sh",
+  "canonical_url": "https://github.com/ridafkih/keeper.sh",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:40:14.830967Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1f8615c99ff6224a60fd0c86ae6956a1fc220be64da3053b6b0d2719ae6df814",
+  "sampled_file_digests": {
+    "LICENSE": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+    "README.md": "a9fb306184a6eeb566ecab51d5a7769b62caeb6d8bfb7419c79533380c9801b9",
+    "package.json": "c5bcd20269ff22588fc72f358ec111b8fc6b721177f6fa33e3326561e1c8da72",
+    "server.json": "8ee306b87d5e725a950bc1a3b8ae55fe7cead8ff93d3786ce62c324c8f33f4a1"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

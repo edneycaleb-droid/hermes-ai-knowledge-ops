@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/khuchinque-app/herme-khuchinque",
+  "canonical_repository": "khuchinque-app/herme-khuchinque",
+  "canonical_url": "https://github.com/khuchinque-app/herme-khuchinque",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-06T21:39:51.566484Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "40aa97b7e4dc6d8b19cb023af4248693d820c39c242a290cf3c81a376debdebd",
+  "sampled_file_digests": {
+    "README.md": "0855eb534d5754f376ccc2b2c4447b2a032e6fb8341aba15aa21002070ee9be1"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
