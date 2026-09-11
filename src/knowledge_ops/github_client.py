@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import base64
@@ -38,15 +37,42 @@ class GitHubClient:
         if self.token:
             headers["Authorization"] = f"Bearer {self.token}"
         request = urllib.request.Request(url, headers=headers, method="GET")
-        try:
-            with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
-                payload = response.read(self.policy.max_file_bytes * 4)
-                return json.loads(payload)
-        except urllib.error.HTTPError as exc:
-            if exc.code == 403 and exc.headers.get("X-RateLimit-Remaining") == "0":
-                reset = exc.headers.get("X-RateLimit-Reset", "unknown")
-                raise RuntimeError(f"GitHub API rate limit exhausted; resets at {reset}") from exc
-            raise RuntimeError(f"GitHub API returned {exc.code} for {url}") from exc
+        max_payload_bytes = self.policy.max_file_bytes * 4
+        max_attempts = 3
+
+        for attempt in range(max_attempts):
+            try:
+                with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
+                    payload = response.read(max_payload_bytes + 1)
+                    if len(payload) > max_payload_bytes:
+                        raise RuntimeError(
+                            f"GitHub API response exceeded {max_payload_bytes} bytes for {url}"
+                        )
+                    try:
+                        return json.loads(payload)
+                    except json.JSONDecodeError as exc:
+                        if attempt + 1 >= max_attempts:
+                            raise RuntimeError(
+                                f"GitHub API returned invalid JSON after {max_attempts} attempts for {url}"
+                            ) from exc
+            except urllib.error.HTTPError as exc:
+                if exc.code == 403 and exc.headers.get("X-RateLimit-Remaining") == "0":
+                    reset = exc.headers.get("X-RateLimit-Reset", "unknown")
+                    raise RuntimeError(f"GitHub API rate limit exhausted; resets at {reset}") from exc
+                if 500 <= exc.code < 600 and attempt + 1 < max_attempts:
+                    time.sleep(0.25 * (2**attempt))
+                    continue
+                raise RuntimeError(f"GitHub API returned {exc.code} for {url}") from exc
+            except (urllib.error.URLError, TimeoutError) as exc:
+                if attempt + 1 >= max_attempts:
+                    raise RuntimeError(
+                        f"GitHub API request failed after {max_attempts} attempts for {url}"
+                    ) from exc
+
+            if attempt + 1 < max_attempts:
+                time.sleep(0.25 * (2**attempt))
+
+        raise RuntimeError(f"GitHub API request failed after {max_attempts} attempts for {url}")
 
     def search_repositories(self, query: str, per_page: int = 10) -> list[dict[str, Any]]:
         limit = min(max(per_page, 1), 25)
