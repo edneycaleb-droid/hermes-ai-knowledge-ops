@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/KyaniteLabs/kinocut",
+  "canonical_repository": "KyaniteLabs/kinocut",
+  "canonical_url": "https://github.com/KyaniteLabs/kinocut",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:44.808331Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "798700c2681544a9013bd4e8efce90d68e3486352bda8577b3678e8857ca1b03",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f0518d975ef757116c810a9b7efe593a9e316fdcb1fbbd1884669729f834c02b",
+    "Dockerfile": "6424302c5829e3443d9223dd3a8e95e015ad5927e59aaf4a4ce904e4c0719371",
+    "LICENSE": "733474b93e5df2016fac0b6ddaf0471850da64f2abdb5b45c410c96ec170d837",
+    "README.md": "8f792ed484c69d2413f8c30032c944ef4e2fc7e9f9c41cba8b7fee666ce5cecb",
+    "pyproject.toml": "942560887ead9a55cd54ee4657abc368b20539127fe19dbe5e302127a872c194",
+    "server.json": "2cd92c823cdc770333161111eb9b065291fe8f42d3f6ca0c325d82b6d62c1b61"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

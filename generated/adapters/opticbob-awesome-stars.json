@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2606.28344",
+    "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg",
+    "https://github.com/0xK3vin/MegaMemory",
+    "https://github.com/360er0/awesome-lego-machine-learning",
+    "https://github.com/666ghj/MiroFish",
+    "https://github.com/AAlvAAro/ruby-amazon-bedrock",
+    "https://github.com/AMAP-ML/SkillClaw",
+    "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "https://github.com/AdguardTeam/AdGuardHome",
+    "https://github.com/AlexB52/retest",
+    "https://github.com/AlexsJones/llmfit",
+    "https://github.com/AlexsJones/llmserve",
+    "https://github.com/AndrewKhassapov/connect-iq",
+    "https://github.com/AnthonyGress/lab-dash",
+    "https://github.com/Automattic/pocket-casts-android",
+    "https://github.com/B-M-Capital-Research/honeclaw",
+    "https://github.com/BayramAnnakov/claude-reflect",
+    "https://github.com/BehiSecc/awesome-claude-skills",
+    "https://github.com/Betterment/delayed",
+    "https://github.com/BretFisher/awesome-swarm",
+    "https://github.com/C4illin/ConvertX",
+    "https://github.com/ChrisWiles/claude-code-showcase",
+    "https://github.com/ClassicOldSong/Apollo",
+    "https://github.com/ClassicOldSong/moonlight-android",
+    "https://github.com/ClementTsang/bottom",
+    "https://github.com/Comfy-Org/ComfyUI",
+    "https://github.com/ComposioHQ/awesome-claude-skills",
+    "https://github.com/CorentinTh/it-tools",
+    "https://github.com/DamirSvrtan/fasterer",
+    "https://github.com/DannyMoerkerke/whatpwacando.today",
+    "https://github.com/DharminJoshi/Final-Year-Project-Ideas-2025",
+    "https://github.com/Dicklesworthstone/mcp_agent_mail",
+    "https://github.com/DmitrySadovnikov/YouTube-Caption-Extractor",
+    "https://github.com/DuoStream/Duo",
+    "https://github.com/Dwin17/bento",
+    "https://github.com/EbookFoundation/free-programming-books",
+    "https://github.com/EgalitarianMonkey/hometube",
+    "https://github.com/EmGi96/TrailPrint3D",
+    "https://github.com/Envek/after_commit_everywhere",
+    "https://github.com/EpicGames/lore"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/opticbob-awesome-stars.json",
+  "schema_version": 1,
+  "source_repository": "opticbob/awesome-stars",
+  "source_url": "https://github.com/opticbob/awesome-stars",
+  "status": "disabled_pending_review"
+}

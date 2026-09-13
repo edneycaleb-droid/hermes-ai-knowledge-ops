@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/GDSTechnology/autotask-mcp",
+  "canonical_repository": "GDSTechnology/autotask-mcp",
+  "canonical_url": "https://github.com/GDSTechnology/autotask-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:33.170418Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b8a6cad34f4570bf68c075e36b423f74c4d06ff11d72c7ed0a7fc2c61b5800f7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "df202decfb318bc53a21f68d370ff3d87482d1000f1cf8b1c6ad7979be9efae2",
+    ".mcp.json": "2f75ddcfbef68079e0a53724d82e37ff4061e6713b14a32b7da55116206a01bf",
+    "Dockerfile": "0f0ca699b66dd4f451e0dc40cf3e2a28dfbb8023d6c763f14824013f18dcf90c",
+    "LICENSE": "41b1c617698ab1eb0dea1772ca230eddf405c4b13211aff92713d8e5b068a8e8",
+    "README.md": "788501274a3a7d3cd037cc976ead81b3f2a85b84de3bca522e8234c608e7263e",
+    "docker-compose.yml": "9227f64cb382fd968a88c51a638e81ece8ee42471425e1fce2e24b7d04a15650",
+    "package.json": "dd7bff5e7abcf2412dd05fe3a23f4a276cee74ba5817cfcb235d5056b481c17a",
+    "server.json": "000ddf5b7c4adfb304fad42c09a90f52fcd168d8b420eb9562521cbfa9a27222"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/opticbob/awesome-stars",
+  "canonical_repository": "opticbob/awesome-stars",
+  "canonical_url": "https://github.com/opticbob/awesome-stars",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:04.917834Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1c32ebc7baa094864b6d32e38082daafb413d6eac320ccd663df5f29a7ba6087",
+  "sampled_file_digests": {
+    "README.md": "2bd3b5427ad340927b4ed534add78d8a6ee74bce42c535cecaa7bcd71abd0702"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

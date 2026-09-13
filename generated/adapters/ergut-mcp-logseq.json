@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/",
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://github.com/ergut/mcp-logseq",
+    "https://github.com/ergut/mcp-logseq/issues",
+    "https://lancedb.com",
+    "https://ollama.com",
+    "https://opencode.ai/config.json"
+  ],
+  "environment_variable_names": [
+    "LOGSEQ_API_TOKEN",
+    "LOGSEQ_API_URL",
+    "MCP_HTTP_AUTH_TOKEN",
+    "URL",
+    "YOUR_LOGSEQ_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/ergut-mcp-logseq.json",
+  "schema_version": 1,
+  "source_repository": "ergut/mcp-logseq",
+  "source_url": "https://github.com/ergut/mcp-logseq",
+  "status": "disabled_pending_review"
+}

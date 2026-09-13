@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/go-development-skill",
+  "canonical_repository": "netresearch/go-development-skill",
+  "canonical_url": "https://github.com/netresearch/go-development-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:45:39.709285Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ab990f208c1e53a5d4faee084b1807ee3a5338664696ab1f937cd5b1ebdb4dc0",
+  "sampled_file_digests": {
+    "README.md": "18cbd8345d43569d8c36c8a7bc8f2bf037770a10d9eaea1f67f31874956ef442"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

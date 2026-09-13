@@ -1,14 +1,14 @@
-# Integration proposal: MCPJam/inspector
+# Integration proposal: fengfe1125/tokentracker
 
 ## Decision
 
-**CANDIDATE** — quality 88/100; bounded learning adjustment +0.
+**REVIEW** — quality 69/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/MCPJam/inspector
-- Categories: mcp_server, tool, workflow
-- License: NOASSERTION
+- Repository: https://github.com/fengfe1125/tokentracker
+- Categories: tool
+- License: unverified
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 10429
-- license: **4/10** — SPDX NOASSERTION
+- documentation: **10/10** — README length 8978
+- license: **0/10** — SPDX missing
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- security: **8/10** — 0 critical, 0 high findings
 - interoperability: **7/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 2199 stars
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **2/10** — 1 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `medium` `SEC008` in `.github/workflows/ci.yml`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/mcpjam-inspector.json`.
+A disabled metadata adapter was generated at `generated/adapters/fengfe1125-tokentracker.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

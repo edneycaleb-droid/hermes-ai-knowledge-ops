@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ergut/mcp-logseq",
+  "canonical_repository": "ergut/mcp-logseq",
+  "canonical_url": "https://github.com/ergut/mcp-logseq",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:37.168263Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4b9fbec660ea0c625117a94d4a07ba091aa0473fb24e24c56556812e20e81379",
+  "sampled_file_digests": {
+    "LICENSE": "e5bab0d063624685f32cb8be3c9a791c94546569bf76eedc7958232093dc993a",
+    "README.md": "e8b4d25c7ddf7eb5611015ac49371cf8252cd663d8998ddf84c462c564d216e4",
+    "pyproject.toml": "6eb0e1fa5a23c9cf062085eb7061dab4e64587a223911724ba557ff55af24650"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
