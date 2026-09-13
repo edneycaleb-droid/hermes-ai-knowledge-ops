@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/fengfe1125/tokentracker",
+  "canonical_repository": "fengfe1125/tokentracker",
+  "canonical_url": "https://github.com/fengfe1125/tokentracker",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:24.827462Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "08bcdbf3fac984fdc84eb2f581b18ff2751a08d663669fc9a4389eeac9bfe4e7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a525c3623018728c8ddee0819d2d3ef5a88b11ee59cf39d53804994f3a81a7ce",
+    "README.md": "3e1fed958603e71b208afc3fcf0bdb7382f4cac0ebf198ae7618e9a8dd7945ac"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,14 +1,14 @@
-# Integration proposal: MCPJam/inspector
+# Integration proposal: n24q02m/better-notion-mcp
 
 ## Decision
 
-**CANDIDATE** — quality 88/100; bounded learning adjustment +0.
+**REVIEW** — quality 83/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/MCPJam/inspector
-- Categories: mcp_server, tool, workflow
-- License: NOASSERTION
+- Repository: https://github.com/n24q02m/better-notion-mcp
+- Categories: agent, mcp_server, memory, plugin, tool
+- License: Apache-2.0
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 10429
-- license: **4/10** — SPDX NOASSERTION
+- documentation: **10/10** — README length 19594
+- license: **10/10** — SPDX Apache-2.0
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
-- interoperability: **7/10** — Compatibility target matches
+- security: **3/10** — 0 critical, 1 high findings
+- interoperability: **9/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 2199 stars
+- adoption: **4/10** — 36 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `medium` `SEC008` in `Dockerfile`: Elevated execution or privilege
+- `high` `SEC006` in `.github/workflows/ci.yml`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/mcpjam-inspector.json`.
+A disabled metadata adapter was generated at `generated/adapters/n24q02m-better-notion-mcp.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

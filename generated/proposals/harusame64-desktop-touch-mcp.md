@@ -1,14 +1,14 @@
-# Integration proposal: MCPJam/inspector
+# Integration proposal: Harusame64/desktop-touch-mcp
 
 ## Decision
 
-**CANDIDATE** — quality 88/100; bounded learning adjustment +0.
+**REVIEW** — quality 81/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/MCPJam/inspector
-- Categories: mcp_server, tool, workflow
-- License: NOASSERTION
+- Repository: https://github.com/Harusame64/desktop-touch-mcp
+- Categories: agent, mcp_server, plugin, tool, workflow
+- License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 10429
-- license: **4/10** — SPDX NOASSERTION
+- documentation: **10/10** — README length 64910
+- license: **10/10** — SPDX MIT
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- security: **3/10** — 0 critical, 1 high findings
 - interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 2199 stars
+- adoption: **4/10** — 20 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/mcpjam-inspector.json`.
+A disabled metadata adapter was generated at `generated/adapters/harusame64-desktop-touch-mcp.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

@@ -1,0 +1,37 @@
+{
+  "categories": [
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://v2.tauri.app/distribute/#macos"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/qufei1993-skills-hub.json",
+  "schema_version": 1,
+  "source_repository": "qufei1993/skills-hub",
+  "source_url": "https://github.com/qufei1993/skills-hub",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Rodert/awesome-mcp",
+  "canonical_repository": "Rodert/awesome-mcp",
+  "canonical_url": "https://github.com/Rodert/awesome-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:17.106817Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7a6d97897619fac473bfa871bfc75cd2afbffc26e0b59808a0dd53d6714776c4",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "package.json": "b7c43e35470d8322225de965f59a01ff4d82d7def0464f1e616fdd9a577b32d4"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

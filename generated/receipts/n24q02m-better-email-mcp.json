@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/n24q02m/better-email-mcp",
+  "canonical_repository": "n24q02m/better-email-mcp",
+  "canonical_url": "https://github.com/n24q02m/better-email-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:45:13.422330Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "36118e09c290ad997a604c8e66ae5d640c35ab20510f3d93dc27aa589c54a30a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6f1598425e0c03ef0466bb614d1fef51b5a3f8f4021e5310f5c8c99a197428d6",
+    "Dockerfile": "8a6ff464f97d6d8e7620cac0fbf01f56910307224b5aa50787f8fe4ca5ef2069",
+    "LICENSE": "e462bd00764e90fa5fccd64a0dc3f2dbaecdada0cee67d4ec6ec80cbf41e3dcf",
+    "README.md": "0e6a95b33fbcf11fe65efde783a493c9f78be03c4cb783c8cd189e7f1939c786",
+    "package.json": "dee3329e436946a846f5e8ad1318250a4d4cbab8a5931a543fea929fd162d90f",
+    "server.json": "4b3759ae6133e02a29e6b71880619b5611bddf699646925ce7f59335c2a87297"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

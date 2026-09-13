@@ -1,0 +1,139 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://codecov.io/gh/n24q02m/better-email-mcp",
+    "https://codecov.io/gh/n24q02m/better-email-mcp/graph/badge.svg?token=O2GWBWCZGF",
+    "https://deploy.workers.cloudflare.com/?url=https://github.com/n24q02m/better-email-mcp",
+    "https://deploy.workers.cloudflare.com/button",
+    "https://developer.mend.io/",
+    "https://email.example.com",
+    "https://github.com/GongRzhe/Gmail-MCP-Server",
+    "https://github.com/codefuturist/email-mcp",
+    "https://github.com/n24q02m/agent-chat-plugin",
+    "https://github.com/n24q02m/better-code-review-graph",
+    "https://github.com/n24q02m/better-drive",
+    "https://github.com/n24q02m/better-email-mcp",
+    "https://github.com/n24q02m/better-email-mcp#readme",
+    "https://github.com/n24q02m/better-email-mcp.git",
+    "https://github.com/n24q02m/better-email-mcp/actions/workflows/ci.yml",
+    "https://github.com/n24q02m/better-email-mcp/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/n24q02m/better-email-mcp/issues",
+    "https://github.com/n24q02m/better-godot-mcp",
+    "https://github.com/n24q02m/better-notion-mcp",
+    "https://github.com/n24q02m/better-semantic-release",
+    "https://github.com/n24q02m/better-telegram-mcp",
+    "https://github.com/n24q02m/better-workspace-mcp",
+    "https://github.com/n24q02m/claude-plugins",
+    "https://github.com/n24q02m/imagine-mcp",
+    "https://github.com/n24q02m/jules-task-archiver",
+    "https://github.com/n24q02m/mcp-core",
+    "https://github.com/n24q02m/mnemo-mcp",
+    "https://github.com/n24q02m/qwen3-embed",
+    "https://github.com/n24q02m/skret",
+    "https://github.com/n24q02m/tacet",
+    "https://github.com/n24q02m/web-core",
+    "https://github.com/n24q02m/wet-mcp",
+    "https://github.com/python-semantic-release/python-semantic-release",
+    "https://github.com/simonrob/email-oauth2-proxy",
+    "https://github.com/yunfeizhu/mcp-mail-server",
+    "https://glama.ai/mcp/servers/n24q02m/better-email-mcp",
+    "https://glama.ai/mcp/servers/n24q02m/better-email-mcp/badge",
+    "https://hub.docker.com/r/n24q02m/better-email-mcp",
+    "https://img.shields.io/badge/IMAP%2FSMTP-005FF9?logo=maildotru&logoColor=white",
+    "https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white"
+  ],
+  "environment_variable_names": [
+    "CF_HOSTED_ENABLED",
+    "CREDENTIAL_SECRET",
+    "GITHUB_TOKEN",
+    "HOST",
+    "MCP_DCR_SERVER_SECRET",
+    "MCP_PORT",
+    "MCP_TRANSPORT",
+    "PORT",
+    "PUBLIC_URL",
+    "TRANSPORT_MODE",
+    "URL",
+    "YOUR_PUBLIC_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "IMAP/SMTP MCP server for Email with composite tools. Multi-account, auto-discovery.",
+      "name": "io.github.n24q02m/better-email-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Email credentials (format: user@gmail.com:app-password). Multiple accounts: comma-separated.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "EMAIL_CREDENTIALS"
+            }
+          ],
+          "identifier": "@n24q02m/better-email-mcp",
+          "registryType": "npm",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.41.5"
+        },
+        {
+          "environmentVariables": [
+            {
+              "description": "Email credentials (format: user@gmail.com:app-password). Multiple accounts: comma-separated.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "EMAIL_CREDENTIALS"
+            }
+          ],
+          "identifier": "docker.io/n24q02m/better-email-mcp:latest",
+          "registryType": "oci",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/n24q02m/better-email-mcp.git"
+      },
+      "version": "1.41.5"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/n24q02m-better-email-mcp.json",
+  "schema_version": 1,
+  "source_repository": "n24q02m/better-email-mcp",
+  "source_url": "https://github.com/n24q02m/better-email-mcp",
+  "status": "disabled_pending_review"
+}

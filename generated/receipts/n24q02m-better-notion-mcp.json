@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/n24q02m/better-notion-mcp",
+  "canonical_repository": "n24q02m/better-notion-mcp",
+  "canonical_url": "https://github.com/n24q02m/better-notion-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:45:17.164310Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "18df964abe5a50f8d17856cc2b485126b13d743f515ea69253c5c9607c9f7970",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "67d0725aad6847c97ec870cea8a151984e67a548d6960216d1ff24a61edb70b4",
+    "Dockerfile": "2797df83045be55f1fbd53127b18826f93b7a2cf40e88ab47c28beb803923336",
+    "LICENSE": "e462bd00764e90fa5fccd64a0dc3f2dbaecdada0cee67d4ec6ec80cbf41e3dcf",
+    "README.md": "e48e81f4e1f3347103e30d3aef7c367c4a02255d6b90d7e1633315eff187bcdd",
+    "package.json": "63dfbac40e2e30761954a5c25b8fd9ea9012e5348191996ee8f8841ebac7e476",
+    "server.json": "9a4d2f2f8b26bbeb732656b66ee3ffe0b98a3823eb522c97c33613677e4fcda5"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

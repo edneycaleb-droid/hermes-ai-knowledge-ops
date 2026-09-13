@@ -1,4 +1,4 @@
-# Integration proposal: MCPJam/inspector
+# Integration proposal: KyaniteLabs/kinocut
 
 ## Decision
 
@@ -6,10 +6,10 @@
 
 ## Source
 
-- Repository: https://github.com/MCPJam/inspector
-- Categories: mcp_server, tool, workflow
-- License: NOASSERTION
-- Default branch: `main`
+- Repository: https://github.com/KyaniteLabs/kinocut
+- Categories: agent, mcp_server, memory, skill, tool, workflow
+- License: Apache-2.0
+- Default branch: `master`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 10429
-- license: **4/10** — SPDX NOASSERTION
+- documentation: **10/10** — README length 49507
+- license: **10/10** — SPDX Apache-2.0
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- security: **8/10** — 0 critical, 0 high findings
 - interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 2199 stars
+- adoption: **6/10** — 146 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
+- `medium` `SEC008` in `.github/workflows/ci.yml`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/mcpjam-inspector.json`.
+A disabled metadata adapter was generated at `generated/adapters/kyanitelabs-kinocut.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

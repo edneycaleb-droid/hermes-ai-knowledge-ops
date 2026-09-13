@@ -1,0 +1,138 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://codecov.io/gh/n24q02m/better-notion-mcp",
+    "https://codecov.io/gh/n24q02m/better-notion-mcp/graph/badge.svg?token=D7FSDVVTAN",
+    "https://deploy.workers.cloudflare.com/?url=https://github.com/n24q02m/better-notion-mcp",
+    "https://deploy.workers.cloudflare.com/button",
+    "https://developer.mend.io/",
+    "https://github.com/n24q02m/agent-chat-plugin",
+    "https://github.com/n24q02m/better-code-review-graph",
+    "https://github.com/n24q02m/better-drive",
+    "https://github.com/n24q02m/better-email-mcp",
+    "https://github.com/n24q02m/better-godot-mcp",
+    "https://github.com/n24q02m/better-notion-mcp",
+    "https://github.com/n24q02m/better-notion-mcp#readme",
+    "https://github.com/n24q02m/better-notion-mcp.git",
+    "https://github.com/n24q02m/better-notion-mcp/actions/workflows/ci.yml",
+    "https://github.com/n24q02m/better-notion-mcp/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/n24q02m/better-notion-mcp/issues",
+    "https://github.com/n24q02m/better-semantic-release",
+    "https://github.com/n24q02m/better-telegram-mcp",
+    "https://github.com/n24q02m/better-workspace-mcp",
+    "https://github.com/n24q02m/claude-plugins",
+    "https://github.com/n24q02m/imagine-mcp",
+    "https://github.com/n24q02m/jules-task-archiver",
+    "https://github.com/n24q02m/mcp-core",
+    "https://github.com/n24q02m/mnemo-mcp",
+    "https://github.com/n24q02m/qwen3-embed",
+    "https://github.com/n24q02m/skret",
+    "https://github.com/n24q02m/tacet",
+    "https://github.com/n24q02m/web-core",
+    "https://github.com/n24q02m/wet-mcp",
+    "https://github.com/python-semantic-release/python-semantic-release",
+    "https://glama.ai/mcp/servers/n24q02m/better-notion-mcp",
+    "https://glama.ai/mcp/servers/n24q02m/better-notion-mcp/badge",
+    "https://hub.docker.com/r/n24q02m/better-notion-mcp",
+    "https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white",
+    "https://img.shields.io/badge/Notion_API-000000?logo=notion&logoColor=white",
+    "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white",
+    "https://img.shields.io/badge/mode:-http_remote_oauth_%C2%B7_http_local_relay_%C2%B7_stdio_proxy-5C6BC0",
+    "https://img.shields.io/badge/renovate-enabled-1A1F6C?logo=renovatebot&logoColor=white",
+    "https://img.shields.io/badge/semantic--release-e10079?logo=semantic-release&logoColor=white",
+    "https://img.shields.io/docker/v/n24q02m/better-notion-mcp?label=docker&logo=docker&logoColor=white&sort=semver"
+  ],
+  "environment_variable_names": [
+    "CF_HOSTED_ENABLED",
+    "CREDENTIAL_SECRET",
+    "GITHUB_TOKEN",
+    "HOST",
+    "MCP_TRANSPORT",
+    "NOTION_OAUTH_CLIENT_SECRET",
+    "NOTION_TOKEN",
+    "PORT",
+    "PUBLIC_URL",
+    "TRANSPORT_MODE",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Markdown-first MCP server for Notion API with 8 composite tools and 39 actions.",
+      "name": "io.github.n24q02m/better-notion-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Notion integration token. Create at https://www.notion.so/my-integrations",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "NOTION_TOKEN"
+            }
+          ],
+          "identifier": "@n24q02m/better-notion-mcp",
+          "registryType": "npm",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.41.6"
+        },
+        {
+          "environmentVariables": [
+            {
+              "description": "Notion integration token. Create at https://www.notion.so/my-integrations",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "NOTION_TOKEN"
+            }
+          ],
+          "identifier": "docker.io/n24q02m/better-notion-mcp:latest",
+          "registryType": "oci",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/n24q02m/better-notion-mcp.git"
+      },
+      "version": "2.41.6"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/n24q02m-better-notion-mcp.json",
+  "schema_version": 1,
+  "source_repository": "n24q02m/better-notion-mcp",
+  "source_url": "https://github.com/n24q02m/better-notion-mcp",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,132 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://example.com",
+    "https://github.com/Harusame64/desktop-touch-mcp",
+    "https://github.com/Harusame64/desktop-touch-mcp#readme",
+    "https://github.com/Harusame64/desktop-touch-mcp.git",
+    "https://github.com/Harusame64/desktop-touch-mcp/issues",
+    "https://glama.ai/mcp/servers/Harusame64/desktop-touch-mcp",
+    "https://glama.ai/mcp/servers/Harusame64/desktop-touch-mcp/badges/card.svg",
+    "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "DESKTOP_TOUCH_DISABLE_KEY_LOCKER",
+    "GH_TOKEN",
+    "GITHUB_TOKEN",
+    "IMPORTANT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Computer-use MCP for Windows 10/11: 32 tools \u2014 screenshot, UIA, Chrome CDP, type/click/scroll, VBA.",
+      "name": "io.github.Harusame64/desktop-touch-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Set to '0' to disable automatic action guards (reverts to v0.11.12 behavior).",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_AUTO_GUARD"
+            },
+            {
+              "description": "Set to '1' to enable MCP perception resources.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_PERCEPTION_RESOURCES"
+            },
+            {
+              "description": "Idle ms before the WinEvent sidecar enters dormancy (default 60000).",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_PERCEPTION_IDLE_MS"
+            },
+            {
+              "description": "Set to '1' to keep the WinEvent sidecar always running (no auto-dormancy).",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_PERCEPTION_DORMANCY_DISABLE"
+            },
+            {
+              "description": "Set to '1' to disable the JSONL diagnostic event log (issue #365 Phase 2).",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_DIAGNOSTIC_LOG_DISABLE"
+            },
+            {
+              "description": "Override path for the diagnostic event log.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_DIAGNOSTIC_LOG_PATH"
+            },
+            {
+              "description": "Size in bytes at which the diagnostic event log rolls over to diagnostic.log.1 (default 67108864 = 64 MiB). Two rolled generations are kept. Values below 1 MiB are raised to 1 MiB and values above 1 GiB are lowered to 1 GiB; anything that is not a positive whole number falls back to the default, so a typo cannot disable rotation in either direction.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_DIAGNOSTIC_LOG_MAX_BYTES"
+            },
+            {
+              "description": "Set to '1' to record window titles and title queries in clear in the diagnostic event log. Off by default: titles are recorded as a short hash plus their length, because a title can contain a file name, a mail subject, or a browser page title.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DESKTOP_TOUCH_RESOLVE_LOG_RAW"
+            }
+          ],
+          "identifier": "@harusame64/desktop-touch-mcp",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.16.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Harusame64/desktop-touch-mcp"
+      },
+      "version": "1.16.0"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/harusame64-desktop-touch-mcp.json",
+  "schema_version": 1,
+  "source_repository": "Harusame64/desktop-touch-mcp",
+  "source_url": "https://github.com/Harusame64/desktop-touch-mcp",
+  "status": "disabled_pending_review"
+}

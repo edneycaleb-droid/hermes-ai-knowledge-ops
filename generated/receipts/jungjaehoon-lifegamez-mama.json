@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/jungjaehoon-lifegamez/MAMA",
+  "canonical_repository": "jungjaehoon-lifegamez/MAMA",
+  "canonical_url": "https://github.com/jungjaehoon-lifegamez/MAMA",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-13T06:44:58.707965Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "104a8d52e7db5608b895622cdb4b1b344f5d01d75d1f08c68eb5d7850edc786d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8d96cd16f8038f8e3365881158475465f2153c83e35bc1248e8a005f0f1558bf",
+    "LICENSE": "f1b7cd9fcca99e37f03f2575a96fe6e9260acec60f8efdde9d13042734ca06b4",
+    "README.md": "16bbbd58040226e651317dd6738ea382b41337e6e00addc3e720399cf8e71dd5",
+    "package.json": "da88b99bea20dac1af200b8e4790266a8f93c9051c0c22236af549eeed7089fe"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
