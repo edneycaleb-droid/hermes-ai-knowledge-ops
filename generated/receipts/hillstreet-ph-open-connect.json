@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/hillstreet-ph/open-connect",
+  "canonical_repository": "hillstreet-ph/open-connect",
+  "canonical_url": "https://github.com/hillstreet-ph/open-connect",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:39:46.806663Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e38a83f3672c45fb2fcd2b035f7c0c4f7ba62fd1fc93bf7d2c97155a5b772a15",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "586c88b9092773285ff83b76118f9b2860cdef1b56528926b8ac32d6ed671938",
+    "README.md": "7b6bfe357667ddee44d2f6dfac0aed0821ec89907064ae62cd8e55e7dcbdf518",
+    "package.json": "c8eaa4446f45650a6c5a52e92593a669b1d929767938860568d6b37e4a63a1be"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

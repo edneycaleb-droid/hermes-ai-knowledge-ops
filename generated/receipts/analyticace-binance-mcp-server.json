@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/AnalyticAce/binance-mcp-server",
+  "canonical_repository": "AnalyticAce/binance-mcp-server",
+  "canonical_url": "https://github.com/AnalyticAce/binance-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:40:18.596095Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3d19100fbade768b1b0bcd18d67f6efd42d6cadd9187750ba8f6aa7099279574",
+  "sampled_file_digests": {
+    "LICENSE": "11210993ec526404b7d06b95d6d5e3dc445335f8db7f4a00f811526322ed9e58",
+    "README.md": "f5dcfba2183b9817863d032b3d87d15cd3ba324c164d817f7171b31ed64fe385",
+    "pyproject.toml": "af3483608eb91d73b9aa18ef7d30683e338d29bb9dcbebbb28d4ca4a2c4020d2"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

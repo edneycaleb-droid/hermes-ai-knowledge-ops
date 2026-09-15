@@ -7,7 +7,7 @@
 ## Source
 
 - Repository: https://github.com/openwong2kim/wmux
-- Categories: agent, mcp_server, memory, plugin, tool
+- Categories: agent, api, mcp_server, memory, plugin, tool
 - License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 23705
+- documentation: **10/10** — README length 28615
 - license: **10/10** — SPDX MIT
 - testing: **10/10** — Test/CI signal in sampled metadata
 - security: **3/10** — 0 critical, 1 high findings
 - interoperability: **5/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **8/10** — 305 stars
+- adoption: **8/10** — 386 stars
 
 ## Static security review
 

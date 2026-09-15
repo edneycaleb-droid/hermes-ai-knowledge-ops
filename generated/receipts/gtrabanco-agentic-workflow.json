@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/gtrabanco/agentic-workflow",
+  "canonical_repository": "gtrabanco/agentic-workflow",
+  "canonical_url": "https://github.com/gtrabanco/agentic-workflow",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:39:42.789192Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "10f3d7635a7f3d9118ced6fc36f29e4d5a4c54b931f33fa14322fe65c2e69716",
+  "sampled_file_digests": {
+    "LICENSE": "dcbe1e6fdc4fb9a85a745e7c3482f94059aecc59b60be63fe70d2d2806a1be2f",
+    "README.md": "ff01f3be7cfbe3503c888e56d7ad0e9478c2b98f9e60f828420a281a0732b1a6"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

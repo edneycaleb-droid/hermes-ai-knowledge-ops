@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/jqueryscript/awesome-codex",
+  "canonical_repository": "jqueryscript/awesome-codex",
+  "canonical_url": "https://github.com/jqueryscript/awesome-codex",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:39:58.698812Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b2f9d1075c9da51fe9fecb6922d0397c0c454b43209ef481f8d6c699b76a1967",
+  "sampled_file_digests": {
+    "README.md": "7f82c235742bfb3aa010eb9f6ceedbb7979d497eb1a5f7f6cc6fc457d832d4f2"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

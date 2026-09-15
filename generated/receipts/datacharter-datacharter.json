@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/datacharter/datacharter",
+  "canonical_repository": "datacharter/datacharter",
+  "canonical_url": "https://github.com/datacharter/datacharter",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:40:29.598135Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "aef2a7cb131ddcba538a574156dbd3e124610ea5651a911dc1349413e8fbf017",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "db5ff4ea6f0a2d86120e93a48d57e448f6182af84d779645bae988befd876ae8",
+    "Dockerfile": "265e7ab1abc727d57305746596fd09b6a7b0fd8327925f9a0f7a1a27a58c36b6",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "7103a72e67694df2cb3199c7a96a67dff77d5ddebd5f7c0eefab315f06e02065",
+    "pyproject.toml": "180e536f43cdda606168882109ebb64ff2fc4d38778cd1359db3625a36ba53fa",
+    "server.json": "25537c39ebbb71f5efdc9de9c046a052a79b43e4f0f144ab3c24b380b35c5fd6"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

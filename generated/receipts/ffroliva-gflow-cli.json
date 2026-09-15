@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/ffroliva/gflow-cli",
+  "canonical_repository": "ffroliva/gflow-cli",
+  "canonical_url": "https://github.com/ffroliva/gflow-cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "develop",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:40:25.929059Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "aff2b1bf29bf2c79b221da00eeea30bc47b06a926d4b24983abcce5f437d7e52",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "bcf167b15f7792e38833ae3a97076ae7cdd3e7454549c368ff95ca2a647f25e0",
+    "LICENSE": "4572ac5b54492aebada6f0791732645401a6b97996dca1e98c44ce2bcd11d93a",
+    "README.md": "318a57690740a783ada7feadcfe9249f2dc68318d6e1b7df259be5ede94a045d",
+    "docker-compose.yml": "dfd832f6e357b821ea3e3d35d913922b304ee93619c56355b8430aa93ca97766",
+    "pyproject.toml": "08d6559ef79073a59c958646dd06511ca3248559c064ddd43fdcafbb051e2c55",
+    "server.json": "ea8cbcd46a218b495ef5380b89784ed28dabe0ccadeacd9268d3d42710c3d22b"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

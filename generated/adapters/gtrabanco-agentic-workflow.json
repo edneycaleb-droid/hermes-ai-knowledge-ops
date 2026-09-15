@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://api.nan.builders/v1",
+    "https://cloud.nan.builders/r/7GK06FX8",
+    "https://github.com/badlogic/pi-mono",
+    "https://github.com/gtrabanco/bingo-ev",
+    "https://github.com/gtrabanco/ship-lab",
+    "https://github.com/vercel-labs/skills",
+    "https://img.youtube.com/vi/2Ai0NkTvoeM/mqdefault.jpg",
+    "https://nan.builders/docs/models",
+    "https://skills.sh",
+    "https://www.youtube.com/watch?v=2Ai0NkTvoeM"
+  ],
+  "environment_variable_names": [
+    "PORTABLE_PROMPT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/gtrabanco-agentic-workflow.json",
+  "schema_version": 1,
+  "source_repository": "gtrabanco/agentic-workflow",
+  "source_url": "https://github.com/gtrabanco/agentic-workflow",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/nikolai-vysotskyi/trace-mcp",
+  "canonical_repository": "nikolai-vysotskyi/trace-mcp",
+  "canonical_url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:40:49.615442Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c31f904275531c01dc1cf8d7dcd8c91e36c0c06a06a279297488b419ad6db242",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "424a5f45e0ea6476b6b58b13859f97ff556ad82f895fb90da5e3e04a9b26f017",
+    "LICENSE": "b1fe50b5449d529d5c1fa0693f0f5c56bb03fb1c981a404c42b24382823be2ea",
+    "README.md": "b31e935b354edebabc1109ba67bbb57066d4d2bcd362a5368a19f50d8afe6a33",
+    "mcp.json": "c449ad74c301eac8779b2638b4e5427d0a1402e9ad292eeedcf7f4cc01e58940",
+    "package.json": "30048b8cfa1fedbdb5be60bdd0da308d0e97350b938ab1c1a712c2bb06a31033",
+    "server.json": "d2564ee104f50f118c9e471dea2e31bf1dede69efeee9e05a02bd4db20c021f2"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
