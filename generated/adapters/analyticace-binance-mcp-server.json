@@ -1,0 +1,53 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://analyticace.github.io/BinanceMCPServer/",
+    "https://github.com/AnalyticAce/binance-mcp-server.git",
+    "https://github.com/AnalyticAce/binance-mcp-server/actions/workflows/deploy-docs.yml",
+    "https://github.com/AnalyticAce/binance-mcp-server/actions/workflows/deploy-docs.yml/badge.svg",
+    "https://github.com/AnalyticAce/binance-mcp-server/actions/workflows/publish-package.yml",
+    "https://github.com/AnalyticAce/binance-mcp-server/actions/workflows/publish-package.yml/badge.svg",
+    "https://img.shields.io/badge/Cursor%20Store-Available-blueviolet.svg",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/python-3.10+-blue.svg",
+    "https://img.shields.io/pypi/v/binance-mcp-server.svg?style=flat&color=blue",
+    "https://opensource.org/licenses/MIT",
+    "https://pypi.org/project/binance-mcp-server/",
+    "https://www.cursor.store/mcp/AnalyticAce/BinanceMCPServer",
+    "https://www.python.org/downloads/"
+  ],
+  "environment_variable_names": [
+    "BINANCE_API_KEY",
+    "BINANCE_API_SECRET"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/analyticace-binance-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "AnalyticAce/binance-mcp-server",
+  "source_url": "https://github.com/AnalyticAce/binance-mcp-server",
+  "status": "disabled_pending_review"
+}

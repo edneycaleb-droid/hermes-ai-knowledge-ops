@@ -1,0 +1,92 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://datacharter.dev",
+    "https://datacharter.dev/audit.html",
+    "https://datacharter.dev/deploy.html",
+    "https://datacharter.dev/desktop.html",
+    "https://datacharter.dev/govbench.html",
+    "https://datacharter.dev/mcp.html",
+    "https://datacharter.dev/privacy",
+    "https://datacharter.dev/quickstart.html",
+    "https://datacharter.github.io/datacharter/",
+    "https://github.com/datacharter/datacharter",
+    "https://github.com/datacharter/datacharter/blob/main/CHANGELOG.md",
+    "https://github.com/datacharter/datacharter/issues",
+    "https://github.com/datacharter/datacharter/releases/latest",
+    "https://github.com/vidaiUK/VidaiMock/releases/download/$ver",
+    "https://img.shields.io/badge/License-Apache_2.0-blue",
+    "https://img.shields.io/pypi/pyversions/datacharter",
+    "https://img.shields.io/pypi/v/datacharter",
+    "https://pypi.org",
+    "https://pypi.org/project/datacharter/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Local-first, contract-governed data explorer with read-only, PII-masked query tools for AI agents.",
+      "name": "io.github.datacharter/datacharter",
+      "packages": [
+        {
+          "identifier": "datacharter",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            },
+            {
+              "description": "Path to the DataCharter workspace directory containing charter.yaml",
+              "isRequired": true,
+              "type": "positional",
+              "valueHint": "workspace"
+            }
+          ],
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.44.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/datacharter/datacharter"
+      },
+      "title": "DataCharter",
+      "version": "0.44.0"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/datacharter-datacharter.json",
+  "schema_version": 1,
+  "source_repository": "datacharter/datacharter",
+  "source_url": "https://github.com/datacharter/datacharter",
+  "status": "disabled_pending_review"
+}

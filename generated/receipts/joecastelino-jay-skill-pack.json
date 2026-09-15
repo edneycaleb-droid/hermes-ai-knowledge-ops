@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/joecastelino/jay-skill-pack",
+  "canonical_repository": "joecastelino/jay-skill-pack",
+  "canonical_url": "https://github.com/joecastelino/jay-skill-pack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:40:14.562853Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "cc683bce1ab0e4af3d19d6e2bc10b51daa49669d8571ae551cfb37175598470b",
+  "sampled_file_digests": {
+    "README.md": "f04b6d784cfe8999fc8867140f039e705da16d6172e1f11bcf5b21f6e521f355"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

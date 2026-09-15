@@ -1,0 +1,73 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://beast:8446/a/6f1c2a3e-",
+    "https://github.com/MaximilianKhan/openbeast",
+    "https://github.com/MaximilianKhan/openbeast/actions/workflows/ci.yml",
+    "https://github.com/MaximilianKhan/openbeast/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/encode/uvicorn",
+    "https://github.com/fastapi/fastapi",
+    "https://github.com/ggml-org/llama.cpp",
+    "https://github.com/huggingface/huggingface_hub",
+    "https://github.com/modelcontextprotocol/python-sdk",
+    "https://github.com/open-webui/open-webui",
+    "https://github.com/openai/openai-python",
+    "https://github.com/searxng/searxng",
+    "https://github.com/sst/opencode",
+    "https://github.com/tailscale/tailscale",
+    "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+    "https://tailscale.com"
+  ],
+  "environment_variable_names": [
+    "AGENT_INFERENCE_URL",
+    "FORWARD_USER_INFO_HEADER_JWT_SECRET",
+    "GRANIAN_HOST",
+    "GRANIAN_PORT",
+    "HOST",
+    "OPENAI_API_BASE_URL",
+    "OPENAI_API_KEY",
+    "OPENBEAST_API_KEY",
+    "OPENBEAST_IDENTITY_JWT_SECRET",
+    "OPENBEAST_MODEL_URL",
+    "OPENBEAST_SEARXNG_SECRET",
+    "PORT",
+    "SEARXNG_BASE_URL",
+    "SEARXNG_SECRET",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/maximiliankhan-openbeast.json",
+  "schema_version": 1,
+  "source_repository": "MaximilianKhan/openbeast",
+  "source_url": "https://github.com/MaximilianKhan/openbeast",
+  "status": "disabled_pending_review"
+}

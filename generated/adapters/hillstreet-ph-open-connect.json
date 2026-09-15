@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/BerriAI/litellm?utm_source=chatgpt.com",
+    "https://github.com/PipedreamHQ/pipedream?utm_source=chatgpt.com",
+    "https://github.com/hillstreet-ph/open-connect-connections?utm_source=chatgpt.com",
+    "https://github.com/hillstreet-ph/open-connect-models?utm_source=chatgpt.com",
+    "https://github.com/hillstreet-ph/open-connect?utm_source=chatgpt.com",
+    "https://github.com/nvm-sh/nvm#installing-and-updating",
+    "https://gnqpwewbgldonarggzax.supabase.co",
+    "https://havsbgrdfoeuxkbbkvnr.supabase.co?utm_source=chatgpt.com",
+    "https://lovable.dev",
+    "https://lovable.dev/projects/f047d610-9833-4f21-a17b-957c39169d7f",
+    "https://open-connect.site",
+    "https://open-connect.site$p",
+    "https://open-connect.site/.well-known/oauth-authorization-server",
+    "https://open-connect.site/api/v1",
+    "https://open-connect.site/api/v1/*",
+    "https://open-connect.site/api/v1/health",
+    "https://open-connect.site/mcp",
+    "https://open-connect.site/oauth/*",
+    "https://open-connect.site/v1",
+    "https://open-connect.site/v1/*"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "CLOUDFLARE_API_TOKEN",
+    "GITHUB_TOKEN",
+    "GOOGLE_PRIVATE_KEY",
+    "KEY",
+    "LITELLM_MASTER_KEY",
+    "OAUTH_CLIENT_SECRET",
+    "OPENAI_API_KEY",
+    "OPEN_CONNECT_KEY",
+    "OPEN_CONNECT_SCOPED_KEY",
+    "SUPABASE_SERVICE_ROLE_KEY",
+    "URL",
+    "VITE_APP_URL",
+    "VITE_SUPABASE_PUBLISHABLE_KEY",
+    "VITE_SUPABASE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/hillstreet-ph-open-connect.json",
+  "schema_version": 1,
+  "source_repository": "hillstreet-ph/open-connect",
+  "source_url": "https://github.com/hillstreet-ph/open-connect",
+  "status": "disabled_pending_review"
+}

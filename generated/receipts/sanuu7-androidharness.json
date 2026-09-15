@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Sanuu7/AndroidHarness",
+  "canonical_repository": "Sanuu7/AndroidHarness",
+  "canonical_url": "https://github.com/Sanuu7/AndroidHarness",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:40:02.485086Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1cc4e31a69a8bbbab97812c432ce7b0a6598aa83b9ebe438c6deb2241d444973",
+  "sampled_file_digests": {
+    "LICENSE": "e854affb2e8a22d9381b0ab3517ef948f6fc9c20d084c935fe3e219b5de7f85e",
+    "README.md": "ebee74f379cbf54adbcc83699042a2eb70edb582fa80546d2d1762e0439c233e"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

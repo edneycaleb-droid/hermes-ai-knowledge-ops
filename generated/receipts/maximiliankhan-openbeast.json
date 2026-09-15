@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/MaximilianKhan/openbeast",
+  "canonical_repository": "MaximilianKhan/openbeast",
+  "canonical_url": "https://github.com/MaximilianKhan/openbeast",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:39:50.784961Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5ce99ffe678a960125882448673832629842505d932cf9635451870254b7a5a2",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f84cf320977efd40d5d72a2eb8bf8d26d8f847c3ab1844c0bd40c3b9caa046af",
+    "LICENSE": "99c61b1aab971a20759d620c828a6932f11ba7b1a3000712eb4b63f0d859d585",
+    "README.md": "1369c6c97b1171af12d435080572f27a240912e0e505700e2aa2c6350a408a40",
+    "docker-compose.yml": "0f875ded02392d4494645a889e1c296b4ecb048cf49f1f345191692296679cf1"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

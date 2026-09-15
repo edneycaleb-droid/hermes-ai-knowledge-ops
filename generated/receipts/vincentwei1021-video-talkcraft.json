@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Vincentwei1021/video-talkcraft",
+  "canonical_repository": "Vincentwei1021/video-talkcraft",
+  "canonical_url": "https://github.com/Vincentwei1021/video-talkcraft",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T23:41:15.798643Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e5f78104b6d3e81ca191fd7dfdb439a6b7557db73e59d670bccd5004c0c2768a",
+  "sampled_file_digests": {
+    "LICENSE": "ebe8b7ad95a04a78e6f233db4ffcfa2c03a1d8cfa2c49d537658b36e81603b7c",
+    "README.md": "37eb918ff7dc82751d545a3234888737f1dbd261c21b63671bebbec6a9ea2640",
+    "package.json": "1336ce6076a8366b9938100cd07890ef4941c6bf049ffbaf08c522bb41f1c3d4"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}
