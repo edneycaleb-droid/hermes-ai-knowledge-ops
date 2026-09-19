@@ -1,0 +1,78 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1d,50:1e293b,100:0a0f1d&height=120&section=footer",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/NousResearch/hermes-agent/pull/114862",
+    "https://github.com/ghost1372/HandyControls",
+    "https://github.com/ghost1372/HandyControls/pull/248",
+    "https://github.com/imaNNeo/fl_chart",
+    "https://github.com/imaNNeo/fl_chart/pull/2119",
+    "https://github.com/omid-io",
+    "https://github.com/omid-io/AirTun",
+    "https://github.com/omid-io/digikala-pure-search",
+    "https://github.com/omid-io/google-flow-suite",
+    "https://github.com/omid-io/vibe-ui-suite",
+    "https://greasyfork.org/en/scripts/593664-digikala-pure-search",
+    "https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white",
+    "https://img.shields.io/badge/Approved-by_imaNNeo-blue?logo=flutter",
+    "https://img.shields.io/badge/Architecture-Event--Driven-purple",
+    "https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white",
+    "https://img.shields.io/badge/CI-Passing_100%25-brightgreen",
+    "https://img.shields.io/badge/Demo-Live_Studio-blue",
+    "https://img.shields.io/badge/Direct_Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white",
+    "https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/ECA_3.1-Valid_to_2029-blue?logo=eclipse",
+    "https://img.shields.io/badge/Engine-Dual_CDP%2FAPI-orange",
+    "https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white",
+    "https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white",
+    "https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white",
+    "https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white",
+    "https://img.shields.io/badge/Greasy_Fork-Active-red?logo=tampermonkey",
+    "https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white",
+    "https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white",
+    "https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black",
+    "https://img.shields.io/badge/MCP_Protocol-6366F1?style=flat-square&logo=anthropic&logoColor=white",
+    "https://img.shields.io/badge/Merged-3_PRs_in_Main-brightgreen?logo=csharp",
+    "https://img.shields.io/badge/Merged-Salvaged_by_Teknium-brightgreen?logo=github",
+    "https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white",
+    "https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white",
+    "https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white",
+    "https://img.shields.io/badge/Open--VSX-620+_Downloads-purple?logo=eclipseide",
+    "https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white",
+    "https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/omid-io-omid-io.json",
+  "schema_version": 1,
+  "source_repository": "omid-io/omid-io",
+  "source_url": "https://github.com/omid-io/omid-io",
+  "status": "disabled_pending_review"
+}

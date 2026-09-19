@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/mnemosyne-oss/mnemosyne",
+  "canonical_repository": "mnemosyne-oss/mnemosyne",
+  "canonical_url": "https://github.com/mnemosyne-oss/mnemosyne",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:09.320186Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0abd753c1564625d96d9d60fdc85712ef5a714e4061152d6baff59e1bc5192fa",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "337079b0ba8bd25321977c46a0a0f5a414090db79bdc88c178d0584b4bcd3825",
+    "Dockerfile": "bd9e3ecdfa188497a39af218997f76062f99a131f72f3c98d56ec663d310598c",
+    "LICENSE": "f391a152fdd56e2f1ab85539ea29ca9a7c6a5ece217fa9ea37309737506199e0",
+    "README.md": "77a4a6daf75726c26f3dc85c320c5c11cef156d78efa7d896c730de65f052bb1",
+    "docker-compose.yml": "ae625cc54142944681c5735162781ff7bd1228c5f3c570a5198744275182bf30",
+    "pyproject.toml": "3d8b8dd73ff54ad19be0710b8e96a03409b53bb156022eb6a4dcb106a559bf46"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

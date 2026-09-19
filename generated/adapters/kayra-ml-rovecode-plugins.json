@@ -1,0 +1,44 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bun.sh",
+    "https://github.com/Kayra-ML/RoveCode_plugins",
+    "https://modelcontextprotocol.io",
+    "https://polyformproject.org/licenses/strict/1.0.0"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/kayra-ml-rovecode-plugins.json",
+  "schema_version": 1,
+  "source_repository": "Kayra-ML/RoveCode_plugins",
+  "source_url": "https://github.com/Kayra-ML/RoveCode_plugins",
+  "status": "disabled_pending_review"
+}

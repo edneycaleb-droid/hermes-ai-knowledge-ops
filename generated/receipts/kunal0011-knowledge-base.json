@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/kunal0011/knowledge-base",
+  "canonical_repository": "kunal0011/knowledge-base",
+  "canonical_url": "https://github.com/kunal0011/knowledge-base",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:13.061795Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e01493e930646aab0a1bdb535de84278ecaa282a725f2ca7c477b80827abc08a",
+  "sampled_file_digests": {
+    "README.md": "0ec91b264e456878e1a876c227e773319eb9862e54861c54fc68b8f7609ab56f"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

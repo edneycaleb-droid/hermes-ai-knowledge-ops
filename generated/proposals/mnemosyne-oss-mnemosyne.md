@@ -1,14 +1,14 @@
-# Integration proposal: koala73/worldmonitor
+# Integration proposal: mnemosyne-oss/mnemosyne
 
 ## Decision
 
-**REVIEW** — quality 83/100; bounded learning adjustment +0.
+**REVIEW** — quality 89/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/koala73/worldmonitor
-- Categories: api, mcp_server, memory, plugin, skill, tool, workflow
-- License: AGPL-3.0
+- Repository: https://github.com/mnemosyne-oss/mnemosyne
+- Categories: agent, mcp_server, memory, plugin, tool, workflow
+- License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,23 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 13125
-- license: **4/10** — SPDX AGPL-3.0
+- documentation: **10/10** — README length 25486
+- license: **10/10** — SPDX MIT
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
+- security: **3/10** — 0 critical, 2 high findings
 - interoperability: **9/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 86987 stars
+- adoption: **10/10** — 3196 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
-- `medium` `SEC008` in `Dockerfile`: Elevated execution or privilege
-- `medium` `SEC008` in `.github/workflows/test.yml`: Elevated execution or privilege
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `high` `SEC006` in `.github/workflows/ci.yml`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/koala73-worldmonitor.json`.
+A disabled metadata adapter was generated at `generated/adapters/mnemosyne-oss-mnemosyne.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

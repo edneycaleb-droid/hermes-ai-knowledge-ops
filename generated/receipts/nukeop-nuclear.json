@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/nukeop/nuclear",
+  "canonical_repository": "nukeop/nuclear",
+  "canonical_url": "https://github.com/nukeop/nuclear",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:33.244384Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1a88c88eb591b93a4c622b537f4138a9bfa1af5eb1a8c404bdb01e75c81cf1a3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6558ba4b327225837665035160791d2063e6a13779cf4d6e648b9864cb74060c",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "README.md": "d651360e0356e2aee5e9995791f12ebf14f31a1cb33c310b0a65275d31231e80",
+    "package.json": "0b0abd39b08f3206f137b03498a0246e08e28492ba9e5ea6c6c43f290f0103cd"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

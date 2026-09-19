@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Kayra-ML/RoveCode_plugins",
+  "canonical_repository": "Kayra-ML/RoveCode_plugins",
+  "canonical_url": "https://github.com/Kayra-ML/RoveCode_plugins",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:18.346271Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "683289b8257bf9a21c5f722eb8200f29381ed0cd0c56490eb658be8de2e4a00b",
+  "sampled_file_digests": {
+    "LICENSE": "9eb48619fbc193ab7bb327b090cfcc703000265b83e670f81f231d0b1c43c56e",
+    "README.md": "21066edae3f6ccd1f7800ef6f1b7e6d9be0b886de95d070d84cc9aee76e937d7",
+    "package.json": "7fc88d8ef5fa5f52fb8578cbcff626fede4b074b258e050fb1c0966b13ce9ca2"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

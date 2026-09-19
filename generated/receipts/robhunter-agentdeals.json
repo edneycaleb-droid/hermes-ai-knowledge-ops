@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/robhunter/agentdeals",
+  "canonical_repository": "robhunter/agentdeals",
+  "canonical_url": "https://github.com/robhunter/agentdeals",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:39.452815Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7ae8fc9620ced9d00981218b59b5274c9cba7489faec6299ee0ed212e2156d9d",
+  "sampled_file_digests": {
+    ".mcp.json": "f3cb62543e53c0e53c4d42532b7624c6c74e4a89af5fe7b91fcbce7f973f9f6d",
+    "Dockerfile": "e6b8ba31fcc7da9bc29c72c6f0424b6d4a467496b53ecd279c613c93a3087c75",
+    "LICENSE": "4be9821a6c4b284e44ac7f8787968fb7c44149ef4ddc98a30831bd17e521e551",
+    "README.md": "02bd6c3dabeae3761b76631473fda48805e91efbbc05a2c341d1ac164a700641",
+    "package.json": "53bf0e19f9ba3bd782d77d1199a183701668e6b24397c2cee94deff9fd436f3d",
+    "server.json": "a29129be7bd3e3fc630eeb465f0bc0449fe278620e508d06ed6a0e577ea2cdd3"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/apoapostolov/hermes-agent-awesome-plugins",
+  "canonical_repository": "apoapostolov/hermes-agent-awesome-plugins",
+  "canonical_url": "https://github.com/apoapostolov/hermes-agent-awesome-plugins",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:11.005400Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1d413a03c51e201baca16ca9f307dea870b8ed2da8c52f2561deea3ad142d441",
+  "sampled_file_digests": {
+    "LICENSE": "70fe34d80065bd234cb816d4dd316cad37e5c06cca74b88ef3a8f8d6c0652117",
+    "README.md": "5ffbab3937996527e67ea8ce46581da9d523ffdc891f9be2af85c92ec270c12a"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

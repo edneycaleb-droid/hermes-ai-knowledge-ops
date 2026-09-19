@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ebullient/obsidian-vault-mcp",
+  "canonical_repository": "ebullient/obsidian-vault-mcp",
+  "canonical_url": "https://github.com/ebullient/obsidian-vault-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:36.415836Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8dcfb031c2ce091e9434766be6a46840ad54bd84d4277272ca4dea751f6c28d3",
+  "sampled_file_digests": {
+    "LICENSE": "e9461d18bd2f835d05d7d96ab59985065c5893a18c41da31b8c1796f16a2c67d",
+    "README.md": "9fafb7971a2f382cd18cb539471034c7f76530c5df455309cb88468d951321f0",
+    "package.json": "46764192bc4e98786894a5d7285c0171210341f1dd1f686ca674bf61d14eb539"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

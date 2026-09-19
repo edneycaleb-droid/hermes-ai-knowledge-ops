@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/omid-io/omid-io",
+  "canonical_repository": "omid-io/omid-io",
+  "canonical_url": "https://github.com/omid-io/omid-io",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:16.537100Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b7b497446542273f5d5e1aa0d1009ca483f80c3aa1cb2d01338bd33f5e8a6fbc",
+  "sampled_file_digests": {
+    "README.md": "765b351a0566b0af11dad4a0dc6e51a14198425609962b398a374b9402dbe737"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

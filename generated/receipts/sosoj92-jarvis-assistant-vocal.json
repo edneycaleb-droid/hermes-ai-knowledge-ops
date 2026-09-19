@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/sosoj92/jarvis-assistant-vocal",
+  "canonical_repository": "sosoj92/jarvis-assistant-vocal",
+  "canonical_url": "https://github.com/sosoj92/jarvis-assistant-vocal",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:23.452259Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f6ad555cb8e1c51f4562dc38b63df4c6c1bd08d86c4fd729af2507ee7c68ccff",
+  "sampled_file_digests": {
+    "LICENSE": "c1ccf971c33206c75f4348eb9df8ffd2ec19a19bfe943994c679c1499382dcf0",
+    "README.md": "abe689086dfae8035a3d3baa07b9c931bbdc580a29d30867d87ee76fc5cd4884",
+    "pyproject.toml": "e4a4299959a734186dd7c2705e0a77b8ab3e06f534365213075e2e8bdc40f7eb",
+    "requirements.txt": "8cbaa1e49379a76d3513a45a41cfd91824665ac61abf303353363fa4dd32238d"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
