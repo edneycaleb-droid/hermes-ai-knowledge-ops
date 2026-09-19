@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/gittensor-model-hub/Spark-Hermes",
+  "canonical_repository": "gittensor-model-hub/Spark-Hermes",
+  "canonical_url": "https://github.com/gittensor-model-hub/Spark-Hermes",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:07.475683Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8930611dc1849d95b51ada63b92883feb0b1ddaa7de88a73e319b36219ebdb20",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0c70c390b19747cb585d12965885d6e8abec9518d3299378aac22257d427f5b0",
+    "LICENSE": "acd21ede1797f8c68a781da5cefbef999315b274d33b60b367f7aad55d41d2c5",
+    "README.md": "c689841ad24445b9a8839df872667ca359f0fe18ef422bb7c1e5d120276a01e6",
+    "pyproject.toml": "89240607ec81a080d9f3f23b127a0c572856e53d1001853da7b0b4721937d5c1"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

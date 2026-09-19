@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/like-me-like/integrations",
+  "canonical_repository": "like-me-like/integrations",
+  "canonical_url": "https://github.com/like-me-like/integrations",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:19.875054Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "889ae007581f9e3ea03eff9d4baf7d9f3a2dc9b712951a984b63ff1687185e79",
+  "sampled_file_digests": {
+    "LICENSE": "8354c047adb9ce7120c5b93e7b38f5758cbc31a54124efa81ad177436eba62fa",
+    "README.md": "20cd86aa50121f9ae9c24cc37d6f252239f4e4ed332f184a09269c016b6da2c7"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

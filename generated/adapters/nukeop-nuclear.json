@@ -1,0 +1,52 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://discord.gg/JqPjKxE",
+    "https://fosstodon.org/@nuclearplayer",
+    "https://fsf.org/",
+    "https://github.com/nukeop/nuclear.git",
+    "https://github.com/nukeop/nuclear/discussions",
+    "https://github.com/nukeop/nuclear/releases",
+    "https://v2.tauri.app/start/prerequisites/",
+    "https://www.gnu.org/licenses/",
+    "https://www.npmjs.com/package/@nuclearplayer/plugin-sdk"
+  ],
+  "environment_variable_names": [
+    "CODECOV_TOKEN",
+    "TAURI_SIGNING_PRIVATE_KEY",
+    "TAURI_SIGNING_PRIVATE_KEY_PASSWORD",
+    "VITE_HOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/nukeop-nuclear.json",
+  "schema_version": 1,
+  "source_repository": "nukeop/nuclear",
+  "source_url": "https://github.com/nukeop/nuclear",
+  "status": "disabled_pending_review"
+}

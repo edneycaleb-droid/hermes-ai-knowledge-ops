@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/VibOpsai/vibops-mcp",
+  "canonical_repository": "VibOpsai/vibops-mcp",
+  "canonical_url": "https://github.com/VibOpsai/vibops-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:24.902237Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6f75f22e81d238b8890fe49af3d098cd9eefc206395a33f08b2c032ad9612b52",
+  "sampled_file_digests": {
+    "LICENSE": "9cbc51196de37cc17f86ad454f733ebffb546c6b8c8c5184948a90fba9e3dc56",
+    "README.md": "b7988a503a16cf7529f2dd92af1eeacff68d05c5f8190cd272e0b286f5abbafa",
+    "pyproject.toml": "c4c874a3eff009abd74b5344d11c3264ab374e61a06022ba8d4eb49444a95f3c"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

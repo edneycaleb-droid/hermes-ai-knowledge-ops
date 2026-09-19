@@ -1,14 +1,14 @@
-# Integration proposal: koala73/worldmonitor
+# Integration proposal: apoapostolov/hermes-agent-awesome-plugins
 
 ## Decision
 
-**REVIEW** — quality 83/100; bounded learning adjustment +0.
+**REVIEW** — quality 75/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/koala73/worldmonitor
-- Categories: api, mcp_server, memory, plugin, skill, tool, workflow
-- License: AGPL-3.0
+- Repository: https://github.com/apoapostolov/hermes-agent-awesome-plugins
+- Categories: memory, plugin, skill, tool, workflow
+- License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,23 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 13125
-- license: **4/10** — SPDX AGPL-3.0
-- testing: **10/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
-- interoperability: **9/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 86987 stars
+- documentation: **10/10** — README length 9709
+- license: **10/10** — SPDX MIT
+- testing: **4/10** — Test/CI signal in sampled metadata
+- security: **10/10** — 0 critical, 0 high findings
+- interoperability: **7/10** — Compatibility target matches
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **2/10** — 4 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
-- `medium` `SEC008` in `Dockerfile`: Elevated execution or privilege
-- `medium` `SEC008` in `.github/workflows/test.yml`: Elevated execution or privilege
+- No sampled static-security indicators.
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/koala73-worldmonitor.json`.
+A disabled metadata adapter was generated at `generated/adapters/apoapostolov-hermes-agent-awesome-plugins.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

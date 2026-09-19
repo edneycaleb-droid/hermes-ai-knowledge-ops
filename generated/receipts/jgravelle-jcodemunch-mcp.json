@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/jgravelle/jcodemunch-mcp",
+  "canonical_repository": "jgravelle/jcodemunch-mcp",
+  "canonical_url": "https://github.com/jgravelle/jcodemunch-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:21.722935Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0f9350a59296e58333a1243eab51de19ec350bd1aefd94a03e106f3547f2c35f",
+  "sampled_file_digests": {
+    "Dockerfile": "340baf326449cf103365b8072b1742d7a35e05b91da069d92fb601383eee0260",
+    "LICENSE": "66ed60bbc2a646e4bf7cde22a636b1a7ddeef514bb95b3b88af1e944457d6f38",
+    "README.md": "8388d31c6e30f7fb298abf262faebe08d563c982d63721f996f27f962f8b2405",
+    "docker-compose.yml": "c2cc782e1b6490a91d77e2f6a88c46554bd5ec216c03a9a5c4df609bd4c5e70b",
+    "pyproject.toml": "40ff13f06a1b009e8ebd84603a0c9e82a55167eccddf4a3a22c62a87a3027eaf",
+    "server.json": "ffefaa6733ed43a490d170048ab851e21a267169b3f165ce7c4369893dcbda27"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

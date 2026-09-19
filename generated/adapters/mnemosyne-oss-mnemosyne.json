@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://badgen.net/discord/online-members/nousresearch",
+    "https://beam-benchmark.github.io/",
+    "https://discord.gg/nousresearch",
+    "https://github.com/mnemosyne-oss/mnemosyne",
+    "https://github.com/mnemosyne-oss/mnemosyne/actions/workflows/ci.yml",
+    "https://github.com/mnemosyne-oss/mnemosyne/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/mnemosyne-oss/mnemosyne/blob/main/docs/README.md",
+    "https://github.com/mnemosyne-oss/mnemosyne/issues",
+    "https://github.com/mnemosyne-oss/mnemosyne/releases",
+    "https://github.com/sponsors/AxDSan",
+    "https://img.shields.io/badge/%E2%98%95_Ko-fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white",
+    "https://img.shields.io/badge/%F0%9F%92%96_GitHub_Sponsors-30363D?style=for-the-badge&logo=github&logoColor=white",
+    "https://img.shields.io/badge/BEAM-ICLR%202026-purple.svg",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/MCP-Ready-6366f1",
+    "https://img.shields.io/badge/ProductHunt-Launch-orange",
+    "https://img.shields.io/badge/Python-3.10+-blue.svg",
+    "https://img.shields.io/pypi/v/mnemosyne-memory.svg",
+    "https://ko-fi.com/axdsan",
+    "https://mnemosyne.site/en/partners",
+    "https://modelcontextprotocol.io",
+    "https://my-vps:8765",
+    "https://openrouter.ai/api/v1",
+    "https://pypi.org/project/mnemosyne-memory/",
+    "https://python.org",
+    "https://trendshift.io/api/badge/trendshift/repositories/27293/daily?language=Python",
+    "https://trendshift.io/repositories/27293?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-27293",
+    "https://www.producthunt.com/products/mnemosyne-2"
+  ],
+  "environment_variable_names": [
+    "GITHUB_TOKEN",
+    "MNEMOSYNE_EMBEDDING_API_KEY",
+    "MNEMOSYNE_EMBEDDING_API_URL",
+    "MNEMOSYNE_IMPORTANCE_WEIGHT",
+    "MNEMOSYNE_MCP_ALLOWED_HOSTS",
+    "MNEMOSYNE_MCP_TOKEN",
+    "MNEMOSYNE_SYNC_KEY",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "OPENROUTER_BASE_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/mnemosyne-oss-mnemosyne.json",
+  "schema_version": 1,
+  "source_repository": "mnemosyne-oss/mnemosyne",
+  "source_url": "https://github.com/mnemosyne-oss/mnemosyne",
+  "status": "disabled_pending_review"
+}

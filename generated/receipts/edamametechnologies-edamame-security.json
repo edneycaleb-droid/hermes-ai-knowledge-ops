@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/edamametechnologies/edamame_security",
+  "canonical_repository": "edamametechnologies/edamame_security",
+  "canonical_url": "https://github.com/edamametechnologies/edamame_security",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:03.560196Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0b9737c01d62a2e4c5ca23716ab78c6dd993251f21751cf2e66108b66baa59e7",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "cd46ef6fa1b188504df819dd9219169d809341f52442f6273942685d76eade4c"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/AgentsRoomDev/electron-mcp-for-agentsroom",
+  "canonical_repository": "AgentsRoomDev/electron-mcp-for-agentsroom",
+  "canonical_url": "https://github.com/AgentsRoomDev/electron-mcp-for-agentsroom",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T14:44:34.877402Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6a7121ad9de2cc0537849a02c59d45bcb3efb4b13ce0e648a0116355980df0bc",
+  "sampled_file_digests": {
+    "LICENSE": "5d41f3d7d2558bd1110c0fc03f1fdb0286135791d822a2a52311a5aac5ad5f3c",
+    "README.md": "0ab45f3303ea92b4ff052e4ac290593edea022ec23b6d9693ffd0265401982e8",
+    "package.json": "43268be43adf22e61909bc2b80d8b1913650e4386929a75c26c43fec36145ecc"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

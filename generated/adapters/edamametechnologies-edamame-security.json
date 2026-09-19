@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentfield.ai",
+    "https://apps.apple.com/app/edamame-security-mobile/id6448937722",
+    "https://apps.apple.com/app/edamame-security/id1636777324",
+    "https://edamame.s3.eu-west-1.amazonaws.com/macos/edamame-latest.pkg",
+    "https://edamame.s3.eu-west-1.amazonaws.com/repo",
+    "https://edamame.s3.eu-west-1.amazonaws.com/repo/public.key",
+    "https://edamame.s3.eu-west-1.amazonaws.com/windows/edamame-latest-setup.exe",
+    "https://edamame.s3.eu-west-1.amazonaws.com/windows/edamame-latest.msix",
+    "https://edamame.s3.eu-west-1.amazonaws.com/windows/edamame_helper-latest-x86_64.msi",
+    "https://github.com/edamametechnologies/agent_security",
+    "https://github.com/edamametechnologies/edamame_claude_code",
+    "https://github.com/edamametechnologies/edamame_claude_desktop",
+    "https://github.com/edamametechnologies/edamame_codex",
+    "https://github.com/edamametechnologies/edamame_core_api",
+    "https://github.com/edamametechnologies/edamame_core_api/blob/main/MCP.md",
+    "https://github.com/edamametechnologies/edamame_cursor",
+    "https://github.com/edamametechnologies/edamame_helper/releases",
+    "https://github.com/edamametechnologies/edamame_hermes",
+    "https://github.com/edamametechnologies/edamame_openclaw",
+    "https://github.com/edamametechnologies/edamame_posture",
+    "https://github.com/edamametechnologies/edamame_security/issues",
+    "https://github.com/edamametechnologies/edamame_security/issues/new",
+    "https://github.com/edamametechnologies/edamame_security/releases",
+    "https://github.com/edamametechnologies/edamame_security/wiki",
+    "https://github.com/user-attachments/assets/1daae4f4-1aa9-4ecc-91f0-ff842dc3c409",
+    "https://github.com/user-attachments/assets/3db8d298-3cf7-4e7c-b452-18cb6ccedb49",
+    "https://github.com/user-attachments/assets/3e5f8825-2401-4f50-ae26-b286e4055ab3",
+    "https://github.com/user-attachments/assets/4221b077-d6e3-4b2c-815f-3b3fd01a9ae7",
+    "https://github.com/user-attachments/assets/c2b23276-1ff4-44d0-b1a6-1ed836e4cc04",
+    "https://github.com/user-attachments/assets/cfdc89fd-63bc-489a-b3b4-784b26544efe",
+    "https://github.com/user-attachments/assets/dd6ccc1d-5959-46cc-99c8-89b724fff014",
+    "https://haveibeenpwned.com",
+    "https://hub.edamame.tech",
+    "https://npcap.com/#download",
+    "https://play.google.com/store/apps/details?id=com.edamametech.edamame",
+    "https://portal.edamame.tech",
+    "https://www.edamame.tech",
+    "https://www.microsoft.com/store/apps/9N399LMTKQLQ"
+  ],
+  "environment_variable_names": [
+    "EDAMAME_LLM_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/edamametechnologies-edamame-security.json",
+  "schema_version": 1,
+  "source_repository": "edamametechnologies/edamame_security",
+  "source_url": "https://github.com/edamametechnologies/edamame_security",
+  "status": "disabled_pending_review"
+}
