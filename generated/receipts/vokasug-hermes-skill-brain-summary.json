@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/vokasug/hermes-skill-brain-summary",
+  "canonical_repository": "vokasug/hermes-skill-brain-summary",
+  "canonical_url": "https://github.com/vokasug/hermes-skill-brain-summary",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:31.060664Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fbfaf4682e953cf8fb60a5b39a6d0fc6f5835ad1850e159eeaa9d0b5704ae567",
+  "sampled_file_digests": {
+    "LICENSE": "b5a864792a94a72ffdb2c547747ad6e89958af9dd0f0d90681efd5a5caebb793",
+    "README.md": "6e7e57c2ae9b2d93c7323e4a960b6d5e4b29d12c9ee182d681f8ad0e69400a26"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/themotionmachine/OmniFocus-MCP",
+  "canonical_repository": "themotionmachine/OmniFocus-MCP",
+  "canonical_url": "https://github.com/themotionmachine/OmniFocus-MCP",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:54.200493Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "619cde95ce4e5b490c24eea1cbfbcdedb31865a667f9e7a06425e4d8c42c9c67",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "058139a1ae393eb7253d0033ea2873c568287c4224a49a69c1d433b41b223c99",
+    "LICENSE": "da180bc87d2c4ae2938f521b56f2231647e99c40d14f1a9b9a6e3a9162febc7a",
+    "README.md": "3cbc8eae803576fa53c30148175c045b9e02adaf9608cebf5786fc11ccaf6467",
+    "package.json": "3263016e0c3c860a4c74ee5decb8ec40ca9191dff3d0ca74dd40c436190654fd"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

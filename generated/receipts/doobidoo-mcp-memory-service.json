@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/doobidoo/mcp-memory-service",
+  "canonical_repository": "doobidoo/mcp-memory-service",
+  "canonical_url": "https://github.com/doobidoo/mcp-memory-service",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:46.378569Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "71c555dd82a245b93ca0d77dd9c672bea2806c8fe8cbdea3c830c245179fedec",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4b6309e980b95c3b6f73ca149a397dd9a884b1583fc3a7a357852fc1c885b63f",
+    "LICENSE": "d92a71f96ad18b7e6c112e71f7586b24063d3ab60dc423680eda014043af8858",
+    "README.md": "bc254df69fb8581f64592202f22705091009076a9ed51be6bed208434540ea9b",
+    "pyproject.toml": "e142c7f1df464a7ca8bbda9ffe014cad6104cfd849e56eb130323626a1ca45f9"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

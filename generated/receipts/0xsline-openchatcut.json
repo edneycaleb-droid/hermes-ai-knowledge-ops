@@ -5,14 +5,15 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T03:35:38.196188Z",
+  "fetched_at": "2026-09-26T16:44:04.415995Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "9ae6d3bad89eb802bcb2e221a4f58db7ebd9fe0b4bc7bc1c0ce24f7af553c145",
+  "metadata_digest": "6732b8522281f617985f3775ac7fdc88179a7951f44e2347603f97a490936fec",
   "sampled_file_digests": {
+    ".github/workflows/ci.yml": "41852bd4873bed6be5886293066686718c7094c6264f5146c92597c9a803645c",
     ".mcp.json": "eb15a5caf8be1bbfe8e9b25855cb9c3187094eaf9898bf5b9cf2f6482dfd88bd",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "9351f8ecb9036d6e4091dc2fe9526a8a9a87d85565065998355a04bf7ddfb04e",
-    "package.json": "4dcf01b28ed4cfcf55295d75571774b5f04a40c2bb0e8d1d48449049ac91c25b"
+    "README.md": "570e031b37b3d5e2cbe5b94b55bc1304747a8d090ace040267cfe2da8897ec8b",
+    "package.json": "9f68ae7ca6473b75bf4cd98018bab82955533d8c59f09bf68484f61c5eb49444"
   },
   "source_query": "\"agent skill\" topic:ai-agent stars:>10"
 }

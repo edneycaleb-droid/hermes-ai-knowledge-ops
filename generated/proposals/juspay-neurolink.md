@@ -1,15 +1,15 @@
-# Integration proposal: 0xsline/OpenChatCut
+# Integration proposal: juspay/neurolink
 
 ## Decision
 
-**CANDIDATE** — quality 86/100; bounded learning adjustment +0.
+**REVIEW** — quality 83/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/0xsline/OpenChatCut
-- Categories: agent, mcp_server, plugin, skill, tool, workflow
-- License: AGPL-3.0
-- Default branch: `main`
+- Repository: https://github.com/juspay/neurolink
+- Categories: agent, api, mcp_server, memory, plugin, tool, workflow
+- License: MIT
+- Default branch: `release`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 30869
-- license: **4/10** — SPDX AGPL-3.0
+- documentation: **10/10** — README length 99771
+- license: **10/10** — SPDX MIT
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **8/10** — 0 critical, 0 high findings
+- security: **3/10** — 0 critical, 2 high findings
 - interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 2011 stars
+- adoption: **6/10** — 140 stars
 
 ## Static security review
 
-- `medium` `SEC008` in `.github/workflows/ci.yml`: Elevated execution or privilege
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `high` `SEC006` in `.github/workflows/ci.yml`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/0xsline-openchatcut.json`.
+A disabled metadata adapter was generated at `generated/adapters/juspay-neurolink.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

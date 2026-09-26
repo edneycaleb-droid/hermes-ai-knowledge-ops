@@ -5,12 +5,12 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "master",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:12:24.601941Z",
+  "fetched_at": "2026-09-26T16:43:24.825071Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "b0d79912c15d5a44f715e74e06cc140d9a50221739d612250cbf27ad0163e0d0",
+  "metadata_digest": "731884fb804988e7afed09701ebd19b6164a171903b2d472152d991b9d194f3b",
   "sampled_file_digests": {
-    "README.md": "b7708b4e5aa21a419366b05cf7f11c4d517cf6b507cf2b00ddb42ca6b67ee9ff",
+    "README.md": "e4d3255e269abd3faa3358448531d53c995bb045498a9f545f65a434f6b0ee13",
     "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
   },
-  "source_query": "topic:mcp-server language:python stars:>10"
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
 }

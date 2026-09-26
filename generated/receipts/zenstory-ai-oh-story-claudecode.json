@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/zenstory-ai/oh-story-claudecode",
+  "canonical_repository": "zenstory-ai/oh-story-claudecode",
+  "canonical_url": "https://github.com/zenstory-ai/oh-story-claudecode",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:44:09.077410Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "798750acbb8a91eb04e6b654c86ca0fe2464eb95b68c0a788519721f27bc1309",
+  "sampled_file_digests": {
+    "LICENSE": "52c71355258924a967927780245f70677b38ff7d073c03f9096df33888f34653",
+    "README.md": "df49bad3c5346af17fe526808b641a4fefada85875fac54dc0ea3a9e23ebea2d",
+    "package.json": "18230163bd239e5c69436f05ce266d5bbd76954419959db3f458a4ec3bfe9ccc"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/pphothidaen/gemini-web-bridge",
+  "canonical_repository": "pphothidaen/gemini-web-bridge",
+  "canonical_url": "https://github.com/pphothidaen/gemini-web-bridge",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:33.425484Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f1955ed1ae7774f3df1bafb722d9663eb24dd65a8c300a8ab49e96b38e1320b2",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "270721f12b3d002d0f467b72d20432bb5ac06c9828a26a4937f13eedb5443e71",
+    "README.md": "123c97ef2036738840bf58d10a3ae8ab3ebea9152d0b127336eca9886a39ac05"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

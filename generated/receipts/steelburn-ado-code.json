@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/steelburn/ado-code",
+  "canonical_repository": "steelburn/ado-code",
+  "canonical_url": "https://github.com/steelburn/ado-code",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:38.780215Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "19c153b55da1d1e2f06c3a3ea4a17d1f2b5d2818b5b52c0c0dbf5234894402ef",
+  "sampled_file_digests": {
+    "README.md": "bd06e6b215d173ad8210cc122ad48045945411866fcc0c6707899fbf3d0bf109",
+    "package.json": "d74cfe59bf694f78fd825533c79daeec42c5069e80b6c7d3cb2c84d4ac066a90"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

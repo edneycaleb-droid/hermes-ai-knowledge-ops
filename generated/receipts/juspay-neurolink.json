@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/juspay/neurolink",
+  "canonical_repository": "juspay/neurolink",
+  "canonical_url": "https://github.com/juspay/neurolink",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "release",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:37.016580Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f5c11ad681d56d0200bb74c62fb6c8b4f182d22d7a378e3904071fc625fa36fb",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e428308fb596e414c676f8ab378eb2dba36effb660e1ce24ac22229567359e56",
+    "LICENSE": "a1939f8b9d666ec6759cb2cfce6c2aa4cdadb220345dc78567da2e57d19c10e3",
+    "README.md": "986b235cbe6781523f4acf4923180086a06147e0fc66c99bd6ecd7e4acf39476",
+    "package.json": "10e96d3d47f431a8901a5ef12898da9381d3765e32e978da4946687501e7e678"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

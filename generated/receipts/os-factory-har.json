@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/os-factory/har",
+  "canonical_repository": "os-factory/har",
+  "canonical_url": "https://github.com/os-factory/har",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:59.067491Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "12d290f4f0ebc8e5dda2aa389e237d21ac960af3e9ed12061e0d76982185d22a",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "b46140b960739bd5493e73a82544b5013794f742db3036fd68563733c5fdba23",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "5c2ec21891b0cce6826e091a359d84717bc34dc1a4be28a2d00ec9dae61501a2",
+    "package.json": "7cf82ea1d207fa5cb6c9189d335a529070d465de479caeb4cceeb778bc1a7882"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
