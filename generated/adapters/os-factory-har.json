@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/os-factory/har",
+    "https://github.com/os-factory/har/actions/workflows/test.yml",
+    "https://github.com/os-factory/har/actions/workflows/test.yml/badge.svg",
+    "https://github.com/os-factory/har/issues",
+    "https://github.com/os-factory/har/releases",
+    "https://harproject.dev/",
+    "https://harproject.dev/docs/getting-started/concepts/",
+    "https://harproject.dev/docs/getting-started/quick-start/",
+    "https://harproject.dev/docs/guides/agent-integrations/",
+    "https://harproject.dev/docs/guides/mission-control/",
+    "https://harproject.dev/docs/guides/plugins/",
+    "https://harproject.dev/docs/guides/verification/",
+    "https://harproject.dev/docs/project/architecture/",
+    "https://harproject.dev/docs/reference/cli/",
+    "https://harproject.dev/docs/reference/mcp/",
+    "https://img.shields.io/badge/docs-harproject.dev-38c976",
+    "https://img.shields.io/github/stars/os-factory/har?style=social",
+    "https://img.shields.io/github/v/release/os-factory/har",
+    "https://kerno.io",
+    "https://registry.npmjs.org/",
+    "https://youtu.be/XKl4ZzWy7mQ"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/os-factory-har.json",
+  "schema_version": 1,
+  "source_repository": "os-factory/har",
+  "source_url": "https://github.com/os-factory/har",
+  "status": "disabled_pending_review"
+}

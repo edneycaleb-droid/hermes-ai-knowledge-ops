@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/morluto/jacobian",
+  "canonical_repository": "morluto/jacobian",
+  "canonical_url": "https://github.com/morluto/jacobian",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:48.171650Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d69ac63afed1535628b77c1523a1efab188988b88146a3b76810488a59b8c971",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "5ee62a7e8b6af17a21d51d73f832c5313d3f6ccc2b2c7c39f1ec85432b226d79",
+    "Dockerfile": "236147ae94523038e768105ab36886858777a89a42b456c73d911e648cb4a72d",
+    "LICENSE": "1b5efe4ccce0bb7d4032c8d9b584f105b3f0c3e640b183cac991fbba729a8f40",
+    "README.md": "7f6709ef2c347df190af73fc125a1819fcd5f8e5e0a9bba58364e69d552ff889",
+    "pyproject.toml": "d1fc405cd7501b2cd002eb5ece2d9fe9bf89b82d6c1631fb3bb0e385bfd3492b",
+    "server.json": "357fba41ec7d86282369648e2f76e939104fbd0dc495a118831c26aa0e8c1477"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

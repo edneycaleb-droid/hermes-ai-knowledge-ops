@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/wlsdks/ontology-atlas",
+  "canonical_repository": "wlsdks/ontology-atlas",
+  "canonical_url": "https://github.com/wlsdks/ontology-atlas",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:44:02.512470Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8e5f006c18cfad11888d9047952082a9a6caebfdb86b687e15708363e09ce54b",
+  "sampled_file_digests": {
+    ".mcp.json": "4711d6756f7506efc1f142d743bf3e328d229f71e9e30d4c6319bfbec7856a45",
+    "LICENSE": "c58f61f70cdfefed8210cc56324be74deac2a11bed78d9615263cc8e7deb23ad",
+    "README.md": "58ac4e15a010a41650815b26ec3c520b738bb769488011f527a1c7510c00ba2a",
+    "package.json": "cddd5fcbadfb2ee1d9f365f9ad2e3ae2fa8cc17530a1d74d8cac681f2175552c"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

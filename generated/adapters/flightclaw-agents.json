@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cursor.com/en/install-mcp?name=flightclaw&config=eyJ1cmwiOiJodHRwczovL21jcC5mbGlnaHRjbGF3LmNvbS9tY3AifQ%3D%3D",
+    "https://docs.astral.sh/uv/",
+    "https://flightclaw.com",
+    "https://github.com/flightclaw/agents",
+    "https://mcp.flightclaw.com/mcp",
+    "https://modelcontextprotocol.io",
+    "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+    "https://vscode.dev/redirect/mcp/install?name=flightclaw&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.flightclaw.com%2Fmcp%22%7D"
+  ],
+  "environment_variable_names": [
+    "FLIGHTCLAW_API_KEY",
+    "FLIGHTCLAW_API_URL",
+    "HOST",
+    "KIWI_API_KEY",
+    "PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "flightclaw": {
+          "type": "http",
+          "url": "https://mcp.flightclaw.com/mcp"
+        }
+      }
+    },
+    "mcp.json": {
+      "mcpServers": {
+        "flightclaw": {
+          "type": "http",
+          "url": "https://mcp.flightclaw.com/mcp"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "description": "Search, price-track and book flights from about 300 airlines, paid on a hosted checkout link.",
+      "name": "io.github.flightclaw/agents",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.flightclaw.com/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/flightclaw/agents"
+      },
+      "title": "FlightClaw",
+      "version": "1.1.0",
+      "websiteUrl": "https://flightclaw.com"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/flightclaw-agents.json",
+  "schema_version": 1,
+  "source_repository": "flightclaw/agents",
+  "source_url": "https://github.com/flightclaw/agents",
+  "status": "disabled_pending_review"
+}

@@ -5,14 +5,14 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T00:07:01.100470Z",
+  "fetched_at": "2026-09-26T16:43:57.448664Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "ecaf947fd564105a82668aa7aa3d622c11f36a5d77b26058964fcc1d4e0d0fb9",
+  "metadata_digest": "2a5723ef168b8715443ed7ce083227ed8a3473944d3159bdac86ac4a4c6fd72c",
   "sampled_file_digests": {
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "b242f3db896e497f28198e5e6d817ac9b273417f96ee226648bbc9cd5a5d9869",
-    "package.json": "c933906d4f95e2ed899f00873673af3ec317017933245684b185e361d25eff31",
-    "server.json": "cf8319e7018fb254417fe6f94a97792a46a3c46d9ff0c96629e5251c5d03dbc0"
+    "README.md": "c18f3e26d41d124f9dc3ab1a6e296650bc31d8f543e673b0cd1c3ed1e7a586d3",
+    "package.json": "1a63a5940d95c5e35a38c0f4b9c46fcfd353144470968225b3c27c93b44a454b",
+    "server.json": "a93d0bcc2749032dabf4cfdbfb0104c6e8e90d27351926c9746ab564f66caf36"
   },
   "source_query": "topic:mcp-server language:typescript stars:>10"
 }

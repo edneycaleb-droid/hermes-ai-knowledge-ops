@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/aigengame/godot-agent",
+  "canonical_repository": "aigengame/godot-agent",
+  "canonical_url": "https://github.com/aigengame/godot-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:44:10.738924Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d2036d556830b4dee47942ab4acd64efb9c5f72850a9e913cbfb2a67765cb530",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6ede201e50bd1286450d8712bf815b57e982c4715afe1e56cb617498871ff9a5",
+    "LICENSE": "5f0e3dc94ca9673566dc5e7367125f9475637c437cdbb12b3485aaea56894b7c",
+    "README.md": "ddcd4c6cb98116f201953a7796200677ee689e3228de8fd88f00eb9f6530c1d6",
+    "pyproject.toml": "d120804e49defafad8c84b6a817af9fd9630725a5a517a378359cd949099236f"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/mcp-servers-live",
+  "canonical_repository": "linny006/mcp-servers-live",
+  "canonical_url": "https://github.com/linny006/mcp-servers-live",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:35.136614Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "462cd6df39e11f878dabe84b7ec06f944d857d38e8e95100f3853920f2d04c3d",
+  "sampled_file_digests": {
+    "README.md": "7c097d07829cd1e3253300d825dfbe04b0274bd2bdd894877b5c2043a997df50",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

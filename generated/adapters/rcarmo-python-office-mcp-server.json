@@ -1,0 +1,43 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/",
+    "https://github.com/rcarmo/python-office-mcp-server.git",
+    "https://github.com/rcarmo/umcp.git@30cce7dfe08c6ee63de235f7d81754ba286dafbb"
+  ],
+  "environment_variable_names": [
+    "OFFICE_MCP_HTTP_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/rcarmo-python-office-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "rcarmo/python-office-mcp-server",
+  "source_url": "https://github.com/rcarmo/python-office-mcp-server",
+  "status": "disabled_pending_review"
+}

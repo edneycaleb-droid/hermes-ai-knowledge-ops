@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "openai-compatible",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://developer.chrome.com/docs/extensions/",
+    "https://gemini-web-bridge.pansakorn-pho.workers.dev",
+    "https://gemini-web-bridge.pansakorn-pho.workers.dev/health",
+    "https://gemini-web-bridge.pansakorn-pho.workers.dev/mcp",
+    "https://gemini-web-bridge.pansakorn-pho.workers.dev/v1",
+    "https://gemini.google.com",
+    "https://gemini.google.com/app/",
+    "https://gemini.google.com/notebook/",
+    "https://github.com/pphothidaen",
+    "https://huggingface.co/pphothidaen",
+    "https://img.shields.io/badge/API-OpenAI%20Compatible-412991?logo=openai&logoColor=white",
+    "https://img.shields.io/badge/Chrome-Extension%20MV3%20Protocol%20v2-4285F4?logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/Cloudflare-Workers%20Durable%20Objects-F38020?logo=cloudflare&logoColor=white",
+    "https://img.shields.io/badge/GitHub-pphothidaen-181717?style=for-the-badge&logo=github&logoColor=white",
+    "https://img.shields.io/badge/HuggingFace-pphothidaen-181717?style=for-the-badge&logo=huggingface&logoColor=white",
+    "https://img.shields.io/badge/LinkedIn-Pansakorn%20Phothidaen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white",
+    "https://img.shields.io/badge/MCP-2024--11--05-8A2BE2",
+    "https://img.shields.io/badge/license-MIT-green.svg",
+    "https://img.shields.io/badge/tests-95%2F95%20passing-brightgreen.svg",
+    "https://modelcontextprotocol.io/",
+    "https://platform.openai.com/docs/api-reference",
+    "https://workers.cloudflare.com/",
+    "https://www.linkedin.com/in/pansakorn/"
+  ],
+  "environment_variable_names": [
+    "BASE_URL",
+    "BRIDGE_AUTH_TOKEN",
+    "CLIENT_API_TOKEN",
+    "CURRENT_BRIDGE_TOKEN",
+    "CURRENT_CLIENT_TOKEN",
+    "GEMINI_API_KEY",
+    "GITHUB_TOKEN",
+    "OLD_BRIDGE_AUTH_TOKEN",
+    "OLD_BRIDGE_TOKEN",
+    "OLD_CLIENT_API_TOKEN",
+    "OLD_CLIENT_TOKEN",
+    "PROD_BASE_URL",
+    "WORKER_URL",
+    "YOUR_CLIENT_API_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/pphothidaen-gemini-web-bridge.json",
+  "schema_version": 1,
+  "source_repository": "pphothidaen/gemini-web-bridge",
+  "source_url": "https://github.com/pphothidaen/gemini-web-bridge",
+  "status": "disabled_pending_review"
+}

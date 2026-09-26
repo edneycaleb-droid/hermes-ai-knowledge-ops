@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/rcarmo/python-office-mcp-server",
+  "canonical_repository": "rcarmo/python-office-mcp-server",
+  "canonical_url": "https://github.com/rcarmo/python-office-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:43:44.634529Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2c02cce783a87644265603b630d785cb4912e8328db2605eca3cd95824cdbac9",
+  "sampled_file_digests": {
+    "README.md": "b387f24e985ded6bc8dcbdc8d51a14fc7c51c732a522ccf32458e09ca7854891",
+    "pyproject.toml": "cbd252dd23c48d400397ceb4f53e8336e109308823a1d29e802e7388bd86fc36",
+    "requirements.txt": "fc0a734962eed14b6e2fac130ca0c6ec3b7457deb0bba42418f1283253caac7a"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

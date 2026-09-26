@@ -1,0 +1,47 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ado.corp.local/tfs/DefaultCollection",
+    "https://api.anthropic.com",
+    "https://api.openai.com/v1",
+    "https://dev.azure.com/",
+    "https://dev.azure.com/mycompany"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/steelburn-ado-code.json",
+  "schema_version": 1,
+  "source_repository": "steelburn/ado-code",
+  "source_url": "https://github.com/steelburn/ado-code",
+  "status": "disabled_pending_review"
+}

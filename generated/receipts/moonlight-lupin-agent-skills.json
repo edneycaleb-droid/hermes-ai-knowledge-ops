@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/moonlight-lupin/agent-skills",
+  "canonical_repository": "moonlight-lupin/agent-skills",
+  "canonical_url": "https://github.com/moonlight-lupin/agent-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T16:44:12.570853Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "085456841933a21e927129a13d0cdc5c2a45727f3a90b53c7ab74a7db063bc7b",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "632fab9e27dba5c8d24e042eae98314097c77ed4a882fdba329341f8c821d800",
+    "LICENSE": "d91b6ed990401b54f572b97b02c4bbc3e78e86441fd060f363d054bc73754d64",
+    "README.md": "18110387ed6a3a120ef51cd50ba830678b3b56d8db7ac1d8084fac8f583576ea",
+    "pyproject.toml": "473eab58eb1e327901e32bac376145de64e0353633eafc120c3b12c9e994a3df"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}
