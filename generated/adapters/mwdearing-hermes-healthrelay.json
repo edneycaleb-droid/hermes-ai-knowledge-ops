@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/mwdearing/health-relay",
+    "https://github.com/mwdearing/health-relay/blob/main/docs/full-setup.md"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "mcp.json": {
+      "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+      "mcpServers": {
+        "healthrelay": {
+          "command": "./bin/healthrelay-mcp",
+          "type": "stdio"
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/mwdearing-hermes-healthrelay.json",
+  "schema_version": 1,
+  "source_repository": "mwdearing/hermes-healthrelay",
+  "source_url": "https://github.com/mwdearing/hermes-healthrelay",
+  "status": "disabled_pending_review"
+}

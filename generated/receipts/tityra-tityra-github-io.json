@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/Tityra/Tityra.github.io",
+  "canonical_repository": "Tityra/Tityra.github.io",
+  "canonical_url": "https://github.com/Tityra/Tityra.github.io",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:49:59.539346Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "61e1cee610f036e9976ffc60250097771a5983940364900640a8e199778587a6",
+  "sampled_file_digests": {
+    "README.md": "6ae708b07f74b2f1a88391dcbf38e4b1d6e6ee16e021b8c468394d9a4c00f36b"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

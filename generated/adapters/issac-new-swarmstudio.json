@@ -1,0 +1,60 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/EKKOLearnAI/hermes-studio",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/element-hq/element-web",
+    "https://github.com/user-attachments/assets/3e41bc6e-7afc-4c2b-b437-404e1f33c629",
+    "https://github.com/user-attachments/assets/4827c359-09bb-4052-9eb1-2696061c3e2d",
+    "https://github.com/user-attachments/assets/621e63d7-8e94-4e3e-ade2-f647e863020c",
+    "https://github.com/user-attachments/assets/71136468-70f8-4cb2-b7bb-c25978fdfb0a",
+    "https://github.com/user-attachments/assets/786c5b94-1d63-4179-82c3-8f9946ffa420",
+    "https://github.com/user-attachments/assets/85f568fe-57f4-4a49-83a9-48496b5aefa6",
+    "https://github.com/user-attachments/assets/bf5293b0-374a-4a7a-92a1-645d87775cbe",
+    "https://github.com/user-attachments/assets/f5283991-2a8a-4679-bdf2-a6787f2cec11"
+  ],
+  "environment_variable_names": [
+    "HERMES_WEB_UI_BACKEND_PORT",
+    "LOOP_MATRIX_TOKEN",
+    "MATRIX_ACCESS_TOKEN",
+    "MATRIX_HOMESERVER_URL",
+    "MATRIX_SIM_URL",
+    "SERVER_URL",
+    "SYNAPSE_REPORT_STATS",
+    "URL",
+    "VITE_API_URL",
+    "VITE_MATRIX_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/issac-new-swarmstudio.json",
+  "schema_version": 1,
+  "source_repository": "issac-new/SwarmStudio",
+  "source_url": "https://github.com/issac-new/SwarmStudio",
+  "status": "disabled_pending_review"
+}

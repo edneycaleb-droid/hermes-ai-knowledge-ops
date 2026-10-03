@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/harish-gaggar/mcp-server-gateway",
+  "canonical_repository": "harish-gaggar/mcp-server-gateway",
+  "canonical_url": "https://github.com/harish-gaggar/mcp-server-gateway",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:20.310312Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9cc19d29d6308dc6ab3a6242fc966db287ef82cb6d846962ba43e3c553061fd9",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "674471b0f27ebb8cc159e3628a6f6153afbdd6346023b4651846ec81248e4c17",
+    "LICENSE": "6aa7a762d4a0b12a136d1f8ac4011b449c9a00b1377629331dd6cd0695bfa128",
+    "README.md": "8f12a16fd013103bb0ba6d4bef93193b4d12c356fc598465851b4e92effed657"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

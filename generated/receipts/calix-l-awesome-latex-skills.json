@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Calix-L/awesome-latex-skills",
+  "canonical_repository": "Calix-L/awesome-latex-skills",
+  "canonical_url": "https://github.com/Calix-L/awesome-latex-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:52.162269Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b767acab77a55475cf3107eb0be598432bea35de56db8c138987114799c2a3ba",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "6dbbf826967f46979b4d9480fc8fd6c741af3778f6c93a87c0655e3041907b51",
+    "LICENSE": "15705fde6df9111aebe3607f807aa28187f145abff76bdf8b4fbf270e125cdd1",
+    "README.md": "ad85b9cea6a2d34c1326c3d9bf455fc1f7d52a33097006ac94041855950a2ea2",
+    "pyproject.toml": "f76f85a6019898a3341a471fa95c535ad946e3c854c4d55a6d3cce0c43fcfc33"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

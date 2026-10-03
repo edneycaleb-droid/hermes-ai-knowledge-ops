@@ -5,14 +5,14 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T03:35:05.134722Z",
+  "fetched_at": "2026-10-03T22:50:37.799336Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "a6e691e048d1a0de7981d571e4c020b769d30767f5270e0d8bd9fc6eb339a83a",
+  "metadata_digest": "6e0f9b467086b776a1a26a96064385d092e204c92cb4d30b562191c9ecfa91a0",
   "sampled_file_digests": {
-    ".github/workflows/ci.yml": "8962e98f97f4b0643a3b668aabecf596be0a58016be180919b3221b08807b398",
+    ".github/workflows/ci.yml": "9d2576d0a2b7682a61f4b95453adc4dde54f06f0f68888fa4a90088b1dd0332e",
     "LICENSE": "d27559e23aea5e7e1f64bd1ba7e254656c90d87ab0e6d8dc3f9e3104fd1aa4d2",
-    "README.md": "b54f1a0371f86d30044c538f0b21751416acbdcf86a62e832386ec5ac16386fc",
-    "package.json": "bbaacb094f76533984ce3363989f80918fc446c7ec41423f520e7612c500aa49"
+    "README.md": "7bd18d3223b8ddd3efa47b09cfabcbf12b358460492a7b20e64d1f12b26552c3",
+    "package.json": "86aa6f3b62fad0722de8fcddd23a0c74ba56b5deedd3e8319825a9c49c8c76e0"
   },
   "source_query": "topic:mcp-server language:typescript stars:>10"
 }

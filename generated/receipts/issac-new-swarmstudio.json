@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/issac-new/SwarmStudio",
+  "canonical_repository": "issac-new/SwarmStudio",
+  "canonical_url": "https://github.com/issac-new/SwarmStudio",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:49:56.739076Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4412592f999d9d7372a7b353e3af25147dbde3326d422dcb5bef2fd314b74cc5",
+  "sampled_file_digests": {
+    "README.md": "04ed2431a50bd675bc0013905cc7523aa4ce6f58e493a834d04825bfa0547230",
+    "docker-compose.yml": "ef9fa7450a373f54501cfc03d1b31b2d779ed5c550d4beb2bf13a7520b83cb47",
+    "package.json": "aa4d518f7627a78c5791ca75b89ef6c8ee7a7019f3a79fb514a88a936b050594"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

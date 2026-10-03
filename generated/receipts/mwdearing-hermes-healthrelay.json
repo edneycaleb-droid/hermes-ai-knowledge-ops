@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/mwdearing/hermes-healthrelay",
+  "canonical_repository": "mwdearing/hermes-healthrelay",
+  "canonical_url": "https://github.com/mwdearing/hermes-healthrelay",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:49:45.163149Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "18cced0c772dcf4cb57c0a7c921f9f108c24637c3ecdde8644c9c649d0302600",
+  "sampled_file_digests": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "e95c873e0e4fb1c6839a0fdda1d11f033e45481603ab9b2db3958f6c0feeaa98",
+    "mcp.json": "e6590c6dd45d6268c1d531ebc1be326d412bef07800d6deb1953194ee933202a"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
