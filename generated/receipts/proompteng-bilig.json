@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/proompteng/bilig",
+  "canonical_repository": "proompteng/bilig",
+  "canonical_url": "https://github.com/proompteng/bilig",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:46.462608Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "df5f4e3b03925e656b511531fcc0116f51d148421c275854d5dccf1974a4c399",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "635d7c16b58989e113ab80dc75ce60fdca4bb2037647a7e1691822caf397a2a1",
+    ".mcp.json": "b1c713601c906b02a647898040f2f025c2db4b93cc7438ce09a55b2aaf5d2a9a",
+    "Dockerfile": "c170e401e0c4ec42cd8332edee1ba0485cd4d9dcbf17ac164af53e4c5d4db2a2",
+    "LICENSE": "5fe90f1e6c8fc49f55ab58397e7ac4c43294a04a87911583083a820400359ec0",
+    "README.md": "dd892fc2e327e8b0a2ff3bea29ad76e29924571c4cffa23c3e60a585e494fbc9",
+    "package.json": "4bdd6862fcd48064e757a5dde2f4fc6d0a803382d4f95c4a04f24368184acb01"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

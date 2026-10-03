@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/LunarWerxs/AgentHydra",
+  "canonical_repository": "LunarWerxs/AgentHydra",
+  "canonical_url": "https://github.com/LunarWerxs/AgentHydra",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:43.771025Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "034775679c2708398579a2672cd8efe04b9efbb1ac96ec39860a617e5c6b7949",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "eaf8ee3a6e85fb94002094105a20edafd9f5419bfc6280d45f58f3607b1a6349",
+    "LICENSE": "e050929319d65ce971f563bc7519a9467a5aac540cf5b3d6a73bed9301c4bbd2",
+    "README.md": "5981616ef5b3fde068f695f133907997cc86a03e60129fdcf29a6c6d8bed67f6",
+    "package.json": "99d10c19fa6490b6ad6bbe15ad38898f0fd002c6afef68f9d75275f6c4af1a99"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

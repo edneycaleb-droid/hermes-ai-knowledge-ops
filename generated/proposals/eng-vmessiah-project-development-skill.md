@@ -1,13 +1,13 @@
-# Integration proposal: openwong2kim/wmux
+# Integration proposal: eng-vmessiah/project-development-skill
 
 ## Decision
 
-**REVIEW** — quality 83/100; bounded learning adjustment +0.
+**REVIEW** — quality 79/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/openwong2kim/wmux
-- Categories: agent, api, mcp_server, memory, plugin, tool
+- Repository: https://github.com/eng-vmessiah/project-development-skill
+- Categories: agent, plugin, skill, tool, workflow
 - License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 25344
+- documentation: **10/10** — README length 7936
 - license: **10/10** — SPDX MIT
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
-- interoperability: **5/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **8/10** — 409 stars
+- security: **8/10** — 0 critical, 0 high findings
+- interoperability: **7/10** — Compatibility target matches
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **2/10** — 2 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/openwong2kim-wmux.json`.
+A disabled metadata adapter was generated at `generated/adapters/eng-vmessiah-project-development-skill.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

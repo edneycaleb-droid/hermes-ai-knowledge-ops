@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/getopenpost/openpost",
+  "canonical_repository": "getopenpost/openpost",
+  "canonical_url": "https://github.com/getopenpost/openpost",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:40.909183Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0d187f07481d3741e71322501f02b0bc67f463e4a6c4fdd707471874efe168c7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "24e855b15a33705fe77c9a493de9efe88e345feb4863cdf6db7b3ffd981b235e",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "984c41e0c8e5b1c9372af1b232ac2ac49dfd7557f86b5d83643618b976eefd47",
+    "docker-compose.yml": "eb0a64440b2f83475a9134a5d0b6e8535050d0fe8c67feb096367f10ac5e3295",
+    "package.json": "afcbb5613944fb7a4db1207924dc948b27ffad7ca334519c91bf7d5a86642506"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

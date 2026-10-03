@@ -1,0 +1,86 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/proompteng/bilig/badge",
+    "https://bilig.proompteng.ai",
+    "https://bilig.proompteng.ai/mcp",
+    "https://github.com/proompteng/bilig",
+    "https://github.com/proompteng/bilig.git",
+    "https://github.com/proompteng/bilig/actions/workflows/ci.yml",
+    "https://github.com/proompteng/bilig/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/proompteng/bilig/discussions",
+    "https://github.com/proompteng/bilig/issues",
+    "https://github.com/proompteng/bilig/releases/latest",
+    "https://img.shields.io/badge/Node.js-%3E%3D24-43853d",
+    "https://img.shields.io/badge/license-MIT-14784b",
+    "https://img.shields.io/npm/v/@bilig/workpaper?label=%40bilig%2Fworkpaper",
+    "https://proompteng.github.io/bilig/",
+    "https://proompteng.github.io/bilig/n8n-workpaper-formula-readback.html",
+    "https://proompteng.github.io/bilig/open-webui-workpaper-mcp.html",
+    "https://proompteng.github.io/bilig/openai-agents-sdk-workpaper-tool.html",
+    "https://proompteng.github.io/bilig/openai-responses-workpaper-tool-call.html",
+    "https://proompteng.github.io/bilig/vercel-ai-sdk-langchain-spreadsheet-tool.html",
+    "https://scorecard.dev/viewer/?uri=github.com/proompteng/bilig",
+    "https://www.npmjs.com/package/@bilig/workpaper"
+  ],
+  "environment_variable_names": [
+    "SUPPORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "bilig-workpaper": {
+          "args": [
+            "exec",
+            "--yes",
+            "--package",
+            "@bilig/workpaper@latest",
+            "--",
+            "bilig-workpaper-mcp",
+            "--workpaper",
+            "./.bilig/pricing.workpaper.json",
+            "--init-demo-workpaper",
+            "--writable"
+          ],
+          "command": "npm",
+          "env": {},
+          "type": "stdio"
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/proompteng-bilig.json",
+  "schema_version": 1,
+  "source_repository": "proompteng/bilig",
+  "source_url": "https://github.com/proompteng/bilig",
+  "status": "disabled_pending_review"
+}

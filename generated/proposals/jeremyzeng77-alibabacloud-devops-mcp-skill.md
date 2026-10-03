@@ -1,14 +1,14 @@
-# Integration proposal: openwong2kim/wmux
+# Integration proposal: JeremyZeng77/alibabacloud-devops-mcp-skill
 
 ## Decision
 
-**REVIEW** — quality 83/100; bounded learning adjustment +0.
+**REVIEW** — quality 60/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/openwong2kim/wmux
-- Categories: agent, api, mcp_server, memory, plugin, tool
-- License: MIT
+- Repository: https://github.com/JeremyZeng77/alibabacloud-devops-mcp-skill
+- Categories: api, mcp_server, tool, workflow
+- License: unverified
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 25344
-- license: **10/10** — SPDX MIT
-- testing: **10/10** — Test/CI signal in sampled metadata
+- documentation: **10/10** — README length 7903
+- license: **0/10** — SPDX missing
+- testing: **4/10** — Test/CI signal in sampled metadata
 - security: **3/10** — 0 critical, 1 high findings
-- interoperability: **5/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **8/10** — 409 stars
+- interoperability: **9/10** — Compatibility target matches
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **2/10** — 1 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
+- `high` `SEC006` in `README.md`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/openwong2kim-wmux.json`.
+A disabled metadata adapter was generated at `generated/adapters/jeremyzeng77-alibabacloud-devops-mcp-skill.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

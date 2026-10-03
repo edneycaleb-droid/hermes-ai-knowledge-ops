@@ -1,0 +1,75 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/mwdearing/health-relay.git",
+    "https://github.com/mwdearing/health-relay/releases/latest",
+    "https://github.com/mwdearing/hermes-health-insights",
+    "https://github.com/mwdearing/hermes-healthrelay",
+    "https://github.com/mwdearing/hermes-medlog",
+    "https://github.com/roian6/apple-health-ai-bridge",
+    "https://github.com/roian6/apple-health-ai-bridge/issues",
+    "https://github.com/roian6/apple-health-ai-bridge/releases",
+    "https://github.com/roian6/apple-health-ai-bridge/tree/main/docs",
+    "https://healthbridge.chanhyo.dev/",
+    "https://healthbridge.chanhyo.dev/apple-health-mcp/",
+    "https://healthbridge.chanhyo.dev/privacy",
+    "https://healthbridge.chanhyo.dev/support",
+    "https://img.shields.io/badge/MCP-read--only-0F6B78?style=flat-square",
+    "https://img.shields.io/badge/Receiver%2FCLI-1.1.1-0F6B78?style=flat-square",
+    "https://img.shields.io/badge/iOS-18%2B-0F6B78?style=flat-square",
+    "https://img.shields.io/badge/license-Apache--2.0-4B5563?style=flat-square",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "HEALTH_BRIDGE_RECEIVER_URL",
+    "IMPORTANT",
+    "SUPPORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Apple Health AI Bridge provides read-only local MCP access for Health Bridge for AI.",
+      "name": "io.github.roian6/health-bridge",
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/roian6/apple-health-ai-bridge"
+      },
+      "title": "Health Bridge for AI",
+      "version": "1.1.1",
+      "websiteUrl": "https://healthbridge.chanhyo.dev/apple-health-mcp/"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/mwdearing-health-relay.json",
+  "schema_version": 1,
+  "source_repository": "mwdearing/health-relay",
+  "source_url": "https://github.com/mwdearing/health-relay",
+  "status": "disabled_pending_review"
+}

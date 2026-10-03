@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/luongnv89/awesome-cheatsheets",
+  "canonical_repository": "luongnv89/awesome-cheatsheets",
+  "canonical_url": "https://github.com/luongnv89/awesome-cheatsheets",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:11.599542Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "065ceb2eda8453d86222464216909810d6b3245a7e00d5c518bca422a25f4cb0",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b2ec3dfd629c4f014378e075252a288130e41279ecc52e038636185d7fe2dcb3",
+    "LICENSE": "e94ed501baeef0f4201482953bc0609c802804985dff07e405c328b261532284",
+    "README.md": "20fdc43d6e9f92a72e69b2566eed1fcb4dc517244d0ac343722634d7f46d8522",
+    "package.json": "f6e7f26e5a0bc67b43a5619929bc37bd73246b98e3fde592dbfe48c282ec124c"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

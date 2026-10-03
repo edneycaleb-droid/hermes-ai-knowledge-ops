@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/Harusame64/desktop-touch-mcp",
+  "canonical_repository": "Harusame64/desktop-touch-mcp",
+  "canonical_url": "https://github.com/Harusame64/desktop-touch-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:49.198341Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a33409b695d40321a5c736eadb0d366fe75e05193ed82b72f1bf9df862a77769",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8c5ccba589ffe40f6c347dd55385d0730cfda5cea1d8e929ad9b9db9613177d1",
+    "Dockerfile": "cf8945e9d30382b6e613218193fb8c1e498a9fd514d3c3783d6f24cb17b2bae2",
+    "LICENSE": "c2a5ecb77f0136f10a00d81820e330af810a0c6016cbf58bfba574e8b1ae079f",
+    "README.md": "7ca6edd991a60bd9b2e96745eff8f6f774638800ba5927f58c6ef97e6f95e6d4",
+    "package.json": "cda834c9b0e9b472796daa4d316a0ce665934b6f53deac6e264a2ad5c3115647",
+    "server.json": "6a50d05029d7689da190fd43c2411835fa5f7d04fb5ebbd7093118b74167b14a"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

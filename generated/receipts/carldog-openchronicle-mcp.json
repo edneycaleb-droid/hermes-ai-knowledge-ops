@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/CarlDog/openchronicle-mcp",
+  "canonical_repository": "CarlDog/openchronicle-mcp",
+  "canonical_url": "https://github.com/CarlDog/openchronicle-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:22.977702Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2ade2eb7c9b7d2b80b56f249685fa1a1342db500115eda7508ee6cbe7e973b9e",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "84de1e7adf5855129d7102377897bd3c54134a4bf7069d2069932575986dc377",
+    "Dockerfile": "8ef43a49c070dc224700a210e58c2f3c3b35e495d6f447469e8eed610355208a",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "README.md": "48cdae4810a5d8a46a4d08854df7f8b82518d98bbb9acd27595181be57e7574a",
+    "docker-compose.yml": "bcc28a83e2cb6490558efc692c029b84efe93bda795ecb1a6a47da359b888334",
+    "package.json": "81e18cf30d3df3d6c2cd559e1dd8a986b695b1bd6a3781ec2c567e075995b76e",
+    "pyproject.toml": "d5dd02ddec94bcb2427f61c50e15bd145e68319ec432e6060f72104560d2f1c3"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

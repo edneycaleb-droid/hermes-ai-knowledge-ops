@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/NuGuardAI/nuguard",
+  "canonical_repository": "NuGuardAI/nuguard",
+  "canonical_url": "https://github.com/NuGuardAI/nuguard",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "develop",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:50:25.812753Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7820c2f5e4a2df99c637d82e8b852c7bd132095af34caafdc2e3cd71d9ea3581",
+  "sampled_file_digests": {
+    ".mcp.json": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
+    "LICENSE": "fc5b6edb08cefc26e689313325476eb40fce2616f55711024493a70938547acf",
+    "package.json": "d8139d0461d51cd63d1c821ff46e53eeae668dc788a4629bd1deb93073280a33",
+    "pyproject.toml": "635117c6380280724ccbff9a61961428c658066c7dac3cbdf70819338e94694a"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/eng-vmessiah/project-development-skill",
+  "canonical_repository": "eng-vmessiah/project-development-skill",
+  "canonical_url": "https://github.com/eng-vmessiah/project-development-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T22:49:48.062985Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f03b3e4ad66a19c60538beff9996a9917c076e31490e84b1b62b0be840c4f223",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "90dc7eea10d2f89fe68e95e11bfdae1a7a0b8d55bd92616fc434b9fcd8b0e321",
+    "LICENSE": "dc02b2175954db005ff1b811eb72aee501a468e9e4da8ada5477699083e4de14",
+    "README.md": "a6d7f64db268a3f8b6ce86d59e7fdd2b8da5c90740c6923983a5e7d4982cad4f"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
