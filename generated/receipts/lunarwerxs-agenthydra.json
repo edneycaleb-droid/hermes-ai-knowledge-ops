@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/LunarWerxs/AgentHydra",
+  "canonical_repository": "LunarWerxs/AgentHydra",
+  "canonical_url": "https://github.com/LunarWerxs/AgentHydra",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:25.942903Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d35c90b6c9a4629ab2ad81afa375626c51fcc53d8f51bd02201b64cb4b04ab13",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9f56b90e4562e7770e6cb97397580b62bcb91878106691e58abd33fc150eeeda",
+    "LICENSE": "e050929319d65ce971f563bc7519a9467a5aac540cf5b3d6a73bed9301c4bbd2",
+    "README.md": "3121f15b0496bb3e65c26918c2cdce0b3cfd87b2e044c5cac87673b9e26215e7",
+    "package.json": "78c2cf2c0e02eb77b02a53a1a060822e89a8b13cac95d4f32a01231a91e3cb4b"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

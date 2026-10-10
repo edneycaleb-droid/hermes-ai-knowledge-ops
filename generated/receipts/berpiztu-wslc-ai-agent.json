@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Berpiztu/wslc-ai-agent",
+  "canonical_repository": "Berpiztu/wslc-ai-agent",
+  "canonical_url": "https://github.com/Berpiztu/wslc-ai-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:51.471976Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d1f9d73f3403ffdcc82e461a7cadc893fdd3dafabc8b91e547acc9b6beef97b6",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "5746eaa85391cd6b15d8f8b1d5852a8b2ac016a082e3acafc828cc9ac678aa49",
+    "LICENSE": "df1e11afbb8a03f291180e45d5e52f1641568ed2e4fba6e80749bcb28eb4df59",
+    "README.md": "ded4ec3a766c816dacc712ca0d0352d99953a3ed4cc755920ad9cee01d3a471b"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

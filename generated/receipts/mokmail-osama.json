@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/mokmail/osama",
+  "canonical_repository": "mokmail/osama",
+  "canonical_url": "https://github.com/mokmail/osama",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:41:03.114032Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8a6811a35927dd4fea4eba49365f9de985bed57a773c72041d0ce2d4e775552e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "206b41421bb60ab190c760b50ec621a4d4137a8441b6d85ba0455205ae8c93e1",
+    "LICENSE": "e52961377c4bdea6445df0342f31f1cbdbf5996d97b3388f2559c5fa50afd54e",
+    "README.md": "60c7b1c125dbbffc6e6931e6a596f35c6eb71a4fa470ed9de971ccac79df9a08",
+    "package.json": "886a860af2bc4bb409e99d79a2ca508e77d45a1ee82cc54c43d25896581c5d77"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

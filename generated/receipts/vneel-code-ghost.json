@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/vNeeL-code/GHOST",
+  "canonical_repository": "vNeeL-code/GHOST",
+  "canonical_url": "https://github.com/vNeeL-code/GHOST",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:55.335965Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3897d27425a52ee50fdf1bdef6a52dd98b52c1878d660828ef3909790a97ef41",
+  "sampled_file_digests": {
+    "LICENSE.md": "19dd2a36c73f25a229e0db3de2ee8057be49975ab29cc89214df1957c994ff40",
+    "README.md": "03b61048a1e2ed1db46622186adb2db8e412f2b890a45bf2ba13da50a00050f3"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

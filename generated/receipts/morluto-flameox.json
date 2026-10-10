@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/morluto/flameox",
+  "canonical_repository": "morluto/flameox",
+  "canonical_url": "https://github.com/morluto/flameox",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:41:27.473693Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ecdbb1379558abd4bb38b600fd2c3a2c29b5c5731b364d05f4b051e10c4910fc",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "017fea1fa95fc9b3bd25160b355f1a008a51216408e685a2d3c6f51477191ff4",
+    "LICENSE": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b",
+    "README.md": "2513e4fab28fe2f7cc90a52ed06aba65b5a2fcf3627882b2b40b8c29132f51c9",
+    "pyproject.toml": "dff40591d8624c27380eb1e9988b64d547f690fcaf1180240ff1d44d7b56eb6b",
+    "server.json": "a59f96416aa85a4d3d878bb00f98d420f24b0c197791527973d1dce8555e75fb"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

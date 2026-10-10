@@ -1,0 +1,59 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://berpiztu.github.io/wslc-ai-agent/architecture/wslc-mcp.html",
+    "https://berpiztu.github.io/wslc-ai-agent/architecture/wslc-networks.html",
+    "https://berpiztu.github.io/wslc-ai-agent/architecture/wslc-overview.html",
+    "https://berpiztu.github.io/wslc-ai-agent/architecture/wslc-terminal.html",
+    "https://berpiztu.github.io/wslc-ai-agent/install-client.ps1",
+    "https://berpiztu.github.io/wslc-ai-agent/install.ps1",
+    "https://dotnet.microsoft.com/",
+    "https://github.com/Berpiztu",
+    "https://github.com/Berpiztu/wslc-ai-agent/releases/latest",
+    "https://github.com/berpiztu/virtus",
+    "https://github.com/berpiztu/wslc-ai-agent.git",
+    "https://github.com/microsoft/WSL/releases/latest",
+    "https://github.com/modelcontextprotocol/csharp-sdk",
+    "https://learn.microsoft.com/aspnet/core/blazor/",
+    "https://learn.microsoft.com/dotnet/maui/",
+    "https://mudblazor.com/",
+    "https://wixtoolset.org/",
+    "https://xtermjs.org/"
+  ],
+  "environment_variable_names": [
+    "WSLC_AGENTPORT",
+    "WSLC_AGENTURL",
+    "WSLC_BINDHOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/berpiztu-wslc-ai-agent.json",
+  "schema_version": 1,
+  "source_repository": "Berpiztu/wslc-ai-agent",
+  "source_url": "https://github.com/Berpiztu/wslc-ai-agent",
+  "status": "disabled_pending_review"
+}
