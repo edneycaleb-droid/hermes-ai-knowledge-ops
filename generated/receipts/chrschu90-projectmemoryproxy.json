@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ChrSchu90/ProjectMemoryProxy",
+  "canonical_repository": "ChrSchu90/ProjectMemoryProxy",
+  "canonical_url": "https://github.com/ChrSchu90/ProjectMemoryProxy",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:43.266248Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3147b5715cc37cc5b92f5e066954a2cd2ab7750cc4b6baa289f9c78860c23d7f",
+  "sampled_file_digests": {
+    "Dockerfile": "358168353ac1f79ee8751128c15dea0ce542a399a09d2c033dba99c64244ba3a",
+    "LICENSE": "4a9e6087158d717647fdee95e850e5bd3df91af1ae28dad3f96f53ce7d9008af",
+    "README.md": "61f1baee585301ad8976fb95406ea8766a5c078e92224cae3a40044a05b0e895"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ghcr.io/nudzo/hermes-trx",
+    "https://gist.github.com",
+    "https://github.com",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/cli/cli/releases/download/$",
+    "https://github.com/derivexyz/derive-py.git@38d8ef6645d7711185b0cd7b64efb85bce8e6158",
+    "https://github.com/h4ckf0r0day/obscura",
+    "https://github.com/h4ckf0r0day/obscura/archive/refs/tags/$",
+    "https://github.com/h4ckf0r0day/obscura/releases/download/$",
+    "https://github.com/nudzo/hermes-trx/actions/workflows/build-image.yml",
+    "https://github.com/nudzo/hermes-trx/actions/workflows/build-image.yml/badge.svg",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/ghcr.io-nudzo%2Fhermes--trx-blue?logo=docker"
+  ],
+  "environment_variable_names": [
+    "GH_TOKEN",
+    "GITHUB_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/nudzo-hermes-trx.json",
+  "schema_version": 1,
+  "source_repository": "nudzo/hermes-trx",
+  "source_url": "https://github.com/nudzo/hermes-trx",
+  "status": "disabled_pending_review"
+}

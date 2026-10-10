@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/kintopp/rijksmuseum-mcp-plus",
+  "canonical_repository": "kintopp/rijksmuseum-mcp-plus",
+  "canonical_url": "https://github.com/kintopp/rijksmuseum-mcp-plus",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:41:19.914866Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "bb95a4d5dd6ac9406ec7c2a6d4d36b8be9140c99d46d4ab6b9460979347dd907",
+  "sampled_file_digests": {
+    "LICENSE": "d8b69e989a3fb67b1993e6d4dacc6e69141a2713f077542ff6a31bd44a562e9b",
+    "README.md": "5a3378b367abbea3ada515e8c4e8881c12f6593c62025ffe49af27f453ade5c6",
+    "package.json": "ffac3c8c8fcd30947319c9537c58af6b4bb568ec2da022f8a687905bd30044ad"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

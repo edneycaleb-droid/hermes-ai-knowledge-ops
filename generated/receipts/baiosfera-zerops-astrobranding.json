@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/baiosfera/zerops-astrobranding",
+  "canonical_repository": "baiosfera/zerops-astrobranding",
+  "canonical_url": "https://github.com/baiosfera/zerops-astrobranding",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:34.437074Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "46896c2f45926ab9866b9d73e5ea658703d1f600cc99e4734ac12140e21598e3",
+  "sampled_file_digests": {
+    "README.md": "9646e2df0ce8d34bf40774700cffc57173b52ceb87620bfe87b9fe2b24af633c",
+    "package.json": "20609782bcfbf5bddcb8cda95d00da26ce0481de3b38e8fba2ecd0d1e12ec607"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

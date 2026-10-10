@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/automateyournetwork/netclaw",
+  "canonical_repository": "automateyournetwork/netclaw",
+  "canonical_url": "https://github.com/automateyournetwork/netclaw",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:21.699911Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "36400c2b1b9e36d8870f6f6c01e1fcdc08137094fce6199c28dd243e8d19375d",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

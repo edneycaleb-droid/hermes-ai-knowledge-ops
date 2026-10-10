@@ -5,13 +5,13 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-27T11:36:44.759063Z",
+  "fetched_at": "2026-10-10T20:41:35.841902Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "18b878f8d8d978558b61bb6bf6ea4af325eb5a91ce157c5e17f2dde9d2183619",
+  "metadata_digest": "18c92e5869e39d360ba01d9a64334cdd97ac0e11d2b40f704be86e4da89774ce",
   "sampled_file_digests": {
     "LICENSE": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
-    "README.md": "5d6c017ab1ff998bdc5e1bc55bc96efee694dade0e1b627ca7c23f0e7d2156f4",
-    "package.json": "9aded4d139c33a56fdf00416c6d3ab80dae113e8e5c5aeddce8437debe776685"
+    "README.md": "06a9b258ffddcd339488aef2339158bce91d4f7f3708dd726b9829539fe01ae2",
+    "package.json": "5231b81d7edca564a2f37c84c75c3e22798c4307f95afc81b94f62a7caf991d9"
   },
   "source_query": "topic:mcp-server language:typescript stars:>10"
 }

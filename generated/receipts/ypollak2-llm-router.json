@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/ypollak2/llm-router",
+  "canonical_repository": "ypollak2/llm-router",
+  "canonical_url": "https://github.com/ypollak2/llm-router",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:41:11.986914Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0353a93a232640946dd9990108cc721e1d67d65fd5e7984ad6b9f33baa98cf59",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "3695015ff772a46b47b79de5975d0fbef0a53762b4f9613b76d11f2795782626",
+    ".mcp.json": "e93dd89bff95840be1a70700f03404b10f844560946c56b72e8443c1bea81b72",
+    "LICENSE": "ae09c5643b845a281aff802667702eb34286eb2e0f53ac1cea2df2d5c4e35bd8",
+    "README.md": "08ee4ccd149417257b1117d2816ffd5875291502e8d342ffba76d5a3311dc64e",
+    "pyproject.toml": "1d8164052a17282f6d1d8eaccf828c92d8e23a6871aad3d5b59006406c3b96f1"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

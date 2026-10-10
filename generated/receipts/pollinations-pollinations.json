@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/pollinations/pollinations",
+  "canonical_repository": "pollinations/pollinations",
+  "canonical_url": "https://github.com/pollinations/pollinations",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:59.138791Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f635ca0d7c7af813f59c07c6f6efb93ba1ab8f714a190ac227569dbea5a16649",
+  "sampled_file_digests": {
+    "LICENSE": "87b464c8b89380740db03eb11b3e93d5f6f41a3715c880de1f9037b717645c95",
+    "README.md": "4d174195323a655736ecf500587a7db702b3f14cfb8ee38df3bcbd5bdc38b6d6",
+    "package.json": "09c3c8e08664a42b97bda5d43f484ae5bd9a5999875e95b25db3feaf3133d1f7"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,28 @@
+{
+  "categories": [
+    "agent"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/automateyournetwork-netclaw.json",
+  "schema_version": 1,
+  "source_repository": "automateyournetwork/netclaw",
+  "source_url": "https://github.com/automateyournetwork/netclaw",
+  "status": "disabled_pending_review"
+}

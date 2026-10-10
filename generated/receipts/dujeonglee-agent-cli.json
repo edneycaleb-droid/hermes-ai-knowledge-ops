@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/dujeonglee/agent-cli",
+  "canonical_repository": "dujeonglee/agent-cli",
+  "canonical_url": "https://github.com/dujeonglee/agent-cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:47.528593Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "901d7edcac9782ae7a6e7661d2c12b38d7fd65a8653e11c457ec9f585a9f5cc3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0bafc00e8808b9fa66ab17ace71d7186d8b5c564b335853073b2017a9f5391a7",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "pyproject.toml": "c55275bded7a06495e00a28df9ddf8a9a1b2f17e3ac53f85ee088da77f4d430a"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

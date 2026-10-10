@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/nudzo/hermes-trx",
+  "canonical_repository": "nudzo/hermes-trx",
+  "canonical_url": "https://github.com/nudzo/hermes-trx",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T20:40:17.303257Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8a194dc4a1a41382057d7e69bba95c798c7bc07d77c8730012882a45c5089e24",
+  "sampled_file_digests": {
+    "Dockerfile": "952ff5a7e3baccec9bd4d2de62cd79bf586a004c5b4cdc04b67ae5620afa2259",
+    "LICENSE": "2df622f17bde910852cd46e9aa50996368d4f2d6c1e11820c2be42a0917d577c",
+    "README.md": "c608f7ef72c6597c6fe51070a6aa4d2c339c0020b6a69d8ad909026b554ccb44"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
