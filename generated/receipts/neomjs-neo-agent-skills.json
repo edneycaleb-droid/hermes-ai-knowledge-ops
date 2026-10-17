@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/neomjs/neo-agent-skills",
+  "canonical_repository": "neomjs/neo-agent-skills",
+  "canonical_url": "https://github.com/neomjs/neo-agent-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "dev",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:51.960311Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fa1b162b253ca95344809aa5d7059c6b9391ab25805f40ef3c36d83781310dcb",
+  "sampled_file_digests": {
+    "LICENSE": "6c1dbd17ef0f50514f96e4076adb68be6287f9fafcb5c73c404d025548d547e5",
+    "README.md": "ee63458432938a23f65ac6c96e9b93471d23753fea0723eea1ba7715aeaa51fd",
+    "package.json": "5874405bdfd61cc3b92e73097c152e340d8139feee9317344b4e752ca4c71d29"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

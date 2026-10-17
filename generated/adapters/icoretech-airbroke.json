@@ -1,0 +1,69 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://app.netlify.com/start/deploy?repository=https://github.com/icoretech/airbroke",
+    "https://fluxcd.io/",
+    "https://github.com/icoretech/airbroke/actions/workflows/build.yml",
+    "https://github.com/icoretech/airbroke/blob/main/.env.dist",
+    "https://github.com/icoretech/airbroke/blob/main/LICENSE",
+    "https://github.com/icoretech/airbroke/blob/main/package.json",
+    "https://github.com/icoretech/airbroke/pkgs/container/airbroke",
+    "https://github.com/icoretech/helm/tree/main/charts/airbroke",
+    "https://img.shields.io/github/actions/workflow/status/icoretech/airbroke/build.yml?style=for-the-badge",
+    "https://img.shields.io/github/license/icoretech/airbroke?style=for-the-badge",
+    "https://img.shields.io/github/package-json/v/icoretech/airbroke?style=for-the-badge",
+    "https://myairbroke.xyz/api/auth/callback/",
+    "https://myairbroke.xyz/api/mcp",
+    "https://nextjs.org/docs/app/getting-started/deploying",
+    "https://railway.com/button.svg",
+    "https://railway.com/new/template/REPLACE_ME?utm_medium=integration&utm_source=button&utm_campaign=airbroke",
+    "https://render.com/deploy?repo=https://github.com/icoretech/airbroke",
+    "https://render.com/images/deploy-to-render-button.svg",
+    "https://vercel.com/button",
+    "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ficoretech%2Fairbroke&project-name=airbroke&repository-name=airbroke&env=DATABASE_URL%2CDIRECT_URL%2CBETTER_AUTH_SECRET%2CAIRBROKE_CORS_ORIGINS&envDescription=Required+env+vars+for+Airbroke+%28Prisma+%2B+Better+Auth%29.+Generate+a+random+BETTER_AUTH_SECRET.+Set+AIRBROKE_CORS_ORIGINS+to+your+app+origin%28s%29.&envLink=https%3A%2F%2Fgithub.com%2Ficoretech%2Fairbroke%2Fblob%2Fmain%2F.env.dist&envDefaults=%7B%22AIRBROKE_CORS_ORIGINS%22%3A%22*%22%7D&build-command=if+%5B+%22%24VERCEL_ENV%22+%3D+%22production%22+%5D%3B+then+corepack+yarn+db%3Amigrate%3B+fi+%26%26+corepack+yarn+build",
+    "https://www.better-auth.com/docs/concepts/oauth",
+    "https://www.heroku.com/deploy?template=https://github.com/icoretech/airbroke",
+    "https://www.herokucdn.com/deploy/button.svg",
+    "https://www.netlify.com/img/deploy/button.svg",
+    "https://www.prisma.io/docs/guides/performance-and-optimization/connection-management#external-connection-poolers",
+    "https://www.prisma.io/docs/orm/prisma-client/deployment/serverless/deploy-to-vercel",
+    "https://www.prisma.io/docs/orm/prisma-client/setup-and-configuration/databases-connections/pgbouncer"
+  ],
+  "environment_variable_names": [
+    "AIRBROKE_MCP_API_KEY",
+    "BETTER_AUTH_SECRET",
+    "DATABASE_URL",
+    "DIRECT_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/icoretech-airbroke.json",
+  "schema_version": 1,
+  "source_repository": "icoretech/airbroke",
+  "source_url": "https://github.com/icoretech/airbroke",
+  "status": "disabled_pending_review"
+}

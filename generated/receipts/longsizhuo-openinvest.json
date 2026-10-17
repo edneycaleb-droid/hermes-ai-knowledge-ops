@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/longsizhuo/openInvest",
+  "canonical_repository": "longsizhuo/openInvest",
+  "canonical_url": "https://github.com/longsizhuo/openInvest",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:39.562490Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2a1fca69a45227f2cda21b77fa9cecd1cc1cbcdf28430c36afe8e5fcca97f21f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "52fc8ada02d27cb933a22c736b5e306b8376798de01369383ac8b58034b21570",
+    "Dockerfile": "ffdf2cfc67d4d573adfa1d21ea3940dbd4a49cc6fe6a46da4953d74d5d203948",
+    "LICENSE": "839b116d8737fc6559986ade4f45cf92e167ae8f0f647b79c7c852aff3c9f105",
+    "README.md": "e21b280cdfd5183fca13c5844057e33e0a8296c8fadbf0520d856b26718d9d06",
+    "docker-compose.yml": "8c93bb22936f5d4371b3d0997583255ff66bd2f87a2f15e5baa9914fc1f9e7c3",
+    "pyproject.toml": "727aca1ff408e969dd70d5238e702eac229b9a6f3ab2ea5b09b86eb792cdd973",
+    "server.json": "df5b4003ebe3886208af404e973f7c3ab735928468c3d65a5dfcb7ab1d11d6c3"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

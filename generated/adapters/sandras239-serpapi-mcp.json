@@ -1,0 +1,75 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cursor.com/en-US/install-mcp?name=serpapi-mcp&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLnNlcnBhcGkuY29tL21jcCIsImhlYWRlcnMiOnsiQXV0aG9yaXphdGlvbiI6IkJlYXJlciBZT1VSX1NFUlBBUElfQVBJX0tFWSJ9fQ==",
+    "https://github.com/modelcontextprotocol/mcpb",
+    "https://github.com/serpapi/serpapi-mcp.git",
+    "https://github.com/serpapi/serpapi-mcp/issues",
+    "https://github.com/serpapi/serpapi-mcp/releases/latest",
+    "https://gofastmcp.com/servers/completions",
+    "https://img.shields.io/badge/Install%20in-Cursor-blue?logo=cursor",
+    "https://img.shields.io/badge/Install%20in-VS%20Code-blue?logo=visualstudiocode",
+    "https://img.shields.io/badge/license-MIT-green.svg",
+    "https://img.shields.io/badge/python-3.13+-blue.svg",
+    "https://insiders.vscode.dev/redirect/mcp/install?name=serpapi-mcp&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.serpapi.com%2Fmcp%22%2C%22headers%22%3A%7B%22Authorization%22%3A%22Bearer%20YOUR_SERPAPI_API_KEY%22%7D%7D",
+    "https://mcp.serpapi.com",
+    "https://mcp.serpapi.com/YOUR_SERPAPI_API_KEY/mcp",
+    "https://mcp.serpapi.com/mcp",
+    "https://mcp.serpapi.com/your_key/mcp",
+    "https://modelcontextprotocol.io/seps/1865-mcp-apps-interactive-user-interfaces-for-mcp",
+    "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+    "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/mrtr",
+    "https://serpapi.com",
+    "https://serpapi.com/dashboard",
+    "https://serpapi.com/google-flights-api",
+    "https://serpapi.com/google-hotels-api",
+    "https://serpapi.com/google-maps-directions-api",
+    "https://serpapi.com/legal#privacy-policy",
+    "https://serpapi.com/manage-api-key",
+    "https://serpapi.com/search-api",
+    "https://serpapi.com/search-engine-apis",
+    "https://user-images.githubusercontent.com/307597/154772945-1b7dba5f-21cf-41d0-bb2e-65b6eff4aaaf.png",
+    "https://www.python.org/downloads/"
+  ],
+  "environment_variable_names": [
+    "SERPAPI_API_KEY",
+    "URL",
+    "YOUR_API_KEY",
+    "YOUR_KEY",
+    "YOUR_SERPAPI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/sandras239-serpapi-mcp.json",
+  "schema_version": 1,
+  "source_repository": "sandras239/serpapi-mcp",
+  "source_url": "https://github.com/sandras239/serpapi-mcp",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,105 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://dev.to/czmilo/openclaw-dreaming-guide-2026-background-memory-consolidation-for-ai-agents-585e",
+    "https://github.com/longsizhuo/openInvest",
+    "https://github.com/longsizhuo/openInvest/blob/main/CHANGELOG.md",
+    "https://github.com/longsizhuo/openInvest/issues",
+    "https://github.com/longsizhuo/openInvest/tree/main/docs/wiki",
+    "https://github.com/longsizhuo/openInvest/tree/pnl-data",
+    "https://github.com/user-attachments/assets/e4c1efa0-026a-4777-ae62-48b9b0be435c",
+    "https://glama.ai/mcp/servers/longsizhuo/openInvest",
+    "https://glama.ai/mcp/servers/longsizhuo/openInvest/badges/score.svg",
+    "https://img.shields.io/badge/Agents-Claude%20Code%20%7C%20Codex%20%7C%20Hermes%20%7C%20OpenClaw-informational",
+    "https://img.shields.io/badge/License-MIT-green.svg",
+    "https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white",
+    "https://img.shields.io/github/stars/longsizhuo/openInvest?style=social",
+    "https://mimo.mi.com/",
+    "https://pypi.org/project/openinvest/",
+    "https://raw.githubusercontent.com/longsizhuo/openInvest/pnl-data/docs/pnl_chart.svg",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://support.google.com/accounts/answer/185833",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [
+    "BANNED_IMPORTS",
+    "DEEPSEEK_API_KEY",
+    "INVEST_API_TOKEN",
+    "LLM_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Investment runtime for AI agents \u2014 LLM investment committee, portfolio ledger, decision accounting",
+      "name": "io.github.longsizhuo/openinvest",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Data directory for portfolio/ledgers/.env (default: ~/openInvest)",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "INVEST_HOME"
+            }
+          ],
+          "identifier": "openinvest",
+          "packageArguments": [
+            {
+              "description": "Run the stdio MCP server",
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.0.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/longsizhuo/openInvest"
+      },
+      "title": "openInvest",
+      "version": "0.0.0"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/longsizhuo-openinvest.json",
+  "schema_version": 1,
+  "source_repository": "longsizhuo/openInvest",
+  "source_url": "https://github.com/longsizhuo/openInvest",
+  "status": "disabled_pending_review"
+}

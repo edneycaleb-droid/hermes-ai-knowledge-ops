@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/tecno-consultores/RoSGrid",
+  "canonical_repository": "tecno-consultores/RoSGrid",
+  "canonical_url": "https://github.com/tecno-consultores/RoSGrid",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:28.954785Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c4bf767b0474414409981897b5c73cb63d1ead18fd6381b5660d811e8ccd0a19",
+  "sampled_file_digests": {
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "40bc40d17a38c1e6cb32ffe23f133da096fceb281b6d0c1ab62c71d6b7964872",
+    "docker-compose.yml": "15efe9e92eef81e14a4cc71f78a32c7d213f2e704731a3184ad197affe3a2009"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

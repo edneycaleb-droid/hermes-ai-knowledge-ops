@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/sandras239/serpapi-mcp",
+  "canonical_repository": "sandras239/serpapi-mcp",
+  "canonical_url": "https://github.com/sandras239/serpapi-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:25.479580Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "96783404079b89666084e677ffd03c8866cc2097fe17d98843c14284a9fbf437",
+  "sampled_file_digests": {
+    "LICENSE": "44930a767b608e39ba63219fcad4644deff59502c4fa82edc50958613a6de946",
+    "README.md": "9973c6fea477779e274c000aca65795f7fe6b8136936f71636c2b9879c15a135",
+    "pyproject.toml": "70464ec9eba5f87a27f112b7db09e458c65d3649d694fffdcf3fb27928581ab7"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,249 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://exa.ai",
+    "https://github.com/jlowin/fastmcp",
+    "https://github.com/langchain-ai/langgraph",
+    "https://github.com/polakowo/vectorbt",
+    "https://github.com/pypi/support/issues/12150",
+    "https://github.com/ranaroussi/yfinance",
+    "https://github.com/wshobson/maverick-mcp",
+    "https://github.com/wshobson/maverick-mcp.git",
+    "https://github.com/wshobson/maverick-mcp/actions/workflows/ci.yml",
+    "https://github.com/wshobson/maverick-mcp/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/wshobson/maverick-mcp/issues",
+    "https://github.com/wshobson/maverick-mcp@v1.1.0",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/python-3.12+-blue.svg",
+    "https://pypi.org",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.python.org/downloads/"
+  ],
+  "environment_variable_names": [
+    "DATABASE_URL",
+    "EXA_API_KEY",
+    "LLM_API_KEY",
+    "LLM_BASE_URL",
+    "POSTGRES_URL",
+    "REDIS_HOST",
+    "REDIS_PORT",
+    "SEARXNG_BASE_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Stock analysis MCP server with market data, technical indicators, and AI research tools.",
+      "name": "io.github.wshobson/maverick-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Optional database URL. Defaults to SQLite (sqlite:///maverick.db) if not provided. PostgreSQL supported for better performance.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DATABASE_URL"
+            },
+            {
+              "description": "Optional Redis host for enhanced caching performance. Defaults to in-memory caching if not provided.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "REDIS_HOST"
+            },
+            {
+              "description": "Optional Redis port (default: 6379)",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "REDIS_PORT"
+            },
+            {
+              "description": "Optional LLM provider for the research extra (e.g. anthropic, openai, openai_compatible). Required only to enable research agent tools; bring your own API key.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_PROVIDER"
+            },
+            {
+              "description": "Optional API key for the configured LLM_PROVIDER. Required only when LLM_PROVIDER is set.",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "LLM_API_KEY"
+            },
+            {
+              "description": "Optional model name for the configured LLM_PROVIDER. Required only when LLM_PROVIDER is set.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_MODEL"
+            },
+            {
+              "description": "Optional base URL override, required when LLM_PROVIDER=openai_compatible.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_BASE_URL"
+            },
+            {
+              "description": "Optional sampling temperature for the configured LLM_PROVIDER. Defaults to 0.0.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_TEMPERATURE"
+            },
+            {
+              "description": "Optional API key for Exa web search (research extra). Get at https://exa.ai",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "EXA_API_KEY"
+            },
+            {
+              "description": "Optional research search backend: exa (default) or searxng.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "RESEARCH_SEARCH_BACKEND"
+            },
+            {
+              "description": "Optional base URL of a self-hosted SearXNG instance with the JSON format enabled; used when RESEARCH_SEARCH_BACKEND=searxng.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "SEARXNG_BASE_URL"
+            }
+          ],
+          "identifier": "maverick-mcp-server",
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "identifier": "ghcr.io/wshobson/maverick-mcp:1.1.0",
+          "registryType": "oci",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.1.0"
+        }
+      ],
+      "remotes": [
+        {
+          "description": "Streamable HTTP transport for remote access via mcp-remote bridge",
+          "environmentVariables": [
+            {
+              "description": "Optional database URL. Defaults to SQLite (sqlite:///maverick.db) if not provided. PostgreSQL supported for better performance.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DATABASE_URL"
+            },
+            {
+              "description": "Optional Redis host for enhanced caching performance. Defaults to in-memory caching if not provided.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "REDIS_HOST"
+            },
+            {
+              "description": "Optional Redis port (default: 6379)",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "REDIS_PORT"
+            },
+            {
+              "description": "Optional LLM provider for the research extra (e.g. anthropic, openai, openai_compatible). Required only to enable research agent tools; bring your own API key.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_PROVIDER"
+            },
+            {
+              "description": "Optional API key for the configured LLM_PROVIDER. Required only when LLM_PROVIDER is set.",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "LLM_API_KEY"
+            },
+            {
+              "description": "Optional model name for the configured LLM_PROVIDER. Required only when LLM_PROVIDER is set.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_MODEL"
+            },
+            {
+              "description": "Optional base URL override, required when LLM_PROVIDER=openai_compatible.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_BASE_URL"
+            },
+            {
+              "description": "Optional sampling temperature for the configured LLM_PROVIDER. Defaults to 0.0.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "LLM_TEMPERATURE"
+            },
+            {
+              "description": "Optional API key for Exa web search (research extra). Get at https://exa.ai",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "EXA_API_KEY"
+            },
+            {
+              "description": "Optional research search backend: exa (default) or searxng.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "RESEARCH_SEARCH_BACKEND"
+            },
+            {
+              "description": "Optional base URL of a self-hosted SearXNG instance with the JSON format enabled; used when RESEARCH_SEARCH_BACKEND=searxng.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "SEARXNG_BASE_URL"
+            }
+          ],
+          "name": "streamable-http",
+          "setup_instructions": [
+            "Clone repository: git clone https://github.com/wshobson/maverick-mcp.git",
+            "Install dependencies: uv sync (or pip install -e .)",
+            "Copy .env.example to .env and configure it",
+            "Start server: make dev (or uv run python -m maverick.server --transport http --port 8003)",
+            "Connect via mcp-remote: npx mcp-remote http://localhost:8003/mcp"
+          ],
+          "type": "streamable-http",
+          "url": "http://localhost:8003/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/wshobson/maverick-mcp"
+      },
+      "status": "active",
+      "version": "1.1.0"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/wshobson-maverick-mcp.json",
+  "schema_version": 1,
+  "source_repository": "wshobson/maverick-mcp",
+  "source_url": "https://github.com/wshobson/maverick-mcp",
+  "status": "disabled_pending_review"
+}
