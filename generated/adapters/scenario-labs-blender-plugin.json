@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.cloud.scenario.com",
+    "https://blender.scenario.com/",
+    "https://blender.scenario.com/repo/index.json",
+    "https://docs.blender.org/manual/en/latest/advanced/extensions/licenses.html",
+    "https://docs.scenario.com",
+    "https://docs.scenario.com/get-started/documentation/quick-start-guide/step-1-obtain-your-api-key",
+    "https://extensions.blender.org/terms-of-service/",
+    "https://fsf.org/",
+    "https://github.com/nianticlabs/spz",
+    "https://github.com/scenario-labs/Scenario-Unity",
+    "https://github.com/scenario-labs/blender-plugin/releases",
+    "https://github.com/scenario-labs/skills",
+    "https://help.scenario.com",
+    "https://img.shields.io/badge/Blender-5.0%2B-orange",
+    "https://img.shields.io/badge/documentation-api-black.svg",
+    "https://img.shields.io/badge/documentation-app-black.svg",
+    "https://img.shields.io/badge/documentation-mcp-black.svg",
+    "https://img.shields.io/badge/license-GPL--3.0--or--later-blue",
+    "https://img.shields.io/cii/level/15531?label=openssf+best+practices&style=flat",
+    "https://img.shields.io/github/v/release/scenario-labs/blender-plugin",
+    "https://img.shields.io/ossf-scorecard/github.com/scenario-labs/blender-plugin?label=openssf+scorecard&style=flat",
+    "https://mcp.scenario.com",
+    "https://mcp.scenario.com/docs",
+    "https://projects.blender.org/lab/blender_mcp",
+    "https://scorecard.dev/viewer/?uri=github.com/scenario-labs/blender-plugin",
+    "https://www.bestpractices.dev/en/projects/15531/passing",
+    "https://www.blender.org/about/license/",
+    "https://www.blender.org/lab/mcp-server/",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/why-not-lgpl.html",
+    "https://www.scenario.com/",
+    "https://www.scenario.com/explorations/"
+  ],
+  "environment_variable_names": [
+    "SUPPORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "scenario-blender": {
+          "type": "http",
+          "url": "http://127.0.0.1:9876/mcp"
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/scenario-labs-blender-plugin.json",
+  "schema_version": 1,
+  "source_repository": "scenario-labs/blender-plugin",
+  "source_url": "https://github.com/scenario-labs/blender-plugin",
+  "status": "disabled_pending_review"
+}

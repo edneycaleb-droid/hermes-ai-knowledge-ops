@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/knowall-ai/bookie",
+  "canonical_repository": "knowall-ai/bookie",
+  "canonical_url": "https://github.com/knowall-ai/bookie",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:14.510982Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a2f505393f399e7c6d8fbbbda3a867671c291a306c885736bc54e77de366da02",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "dcb60a1f39e4adc5f1d73d3ed2d071a410e9b085dc4496ab77c5751d99a74dc2",
+    "LICENSE": "aad69badc1f3d7ad21a04b46eb4f1c65d2b3e345ef9c0864bd6779735558064f",
+    "README.md": "6d64612e06e0202eaf37e450e1ae6a324d928718efe0ebf01504e72eb712f6cc"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

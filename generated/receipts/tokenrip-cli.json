@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/tokenrip/cli",
+  "canonical_repository": "tokenrip/cli",
+  "canonical_url": "https://github.com/tokenrip/cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:16.362957Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "344744aa26fc18d22fd36402d0e1e8d7f8be3671bc5c44010fd7e523dc18b808",
+  "sampled_file_digests": {
+    "LICENSE": "1c15918c9dd6b58365f1277aba838808a8567f6aae786073990d648412c20120",
+    "README.md": "74b59cebfbd16173ebabecb160b47d094ab721e9b1aad7723bd7270facf25061",
+    "package.json": "3e40ee81e2034ab372549e4a4353298d2592fb6929e46f343a90a49252ed9a7e"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

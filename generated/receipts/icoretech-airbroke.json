@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/icoretech/airbroke",
+  "canonical_repository": "icoretech/airbroke",
+  "canonical_url": "https://github.com/icoretech/airbroke",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:46.500187Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "81b2be26d891902a9a031c09a8d1cbf69795f0f369a067db25b986f39d1fd115",
+  "sampled_file_digests": {
+    "Dockerfile": "361c989c75991505e765fd61a07b23a3ce346748274920040f90e3b95913c6dd",
+    "LICENSE": "4dba7d579479b0cbcf3ed8ac2e7f7291e0f00117198a8cfaa10fc14d260d839b",
+    "README.md": "5ee74039b55357fe43cb4504d03220c3aadb1d3efdefbb2e62dc030d504e4e72",
+    "docker-compose.yml": "dca2c85b49df4d5eba1d29be26d572e6cff171fdd3187d97ae94fa459ef8e5e8",
+    "package.json": "6b23bd40c6ddca2bae12a6102370a3c5cb939384c9fab0617a8cfa197677821e"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

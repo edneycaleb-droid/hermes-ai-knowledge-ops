@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/scenario-labs/blender-plugin",
+  "canonical_repository": "scenario-labs/blender-plugin",
+  "canonical_url": "https://github.com/scenario-labs/blender-plugin",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:34.646889Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7032bf79506b48c93550e4a0816189038fcb6daec8f6db15a569b68f309698fb",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "5d93a33ee41d7fe77efb973450aedcfa41409565f08009f8b19c6a62f58276e8",
+    ".mcp.json": "35000e63db8a2cba1008154bb01aa6236f836c0e6e0f27bf1bfcaa0edaf457ef",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "1bf7b32edb3c58324f42e62a946b9e50a3e31dc40db4b0779e3e889adc6f2f0e",
+    "package.json": "89b31161860eca94fc45e471a4d79c34016dd8366799a85e92f12e4f3d69c998",
+    "pyproject.toml": "545cfe4f178092d58c4a13a45a11b58901d30ff6bce79619cccf44b5ede10864"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

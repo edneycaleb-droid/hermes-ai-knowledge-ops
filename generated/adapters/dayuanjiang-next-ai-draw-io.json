@@ -1,0 +1,69 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=DayuanJiang/next-ai-draw-io&type=date&legend=top-left",
+    "https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg",
+    "https://cursor.com/en/install-mcp?name=drawio&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAbmV4dC1haS1kcmF3aW8vbWNwLXNlcnZlckBsYXRlc3QiXX0%3D",
+    "https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2FDayuanJiang%2Fnext-ai-draw-io",
+    "https://github.com/DayuanJiang/next-ai-draw-io",
+    "https://github.com/DayuanJiang/next-ai-draw-io/issues",
+    "https://github.com/DayuanJiang/next-ai-draw-io/releases",
+    "https://github.com/sponsors/DayuanJiang",
+    "https://github.com/user-attachments/assets/66b9f12f-219f-4d62-acc0-0725e6850eec",
+    "https://github.com/user-attachments/assets/6f53a67b-ab21-4113-9fee-7fb32f9de678",
+    "https://img.shields.io/badge/Cursor-Add_Server-000000?style=flat-square",
+    "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+    "https://img.shields.io/badge/Sponsor-",
+    "https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square",
+    "https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522drawio%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522%2540next-ai-drawio%252Fmcp-server%2540latest%2522%255D%257D",
+    "https://next-ai-drawio.jiang.jp/",
+    "https://next-ai-drawio.jiang.jp/en/docs",
+    "https://next-ai-drawio.jiang.jp/en/gallery",
+    "https://next-ai-drawio.jiang.jp/en/mcp",
+    "https://opensource.org/licenses/Apache-2.0",
+    "https://pages.edgeone.ai/document/edge-ai",
+    "https://trendshift.io/api/badge/repositories/15449",
+    "https://vercel.com/button",
+    "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDayuanJiang%2Fnext-ai-draw-io",
+    "https://www.star-history.com/#DayuanJiang/next-ai-draw-io&type=date&legend=top-left"
+  ],
+  "environment_variable_names": [
+    "HOSTNAME",
+    "NEXT_PUBLIC_DRAWIO_BASE_URL",
+    "NEXT_PUBLIC_SELFHOSTED",
+    "PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/dayuanjiang-next-ai-draw-io.json",
+  "schema_version": 1,
+  "source_repository": "DayuanJiang/next-ai-draw-io",
+  "source_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+  "status": "disabled_pending_review"
+}

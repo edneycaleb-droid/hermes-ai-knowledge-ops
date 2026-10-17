@@ -1,0 +1,76 @@
+{
+  "categories": [
+    "agent",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ai.meta.com/blog/",
+    "https://api-docs.deepseek.com/updates",
+    "https://blog.samaltman.com/posts.atom",
+    "https://blogs.nvidia.com/blog/author/jen-hsun-huang/feed/",
+    "https://cursor.com/changelog/rss.xml",
+    "https://deepmind.google/blog/rss.xml",
+    "https://docs.qoder.com/release-notes/qoder",
+    "https://docs.trae.cn/ide_changelog",
+    "https://docs.z.ai/release-notes/new-released",
+    "https://github.com/HKUDS/DeepTutor",
+    "https://github.com/HKUDS/DeepTutor/releases.atom",
+    "https://github.com/MiniMax-AI/minimax-code/releases.atom",
+    "https://github.com/NousResearch/hermes-agent/releases.atom",
+    "https://github.com/anomalyco/opencode/releases.atom",
+    "https://github.com/anthropics/claude-code/releases.atom",
+    "https://github.com/deepseek-ai/deepseek-harness/releases.atom",
+    "https://github.com/earendil-works/pi/releases.atom",
+    "https://github.com/github/copilot-cli/releases.atom",
+    "https://github.com/google-gemini/gemini-cli/releases.atom",
+    "https://github.com/helloqhq/ai-daohang",
+    "https://github.com/openai/codex/releases.atom",
+    "https://github.com/owner/repo/releases",
+    "https://github.com/owner/repo/releases.atom",
+    "https://go2-ai.com/",
+    "https://go2-ai.com/data/index.json",
+    "https://hunyuan.tencent.com/",
+    "https://openai.com/news/rss.xml",
+    "https://openrouter.ai/blog/all/",
+    "https://openrouter.ai/blog/feed.xml",
+    "https://qwen.ai/blog",
+    "https://rsshub.app",
+    "https://tech.meituan.com/atom.xml",
+    "https://www.anthropic.com/news",
+    "https://www.darioamodei.com/",
+    "https://www.kimi.com/en/blog/",
+    "https://www.minimax.io/blog",
+    "https://www.threads.net/@zuck",
+    "https://www.tiktok.com/@openai",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
+    "https://x.ai/news"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/helloqhq-ai-daohang.json",
+  "schema_version": 1,
+  "source_repository": "helloqhq/ai-daohang",
+  "source_url": "https://github.com/helloqhq/ai-daohang",
+  "status": "disabled_pending_review"
+}

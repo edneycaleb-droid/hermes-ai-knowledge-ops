@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Vermeulen-Solutions/emdash-baseline",
+  "canonical_repository": "Vermeulen-Solutions/emdash-baseline",
+  "canonical_url": "https://github.com/Vermeulen-Solutions/emdash-baseline",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:22.115356Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3483f6745a83ebb94c8c34c93286e8e84d5adb81716b53d7f112cc6e9ef5a351",
+  "sampled_file_digests": {
+    ".mcp.json": "407cb2307207e5f5987979c06e73e16ac512c9322203557ac84d8e117aed149e",
+    "LICENSE": "b1690b923216e66d5c380919f00b0ac414adb89a54a0a585d2b6a5d66c23c3bb",
+    "README.md": "a36be78305ae83b80ee864d57789ab258a4700c5398d2ed2f2640e51f273d45a",
+    "package.json": "cdfefab9f59621074ede282334cf59147b94d0f91c750fc5a72a5b1a5a6dc55e"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

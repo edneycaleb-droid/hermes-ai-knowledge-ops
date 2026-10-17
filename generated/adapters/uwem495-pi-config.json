@@ -1,0 +1,67 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io/specification",
+    "https://api.star-history.com/svg?repos=realchendahuang/pi-config&type=Date",
+    "https://github.com/Firstp1ck/pi-coding-agent-forge",
+    "https://github.com/MattDevy/pi-extensions",
+    "https://github.com/apmantza/pi-lens",
+    "https://github.com/chandra447/pi-hermes-memory",
+    "https://github.com/guwidoe/pi-playwright",
+    "https://github.com/juicesharp/rpiv-mono",
+    "https://github.com/mksglu/context-mode",
+    "https://github.com/narumiruna/pi-extensions",
+    "https://github.com/nicobailon/pi-mcp-adapter",
+    "https://github.com/nicobailon/pi-subagents",
+    "https://github.com/nicobailon/pi-web-access",
+    "https://github.com/realchendahuang/pi-config",
+    "https://github.com/realchendahuang/pi-config.git",
+    "https://github.com/realchendahuang/pi-config/issues",
+    "https://github.com/realchendahuang/pi-config/network/members",
+    "https://github.com/realchendahuang/pi-config/pulls",
+    "https://github.com/victor-software-house/pi-curated-themes",
+    "https://img.shields.io/badge/Follow-%40realchendahuang-1DA1F2?logo=x&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+    "https://img.shields.io/github/forks/realchendahuang/pi-config?style=social",
+    "https://img.shields.io/github/issues/realchendahuang/pi-config",
+    "https://img.shields.io/github/stars/realchendahuang/pi-config?style=social",
+    "https://pi.dev",
+    "https://pi.dev/packages",
+    "https://pi.dev/packages/pi-marketplace",
+    "https://star-history.com/#realchendahuang/pi-config&Date",
+    "https://x.com/realchendahuang"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/uwem495-pi-config.json",
+  "schema_version": 1,
+  "source_repository": "Uwem495/pi-config",
+  "source_url": "https://github.com/Uwem495/pi-config",
+  "status": "disabled_pending_review"
+}

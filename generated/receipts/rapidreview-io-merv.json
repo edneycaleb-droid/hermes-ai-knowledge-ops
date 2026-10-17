@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/rapidreview-io/Merv",
+  "canonical_repository": "rapidreview-io/Merv",
+  "canonical_url": "https://github.com/rapidreview-io/Merv",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:08.509450Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "078504162c2c3737ab78ecd9b1dd9c5329481e409991eea2aee12b8051dce828",
+  "sampled_file_digests": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "2c895d6e3963b53b8a633eb3c045ea886b94be2509729de41709d6b883b611aa"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

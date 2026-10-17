@@ -1,0 +1,43 @@
+{
+  "categories": [
+    "agent",
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://",
+    "https://github.com/tokenrip/cli.git",
+    "https://github.com/tokenrip/tokenrip/issues",
+    "https://tokenrip.com",
+    "https://tokenrip.com/setup"
+  ],
+  "environment_variable_names": [
+    "TOKENRIP_OUTPUT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/tokenrip-cli.json",
+  "schema_version": 1,
+  "source_repository": "tokenrip/cli",
+  "source_url": "https://github.com/tokenrip/cli",
+  "status": "disabled_pending_review"
+}

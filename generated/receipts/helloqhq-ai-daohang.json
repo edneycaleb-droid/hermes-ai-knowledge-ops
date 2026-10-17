@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/helloqhq/ai-daohang",
+  "canonical_repository": "helloqhq/ai-daohang",
+  "canonical_url": "https://github.com/helloqhq/ai-daohang",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:12.516797Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ab8587ed20a80209d397fcc19f4049b93970a7d0546b6531da7eea76599d6582",
+  "sampled_file_digests": {
+    "README.md": "a45e6bb52c9bb65a642170050eb67bde06cdce5b03498f0c89d550d7f08f29cb",
+    "package.json": "08b0b21f03e0dc9b8f962eb85548e8d21ffe9f0cc3ba30892b5bcde9de65eb6c"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

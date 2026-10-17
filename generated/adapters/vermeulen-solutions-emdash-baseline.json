@@ -1,0 +1,62 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://astro.build/",
+    "https://designmd.ai/explore",
+    "https://developers.cloudflare.com/d1/platform/limits/",
+    "https://docs.emdashcms.com/",
+    "https://docs.emdashcms.com/mcp",
+    "https://github.com/Vermeulen-Solutions/emdash-baseline.git",
+    "https://img.shields.io/badge/Astro-7.4.0-BC52EE",
+    "https://img.shields.io/badge/EmDash-1.3.0-2563EB",
+    "https://img.shields.io/badge/License-MIT-blue",
+    "https://img.shields.io/badge/Node-LTS-339933",
+    "https://img.shields.io/badge/Tailwind-v4-06B6D4",
+    "https://tailwindcss.com/"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "emdash-docs": {
+          "type": "http",
+          "url": "https://docs.emdashcms.com/mcp"
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/vermeulen-solutions-emdash-baseline.json",
+  "schema_version": 1,
+  "source_repository": "Vermeulen-Solutions/emdash-baseline",
+  "source_url": "https://github.com/Vermeulen-Solutions/emdash-baseline",
+  "status": "disabled_pending_review"
+}

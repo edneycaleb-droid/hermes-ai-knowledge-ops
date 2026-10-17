@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/DayuanJiang/next-ai-draw-io",
+  "canonical_repository": "DayuanJiang/next-ai-draw-io",
+  "canonical_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:50.066651Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ca57fa93bc2c19a0e5569d417096d80ddd1445d90218c40b20086055489532c7",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "98ee86245b06a874bbc55c71f9ac25481c2bdfb5f50ad155141299e63045d4f8",
+    "Dockerfile": "0b49c5010089149a59d7e8917bfe69c96bfe7b64bdee08b55cdfb6f591f86ba4",
+    "LICENSE": "edcc537d7b303d03624347d5047c36772bcc1828e1ae0208096cc94cc58de95e",
+    "README.md": "83a6c1cca8f6ec1a0ec1afaad9f425914bc7ad8eb8c7052fc9c2828004ea42f4",
+    "docker-compose.yml": "8fa2ce50cfd733999ea5ac287e0ecb768fdd31df8cb84e325bf0a5a98f74b37d",
+    "package.json": "3f2c56b0c44669456e4889db2b00b87b376204b8057df1742e8e0a3d6974a748"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

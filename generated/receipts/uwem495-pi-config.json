@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Uwem495/pi-config",
+  "canonical_repository": "Uwem495/pi-config",
+  "canonical_url": "https://github.com/Uwem495/pi-config",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T21:41:23.698369Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b3311cddafd08a467764eac2c7a7bc5a661fb461a15cf472b503ec0059a5d99b",
+  "sampled_file_digests": {
+    "LICENSE": "3a6534353beb64109e7edd2eb833b92b709e474f7df28724b1caaf33dde56e15",
+    "README.md": "1d07ea0914cf7fa98a60ce2b40e1711565a81669b9f731a07270207d9c07c038"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}
