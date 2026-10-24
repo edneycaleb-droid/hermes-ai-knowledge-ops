@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/Sugarfreeecho/SUGAR-AGENT",
+  "canonical_repository": "Sugarfreeecho/SUGAR-AGENT",
+  "canonical_url": "https://github.com/Sugarfreeecho/SUGAR-AGENT",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:36.717840Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a3206d9595e2660fd2935bac78870ffd81650df1917246b511844cd53dd7ebea",
+  "sampled_file_digests": {
+    "README.md": "d177a1a133ec65f7deae0ad468f0e60bacbf3f4133f446757980815191596774"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

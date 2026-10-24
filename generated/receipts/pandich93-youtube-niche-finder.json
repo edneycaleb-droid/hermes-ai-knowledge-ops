@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/pandich93/youtube-niche-finder",
+  "canonical_repository": "pandich93/youtube-niche-finder",
+  "canonical_url": "https://github.com/pandich93/youtube-niche-finder",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:03.218584Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "960f83655c6eda4ba2a26373fbbac4967cc55022e8bd66c94d85be3942d00553",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2bfe9da6acea4614ae42c87561981ac2426e34692ebe68c92fb2e4f19bfcdac0",
+    "LICENSE": "58d0399c2c718a015d7ee7a3f02b63f02e564b4c38496aa0faa268bed87195fa",
+    "README.md": "3a9a6b42bb7f5d3e7ff6db0fabf37ce15b441fce1f8fec680022f6d34b1c23c4",
+    "docker-compose.yml": "1ab21d69bd1848ebb7e5fa77453465a4753e9cc937982fa4227ec9a825575d59"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

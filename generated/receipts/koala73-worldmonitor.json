@@ -5,17 +5,18 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:12:38.360903Z",
+  "fetched_at": "2026-10-24T18:58:06.969680Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "d0fd6df33916af258c7dcacd0d84a4bf14fe7789ab1ab3c639d1f792c53b07a7",
+  "metadata_digest": "45852098ba6f7822c27172da3b0c0cea22cac65a22aaf56c72ca06f1e9a75ac3",
   "sampled_file_digests": {
-    ".github/workflows/test.yml": "a5afed4fb2c1428d7ce7ab74c2683cd3364642b61faf7c424e3964b171517bd3",
-    "Dockerfile": "6176a4b4d47ab2bc77de5a518324faf3ddf46f4b7ab8ce003dbb314558aa2443",
-    "LICENSE": "31d9098319df19f5ea076752d439b393eae0fd3f5aba21b000d54c6f11fd75fb",
-    "README.md": "1f9b8ccc3095a4f29c87444aef8d144b85d96e040610e4b48568ee1411f8445a",
-    "docker-compose.yml": "b33e64326386bb564a16f6c15d08a85624fc0eb64e5464d63c8419403c3cd6ce",
-    "package.json": "11a7e73cdd877be6bf68be35500acc702755ac7468ae92c86f7f2ff7faa25c32",
-    "server.json": "d99280ca76e3c2362e4b07f243a02c8a1cf2eed4d5a49149546106d2a741d38e"
+    ".github/workflows/test.yml": "529548a709088a8210e33ec7da30af590513a654fb48458ee347efc2c93aeee3",
+    "Dockerfile": "bc4ad91b6e3ae02a8a22207135582ecb2fbb6d8e8f6620cd2a655d7dd6a30d2b",
+    "LICENSE": "91fd070eb055a106f41e4218f1372741e847f42c9ddae77101e799642a3282a7",
+    "README.md": "308fe5269a13b75114d5d00ea94232e830d2fec5774731009004c4c19ba3f950",
+    "docker-compose.yml": "2ac1e397eeb52db7b5510017c07068ddead65884b0f2add6ab4b72fe3db9a427",
+    "mcp.json": "87a3ebe88f0899118fd38712db7db2f2081c387ef1157531a9611752893af92e",
+    "package.json": "89e40d8c83aeac793251e2bf7e281861acc66aef4a3dff59143248135784d549",
+    "server.json": "cfcd9b7a8729cd0a70d4224544fe219c511cfb62f10b98f201878080c5d977a1"
   },
   "source_query": "topic:mcp-server language:typescript stars:>10"
 }

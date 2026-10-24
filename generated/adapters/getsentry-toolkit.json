@@ -1,0 +1,115 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://blog.cloudflare.com/remote-model-context-protocol-servers-mcp/",
+    "https://cli.sentry.dev/",
+    "https://github.com/getsentry/sentry-mcp",
+    "https://github.com/getsentry/sentry-mcp/issues",
+    "https://github.com/getsentry/skills",
+    "https://mcp.sentry.dev",
+    "https://mcp.sentry.dev/mcp",
+    "https://mcp.sentry.dev/mcp/sentry/mcp-server?experimental=1",
+    "https://modelcontextprotocol.io/docs/tools/inspector",
+    "https://sentry.io/settings/account/api/applications/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "BRAINTRUST_API_KEY",
+    "COOKIE_SECRET",
+    "GITHUB_TOKEN",
+    "HONEYCOMB_API_KEY",
+    "MCP_URL",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "SENTRY_ACCESS_TOKEN",
+    "SENTRY_AUTH_TOKEN",
+    "SENTRY_CLIENT_SECRET",
+    "SENTRY_HOST",
+    "SENTRY_OAUTH_CLIENT_SECRET",
+    "SENTRY_TOKEN",
+    "TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "sentry": {
+          "type": "http",
+          "url": "https://mcp.sentry.dev/mcp/sentry/mcp-server?experimental=1"
+        },
+        "sentry-dev": {
+          "type": "http",
+          "url": "http://localhost:5173/mcp/sentry/mcp-server?experimental=1"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "MCP server for Sentry - error monitoring, issue tracking, and debugging for AI assistants",
+      "name": "io.github.getsentry/sentry-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Your Sentry user authentication token",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "SENTRY_ACCESS_TOKEN"
+            }
+          ],
+          "identifier": "@sentry/mcp-server",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.40.0"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.sentry.dev/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "subfolder": "packages/mcp-server",
+        "url": "https://github.com/getsentry/sentry-mcp"
+      },
+      "version": "0.40.0"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/getsentry-toolkit.json",
+  "schema_version": 1,
+  "source_repository": "getsentry/toolkit",
+  "source_url": "https://github.com/getsentry/toolkit",
+  "status": "disabled_pending_review"
+}

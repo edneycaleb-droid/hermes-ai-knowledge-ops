@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/kv-chiu/mcd-desktop-pet",
+  "canonical_repository": "kv-chiu/mcd-desktop-pet",
+  "canonical_url": "https://github.com/kv-chiu/mcd-desktop-pet",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:21.540811Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "97684eff5dd4b50279cc5448061a55d8f2180f55c199074a8baaa8235b478bf2",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6a4caf6ac6f0fdf028e9016f175bc4bfc403766ed234aedb77cab41e2cb7db15",
+    "LICENSE": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+    "README.md": "7b38f05e7a4c66fb675d760fedef8bcefbf9703f5ac45999cf36cf9a3bbe5ce3"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

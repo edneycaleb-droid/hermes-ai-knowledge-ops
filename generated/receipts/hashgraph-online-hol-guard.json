@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/hashgraph-online/hol-guard",
+  "canonical_repository": "hashgraph-online/hol-guard",
+  "canonical_url": "https://github.com/hashgraph-online/hol-guard",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:50.321723Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2d0f15571a07ed5ba8ec5b43f1244985b5f3733fefad03f117aa9624003f122b",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2bc627b5a2ca496abfd5c79f546271bed1505d5a5b14ace3faf56d8a70d34502",
+    "Dockerfile": "e62357518ab54adee60d71a689c06c0f42ad9ecce0e75c48ae4a1b0fcc784ec1",
+    "LICENSE": "51b88fd3e9e24edcdce1dd145a4fca2dcd12911407f00b06dfa6ff600f9733c1",
+    "README.md": "2926104115fcd8a83f2c3aa504bd07d935c565de788494ca743f6964b6ad379e",
+    "pyproject.toml": "50f3d538e22c3c4241e8319af810ea336aeb54a05370b9fd1b5af584528e03da",
+    "requirements.txt": "3e23f88cb56537687839c66356531118e38e67041ef1b0ecc6b60c5ae6f48c39",
+    "server.json": "36da42aff58b014e211122cb9a87e3e4d24aec565931cd7a47c421e5a4ae9951"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

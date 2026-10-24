@@ -1,0 +1,86 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://accounts.google.com",
+    "https://acme.auth.us-west-2.amazoncognito.com/logout?client_id=...&logout_uri=",
+    "https://acme.cloudflareaccess.com",
+    "https://archive.ubuntu.com/ubuntu/",
+    "https://atlas.example.com",
+    "https://base",
+    "https://d1234example.cloudfront.net",
+    "https://github.com/ticoteam/tico",
+    "https://github.com/ticoteam/tico/discussions",
+    "https://github.com/ticoteam/tico/issues",
+    "https://github.com/ticoteam/tico/issues/new/choose",
+    "https://github.com/ticoteam/tico/releases/latest/download/install.sh",
+    "https://login.microsoftonline.com/",
+    "https://polyformproject.org/licenses/perimeter/1.0.1",
+    "https://public-keys.auth.elb",
+    "https://runner.example.com"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "GEMINI_API_KEY",
+    "GH_TOKEN",
+    "GITHUB_TOKEN",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "TICO_ALB_KEYS_URL",
+    "TICO_COGNITO_LOGOUT_URL",
+    "TICO_CREDENTIAL_KMS_KEY",
+    "TICO_GATEWAY_KEY",
+    "TICO_GATEWAY_SECRET_ARN",
+    "TICO_GATEWAY_URL",
+    "TICO_GOOGLE_OAUTH_CLIENT_SECRET",
+    "TICO_HOSTED_ENVIRONMENT",
+    "TICO_HQ_STAFF_READ_KEY",
+    "TICO_HQ_URL",
+    "TICO_LOCAL_OWNER_TOKEN_FILE",
+    "TICO_OIDC_CLIENT_SECRET",
+    "TICO_OIDC_CLIENT_SECRET_FILE",
+    "TICO_PUBLIC_URL",
+    "TICO_RELEASES_URL",
+    "TICO_RUNNER_URL",
+    "TICO_S3_VIEW_URLS",
+    "TICO_SESSION_SECRET",
+    "TICO_TYPESAFE_SECRET_ARN",
+    "TICO_UPDATER_TOKEN",
+    "TICO_UPDATER_URL",
+    "TYPESAFE_API_KEY",
+    "URL",
+    "XAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/ticoteam-tico.json",
+  "schema_version": 1,
+  "source_repository": "ticoteam/tico",
+  "source_url": "https://github.com/ticoteam/tico",
+  "status": "disabled_pending_review"
+}

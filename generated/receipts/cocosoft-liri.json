@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/cocosoft/Liri",
+  "canonical_repository": "cocosoft/Liri",
+  "canonical_url": "https://github.com/cocosoft/Liri",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:52.110349Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e18742e95cf882b6aa80497320d1d6e8375a63062e1d1107e24d9831d65919b5",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2765964d549dbb92decae82742b6e8dcd07e5ad0ac087ffd6f7bd67729238672",
+    "LICENSE": "28dc6e71eb8199e756b5d36be0f5c6f630dd652db8e226fedfe60bd5b2474592",
+    "README.md": "f655667dba23190320076c4900e66608a380f0fe6c0511ed6efb4c0b99ffc015"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

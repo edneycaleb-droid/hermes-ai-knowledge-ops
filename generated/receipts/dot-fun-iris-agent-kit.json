@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Dot-Fun/iris-agent-kit",
+  "canonical_repository": "Dot-Fun/iris-agent-kit",
+  "canonical_url": "https://github.com/Dot-Fun/iris-agent-kit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:40.537219Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b5c8e6c0a614af8b3d5347cfc475475668a563b4070ec895db64cbf5776bba93",
+  "sampled_file_digests": {
+    ".mcp.json": "b7f1c7ec56196b555dea9b79c41e5695ee232f8f9e4eb39165e8e5f64f00a103",
+    "LICENSE": "fcbcd373412599b49bcf059385059d86ea808f2b3b5ed9f87d86e13e23b6192d",
+    "README.md": "2bb169909ad10852b91e5df220ccaed6f137c9175e36ac1b6d1bf80effc8adda"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

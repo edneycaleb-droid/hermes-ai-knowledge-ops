@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/HelpCode-ai/anythingmcp",
+  "canonical_repository": "HelpCode-ai/anythingmcp",
+  "canonical_url": "https://github.com/HelpCode-ai/anythingmcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:08.629504Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ae3ce0b86961e7ed85f4364d6a96d4a57b7b269298780b90deb299ecb1b32a6b",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4e447e3966cb35606f3d15f7eac63f461651fa58b0286b951a655ecf37225512",
+    "Dockerfile": "42a8cf5337e8b6b70399bc8bf02c2c7531041dfc7c2a2e496a401d226c2fa865",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "4fc88f263fae56dc9b109dabfdd3b90fa9d7a6fd642b85806b44fde86119d020",
+    "docker-compose.yml": "fbfbc53c066af832b23d5de7157fcbccf9a79e7f5358015c57c3d06f47045df4",
+    "package.json": "37e4c5a85f3b0cc850460322e1bd0fd51b77ddb5af6814623ec581e1b1c5019d",
+    "server.json": "3d85f3ddecbdaa8a77bf94028dbdbee3af930c69639a6c912d20663eed9987c8"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,66 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://developers.google.com/youtube/terms/api-services-terms-of-service",
+    "https://github.com/pandich93/youtube-niche-finder.git",
+    "https://github.com/pandich93/youtube-niche-finder/actions/workflows/ci.yml",
+    "https://github.com/pandich93/youtube-niche-finder/issues/new?title=Early%20access",
+    "https://github.com/pandich93/youtube-niche-finder/releases/latest",
+    "https://github.com/pandich93/youtube-niche-finder/stargazers",
+    "https://img.shields.io/badge/MCP-100%20tools-8A2BE2?style=flat-square",
+    "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpandich93%2Fyoutube-niche-finder%2Fbadges%2Fcoverage.json&query=%24.totals.percent_covered_display&suffix=%25&label=coverage&style=flat-square",
+    "https://img.shields.io/github/actions/workflow/status/pandich93/youtube-niche-finder/ci.yml?branch=main&style=flat-square&label=CI",
+    "https://img.shields.io/github/license/pandich93/youtube-niche-finder?style=flat-square",
+    "https://img.shields.io/github/stars/pandich93/youtube-niche-finder?style=flat-square",
+    "https://img.shields.io/github/v/release/pandich93/youtube-niche-finder?style=flat-square",
+    "https://localhost:8765/mcp",
+    "https://x-access-token:$"
+  ],
+  "environment_variable_names": [
+    "DEFAULT_OLLAMA_URL",
+    "GITHUB_TOKEN",
+    "MCP_HOST",
+    "MCP_PORT",
+    "MCP_TRANSPORT",
+    "NICHE_DATABASE_URL",
+    "OLLAMA_HOST_PORT",
+    "OLLAMA_URL",
+    "POSTGRES_HOST",
+    "POSTGRES_HOST_PORT",
+    "POSTGRES_PORT",
+    "URL",
+    "WEB_PORT",
+    "YOUTUBE_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/pandich93-youtube-niche-finder.json",
+  "schema_version": 1,
+  "source_repository": "pandich93/youtube-niche-finder",
+  "source_url": "https://github.com/pandich93/youtube-niche-finder",
+  "status": "disabled_pending_review"
+}

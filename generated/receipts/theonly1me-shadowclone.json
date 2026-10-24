@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/theonly1me/shadowclone",
+  "canonical_repository": "theonly1me/shadowclone",
+  "canonical_url": "https://github.com/theonly1me/shadowclone",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:12.473091Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0d681731e775d1dd1f1da3036b88a0ea8bb7f7f9f30436991e47d1ea5452db00",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b04a47585fbd6dadfcf6ddc022f55f91ef96e5a284ec75d17ad15b6a4dc5afdd",
+    ".mcp.json": "8bb92f52ad96136751b21d45f4c4093959d1ec89e75b0e463583220e7b785791",
+    "LICENSE": "dd3323f92213cab93d0010b6a85ffdb9812964859a3caa5e8e99ac1f8f64cfc8",
+    "README.md": "4f575f636ac79b028bd93bb3d02f014d07d7834a5a1e27e3d450ef595689ae0d",
+    "package.json": "806ce438f812893185ef76442239c766c192547fa74210964c2f0d1e08547aec"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

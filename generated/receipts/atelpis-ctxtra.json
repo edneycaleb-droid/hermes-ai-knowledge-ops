@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/atelpis/ctxtra",
+  "canonical_repository": "atelpis/ctxtra",
+  "canonical_url": "https://github.com/atelpis/ctxtra",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:46.092612Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5cca92edd02f40d5811671e040bdb8df0bbe23408adc37c5a99bb431f0512870",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "aca016d4af3f5c288d8b7dd42340043204b00bb3b24788b6aa95891d60d22712",
+    "LICENSE": "844b4054d9dfa98ebfeabda15c16900886efef96c5ccdd926dbd8fdfa03a0bad",
+    "README.md": "ae2354b93b676ff1a9a9438841079053866bf233065e4c0ec53d1187b19f18fa"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

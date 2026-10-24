@@ -1,0 +1,104 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/Aureliolo/gdharness/badge",
+    "https://aureliolo.github.io/gdharness",
+    "https://aureliolo.github.io/gdharness/agent.md",
+    "https://badge.mcpx.dev?type=server",
+    "https://bun.sh/",
+    "https://github.com/Aureliolo",
+    "https://github.com/Aureliolo/gdharness",
+    "https://github.com/Aureliolo/gdharness#readme",
+    "https://github.com/Aureliolo/gdharness.git",
+    "https://github.com/Aureliolo/gdharness/actions/workflows/ci.yml",
+    "https://github.com/Aureliolo/gdharness/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/Aureliolo/gdharness/issues",
+    "https://github.com/Aureliolo/gdharness/releases",
+    "https://github.com/Coding-Solo",
+    "https://github.com/Coding-Solo/godot-mcp",
+    "https://github.com/HaD0Yun",
+    "https://github.com/HaD0Yun/Doyunha-Gopeak",
+    "https://github.com/astral-sh/uv/releases/download/$",
+    "https://godotengine.org",
+    "https://img.shields.io/badge/MCP-2026--07--28-2f6f4e?style=flat",
+    "https://img.shields.io/badge/Made%20for-Godot%204.7%2B-478CBF?style=flat&logo=godot%20engine&logoColor=white",
+    "https://img.shields.io/badge/SBOM-SPDX-2f6f4e?style=flat",
+    "https://img.shields.io/badge/SLSA-Build%20L3-2f6f4e?style=flat",
+    "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAureliolo%2Fgdharness%2Fmain%2Fpackage.json&query=%24.engines.bun&label=bun&color=f9f1e1&logo=bun&logoColor=black",
+    "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAureliolo%2Fgdharness%2Fmain%2Fpackage.json&query=%24.engines.node&label=node&color=5fa04e&logo=node.js&logoColor=white",
+    "https://img.shields.io/badge/releases-Sigstore%20signed-2f6f4e?style=flat",
+    "https://img.shields.io/github/license/Aureliolo/gdharness",
+    "https://img.shields.io/github/v/release/Aureliolo/gdharness?display_name=tag&sort=semver",
+    "https://img.shields.io/npm/v/gdharness?logo=npm&logoColor=white&label=npm&color=cb3837",
+    "https://modelcontextprotocol.io/introduction",
+    "https://modelcontextprotocol.io/specification/2026-07-28",
+    "https://nodejs.org/",
+    "https://scorecard.dev/viewer/?uri=github.com/Aureliolo/gdharness",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.bestpractices.dev/projects/14619",
+    "https://www.bestpractices.dev/projects/14619/badge",
+    "https://www.bestpractices.dev/projects/14619/baseline",
+    "https://www.npmjs.com/package/gdharness"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
+      "name": "io.github.Aureliolo/gdharness",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Absolute path to the Godot 4.7 or newer executable. Without it, the usual install locations are searched.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "GODOT_PATH"
+            }
+          ],
+          "identifier": "gdharness",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.3.11"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Aureliolo/gdharness"
+      },
+      "version": "1.3.11",
+      "websiteUrl": "https://github.com/Aureliolo/gdharness#readme"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/aureliolo-gdharness.json",
+  "schema_version": 1,
+  "source_repository": "Aureliolo/gdharness",
+  "source_url": "https://github.com/Aureliolo/gdharness",
+  "status": "disabled_pending_review"
+}

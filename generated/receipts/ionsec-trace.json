@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ionsec/trace",
+  "canonical_repository": "ionsec/trace",
+  "canonical_url": "https://github.com/ionsec/trace",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:44.246377Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "08373ab878f93467047ecb806a93d6eb5a8192700c4817ac9dd51b0b437c5df6",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "3353f419522d8d23e6dee4db5f5ddfd9cb32f5d839d4276d52b27c026fb03b4e",
+    "LICENSE": "eb3f6b0e665d1a526426931fedb463b9378fc10905e109bfbcf19cebe6abef93",
+    "README.md": "1845c456251d119ca7b9b307310e98e815b009fe7006a70fd4a0f17542c3c467",
+    "pyproject.toml": "f8a495540fff8853dfb04a5fe7b71709b1784ea852b83e4062040147b03c6804"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/getsentry/toolkit",
+  "canonical_repository": "getsentry/toolkit",
+  "canonical_url": "https://github.com/getsentry/toolkit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:10.471472Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0352f4da9de32d986b997bbf988e49c8bcc4332165686598fb8218a6c3f97d77",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "848638da0a2315e5991679e01d5809d3b0cb93df83acfabdcc171d4a59c11da2",
+    ".mcp.json": "3c3ab26ba84a8a03a69930841f3a125695e176a44883289f2a4b16de56b5cc44",
+    "LICENSE.md": "1f2a39da390f36830e83d88b17f7720527a7c95f8f137b16ebb68f283cbbfabc",
+    "README.md": "5e07cf509570e9d96479fbd60cec4920fe0136f78753f7e71ffdb6f5d8892153",
+    "package.json": "66edde5937b58e01320a8b9197a3681dedc2b41e8a76be96e842c90329976d06",
+    "server.json": "4b06cbd863b25e3b6b15815d0583dac2d9c3031505d577ffe692e02305960f1b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

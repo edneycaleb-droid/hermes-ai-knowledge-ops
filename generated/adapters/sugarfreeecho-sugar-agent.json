@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://example.com/image.png"
+  ],
+  "environment_variable_names": [
+    "ATTACHMENT_REMOTE_ALLOWED_HOSTS",
+    "BRAVE_API_KEY",
+    "EXAMPLE_MCP_TOKEN",
+    "GOAL_JUDGE_MAX_OUTPUT_TOKENS",
+    "GOAL_JUDGE_MAX_TRANSPORT_FAILURES",
+    "OPENAI_FIRST_TOKEN_HEDGE_MAX_RETRIES",
+    "OPENAI_FIRST_TOKEN_HEDGE_TIMEOUT_SEC",
+    "TAVILY_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/sugarfreeecho-sugar-agent.json",
+  "schema_version": 1,
+  "source_repository": "Sugarfreeecho/SUGAR-AGENT",
+  "source_url": "https://github.com/Sugarfreeecho/SUGAR-AGENT",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/Thanatos9404/Thanatos9404",
+  "canonical_repository": "Thanatos9404/Thanatos9404",
+  "canonical_url": "https://github.com/Thanatos9404/Thanatos9404",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:55.470981Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "82790a7d6cdd31412ce00ed8bbce00db95c40863960f74139c35ff7f88813611",
+  "sampled_file_digests": {
+    "README.md": "b6ec0ebe395264d781e38251f80202194cda32cdc08c5104d3af243db94820de"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

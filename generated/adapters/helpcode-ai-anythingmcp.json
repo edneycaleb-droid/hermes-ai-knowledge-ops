@@ -1,0 +1,137 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://anythingmcp.com",
+    "https://anythingmcp.com/guides",
+    "https://anythingmcp.com/guides/connect-afas-profit-to-claude",
+    "https://anythingmcp.com/guides/connect-amazon-seller-to-claude",
+    "https://anythingmcp.com/guides/connect-axonaut-to-claude",
+    "https://anythingmcp.com/guides/connect-bigcommerce-to-claude",
+    "https://anythingmcp.com/guides/connect-billbee-to-claude",
+    "https://anythingmcp.com/guides/connect-dolibarr-to-claude",
+    "https://anythingmcp.com/guides/connect-dynamics-nav-to-claude",
+    "https://anythingmcp.com/guides/connect-ebay-sell-to-claude",
+    "https://anythingmcp.com/guides/connect-ecwid-to-claude",
+    "https://anythingmcp.com/guides/connect-erpnext-to-claude",
+    "https://anythingmcp.com/guides/connect-etsy-to-claude",
+    "https://anythingmcp.com/guides/connect-haufe-x360-to-claude",
+    "https://anythingmcp.com/guides/connect-jtl-wawi-to-claude",
+    "https://anythingmcp.com/guides/connect-kaufland-to-claude",
+    "https://anythingmcp.com/guides/connect-magento-to-claude",
+    "https://anythingmcp.com/guides/connect-mercado-libre-to-claude",
+    "https://anythingmcp.com/guides/connect-odoo-to-claude",
+    "https://anythingmcp.com/guides/connect-otto-market-to-claude",
+    "https://anythingmcp.com/guides/connect-sage-100-to-claude",
+    "https://anythingmcp.com/guides/connect-sap-business-one-to-claude",
+    "https://anythingmcp.com/guides/connect-sap-hana-to-claude",
+    "https://anythingmcp.com/guides/connect-sap-s4hana-cloud-to-claude",
+    "https://anythingmcp.com/guides/connect-scopevisio-to-claude",
+    "https://anythingmcp.com/guides/connect-shopware-6-to-claude",
+    "https://anythingmcp.com/guides/connect-teamsystem-to-claude",
+    "https://anythingmcp.com/guides/connect-weclapp-to-claude",
+    "https://anythingmcp.com/guides/connect-woocommerce-to-claude",
+    "https://anythingmcp.com/guides/connect-xentral-to-claude",
+    "https://anythingmcp.com/guides/connect-zalando-zds-to-claude",
+    "https://anythingmcp.com/guides/connect-zucchetti-to-claude",
+    "https://anythingmcp.com/guides/database-to-mcp",
+    "https://anythingmcp.com/guides/graphql-to-mcp",
+    "https://anythingmcp.com/guides/odata-to-mcp",
+    "https://anythingmcp.com/guides/rest-api-to-mcp",
+    "https://anythingmcp.com/guides/soap-to-mcp",
+    "https://anythingmcp.com/llms.txt",
+    "https://anythingmcp.com/vs",
+    "https://api.star-history.com/badge?repo=HelpCode-ai/anythingmcp&type=trending"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "BACKEND_PORT",
+    "DATABASE_URL",
+    "ENCRYPTION_KEY",
+    "FRONTEND_PORT",
+    "FRONTEND_URL",
+    "JWT_SECRET",
+    "KG_LLM_API_KEY",
+    "KG_LLM_BASE_URL",
+    "LOGIN_TOKEN",
+    "MCP_API_KEY",
+    "MCP_BEARER_TOKEN",
+    "METRICS_HOST",
+    "METRICS_PORT",
+    "METRICS_TOKEN",
+    "MOTIS_INTERNAL_URL",
+    "MOTIS_URL",
+    "NEXT_PUBLIC_API_URL",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "PORT",
+    "REDIS_URL",
+    "SENTRY_AUTH_TOKEN",
+    "SERVER_URL",
+    "SMTP_HOST",
+    "SMTP_PORT",
+    "SSRF_ALLOWED_HOSTS",
+    "SUPPORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Any REST/SOAP/GraphQL/OData/SQL API as MCP tools for Claude & ChatGPT. 544 connectors: SAP, ERP.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ],
+          "src": "https://cloud.anythingmcp.com/icon-512.png"
+        }
+      ],
+      "name": "io.github.HelpCode-ai/anythingmcp",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://cloud.anythingmcp.com/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/HelpCode-ai/anythingmcp"
+      },
+      "title": "AnythingMCP",
+      "version": "0.47.2",
+      "websiteUrl": "https://anythingmcp.com"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/helpcode-ai-anythingmcp.json",
+  "schema_version": 1,
+  "source_repository": "HelpCode-ai/anythingmcp",
+  "source_url": "https://github.com/HelpCode-ai/anythingmcp",
+  "status": "disabled_pending_review"
+}
