@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ameyor.in",
+    "https://calendly.com/yashvt9404/30min",
+    "https://github.com/AzureAD/microsoft-authentication-library-for-python/pull/971",
+    "https://github.com/DataDog/datadogpy/pull/1001",
+    "https://github.com/EvoScientist/EvoScientist/pull/649",
+    "https://github.com/EvoScientist/EvoScientist/pull/655",
+    "https://github.com/EvoScientist/EvoScientist/pull/656",
+    "https://github.com/EvoScientist/EvoScientist/pull/657",
+    "https://github.com/EvoScientist/EvoScientist/pull/661",
+    "https://github.com/EvoScientist/EvoScientist/pull/663",
+    "https://github.com/EvoScientist/EvoScientist/pull/674",
+    "https://github.com/IBM/FactReasoner/pull/63",
+    "https://github.com/IBM/mcp-context-forge/pull/7222",
+    "https://github.com/Instagram/LibCST/pull/1473",
+    "https://github.com/KalyanKS-NLP/llm-engineer-toolkit/pull/50",
+    "https://github.com/NVIDIA-NeMo/DataDesigner/pull/1039",
+    "https://github.com/NVIDIA-NeMo/Gym/pull/4624",
+    "https://github.com/NVIDIA-NeMo/RL/pull/4729",
+    "https://github.com/NVIDIA-NeMo/RL/pull/4751",
+    "https://github.com/NVIDIA/SkillSpector/pull/845",
+    "https://github.com/NousResearch/hermes-agent/pull/142212",
+    "https://github.com/NousResearch/hermes-agent/pull/144036",
+    "https://github.com/Thanatos9404/Intuix-NASA",
+    "https://github.com/Thanatos9404/Krishyak",
+    "https://github.com/Thanatos9404/StudyTwin",
+    "https://github.com/Thanatos9404/canopyproof",
+    "https://github.com/Thanatos9404/dayrhythm",
+    "https://github.com/Thanatos9404/hearthbeat",
+    "https://github.com/Thanatos9404/leash",
+    "https://github.com/Thanatos9404/llmslim",
+    "https://github.com/Thanatos9404/passerelle",
+    "https://github.com/Thanatos9404/polygraph",
+    "https://github.com/Thanatos9404/pratibimb",
+    "https://github.com/Thanatos9404/ruko",
+    "https://github.com/apache/beam/pull/40647",
+    "https://github.com/apache/beam/pull/40649",
+    "https://github.com/apache/buildstream/pull/2208",
+    "https://github.com/apache/buildstream/pull/2212",
+    "https://github.com/apache/devlake/pull/9247",
+    "https://github.com/apache/echarts/pull/21795"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/thanatos9404-thanatos9404.json",
+  "schema_version": 1,
+  "source_repository": "Thanatos9404/Thanatos9404",
+  "source_url": "https://github.com/Thanatos9404/Thanatos9404",
+  "status": "disabled_pending_review"
+}

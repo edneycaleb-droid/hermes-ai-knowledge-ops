@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/Aureliolo/gdharness",
+  "canonical_repository": "Aureliolo/gdharness",
+  "canonical_url": "https://github.com/Aureliolo/gdharness",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:14.301954Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5f00375d1a425b5117902d7a4458ff2380153a04cfd7b52ef7876ce46f7bfb6a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "ab8ceb8270ef63d308ec758ef3f0e133097a8023bf982b28c465c0455ef2f47a",
+    "LICENSE": "05a1eedafe47d9625b505cdecb133d102fc1721e4d96fca9963c7e839f9e6ca8",
+    "README.md": "9b300ec1f1d555565f8804792ab9451dd103da098e31ed6bd576205823b08345",
+    "package.json": "9c141ca011f38c908ce8031dc1876f6b2c858443d20d07708918c74305770797",
+    "pyproject.toml": "afe957b5faa3346c1900af936139255607a6334e950e950b56bbad769aa95dd1",
+    "server.json": "a749b160aa3ae04d817b0d3f5acecb991023eec0226e0f83ae74ac66df7d28df"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

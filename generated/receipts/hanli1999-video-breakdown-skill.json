@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/hanli1999/video-breakdown-skill",
+  "canonical_repository": "hanli1999/video-breakdown-skill",
+  "canonical_url": "https://github.com/hanli1999/video-breakdown-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:58:26.800485Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "05048304b7256b75064980d99ebc8a45c09aae10a1d1b7060a628526681f6f7b",
+  "sampled_file_digests": {
+    "LICENSE": "5771286970bbd2742d2937038940392388eda92514eb7ffd8ae0db232cdf216c",
+    "README.md": "3e453ad8ed9d7b22f88ac63224e5813aeb1b51e876f05793ea251fd197305845"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

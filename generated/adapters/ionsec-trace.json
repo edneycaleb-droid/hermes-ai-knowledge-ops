@@ -1,0 +1,52 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/ionsec",
+    "https://github.com/ionsec/trace",
+    "https://github.com/ionsec/trace#quick-start",
+    "https://img.shields.io/badge/Documentation-Docs-0a0a0f?style=for-the-badge&logo=readthedocs&logoColor=white&labelColor=1a1a2e",
+    "https://img.shields.io/badge/License-AGPL--3.0-e63946?style=for-the-badge&labelColor=0a0a0f",
+    "https://img.shields.io/badge/Quick_Start-Get_Started-e63946?style=for-the-badge&logo=terminal&logoColor=white&labelColor=0a0a0f",
+    "https://img.shields.io/badge/View_on_GitHub-Repository-0a0a0f?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e",
+    "https://ionsec.io",
+    "https://ionsec.io/trace",
+    "https://iris.example.com",
+    "https://www.gnu.org/licenses/"
+  ],
+  "environment_variable_names": [
+    "IRIS_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/ionsec-trace.json",
+  "schema_version": 1,
+  "source_repository": "ionsec/trace",
+  "source_url": "https://github.com/ionsec/trace",
+  "status": "disabled_pending_review"
+}

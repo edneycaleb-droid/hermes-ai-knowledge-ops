@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/ticoteam/tico",
+  "canonical_repository": "ticoteam/tico",
+  "canonical_url": "https://github.com/ticoteam/tico",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T18:57:38.589493Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "81f9ea21c6a53d82f71ba42e8e0c2351ba2c03cc4516fbc5ccf05cd6a3e1cd17",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "15b1c98a478895f38f4033af060587ccd4198fdd7665b16eeb371f86e6a44c17",
+    "Dockerfile": "81fbe64bac78cb37db2eeb8b9d8611455e5adefec3481b6f7d66475f6560daa3",
+    "LICENSE": "5c7a5ccd847fcc285dda039e511ba013693fe979dfc5faee47f6fb59c7add337",
+    "README.md": "6a2523aee715ef70d8d4daee4ebdb0135849aa2491f9f8e6b515d12ec0dc1cc2",
+    "package.json": "1734f2ab2cdd62ba2d84df9a4fa75d84b4ecea9a969ff7a178298497d46e85e7"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
