@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/seojoonkim/memkraft",
+  "canonical_repository": "seojoonkim/memkraft",
+  "canonical_url": "https://github.com/seojoonkim/memkraft",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:34.718419Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "19f6dc8ad35bf9a95858ed38020708c5ec20ed7e0926978ff5fffae2edad4677",
+  "sampled_file_digests": {
+    "LICENSE": "e0a8d05f79991db70e6c4bf098392146fa1747d5e1fe6a62a8eb2f10e52625cd",
+    "README.md": "346559ceab37144d3acc571c3cc40b272a0b0cda37bcf24c45c476d64ec47d19",
+    "pyproject.toml": "345dab691c8141d04f538bb7fa10cc8abfee29c1ea01049173a4105ae627d638"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

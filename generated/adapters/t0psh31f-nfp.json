@@ -1,0 +1,46 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.clan.lol",
+    "https://github.com/Mic92/sops-nix",
+    "https://github.com/T0PSH31F/NFP.git",
+    "https://github.com/hyprwm/Hyprland",
+    "https://img.shields.io/badge/Clan-Core-orange.svg?style=for-the-badge&logo=rust&logoColor=white",
+    "https://img.shields.io/badge/Hyprland-Wayland-9cf.svg?style=for-the-badge&logo=hyprland&logoColor=white",
+    "https://img.shields.io/badge/NixOS-Unstable-blue.svg?style=for-the-badge&logo=nixos&logoColor=white",
+    "https://img.shields.io/badge/Sops-Encrypted-green.svg?style=for-the-badge&logo=lock&logoColor=white",
+    "https://nixos.org"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/t0psh31f-nfp.json",
+  "schema_version": 1,
+  "source_repository": "T0PSH31F/NFP",
+  "source_url": "https://github.com/T0PSH31F/NFP",
+  "status": "disabled_pending_review"
+}

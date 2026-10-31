@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/caelum29/calibre-mcp",
+  "canonical_repository": "caelum29/calibre-mcp",
+  "canonical_url": "https://github.com/caelum29/calibre-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:19.121873Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c51fac03ade2611a5ab2ef9068934f93fc63ab6657a4a1b09fc1155b2568b3b9",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2ef29b4f80bc1a7d3c95da1d057d5bb6592c58d0cd4a7e7c524641171bc0dfa4",
+    "LICENSE": "eff06f08af7d5a0f366770d4711fcf09e246645e0181966e34d1db0dc0caadca",
+    "README.md": "57b80259949aa59459fcd8b30d10c6c6765d90b9b0cc7c0ecc2416b43c03d5c0",
+    "package.json": "70e1748a10f8079b4fa5cbcebb0d20b54fc82c86fab2f3fbd4c486618f822de4",
+    "server.json": "96f2a8fc99c6d9c9b920f7f535aef3b7e39c47a652e17bbb6861f506ad1153b1"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

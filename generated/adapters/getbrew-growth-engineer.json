@@ -1,0 +1,60 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cdn.growth.engineer/assets/2026/09/growth-engineer-home-e4cdffcb.webp",
+    "https://github.com/GetBrew/growth-engineer/actions/workflows/ci.yml",
+    "https://github.com/GetBrew/growth-engineer/stargazers",
+    "https://img.shields.io/badge/MCP-read--only_catalog-111?style=flat-square",
+    "https://img.shields.io/badge/built_with-Next.js-111?style=flat-square&logo=nextdotjs&logoColor=white",
+    "https://img.shields.io/badge/license-MIT-111?style=flat-square",
+    "https://img.shields.io/github/actions/workflow/status/GetBrew/growth-engineer/ci.yml?branch=main&style=flat-square&label=CI",
+    "https://img.shields.io/github/stars/GetBrew/growth-engineer?style=flat-square",
+    "https://img.shields.io/website?url=https%3A%2F%2Fwww.growth.engineer&style=flat-square&label=growth.engineer&up_message=live&up_color=2ea44f",
+    "https://www.growth.engineer",
+    "https://www.growth.engineer/mcp",
+    "https://www.growth.engineer/workflows/funding-signal-outbound",
+    "https://www.growth.engineer/workflows/funding-signal-outbound.md"
+  ],
+  "environment_variable_names": [
+    "BREW_API_KEY",
+    "GITHUB_TOKEN",
+    "KV_REST_API_READ_ONLY_TOKEN",
+    "KV_REST_API_TOKEN",
+    "KV_REST_API_URL",
+    "NEXT_PUBLIC_SITE_URL",
+    "NOTRA_GEO_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/getbrew-growth-engineer.json",
+  "schema_version": 1,
+  "source_repository": "GetBrew/growth-engineer",
+  "source_url": "https://github.com/GetBrew/growth-engineer",
+  "status": "disabled_pending_review"
+}

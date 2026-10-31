@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/enhansome/enhansome-agent-harness",
+  "canonical_repository": "enhansome/enhansome-agent-harness",
+  "canonical_url": "https://github.com/enhansome/enhansome-agent-harness",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:41.281298Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fd0185d2b45e14018e5387c32e22cd59e8413d145d4412d81b844e9ca80d33e1",
+  "sampled_file_digests": {
+    "README.md": "8a45c00dd352a0ed232194295ab3c36a540b73c5a045eee54dde16dfc0d68d8b"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

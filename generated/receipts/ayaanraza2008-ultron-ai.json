@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ayaanraza2008/ULTRON-AI",
+  "canonical_repository": "ayaanraza2008/ULTRON-AI",
+  "canonical_url": "https://github.com/ayaanraza2008/ULTRON-AI",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:25.238725Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "382bb0a815b2812fa1c05145157a82878d86f9938b45c1fac9e4c0a2db5df15e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "51efba60c7687ec3b80f4c9b7c233d600d0298632c254a337520df87c729be3c",
+    ".mcp.json": "1de6847b75637e7d8d1e25272fd9395ee521609e12e94ddc02544b97c34ee43d",
+    "README.md": "2cef8cce490dcfca79d4e6cc6d6ae8a5b07b248b4415a6d238147364ac0c6455",
+    "package.json": "6ca8709bb376b855a4a18f9f3fd8cafe6765a6153be7ac8f999b27f15d05c10b"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

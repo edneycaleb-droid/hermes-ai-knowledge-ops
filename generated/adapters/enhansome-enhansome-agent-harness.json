@@ -1,0 +1,77 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentcommunicationprotocol.dev/",
+    "https://agentic-engineering.swmansion.com/becoming-productive/harness-engineering/",
+    "https://agents.md/",
+    "https://almirant.ai/?utm_source=awesome-agent-harness",
+    "https://amp.dev/",
+    "https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/",
+    "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
+    "https://businessengineer.ai/p/the-harness-as-the-agentic-moat",
+    "https://claude.com/blog/multi-agent-coordination-patterns",
+    "https://claudeworld.ai/",
+    "https://code.claude.com/",
+    "https://developers.openai.com/codex/guides/build-ai-native-engineering-team/",
+    "https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development",
+    "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
+    "https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/",
+    "https://github.com/AgentSeal/codeburn",
+    "https://github.com/AutoJunjie/awesome-agent-harness/edit/main/demo.mp4",
+    "https://github.com/BloopAI/vibe-kanban",
+    "https://github.com/Chorus-AIDLC/Chorus",
+    "https://github.com/ComposioHQ/agent-orchestrator",
+    "https://github.com/EveryInc/compound-engineering-plugin",
+    "https://github.com/EvoMap/evolver",
+    "https://github.com/FissionAI/openspec",
+    "https://github.com/GoogleCloudPlatform/scion",
+    "https://github.com/MattMagg/agent-harness",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "https://github.com/Yeachan-Heo/oh-my-codex",
+    "https://github.com/aden-hive/hive",
+    "https://github.com/affaan-m/everything-claude-code",
+    "https://github.com/awslabs/aidlc-workflows",
+    "https://github.com/axon-core/axon",
+    "https://github.com/badlogic/pi-mono",
+    "https://github.com/bolt-foundry/gambit",
+    "https://github.com/bytedance/deer-flow",
+    "https://github.com/coco-xyz/hxa-connect",
+    "https://github.com/code-yeongyu/oh-my-opencode",
+    "https://github.com/coleam00/Archon",
+    "https://github.com/coleam00/Linear-Coding-Agent-Harness",
+    "https://github.com/deepklarity/harness-kit"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/enhansome-enhansome-agent-harness.json",
+  "schema_version": 1,
+  "source_repository": "enhansome/enhansome-agent-harness",
+  "source_url": "https://github.com/enhansome/enhansome-agent-harness",
+  "status": "disabled_pending_review"
+}

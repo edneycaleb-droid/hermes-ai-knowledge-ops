@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/GetBrew/growth-engineer",
+  "canonical_repository": "GetBrew/growth-engineer",
+  "canonical_url": "https://github.com/GetBrew/growth-engineer",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:22.183060Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b25b1caea94ba696f6c8ec1db56bb1dc25fd1869129874b1b101013b82e6daa6",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "bd60f99da3bcf04e24b799a2a8c77a2280bbdf6cb1ebd29b224e3cf1510ae7be",
+    "LICENSE": "14a75a148d7391c900ebca38a61dea7484a89508cedbcb7cbfb62dc50bebf56d",
+    "README.md": "ed5ce084d4d68679c0434cfd8ab5b04533694370061565345959324bf1d151c0",
+    "package.json": "28c0619fe6098f5776185b95789d937e13fba17d69acf1d2fa8f26841738cc89"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

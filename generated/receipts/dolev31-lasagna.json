@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/dolev31/lasagna",
+  "canonical_repository": "dolev31/lasagna",
+  "canonical_url": "https://github.com/dolev31/lasagna",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:12.605879Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2f471c4a8fb1cb9190a4e0fe510b5b5e481f1d8d7a1968808e9bd57727fe235d",
+  "sampled_file_digests": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "a345ac0955cb0eb3f94020833ca237b7cb4b8511e6107b702c5c6acd428cc639",
+    "pyproject.toml": "b96546a7a5c7db719dab7796bb9d48ea14e71718adc748782009e69577ae66b1"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

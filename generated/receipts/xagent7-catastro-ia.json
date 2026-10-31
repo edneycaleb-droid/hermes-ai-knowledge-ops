@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/xagent7/catastro-ia",
+  "canonical_repository": "xagent7/catastro-ia",
+  "canonical_url": "https://github.com/xagent7/catastro-ia",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:47.629109Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7466286668498ac8c9732f475c61364e41a49035e3f11a3d43074f0314bf4ae2",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e3a29bdfd351bdcb841faf7a0c5681e8ec8f95bfe51fafa6b9aa6b7349491d37",
+    "LICENSE": "dffd1c19f177df1eb71798afb5d19561159c3bd92302281c30d8be561f7c61ad",
+    "README.md": "d1caae78dd6a2a1809bd988c1ab04c8f5ae2b7e4852745497465f9a65c5158a3",
+    "package.json": "6a5f21e2ffe68c4d78176de80a434bebffcc16fd7234ce85c5abafee355d4d6b"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

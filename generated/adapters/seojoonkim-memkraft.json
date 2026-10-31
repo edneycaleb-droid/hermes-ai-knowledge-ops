@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/LichAmnesia/lich-skills/tree/main/skills/debug-hypothesis",
+    "https://github.com/getzep/zep",
+    "https://github.com/letta-ai/letta",
+    "https://github.com/mem0ai/mem0",
+    "https://github.com/pchaganti/gx-memory-weaver",
+    "https://github.com/seojoonkim/memkraft",
+    "https://github.com/seojoonkim/memkraft/actions/workflows/gym-gate.yml",
+    "https://github.com/seojoonkim/memkraft/blob/main/CHANGELOG.md",
+    "https://github.com/seojoonkim/memkraft/issues",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.1.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.2.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.4.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.5.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.5.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.5.2",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.6.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.6.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.6.2",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v3.7.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.0.2",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.1.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.1.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.1.2",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.2.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.2.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.2.2",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.3.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.3.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.4.0",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.4.1",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.4.2",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.4.3",
+    "https://github.com/seojoonkim/memkraft/releases/tag/v4.5.0",
+    "https://github.com/seojoonkim/memkraft/tree/main/docs",
+    "https://img.shields.io/badge/license-MIT-green.svg",
+    "https://img.shields.io/github/actions/workflow/status/seojoonkim/memkraft/gym-gate.yml?label=tests",
+    "https://img.shields.io/pypi/pyversions/memkraft.svg",
+    "https://img.shields.io/pypi/v/memkraft.svg",
+    "https://pypi.org/project/memkraft/",
+    "https://x.com/karpathy/status/1906697764923920553"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/seojoonkim-memkraft.json",
+  "schema_version": 1,
+  "source_repository": "seojoonkim/memkraft",
+  "source_url": "https://github.com/seojoonkim/memkraft",
+  "status": "disabled_pending_review"
+}

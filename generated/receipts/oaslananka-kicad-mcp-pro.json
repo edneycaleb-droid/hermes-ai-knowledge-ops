@@ -1,0 +1,23 @@
+{
+  "api_url": "https://api.github.com/repos/oaslananka/kicad-mcp-pro",
+  "canonical_repository": "oaslananka/kicad-mcp-pro",
+  "canonical_url": "https://github.com/oaslananka/kicad-mcp-pro",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:09.490652Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6bbb31123d3c4da70e7803454d36f4f776625b7096bd56302086d69d61fb40f0",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "1a157d395d301e70ffbe52a55b8171fd1885763b64d2fac374c5041643de3ccb",
+    ".mcp.json": "268b1c7eb42d691e624b2e1fa853caf1c2dbe0ab244dcccb2c2866bf96a482e8",
+    "Dockerfile": "efae23c033abde6f28af16e44921d72ed4a05a587b2adf8a78c6d0a22c4ab9f5",
+    "LICENSE": "2874c976a7562b60f0f69b5618ac3d6e29cb9f87d197efb29d86ea6089729b72",
+    "README.md": "8bb5d8cf6e0ad06c353a25b036a7e8ad1ecb2e7a01a3be3b99c59100d1979b23",
+    "docker-compose.yml": "b7e1b91915d41e3d346223726b5659d1bc7b1a9b287e6453c9f405ea594c828c",
+    "package.json": "001767753384d4a9029797b40b2adf906395c6f4c6102e0ad4efe633ce1b8782",
+    "pyproject.toml": "74c9040c930d676a5dfdd2d703b831dedb34021d082dd686dea5da862b209c41",
+    "server.json": "d5c65295f565e27f511dde44f63de20cb5ebfd49a8726eb7ab98f9187e262ce7"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

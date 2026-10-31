@@ -1,0 +1,46 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://aiskillshub.link",
+    "https://aiskillshub.link/collections",
+    "https://aiskillshub.link/docs",
+    "https://aiskillshub.link/docs/ai-management",
+    "https://aiskillshub.link/docs/cli",
+    "https://aiskillshub.link/docs/installation",
+    "https://aiskillshub.link/docs/settings",
+    "https://aiskillshub.link/docs/tool-paths",
+    "https://aiskillshub.link/download",
+    "https://github.com/qufei1993/awesome-skills",
+    "https://github.com/qufei1993/skills-hub/releases/tag/v1.0.1"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/qufei1993-skills-hub.json",
+  "schema_version": 1,
+  "source_repository": "qufei1993/skills-hub",
+  "source_url": "https://github.com/qufei1993/skills-hub",
+  "status": "disabled_pending_review"
+}
