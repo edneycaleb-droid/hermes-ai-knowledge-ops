@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/swarmdm/skills",
+  "canonical_repository": "swarmdm/skills",
+  "canonical_url": "https://github.com/swarmdm/skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:37.767338Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f0ce3b024de4f4fc1cc33f7279a2941be5e76455050fcf5ffbf95471f9621db6",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "66d5ccbc833f086f0917eb5ec30bab4ce2cdca238ca2b130ce83ac91c44a8450"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

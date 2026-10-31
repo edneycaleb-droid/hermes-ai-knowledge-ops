@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/QingYunA/answer-me-with-html",
+  "canonical_repository": "QingYunA/answer-me-with-html",
+  "canonical_url": "https://github.com/QingYunA/answer-me-with-html",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:50.619362Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8d83c769334b49649addf78691e4e82f5420205a379e56eb27550a180430c008",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "3afbf922f839527ebc05acbd6158495edbc54fb425d2730be15b9d016a5649e6",
+    "LICENSE": "752a1a34b40ae8e64e86f546ec699a691aff573179e1f96997e82757b2ee5d3f",
+    "README.md": "0ee07eff2bd97a68e0b158e8b95252100ab0fa60b4c5cbd758ee92c2952a345e",
+    "package.json": "06acaeb0bd023cbffa07670b85bb2bb09bad3491fce59c70a2884bcfa42edef9"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,83 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2610.29722",
+    "https://arxiv.org/pdf/2610.29722",
+    "https://colab.research.google.com/assets/colab-badge.svg",
+    "https://colab.research.google.com/github/dolev31/lasagna/blob/main/examples/notebooks/compare_your_reranker.ipynb",
+    "https://doi.org/10.5281/zenodo.23548068",
+    "https://dolev31.github.io/lasagna/",
+    "https://dolev31.github.io/lasagna/#explainer",
+    "https://dolev31.github.io/lasagna/#podcast",
+    "https://dolev31.github.io/lasagna/docs/",
+    "https://dolev31.github.io/lasagna/docs/project/wanted/",
+    "https://github.com/dolev31/Lasagna-Retrieval-Augmented-Generation-Compositionality",
+    "https://github.com/dolev31/lasagna",
+    "https://github.com/dolev31/lasagna/actions/workflows/tests.yml",
+    "https://github.com/dolev31/lasagna/actions/workflows/tests.yml/badge.svg?branch=main",
+    "https://github.com/dolev31/lasagna/blob/main/CHANGELOG.md",
+    "https://github.com/dolev31/lasagna/blob/main/CITATION.cff",
+    "https://github.com/dolev31/lasagna/blob/main/CODE_OF_CONDUCT.md",
+    "https://github.com/dolev31/lasagna/blob/main/CONTRIBUTING.md",
+    "https://github.com/dolev31/lasagna/blob/main/GOVERNANCE.md",
+    "https://github.com/dolev31/lasagna/blob/main/LICENSE",
+    "https://github.com/dolev31/lasagna/blob/main/NOTICE",
+    "https://github.com/dolev31/lasagna/blob/main/SECURITY.md",
+    "https://github.com/dolev31/lasagna/blob/main/docs/configuration.md",
+    "https://github.com/dolev31/lasagna/blob/main/docs/configuration.md#profiles",
+    "https://github.com/dolev31/lasagna/blob/main/docs/contributing-components.md",
+    "https://github.com/dolev31/lasagna/blob/main/docs/guide.md",
+    "https://github.com/dolev31/lasagna/blob/main/docs/guide.md#2-install",
+    "https://github.com/dolev31/lasagna/blob/main/docs/guide.md#8-measure-it-on-a-benchmark",
+    "https://github.com/dolev31/lasagna/blob/main/docs/model-licenses.md",
+    "https://github.com/dolev31/lasagna/blob/main/docs/own-data.md",
+    "https://github.com/dolev31/lasagna/blob/main/docs/reference/settings.md",
+    "https://github.com/dolev31/lasagna/blob/main/examples/reproduction/README.md",
+    "https://github.com/dolev31/lasagna/blob/main/examples/reproduction/README.md#notes-on-the-differences",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/api/docs/endpoints.md",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/core/docs/architecture.md",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/deploy/README.md",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/knowledge_evaluation_sdk/docs/benchmarks.md",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/knowledge_evaluation_sdk/docs/metrics.md",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/knowledge_evaluation_sdk/research/DATASETS.md",
+    "https://github.com/dolev31/lasagna/blob/main/src/lasagna/mcp/README.md"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/dolev31-lasagna.json",
+  "schema_version": 1,
+  "source_repository": "dolev31/lasagna",
+  "source_url": "https://github.com/dolev31/lasagna",
+  "status": "disabled_pending_review"
+}

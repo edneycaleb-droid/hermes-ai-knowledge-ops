@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/manavmishra/ZeroSlop",
+  "canonical_repository": "manavmishra/ZeroSlop",
+  "canonical_url": "https://github.com/manavmishra/ZeroSlop",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:00.380224Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "87b400fb6bb9d29edff61bb5a94ea3a7e840306702134fd38924bc2f8088cc7f",
+  "sampled_file_digests": {
+    ".mcp.json": "4600c50e78bbafcc78fd6dd53f966ca1210af47225a2f165b9052bdee6cf160f",
+    "LICENSE": "156f11557782d2795cf35c9fe97197b6dea2a00337fa3e513dbe8fce06026631",
+    "README.md": "f8fe159457efedbebed2e24c88675082fe19bfdd62c72e6db05f616a713463c7",
+    "mcp.json": "d2b9be68c821617371c77621b3e351f6cd6b0801e924ca4d00b01bcab6bbcadf",
+    "package.json": "b32032c600902d8262d17df359dd0af7c50f4ca4fb062fea9bcd8ad9b22b8896",
+    "pyproject.toml": "7ba7c66789b8773dc7325f2f5c969cfba7bb3a9906c886fa2ac573c89e1d2904",
+    "server.json": "67a1f8da81a5f2b266887c2f33928878a7110645ad05b0b8a468efc7a0380301"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://academia.xaboli.cl",
+    "https://academia.xaboli.cl/#equipos",
+    "https://academia.xaboli.cl/#mapa",
+    "https://academia.xaboli.cl/#novedades",
+    "https://academia.xaboli.cl/data/resources.json",
+    "https://academia.xaboli.cl/lp/sdlc-ia/",
+    "https://academy.claude.com/",
+    "https://arxiv.org/abs/2402.15892",
+    "https://claude-code-en-espanol.vercel.app/",
+    "https://code.claude.com/docs/en/memory",
+    "https://cs336.stanford.edu/",
+    "https://cs50.harvard.edu/ai/",
+    "https://dojoclaude.junngla.com/",
+    "https://efficientml.ai/",
+    "https://experientiallabs.ai/",
+    "https://genkit.dev/",
+    "https://geometricdeeplearning.com/",
+    "https://github.com/Acronus2008/ai-agent-engineering-bootcamp",
+    "https://github.com/AlexsJones/llmfit",
+    "https://github.com/Alishahryar1/free-claude-code",
+    "https://github.com/Canner/WrenAI",
+    "https://github.com/CopilotKit/CopilotKit",
+    "https://github.com/D4Vinci/Scrapling",
+    "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "https://github.com/Fission-AI/OpenSpec",
+    "https://github.com/GokuMohandas/Made-With-ML",
+    "https://github.com/GoogleCloudPlatform/agent-starter-pack",
+    "https://github.com/Graphify-Labs/graphify",
+    "https://github.com/HKUDS/RAG-Anything",
+    "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+    "https://github.com/JuliusBrussee/caveman",
+    "https://github.com/LucasSantana-Dev/sharekit",
+    "https://github.com/Lum1104/Understand-Anything",
+    "https://github.com/MITDeepLearning/introtodeeplearning",
+    "https://github.com/MiguelLeivaLegua/multi-agentes",
+    "https://github.com/MiniMax-AI/MiniMax-M1",
+    "https://github.com/NVIDIA/GenerativeAIExamples",
+    "https://github.com/NVIDIA/NeMo-Guardrails",
+    "https://github.com/NVIDIA/TensorRT-LLM"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/xagent7-catastro-ia.json",
+  "schema_version": 1,
+  "source_repository": "xagent7/catastro-ia",
+  "source_url": "https://github.com/xagent7/catastro-ia",
+  "status": "disabled_pending_review"
+}

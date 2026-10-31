@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/T0PSH31F/NFP",
+  "canonical_repository": "T0PSH31F/NFP",
+  "canonical_url": "https://github.com/T0PSH31F/NFP",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:22.059088Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0dafff07d323ba50bbb2f43688e65f2b4e860a8d6cd08791516b6644d611fddd",
+  "sampled_file_digests": {
+    "README.md": "e5bb1f2ec955e9d267664280bed96793a3daeb69ffca63d4d9f01faeff1eab18"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

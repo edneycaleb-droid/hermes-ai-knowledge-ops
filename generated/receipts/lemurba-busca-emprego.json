@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Lemurba/busca_emprego",
+  "canonical_repository": "Lemurba/busca_emprego",
+  "canonical_url": "https://github.com/Lemurba/busca_emprego",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:28.445899Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d7acfeff8f9509f2f2ec12e074c11c3869c2b40a7fafe5ad69021c8f86068558",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "92413ebacf4f4192804c3f1f134daec1b016a5d287a9539ce373451efa54165e",
+    "README.md": "b0b9c28ab929d85ddde2b1561024696545a41f1f20e4408a2b1c2096df526b9a",
+    "package.json": "8c47736503473a4ffba6446b76e8f6e22ae65130eec4c6d50e6e26e73e15dfb1"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

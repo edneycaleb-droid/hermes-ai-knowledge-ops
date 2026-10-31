@@ -1,0 +1,139 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aistudio.google.com/apikey",
+    "https://api.star-history.com/svg?repos=thetahealth/mirobody&type=Date",
+    "https://api.star-history.com/svg?repos=thetahealth/mirobody&type=Date&theme=dark",
+    "https://badgen.net/badge/license/Apache-2.0/blue",
+    "https://badgen.net/github/stars/thetahealth/mirobody?icon=github&label=stars",
+    "https://badgen.net/pypi/v/mirobody?label=PyPI&color=3775A9&icon=pypi",
+    "https://chat.mirobody.ai/demo?ref=github-readme&lang=en",
+    "https://codespaces.new/thetahealth/mirobody?quickstart=1",
+    "https://cpicpgx.org/",
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
+    "https://docs.mirobody.ai/en/deployment/production",
+    "https://docs.mirobody.ai/en/self-host",
+    "https://docs.mirobody.ai/en/tools/mcp-integration",
+    "https://dr.thetahealth.ai/?utm_source=mirobody&utm_medium=github&utm_campaign=mirobody-to-theta&utm_content=readme",
+    "https://github.com/codespaces/badge.svg",
+    "https://github.com/ggml-org/llama.cpp",
+    "https://github.com/langchain-ai/deepagents",
+    "https://github.com/thetahealth/mirobody",
+    "https://github.com/thetahealth/mirobody-eval",
+    "https://github.com/thetahealth/mirobody.git",
+    "https://github.com/thetahealth/mirobody/issues",
+    "https://github.com/thetahealth/mirobody/issues/new?template=wrong-term.yml",
+    "https://github.com/thetahealth/mirobody/pull/140",
+    "https://github.com/thetahealth/mirobody/pull/88",
+    "https://github.com/thetahealth/mirobody/stargazers",
+    "https://hl7.org/fhir/",
+    "https://huggingface.co/datasets/mirobody/ESL-Bench",
+    "https://huggingface.co/datasets/mirobody/MedHall-Bench",
+    "https://huggingface.co/datasets/mirobody/MedHarm-Bench",
+    "https://icpc-3.info/",
+    "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgeneral-api.thetahealth.ai%2Fsmart%2Fapi%2Fv1%2Fpublic%2Fstats&query=%24.data.daily_active_users.value&label=daily%20active&color=0E3880&cacheSeconds=3600",
+    "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgeneral-api.thetahealth.ai%2Fsmart%2Fapi%2Fv1%2Fpublic%2Fstats&query=%24.data.registered_users.value&label=Theta%20users&color=0E3880&cacheSeconds=3600",
+    "https://loinc.org/",
+    "https://mirobody.ai",
+    "https://openrouter.ai/keys",
+    "https://platform.claude.com/settings/keys",
+    "https://platform.openai.com/api-keys",
+    "https://pypi.org/project/mirobody/",
+    "https://pypi.org/simple"
+  ],
+  "environment_variable_names": [
+    "PIP_INDEX_URL",
+    "SUPPORTED_EXTENSIONS"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Lab results to LOINC codes and UCUM units, symptoms and diagnoses to ICPC-3. Offline, no API key.",
+      "icons": [
+        {
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ],
+          "src": "https://raw.githubusercontent.com/thetahealth/mirobody/main/docs/images/mirobody-icon.svg",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ],
+          "src": "https://raw.githubusercontent.com/thetahealth/mirobody/main/docs/images/mirobody-icon-dark.svg",
+          "theme": "dark"
+        }
+      ],
+      "name": "ai.thetahealth/mirobody",
+      "packages": [
+        {
+          "identifier": "mirobody",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeArguments": [
+            {
+              "name": "--python",
+              "type": "named",
+              "value": "3.12"
+            }
+          ],
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.5.10"
+        }
+      ],
+      "repository": {
+        "id": "1106398326",
+        "source": "github",
+        "url": "https://github.com/thetahealth/mirobody"
+      },
+      "title": "Mirobody",
+      "version": "1.5.10",
+      "websiteUrl": "https://mirobody.ai"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/thetahealth-mirobody.json",
+  "schema_version": 1,
+  "source_repository": "thetahealth/mirobody",
+  "source_url": "https://github.com/thetahealth/mirobody",
+  "status": "disabled_pending_review"
+}

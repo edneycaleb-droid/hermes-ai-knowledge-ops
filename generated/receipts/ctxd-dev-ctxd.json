@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ctxd-dev/ctxd",
+  "canonical_repository": "ctxd-dev/ctxd",
+  "canonical_url": "https://github.com/ctxd-dev/ctxd",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:06.450392Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "823e228ae932c0ddcab0276973f7035f5a20b03a7868d81931c551b430b6cf34",
+  "sampled_file_digests": {
+    "LICENSE": "3a8dc53e609a220eed27596bc545d979a39c160c17f25bd60f2e02ac359da0af",
+    "README.md": "9bc900a479d6107a848eab133c2123bc15ea20b86f9679321b1c3859fa86d78a",
+    "pyproject.toml": "a9138ac148c232d342cc098562711b6e192e027cdd61926a0e2084046a3f642b"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/qufei1993/skills-hub",
+  "canonical_repository": "qufei1993/skills-hub",
+  "canonical_url": "https://github.com/qufei1993/skills-hub",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:17:38.464666Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "30b240de937deb62b7d0d85094d02a380ab953fa05b7c55d05bdea3e1f50a6e7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "59c9b73a0fd83f2bc790d7ec216d14a66ebba03deeb4e065461f2b1c0a3aec02",
+    "LICENSE": "36f3d88328565cfd61e18002835fec58bdcd69e7c5428d2feb89b4000992d61c",
+    "README.md": "6917786412925a2a725c3846c1f07b54e5423ac284be3969a1ea03376770401e",
+    "package.json": "499832c51a9f3dd73ffdf83a5674be67c4a57b3ac254e24bf70582d607e64e01"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

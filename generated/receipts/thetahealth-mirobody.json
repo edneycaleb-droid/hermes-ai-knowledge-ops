@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/thetahealth/mirobody",
+  "canonical_repository": "thetahealth/mirobody",
+  "canonical_url": "https://github.com/thetahealth/mirobody",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T15:16:57.535198Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "79f6b34426a2b70f6aae239a0f3473bdec9b28754d43e222da463edd3b2a03a2",
+  "sampled_file_digests": {
+    "Dockerfile": "a2f1e2f4a1ae647944deba65fc41381d8fd06ee3aa9e005ef72654065b87ac14",
+    "LICENSE": "4d5a2b0aae895f2ac27ae1cdbf0b749f09a5d668b0f23bd1b98f0a0c4a6d9399",
+    "README.md": "771e3918fe29b32a1077a538fdd0c01073ceb2c6cfc7d60416a0afb5832358ae",
+    "pyproject.toml": "0a1dbb64d1246fdd80c9cf13512ff6f6b08e9c270afdf484cef8bcda2a91fefb",
+    "requirements.txt": "f38ab0c6ec6c3973aa9f3c0cbe51d05f84fec9b762e57980ec2a47b52e8d2a6a",
+    "server.json": "d9935a1100b7d35ca2bbee7728ddf7573894ec398c95ecbc95a6945a2cd74dc5"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
