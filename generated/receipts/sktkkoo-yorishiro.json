@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/sktkkoo/Yorishiro",
+  "canonical_repository": "sktkkoo/Yorishiro",
+  "canonical_url": "https://github.com/sktkkoo/Yorishiro",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:41.783220Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "97b1dcddd1e802a6c61b4a66bb2c192abbc7953e4067beae44db32c653c5a524",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2aada8e4e751b1412e1d96193ddb79a6f1bd55f2521c8051bdc133c3fab096c5",
+    "LICENSE": "fb9e11dccf14b1403c86dca04caea79c3d7baef25de1148148c66db8831446ce",
+    "README.md": "6b5911ccfaf02065a2bccb40341051f370b2a64547a4ddcfab69d3aa37ec7d5e",
+    "package.json": "9523b2fb9ddae15d333c73120b5b8ece8cfc38dd5a71f704b21797f94885801e"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

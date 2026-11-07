@@ -1,0 +1,50 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://antigravity.google/docs/cli/install/",
+    "https://docs.claude.com/claude-code",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/openai/codex",
+    "https://polyformproject.org/licenses/noncommercial/1.0.0"
+  ],
+  "environment_variable_names": [
+    "API_SERVER_KEY",
+    "SCORE_BRIDGE_INSTALL_URL",
+    "SCORE_HERMES_URL",
+    "SCORE_HOST",
+    "SCORE_PORT",
+    "SCORE_TLS_KEY",
+    "SCORE_WEB_PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/kohz87-score.json",
+  "schema_version": 1,
+  "source_repository": "kohz87/score",
+  "source_url": "https://github.com/kohz87/score",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://askoracle.dev",
+    "https://aur.archlinux.org/packages/codexbar-cli",
+    "https://codexbar.app",
+    "https://download.swift.org/swift-6.3.3-release/static-sdk/swift-6.3.3-RELEASE/swift-6.3.3-RELEASE_static-linux-0.1.0.artifactbundle.tar.gz",
+    "https://download.swift.org/swiftly/linux/swiftly-$",
+    "https://extensions.gnome.org/extension/9841/codexbar/",
+    "https://getnotifyapp.com/",
+    "https://github.com/Finesssee/Win-CodexBar",
+    "https://github.com/Lucenx9/codexbar-plasma",
+    "https://github.com/Marouan-chak/codexbar-waybar",
+    "https://github.com/SaahiilM/codexbar-gtk",
+    "https://github.com/T0mSIlver/starbridge",
+    "https://github.com/aaronwong1999/ccx",
+    "https://github.com/andrew-verde/codexbar-cosmic-applet",
+    "https://github.com/click6067-ship-it/token-tv",
+    "https://github.com/enieuwy/showy-quota",
+    "https://github.com/hinneslung/CodexBar-for-Windows",
+    "https://github.com/jacobcalvert/codexbar-cinnamon-applet",
+    "https://github.com/lenadweb/stream-deck-ai-limits",
+    "https://github.com/materemias/codexbar-agentview",
+    "https://github.com/noctalia-dev/community-plugins/tree/main/codexbar-meter",
+    "https://github.com/psimaker/codexbar-plasmoid",
+    "https://github.com/quantmind-br/codexbar-dms",
+    "https://github.com/rayoplateado/noctalia-codex-usage",
+    "https://github.com/ryoppippi/ccusage",
+    "https://github.com/simplytoast1/notify-codexbar",
+    "https://github.com/steipete/CodexBar/issues/12",
+    "https://github.com/steipete/CodexBar/releases",
+    "https://github.com/steipete/CodexBar/releases/latest",
+    "https://github.com/steipete/Trimmy",
+    "https://github.com/steipete/homebrew-tap",
+    "https://github.com/tobymarks/esp32-ai-monitor",
+    "https://github.com/tylxr59/KodexBar",
+    "https://img.shields.io/aur/version/codexbar-cli?style=flat-square&color=1793d1",
+    "https://img.shields.io/badge/Linux-Qt_6-1793d1?style=flat-square",
+    "https://img.shields.io/badge/brew-steipete%2Ftap%2Fcodexbar-orange?style=flat-square",
+    "https://img.shields.io/badge/license-MIT-6e5aff?style=flat-square",
+    "https://img.shields.io/badge/macOS-14%2B-0a0a0c?style=flat-square",
+    "https://img.shields.io/badge/site-codexbar.app-16d3b4?style=flat-square",
+    "https://img.shields.io/github/v/release/steipete/CodexBar?style=flat-square&color=0a0a0c"
+  ],
+  "environment_variable_names": [
+    "COMPILED_CACHE_KEY",
+    "ELEVENLABS_API_KEY",
+    "GH_TOKEN",
+    "SWIFT_KEYS",
+    "SWIFT_STATIC_LINUX_SDK_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/steipete-codexbar.json",
+  "schema_version": 1,
+  "source_repository": "steipete/CodexBar",
+  "source_url": "https://github.com/steipete/CodexBar",
+  "status": "disabled_pending_review"
+}

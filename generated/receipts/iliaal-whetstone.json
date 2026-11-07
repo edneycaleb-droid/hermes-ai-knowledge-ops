@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/iliaal/whetstone",
+  "canonical_repository": "iliaal/whetstone",
+  "canonical_url": "https://github.com/iliaal/whetstone",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:29.384668Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fc954d9af778b79d17d5211b7347158751de6d97ac445bed4f27f6c5c2003fba",
+  "sampled_file_digests": {
+    "LICENSE": "61d89de7646effdaba2d0a4ab7bd0eba60b4094b83efe5bc73c7940e43e93fc6",
+    "README.md": "6549991bfedbf005588692dd977ddfd8f67dae5a4fd749a0129ec91471d29f2b",
+    "package.json": "5c6acf13bfe8a522afe6cd6245145a5be1ba723701289e81e1d0286078786821"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

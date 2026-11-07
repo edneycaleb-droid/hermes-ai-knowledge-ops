@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/bradleybond512/crystal-ball",
+  "canonical_repository": "bradleybond512/crystal-ball",
+  "canonical_url": "https://github.com/bradleybond512/crystal-ball",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:40.014578Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "09a2eea95506e131f8e03dce15b73cb9c6fce7ecc5b636aff6cd16473d1e6731",
+  "sampled_file_digests": {
+    ".mcp.json": "f025ac1585321c4fd72b76c790c44acacc4db9a91fa8d8bcc8118bbef0b16a24",
+    "LICENSE": "f956acde509dd9560d72f9379b77479f08208e670d209cd1ffcf0fdefb9c69dc",
+    "README.md": "7624c6a4b1398b36b23ef10f2f3a70c84ac7e20ff62204fc179567ff89c9b5ab",
+    "package.json": "e573c510120432fdf65bf7002dd0d725d4a5dcebce2c603d09c0a99842fd4ee0"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

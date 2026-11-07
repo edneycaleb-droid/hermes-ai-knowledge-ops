@@ -1,0 +1,55 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://code.claude.com/docs/en/setup",
+    "https://developers.openai.com/codex/cli",
+    "https://github.com/sktkkoo/Yorishiro/discussions",
+    "https://github.com/sktkkoo/Yorishiro/issues",
+    "https://github.com/sktkkoo/Yorishiro/issues/new/choose",
+    "https://github.com/sktkkoo/Yorishiro/releases",
+    "https://github.com/sktkkoo/Yorishiro/releases/latest/download/Yorishiro-Apple-Silicon.dmg",
+    "https://github.com/sktkkoo/Yorishiro/releases/latest/download/Yorishiro-Intel.dmg",
+    "https://github.com/user-attachments/assets/11063d89-0abb-41de-8715-86851d8e57a4",
+    "https://img.shields.io/badge/Apple%20Silicon-0A84FF?style=for-the-badge&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/Intel-8B949E?style=for-the-badge&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/github/license/sktkkoo/Yorishiro?style=flat-square",
+    "https://img.shields.io/github/v/release/sktkkoo/Yorishiro?style=flat-square",
+    "https://v2.tauri.app/start/prerequisites/"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/sktkkoo-yorishiro.json",
+  "schema_version": 1,
+  "source_repository": "sktkkoo/Yorishiro",
+  "source_url": "https://github.com/sktkkoo/Yorishiro",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/onyroid/candy",
+  "canonical_repository": "onyroid/candy",
+  "canonical_url": "https://github.com/onyroid/candy",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:02.267178Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7287b8fe0c2de1c94a5522e9167bdc1f55074ee7544a5820aa9306388e8b63e0",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "701ad4fd2ad7cfa13179da92e534bf3b773173d6ce598ebfd425e93b9e9e4b8c"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

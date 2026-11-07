@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/0xmichalis/ibkr-flex-mcp",
+  "canonical_repository": "0xmichalis/ibkr-flex-mcp",
+  "canonical_url": "https://github.com/0xmichalis/ibkr-flex-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:15.285144Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "12cf3c6b5b7ca8459cddb746e990f36f52791ef954656f7c744ad4e52de7912d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "75abf214a846874eb65ab95b1fcf6d6e43174d364bea6f7ae58d54813c2b84f0",
+    "LICENSE": "dbae494df8d74ece09f9910f802e7e65da02e339ddda8ed432a477846d5d044b",
+    "README.md": "27aa6b4503dde06e020b88917db731c63b3e8dd70fbe76afe79f7f4b0a4ed767"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

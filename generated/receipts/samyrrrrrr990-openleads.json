@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/Samyrrrrrr990/openleads",
+  "canonical_repository": "Samyrrrrrr990/openleads",
+  "canonical_url": "https://github.com/Samyrrrrrr990/openleads",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:31.440887Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "55d3765d37e55fd2374e2a2f1377d88ca83be63f8a940da8cc14188b5a73864f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6902e3532984b082167359b491d130318a690ca1c98b97bf5ee50ea81203cce9",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "89e11c6366733a5a86ae0b5f8b8380d9adfa87447abc29898c166601df1f1821",
+    "pyproject.toml": "1c11188e0e216676c68e6f82cbd466d3f3629d18df8131e5121e876b069146ec",
+    "requirements.txt": "013819c05e830eb7535273ac04d2311d5920eb3d1c418b4e785aa37898309514",
+    "server.json": "28d5ba48038af137d45a1a803763fae75054ab83cf6ce59924948d37e49ca51f"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

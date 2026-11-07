@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://developer.android.com/jetpack/compose",
+    "https://github.com/JetBrains/compose-multiplatform-core",
+    "https://github.com/aldefy/compose-skill.git",
+    "https://github.com/aldefy/compose-skill/releases",
+    "https://github.com/aldefy/compose-skill/stargazers",
+    "https://github.com/androidx/androidx",
+    "https://github.com/androidx/androidx/tree/androidx-main/compose",
+    "https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64",
+    "https://img.shields.io/badge/Compose%20Multiplatform-1.8+-7F52FF",
+    "https://img.shields.io/badge/Jetpack%20Compose-1.7+-4285F4",
+    "https://img.shields.io/badge/Kotlin-2.0+-7F52FF",
+    "https://img.shields.io/badge/license-MIT-blue",
+    "https://img.shields.io/badge/setup-5%20min-brightgreen",
+    "https://img.shields.io/github/stars/aldefy/compose-skill?style=flat&color=yellow",
+    "https://kotlinlang.org",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original.svg",
+    "https://www.jetbrains.com/lp/compose-multiplatform/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/aldefy-compose-skill.json",
+  "schema_version": 1,
+  "source_repository": "aldefy/compose-skill",
+  "source_url": "https://github.com/aldefy/compose-skill",
+  "status": "disabled_pending_review"
+}
