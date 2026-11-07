@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/aldefy/compose-skill",
+  "canonical_repository": "aldefy/compose-skill",
+  "canonical_url": "https://github.com/aldefy/compose-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:51.329100Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "956b26ee55d38e9fff10c4759ae9c5fcb2a480adbdabed2aef3e2de38254388d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "083aae69a3c564fe44e80d3442ac50f2ee341d24c711677736b86f71a59e9389",
+    "LICENSE": "b8113b6f0ac3874252aa2208180fefb190ad3fbfdd7e6f9cd8c39e58d8f39b9b",
+    "README.md": "3bb5a330f33e757ab8248d5050f709a811c1cfab467637dea79ebc9745296312"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

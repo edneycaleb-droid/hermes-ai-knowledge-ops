@@ -1,0 +1,39 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/cross-rs/cross",
+    "https://modelcontextprotocol.io",
+    "https://www.interactivebrokers.com/en/software/am/am/reports/flex_web_service_version_3.htm"
+  ],
+  "environment_variable_names": [
+    "IBKR_FLEX_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/0xmichalis-ibkr-flex-mcp.json",
+  "schema_version": 1,
+  "source_repository": "0xmichalis/ibkr-flex-mcp",
+  "source_url": "https://github.com/0xmichalis/ibkr-flex-mcp",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/pestopoppa/epyc-root",
+  "canonical_repository": "pestopoppa/epyc-root",
+  "canonical_url": "https://github.com/pestopoppa/epyc-root",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:10.818294Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "addb6da1f77e5f754cae11aff9b6a9a8ccada0501ab21cf3117c2915ec9a143e",
+  "sampled_file_digests": {
+    ".mcp.json": "23ba118578d0813af44ab7344079fd69d2c826bab5059521943818979aace58a",
+    "LICENSE": "4ba6e36d4ef98f8b8137994ce226937e0e34e6f038cfaacf53abed30927e1cd4",
+    "README.md": "6ab6b0112936baa38abff379edc06c5791f5ab68cf56ad36d879396065954f45"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

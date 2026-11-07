@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/BaronCyrus/ShipMyGame",
+  "canonical_repository": "BaronCyrus/ShipMyGame",
+  "canonical_url": "https://github.com/BaronCyrus/ShipMyGame",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:53.192964Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "955daac65954f4461e260857fd8e469731db4ba1ffacf3260ec64346cd95b3ca",
+  "sampled_file_digests": {
+    "LICENSE": "741a83a27719c93a6467fa05f8b369677dd6166cef01e5d0726237a41cb449e7",
+    "README.md": "9c23a927aa3fcea9213054202757c7f6328ff5e40bae79d26ba3df8d01fdf8e3"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

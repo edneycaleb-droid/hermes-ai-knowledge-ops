@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/kohz87/score",
+  "canonical_repository": "kohz87/score",
+  "canonical_url": "https://github.com/kohz87/score",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:06.555241Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7cd27861d8ba23c6d1051162fef9568b19b3f7a59e42bbf38bab0f1b1ed93a9f",
+  "sampled_file_digests": {
+    "LICENSE.md": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5",
+    "README.md": "ecf5f47a3443d4aecbdd02cdc5a8002c845917e9d7e67979529a24238f3b4ceb",
+    "package.json": "f3b8dca1075fed3112dd51fdc730c9b58515bcf11e3c319512b72b8f3dd1db04"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

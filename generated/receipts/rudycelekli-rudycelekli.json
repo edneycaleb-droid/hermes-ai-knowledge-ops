@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/rudycelekli/rudycelekli",
+  "canonical_repository": "rudycelekli/rudycelekli",
+  "canonical_url": "https://github.com/rudycelekli/rudycelekli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:04.483689Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "db6c24142da0fcea2c1d6a94698a06087bc28fe8c292c4de9439e012e07813f3",
+  "sampled_file_digests": {
+    "README.md": "67f7b3788b2a9e940ffdb0fb6336b90798b1addbb3236bd805eb59d952213c9c"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

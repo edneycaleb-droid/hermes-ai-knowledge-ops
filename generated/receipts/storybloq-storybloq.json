@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Storybloq/storybloq",
+  "canonical_repository": "Storybloq/storybloq",
+  "canonical_url": "https://github.com/Storybloq/storybloq",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:33.813392Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "904ecee7f8e3f46092755deca9fba73c738c5c8e8181492e4bc30b205ec24c30",
+  "sampled_file_digests": {
+    "LICENSE": "67530f8e9adfcc5d2e9d72b804500cebb7472ff84c34a6729a80a2a9be901ee6",
+    "README.md": "cdfd048c83ccd7143323d4ae59bbb828cfa23f0be17c408c90b33bca80968236",
+    "package.json": "441b4ba9b109acdcc4ddd9085353d6e1a0076aec0dc90ded4d6caf3e84485310"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

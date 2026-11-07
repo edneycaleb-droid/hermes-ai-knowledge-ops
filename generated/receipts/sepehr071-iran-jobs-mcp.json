@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/sepehr071/iran-jobs-mcp",
+  "canonical_repository": "sepehr071/iran-jobs-mcp",
+  "canonical_url": "https://github.com/sepehr071/iran-jobs-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:23.593117Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "aac919108540eb6d58db86ff39866437f85a70096538e8473a2ffe982ead68d8",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8ce0b24de1f28098ff8be7e61f8658b808ad96b6d275f80f5614a7f0ba76ddef",
+    "LICENSE": "beb1c534b373d081b15f3e4a3de139955fd971dfed2ef551f04ec5a63f5089da",
+    "README.md": "e1089be4a6132716d2800876d1bfaa751fa47e8e36654d7bbc388df86961256a",
+    "pyproject.toml": "3c782b7f48bcdbda57b30a10b97e6a22f67fdc644f89617102d19ffc8aa89fa2",
+    "server.json": "09eaffde5cd8f9f02a7f119da5e309efa7d859441a0b0c74720ded6ff1d7e41e"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

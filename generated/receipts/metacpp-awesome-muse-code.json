@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/metacpp/awesome-muse-code",
+  "canonical_repository": "metacpp/awesome-muse-code",
+  "canonical_url": "https://github.com/metacpp/awesome-muse-code",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:19.374456Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5e4b3ff4e65f00af86ff9b119db0b256f909ec0c6a09df4dfb28ed39757a2dd1",
+  "sampled_file_digests": {
+    "LICENSE": "267a8ef9b16d707a6d8bfa3dbcb7471cbad2b799f6fdccf436c7080f2cb9c460",
+    "README.md": "35d918848040533cf8663f9714b8c8eb4decc81be01b3a81049d8aa9c3810817"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

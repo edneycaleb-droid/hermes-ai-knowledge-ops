@@ -1,0 +1,88 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://github.com/sepehr071",
+    "https://github.com/sepehr071/iran-jobs-mcp",
+    "https://github.com/sepehr071/iran-jobs-mcp/actions/workflows/ci.yml",
+    "https://github.com/sepehr071/iran-jobs-mcp/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/sepehr071/iran-jobs-mcp/blob/main/LICENSE",
+    "https://github.com/sepehr071/iran-jobs-mcp/issues",
+    "https://github.com/sepehr071/iran-mcp",
+    "https://img.shields.io/badge/license-MIT-16a34a",
+    "https://img.shields.io/pypi/pyversions/iran-jobs-mcp",
+    "https://img.shields.io/pypi/v/iran-jobs-mcp?color=2563eb",
+    "https://mcpfarsi.ir/",
+    "https://pypi.org",
+    "https://pypi.org/project/iran-jobs-mcp/",
+    "https://raw.githubusercontent.com/sepehr071/iran-jobs-mcp/main/.github/banner.png",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.linkedin.com/in/sepehr-radmard"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Read-only Iran jobs: IranTalent, Jobinja, Jobvision side by side. Ads, companies, reviews, pay.",
+      "name": "io.github.sepehr071/iran-jobs-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Optional HTTP proxy URL for the IranTalent, Jobinja and Jobvision requests; system proxy settings are ignored. Also accepts a comma-separated list: one is used until it gets blocked or fails to connect, then the next.",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "IRAN_JOBS_MCP_PROXY"
+            }
+          ],
+          "identifier": "iran-jobs-mcp",
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.2.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/sepehr071/iran-jobs-mcp"
+      },
+      "title": "Iran Jobs (IranTalent + Jobinja + Jobvision)",
+      "version": "0.2.0",
+      "websiteUrl": "https://github.com/sepehr071/iran-jobs-mcp"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/sepehr071-iran-jobs-mcp.json",
+  "schema_version": 1,
+  "source_repository": "sepehr071/iran-jobs-mcp",
+  "source_url": "https://github.com/sepehr071/iran-jobs-mcp",
+  "status": "disabled_pending_review"
+}

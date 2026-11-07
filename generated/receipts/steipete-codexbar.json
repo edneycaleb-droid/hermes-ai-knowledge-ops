@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/steipete/CodexBar",
+  "canonical_repository": "steipete/CodexBar",
+  "canonical_url": "https://github.com/steipete/CodexBar",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:17.376329Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "49201f23e83e181585525336fcff973bf05b6996cf456e4e87bb22ec427d3576",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a3517ddfedaa9d1fd90acbb3ba15f1d5b13353ee0c1b48a616351ae224f7c618",
+    "LICENSE": "14293556b79940745123d0160c71d27ed0e9fe9b8a848093f3ed78f4853caafe",
+    "README.md": "fca9dc11bc30a0b76e4da272c131785ff4ba0015f7a3da775c2784a3221006e4"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,95 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/Samyrrrrrr990/openleads",
+    "https://github.com/Samyrrrrrr990/openleads/actions/workflows/bench.yml/badge.svg",
+    "https://github.com/Samyrrrrrr990/openleads/actions/workflows/ci.yml",
+    "https://github.com/Samyrrrrrr990/openleads/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/Samyrrrrrr990/openleads/blob/main/CHANGELOG.md",
+    "https://github.com/Samyrrrrrr990/openleads/issues",
+    "https://github.com/yc-oss/api",
+    "https://huggingface.co",
+    "https://img.shields.io/badge/license-AGPL--3.0-blue.svg",
+    "https://img.shields.io/badge/python-3.8%2B-3776AB.svg?logo=python&logoColor=white",
+    "https://img.shields.io/npm/v/openleads.svg?color=blue",
+    "https://img.shields.io/pypi/v/openleads.svg?color=blue",
+    "https://npiregistry.cms.hhs.gov/",
+    "https://openalex.org",
+    "https://pypi.org/project/openleads/",
+    "https://raw.githubusercontent.com/Samyrrrrrr990/openleads/main/docs/assets/dashboard-deals.png",
+    "https://raw.githubusercontent.com/Samyrrrrrr990/openleads/main/docs/assets/dashboard-home-dark.png",
+    "https://raw.githubusercontent.com/Samyrrrrrr990/openleads/main/docs/assets/dashboard-home.png",
+    "https://raw.githubusercontent.com/Samyrrrrrr990/openleads/main/docs/assets/dashboard-people.png",
+    "https://raw.githubusercontent.com/Samyrrrrrr990/openleads/main/docs/assets/dashboard-sequence.png",
+    "https://samyrrrrrr990.github.io/openleads/",
+    "https://samyrrrrrr990.github.io/openleads/docs/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.brailleinstitute.org/freefont/",
+    "https://www.gnu.org/licenses/",
+    "https://www.npmjs.com/package/openleads",
+    "https://www.openstreetmap.org/copyright",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Find leads with honest email evidence, then work them: CRM, sequences, tasks, deals. No API keys.",
+      "name": "io.github.Samyrrrrrr990/openleads",
+      "packages": [
+        {
+          "identifier": "openleads",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "pypi",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "5.2.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Samyrrrrrr990/openleads"
+      },
+      "title": "OpenLeads",
+      "version": "5.2.0",
+      "websiteUrl": "https://samyrrrrrr990.github.io/openleads/"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/samyrrrrrr990-openleads.json",
+  "schema_version": 1,
+  "source_repository": "Samyrrrrrr990/openleads",
+  "source_url": "https://github.com/Samyrrrrrr990/openleads",
+  "status": "disabled_pending_review"
+}

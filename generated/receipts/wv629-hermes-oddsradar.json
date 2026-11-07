@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/WV629/hermes-oddsradar",
+  "canonical_repository": "WV629/hermes-oddsradar",
+  "canonical_url": "https://github.com/WV629/hermes-oddsradar",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T13:29:08.643475Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "94a3afe71ebe7cd55eb33f4217700d3d9a6d25499bff0f98e55be700232c4ee2",
+  "sampled_file_digests": {
+    "LICENSE": "3ad2f3fc1dc8acfbfb96bf4db4df831e128852a761b901765d28be00e655d88b",
+    "README.md": "a9ae978ddb54424de0a50cd5b4ed9b9d16446e2552cca5ef3a94b317a0110c5e"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

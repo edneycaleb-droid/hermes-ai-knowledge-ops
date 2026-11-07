@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/pestopoppa/epyc-inference-research",
+    "https://github.com/pestopoppa/epyc-orchestrator",
+    "https://github.com/pestopoppa/epyc-web",
+    "https://github.com/pestopoppa/llama.cpp"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "orchestrator": {
+          "args": [
+            "/mnt/raid0/llm/epyc-orchestrator/src/mcp_server.py"
+          ],
+          "command": "/mnt/raid0/llm/epyc-orchestrator/.venv/bin/python",
+          "env": {
+            "ORCHESTRATOR_CLAUDE_CODE_MCP_CHAT": "1",
+            "PYTHONPATH": "/mnt/raid0/llm/epyc-orchestrator"
+          }
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/pestopoppa-epyc-root.json",
+  "schema_version": 1,
+  "source_repository": "pestopoppa/epyc-root",
+  "source_url": "https://github.com/pestopoppa/epyc-root",
+  "status": "disabled_pending_review"
+}
