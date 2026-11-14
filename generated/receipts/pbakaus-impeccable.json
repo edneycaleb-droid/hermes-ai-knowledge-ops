@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/pbakaus/impeccable",
+  "canonical_repository": "pbakaus/impeccable",
+  "canonical_url": "https://github.com/pbakaus/impeccable",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:23.590701Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2bd644ddf76bce486c6eca470c3ce4da15772dde532b6aa6f5dccd8eb18d0ba7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "3ddce0aa73e65a300f232cb6e9f6232342ec1ce790f79dd399ccc975d50b11aa",
+    "LICENSE": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
+    "README.md": "4a033dceedd19e7edf86b28250fc65c9c52115f18faaea791c327da2681237ab",
+    "package.json": "b6b61d20b1f498fcfcaa8c29e023850ffec2bf2a9d33d1976ef20871b5a46a21"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

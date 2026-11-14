@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/krot3232/awesome-beam",
+  "canonical_repository": "krot3232/awesome-beam",
+  "canonical_url": "https://github.com/krot3232/awesome-beam",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:53.070462Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3b4fc5290fd20569f604e641852536c8b3135aba732745ea253d52612c1e34d4",
+  "sampled_file_digests": {
+    "README.md": "0b9d5f1c47358b0f1f226d0f77e015be05ed7a0256bf39e77613f73756f73859"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}
