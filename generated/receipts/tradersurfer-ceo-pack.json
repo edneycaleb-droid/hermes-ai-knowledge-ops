@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/tradersurfer/ceo-pack",
+  "canonical_repository": "tradersurfer/ceo-pack",
+  "canonical_url": "https://github.com/tradersurfer/ceo-pack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:30.403355Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b32626490caa279df5104e3caa76f27d30c43c1b7f7e5f2937ddba7ecd4d6e0f",
+  "sampled_file_digests": {
+    "README.md": "35cd23fdcf6e3a8239802c17f171c1c84c4c3976a2895eec6ea04cc274700068"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

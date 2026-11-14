@@ -1,0 +1,109 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://crates.io",
+    "https://crates.io/crates/eb_stack",
+    "https://eb-stack.rgoswami.me",
+    "https://eb-stack.rgoswami.me/",
+    "https://eb-stack.rgoswami.me/reference/mcp.html",
+    "https://github.com/stackhands",
+    "https://github.com/stackhands/eb-keep-logs",
+    "https://github.com/stackhands/eb-local",
+    "https://github.com/stackhands/eb-stack",
+    "https://github.com/stackhands/eb-stack.git",
+    "https://github.com/stackhands/eb-stack/actions/workflows/ci_docs.yml",
+    "https://github.com/stackhands/eb-stack/actions/workflows/ci_docs.yml/badge.svg",
+    "https://github.com/stackhands/eb-stack/actions/workflows/ci_test.yml",
+    "https://github.com/stackhands/eb-stack/actions/workflows/ci_test.yml/badge.svg",
+    "https://github.com/stackhands/eb-staged-rebuild",
+    "https://github.com/stackhands/eessi-arch-guard",
+    "https://github.com/stackhands/rfc9162",
+    "https://github.com/stackhands/zig-common",
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/docs-eb--stack.rgoswami.me-blue",
+    "https://img.shields.io/crates/v/eb_stack.svg",
+    "https://stackhands.github.io/eb-keep-logs/",
+    "https://stackhands.github.io/eb-local/",
+    "https://stackhands.github.io/eb-staged-rebuild/",
+    "https://stackhands.github.io/eessi-arch-guard/",
+    "https://stackhands.github.io/rfc9162/",
+    "https://stackhands.github.io/zig-common/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Plan EasyBuild recipes, CycloneDX SBOMs, and Resolvo stack locks.",
+      "name": "io.github.stackhands/eb-stack",
+      "packages": [
+        {
+          "identifier": "eb_stack",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            },
+            {
+              "description": "Root directory for the recipe file tools.",
+              "format": "filepath",
+              "isRequired": false,
+              "name": "--workspace",
+              "type": "named"
+            }
+          ],
+          "registryBaseUrl": "https://crates.io",
+          "registryType": "cargo",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.7.4"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/stackhands/eb-stack"
+      },
+      "title": "eb-stack",
+      "version": "0.7.4",
+      "websiteUrl": "https://eb-stack.rgoswami.me/"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/stackhands-eb-stack.json",
+  "schema_version": 1,
+  "source_repository": "stackhands/eb-stack",
+  "source_url": "https://github.com/stackhands/eb-stack",
+  "status": "disabled_pending_review"
+}

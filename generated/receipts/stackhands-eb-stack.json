@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/stackhands/eb-stack",
+  "canonical_repository": "stackhands/eb-stack",
+  "canonical_url": "https://github.com/stackhands/eb-stack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:46.119315Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "61e3f1c2e9f2c4ebe7e9df0db34aa9c0c0a0c43e8dc88268f7e8d284e22b3a59",
+  "sampled_file_digests": {
+    "LICENSE": "6ea04b40683cd7c8cb0249222defb8aebee812533e02d7d0b017b2a168e62bd4",
+    "README.md": "e773b57b4061db7abf7279b92628ee693e90e9360a1843e09d70abca23d11b2a",
+    "pyproject.toml": "76877a4bb098e3de414debee78f2ba2303f5b56a56ff79f72189293a70a0717a",
+    "server.json": "6e06a7f6e23819b50cdf064603c4b00f4c70da0eb387fc4babfbbcd13873519d"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

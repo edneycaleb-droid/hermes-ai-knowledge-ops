@@ -1,0 +1,92 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/AutomateIP/fwrule-mcp@3bd52d79919b0aa5124e5d34fcbb12fb6112accd",
+    "https://github.com/automateyournetwork/netclaw",
+    "https://supachai-j.github.io/netexpertclaw-docs/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "fwrule": {
+          "args": [
+            "${CLAUDE_PLUGIN_ROOT}/mcp/fwrule/proxy.py",
+            "--cache",
+            "${CLAUDE_PLUGIN_ROOT}/mcp/fwrule/tools.cache.json",
+            "--",
+            "uv",
+            "run",
+            "--quiet",
+            "--no-project",
+            "--isolated",
+            "--with-requirements",
+            "${CLAUDE_PLUGIN_ROOT}/mcp/fwrule/requirements.txt",
+            "--with",
+            "git+https://github.com/AutomateIP/fwrule-mcp@3bd52d79919b0aa5124e5d34fcbb12fb6112accd",
+            "python",
+            "${CLAUDE_PLUGIN_ROOT}/mcp/fwrule/launch.py"
+          ],
+          "command": "python3",
+          "env": {}
+        },
+        "rfc-lookup": {
+          "args": [
+            "run",
+            "--quiet",
+            "--no-project",
+            "--isolated",
+            "--with",
+            "mcp==1.30.0",
+            "python",
+            "${CLAUDE_PLUGIN_ROOT}/mcp/rfc-lookup/server.py"
+          ],
+          "command": "uv",
+          "env": {}
+        },
+        "subnet-calc": {
+          "args": [
+            "run",
+            "--quiet",
+            "--no-project",
+            "--isolated",
+            "--with",
+            "mcp==1.30.0",
+            "python",
+            "${CLAUDE_PLUGIN_ROOT}/mcp/subnet-calc/server.py"
+          ],
+          "command": "uv",
+          "env": {}
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/supachai-j-netexpertclaw.json",
+  "schema_version": 1,
+  "source_repository": "supachai-j/netexpertclaw",
+  "source_url": "https://github.com/supachai-j/netexpertclaw",
+  "status": "disabled_pending_review"
+}

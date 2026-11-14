@@ -1,0 +1,71 @@
+{
+  "categories": [
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "hermes"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://chromewebstore.google.com/detail/impeccable/bdkgmiklpdmaojlpflclinlofgjfpabf",
+    "https://cursor.com/docs/context/skills",
+    "https://example.com",
+    "https://geminicli.com/docs/cli/skills/",
+    "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+    "https://github.com/pbakaus/impeccable",
+    "https://github.com/pbakaus/impeccable.git",
+    "https://github.com/pbakaus/impeccable/issues",
+    "https://github.com/pbakaus/impeccable/raw/main/docs/images/readme-with.webp",
+    "https://github.com/pbakaus/impeccable/raw/main/docs/images/readme-without.webp",
+    "https://impeccable.style",
+    "https://impeccable.style/cases/neo-mirai",
+    "https://impeccable.style/changelog",
+    "https://impeccable.style/docs",
+    "https://impeccable.style/docs/config",
+    "https://impeccable.style/docs/context",
+    "https://impeccable.style/docs/detector",
+    "https://impeccable.style/docs/doctor",
+    "https://impeccable.style/docs/hooks",
+    "https://impeccable.style/docs/hooks#allow-the-hook-in-your-harness",
+    "https://impeccable.style/docs/image-generation",
+    "https://impeccable.style/docs/new-work",
+    "https://impeccable.style/privacy",
+    "https://impeccable.style/tutorials/critique-with-overlay",
+    "https://impeccable.style/tutorials/iterate-live",
+    "https://marketplace.visualstudio.com/items?itemName=renaissance-geek.impeccable",
+    "https://namespace.so",
+    "https://namespace.so/github-actions/?utm_source=oss&utm_campaign=impeccable",
+    "https://namespace.so/oss/badge.svg",
+    "https://www.paulbakaus.com",
+    "https://x.com/pbakaus"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "DEEPSEEK_API_KEY",
+    "GOOGLE_CLOUD_API_KEY",
+    "OPENAI_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/pbakaus-impeccable.json",
+  "schema_version": 1,
+  "source_repository": "pbakaus/impeccable",
+  "source_url": "https://github.com/pbakaus/impeccable",
+  "status": "disabled_pending_review"
+}

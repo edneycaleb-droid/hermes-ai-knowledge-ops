@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/supachai-j/netexpertclaw",
+  "canonical_repository": "supachai-j/netexpertclaw",
+  "canonical_url": "https://github.com/supachai-j/netexpertclaw",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:38.638824Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8fda5d7dfc64a6c32478576d43d1777dd45005257ba24a5eaffc1bf2072b123a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "14f72145f1d9dc44ce33f00041751c9a4ee3140e7d2b877adf280ecc7e690d2b",
+    ".mcp.json": "a16d25644abbdd5699b6611e5874dfe77595398394bb35d0b078788c5788b64a",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "87721d52ef765084614909c4cc700c5b0e786678faf4f247e55bae9cf4e652bf"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
