@@ -1,0 +1,85 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/0xNatoshi/jev-codex-router",
+    "https://github.com/0xNatoshi/jev-codex-router/blob/8701ef788aa8cb0948f299538747fb01029d32b8/poc/route_poc.py#L14",
+    "https://github.com/1arley/jev-advisor-gateway",
+    "https://github.com/1arley/jev-advisor-gateway/blob/3732a415301f051e1a4ae293aa09d33d551c2f2d/src/providers.json#L7",
+    "https://github.com/7starsseeker/dsh-fact-check",
+    "https://github.com/7starsseeker/dsh-fact-check/blob/dd28c59fb7552a43d40f03632b0247695fbda65b/tools/doctor.mjs#L84",
+    "https://github.com/AIAnytime/Jev-Router",
+    "https://github.com/AIAnytime/Jev-Router/blob/d5d2b44a775fbdd9d675f591dae8ae9829f6eede/jev_router/config.py#L13",
+    "https://github.com/ARCJ137442/jev-2048",
+    "https://github.com/ARCJ137442/jev-2048/blob/9582bcf0787dcf7e56bff9bd0f8c9e8a49e5cacc/api/evaluate2.ts#L22",
+    "https://github.com/AbdelStark/bicameral",
+    "https://github.com/AbdelStark/bicameral/blob/3bea244b072cdacd3c8a85aec8d788a3ae0ac1cc/packages/s1-runtime/src/backends/typesafe.ts#L1",
+    "https://github.com/AbdelStark/heist-one",
+    "https://github.com/AbdelStark/heist-one/blob/632c9a55a1e5eb2cbf0b9f87db575f0b5eb36e8c/apps/server/src/jev.ts#L140",
+    "https://github.com/AgriciDaniel/gatekeeper",
+    "https://github.com/AgriciDaniel/gatekeeper/blob/bcc1c20ce501ca79cc5124ce3ea6f6c0c3bee215/gatekeeper/jev.py#L24",
+    "https://github.com/AgriciDaniel/jev-seo",
+    "https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/jev.py#L21",
+    "https://github.com/Alurith/jeff",
+    "https://github.com/Alurith/jeff/blob/656ca43270c7acad89a517adfff8a515d21e937b/internal/typesafe/client.go#L19",
+    "https://github.com/AmoghCreator/doom-jev",
+    "https://github.com/AmoghCreator/doom-jev/blob/b27663fc0fa386f9d15ad6ea3c8f15374b855479/agent/jev_client.py#L110",
+    "https://github.com/AntonioCoppe/jev-harness",
+    "https://github.com/AntonioCoppe/jev-harness/blob/main/package.json#L52",
+    "https://github.com/Arindam200/fr",
+    "https://github.com/Arindam200/fr/blob/cbe3a178677bd5b5cf456d83b9937c120a63f6a3/src/decide.ts#L31",
+    "https://github.com/Arpit-Khandelwal/jev-linkedin-slop-filter",
+    "https://github.com/Arpit-Khandelwal/jev-linkedin-slop-filter/blob/8d4cdd3967369d4d7831661c7e62273f46aea973/server/jev.js#L5",
+    "https://github.com/AskTheWay/dsh-jev-interceptor",
+    "https://github.com/AskTheWay/dsh-jev-interceptor/blob/2e75c7c666b06cc759e6d7622205fcdb9f7d9636/src/config.ts#L293",
+    "https://github.com/Avinash-jetwani/jevmem",
+    "https://github.com/Avinash-jetwani/jevmem/blob/main/package.json#L88",
+    "https://github.com/BeLazy167/typesafe-mod",
+    "https://github.com/BeLazy167/typesafe-mod/blob/a39e04dc28ebd560050c9c18daed3b080b67b018/hooks/suggest.ts#L27",
+    "https://github.com/BenCaunt/jev-box-tracking",
+    "https://github.com/BenCaunt/jev-box-tracking/blob/bc5325796c26f30ec83ba7f2a7d3fefb19174869/src/jev_box_tracking/client.py#L10",
+    "https://github.com/Bewinxed/jevgpt",
+    "https://github.com/Bewinxed/jevgpt/blob/2217aead17eb63f7fc23c5de8748f027c642378d/src/jevgpt/sampler.py#L29",
+    "https://github.com/BillionsBobby/JevRouter",
+    "https://github.com/BillionsBobby/JevRouter/blob/b1cdf80593ee530cedd99728a938f4e74ddd556b/src/provider.ts#L103"
+  ],
+  "environment_variable_names": [
+    "TYPESAFE_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/ozers-jevsome-projects.json",
+  "schema_version": 1,
+  "source_repository": "ozers/jevsome-projects",
+  "source_url": "https://github.com/ozers/jevsome-projects",
+  "status": "disabled_pending_review"
+}

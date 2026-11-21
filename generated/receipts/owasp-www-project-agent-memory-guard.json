@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/OWASP/www-project-agent-memory-guard",
+  "canonical_repository": "OWASP/www-project-agent-memory-guard",
+  "canonical_url": "https://github.com/OWASP/www-project-agent-memory-guard",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:58:06.341680Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ea73bb94e51bc1fdd7144325af22fa6d4695ef59a1fa2bafafdbaa9e2781306e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "abb64648babcb34994b45af75d1d06765527e2425829c5430e1a4644065fd290",
+    "LICENSE.md": "7ae5cc9e1a7f656edcd9e956f478d4aeff80abec349783bf9b6f9846e91bbab4",
+    "README.md": "7e25297068f8460d71eb50d9e285de5fc03acbe8af72396b0df203cd47e2ac63",
+    "pyproject.toml": "93f4b615d26f1700530c4efe87a25b98265a3cf177147476f97ec1c0799ea018"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

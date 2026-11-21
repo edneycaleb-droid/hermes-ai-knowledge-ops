@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/memtomem/memtomem",
+  "canonical_repository": "memtomem/memtomem",
+  "canonical_url": "https://github.com/memtomem/memtomem",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:16.106656Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b3ed2cecad8c0d0c898d7e9eb8f25a05d9c14940ec007b3bcfb7260aa60dcda4",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "06a28347120cb971560c15bf2d87d8b37d3a3c10e8ba9eb3bb31355b6ed4b494",
+    "LICENSE": "8394cddf4610bb610b5391a671da316b15c8fc87ebc55b54dfd2b5204da05ac6",
+    "README.md": "d88b5902f0f7b932f96e81f67ef5daa5936aed5c7be8b1a103f7feea77ef8cd6",
+    "pyproject.toml": "993b63cad34349a9b37a93fa8cd524fdb72cfc380c53a4f8049fb297d451618b",
+    "server.json": "13118cc86d78a081d59f05536511c5339e9015bd8e02dc677f77c2a0c4786699"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

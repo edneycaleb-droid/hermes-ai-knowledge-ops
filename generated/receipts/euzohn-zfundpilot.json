@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/Euzohn/ZFundPilot",
+  "canonical_repository": "Euzohn/ZFundPilot",
+  "canonical_url": "https://github.com/Euzohn/ZFundPilot",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:58:00.239887Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7846a2f3f163985fa295beeb08c1827051dad50c89074d0faa09bae29fb84ccc",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "780e93ad5278652e261ba43219a687f13135728e16e165d65999411925fe7349",
+    "Dockerfile": "f526df4ec3a4a6e7c40d1edee8d2cd5baab2e8566eec5212126293ece9626a69",
+    "LICENSE": "79c26b61967fff77510f7f1db583ff31823bf3b38bfd061c6da83b9e7c8d249d",
+    "README.md": "299cc7d7a0ec46af196500b87429068e108630753948c01d997f71c8b1e0c53e",
+    "docker-compose.yml": "49a1a461f00dd8b116bb2edbc1682a2be5eee4ac2f678b95371e4de95c507a9f",
+    "pyproject.toml": "51d4de526f4dc940abd86b02b7bc6d59056de091b9f67368b43b327f6ad94fe9",
+    "requirements.txt": "580919eb34402b67f0fca44a583c61424c8a4bfb8b658fcd123478be1956f89b"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

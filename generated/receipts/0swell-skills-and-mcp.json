@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/0swell/skills-and-mcp",
+  "canonical_repository": "0swell/skills-and-mcp",
+  "canonical_url": "https://github.com/0swell/skills-and-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:22.247356Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6555eb00a59154829bdc416dfbd7fb7dc19c21e7891db896f2fe0ff5c85fb3a1",
+  "sampled_file_digests": {
+    "README.md": "761804b541b21d8e7c20ad60d02d5db6ec01953105bb539551b238e0d18580d4"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

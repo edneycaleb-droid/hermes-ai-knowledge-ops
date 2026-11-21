@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/CorpusIQ/corpusiq-docs",
+  "canonical_repository": "CorpusIQ/corpusiq-docs",
+  "canonical_url": "https://github.com/CorpusIQ/corpusiq-docs",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:57.254161Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7b5d9673682b7cf18ac470e7402aec8b15ed51f8b8cb4363c9b24f75910f91b9",
+  "sampled_file_digests": {
+    ".mcp.json": "281512697d836e63429c860d611894e1e9f73f1969167b509b12e43ad46249ec",
+    "README.md": "5b6999b4845553ab3df1c6463f511c5a9ed892c727262d54d77159018a4538fb",
+    "mcp.json": "d2ce4e32aae3a7ee957740dd2bcf4728383e31feca3c1a20ddce4e2f4d767934",
+    "requirements.txt": "e204d1d7365f56e7671b0b6113c8566714e1694f7fcd4c6e7e1d71b5578d4b53"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

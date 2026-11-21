@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Keremozdemirra/agent-vitals",
+  "canonical_repository": "Keremozdemirra/agent-vitals",
+  "canonical_url": "https://github.com/Keremozdemirra/agent-vitals",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:38.241015Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f522ceb1211ad378547c69a6e8790565ac50d5a925a30b07a4620b17f6a362f2",
+  "sampled_file_digests": {
+    "Dockerfile": "1368373832d2aad0f6f6f8db1674bd71f5aeb6e7d7ecc1347c22142ae784e30a",
+    "LICENSE": "ef24799102174982f9998ac448c5277bc037fe755a038e1027bede08bffc300d",
+    "README.md": "33299d598c43a5bfe1ee2d3c1997cec644a528fdff26c2751d79556cbf0cbe23"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

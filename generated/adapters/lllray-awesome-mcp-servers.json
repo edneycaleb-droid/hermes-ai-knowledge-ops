@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://creativecommons.org/licenses/by-sa/4.0/",
+    "https://discord.gg/6m",
+    "https://door.c",
+    "https://github.com/0x4m4/hexstrike-ai",
+    "https://github.com/0xJacky/nginx-ui",
+    "https://github.com/0xNyk/awesome-hermes-agent",
+    "https://github.com/78/xiaozhi-esp32",
+    "https://github.com/8b-is/smart-tree",
+    "https://github.com/Agents365-ai/drawio-skill",
+    "https://github.com/AgriciDaniel/claude-seo",
+    "https://github.com/AmoyLab/Unla",
+    "https://github.com/Anil-matcha/open-agent-email",
+    "https://github.com/Appllama/appllama-skills",
+    "https://github.com/Arch1eSUN/Arcgentic",
+    "https://github.com/AstrBotDevs/AstrBot",
+    "https://github.com/Azure/data-api-builder",
+    "https://github.com/Badhansen/notion-mcp",
+    "https://github.com/BerriAI/litellm",
+    "https://github.com/BrowserMCP/mcp",
+    "https://github.com/BurtTheCoder/mcp-virustotal",
+    "https://github.com/CCCpan/data-verify-mcp",
+    "https://github.com/Cactusinhand/mcp_server_notify",
+    "https://github.com/CherryHQ/cherry-studio",
+    "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "https://github.com/ComposioHQ/awesome-claude-skills",
+    "https://github.com/CopilotKit/OpenBot",
+    "https://github.com/CrossPaste/crosspaste-desktop",
+    "https://github.com/D4Vinci/Scrapling",
+    "https://github.com/Dataojitori/nocturne_memory",
+    "https://github.com/DayuanJiang/next-ai-draw-io",
+    "https://github.com/DeusData/codebase-memory-mcp",
+    "https://github.com/DuarteSantos8/openGym",
+    "https://github.com/Epistates/turbovault",
+    "https://github.com/Erodenn/godot-mcp-runtime",
+    "https://github.com/EvannZhongg/Nosis",
+    "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+    "https://github.com/FROWNINGdev/django-orm-lens",
+    "https://github.com/FradSer/mcp-server-apple-events",
+    "https://github.com/Gentleman-Programming/engram",
+    "https://github.com/GongRzhe/JSON-MCP-Server"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/lllray-awesome-mcp-servers.json",
+  "schema_version": 1,
+  "source_repository": "lllray/awesome-mcp-servers",
+  "source_url": "https://github.com/lllray/awesome-mcp-servers",
+  "status": "disabled_pending_review"
+}

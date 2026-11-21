@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Smittyman50/agent-hq",
+  "canonical_repository": "Smittyman50/agent-hq",
+  "canonical_url": "https://github.com/Smittyman50/agent-hq",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:25.513823Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "587423c64dfd4e5c7c9528a0baf9300478f68b94015ee02c55e04910b052c7bc",
+  "sampled_file_digests": {
+    "Dockerfile": "c40f6fa5f1d7c9d00780bc20b47164c625df942b37f2150aa8a900e166298b53",
+    "LICENSE": "a21108bb32161922454e83d761b740f7718e3687a6c9eac662a5aa5928b3af15",
+    "README.md": "e478a7676e67613fe6e7d6e4c9d7ed26480697676d657a540d755164f095e9b0",
+    "docker-compose.yml": "1226e1b21e5cd639dd3c1f723e4f71e19d6e295b167b12e62c00babe9636f457"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

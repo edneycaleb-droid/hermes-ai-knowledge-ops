@@ -1,0 +1,117 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ads.vk.com/api",
+    "https://ads.vk.com/api/v2/oauth2/token.json",
+    "https://ads.vk.com/doc/api",
+    "https://ads.vk.ru/hq/settings",
+    "https://code.visualstudio.com/docs/agent-customization/mcp-servers",
+    "https://docs.anthropic.com/en/docs/claude-code/mcp",
+    "https://docs.cursor.com/context/model-context-protocol",
+    "https://github.com/askads/mcp-vk-ads",
+    "https://github.com/askads/mcp-vk-ads#readme",
+    "https://github.com/askads/mcp-vk-ads.git",
+    "https://github.com/askads/mcp-vk-ads/actions/workflows/ci.yml",
+    "https://github.com/askads/mcp-vk-ads/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/askads/mcp-vk-ads/issues",
+    "https://glama.ai/mcp/servers/askads/mcp-vk-ads",
+    "https://glama.ai/mcp/servers/askads/mcp-vk-ads/badges/score.svg",
+    "https://img.shields.io/badge/license-MIT-blue.svg",
+    "https://img.shields.io/npm/v/mcp-vk-ads",
+    "https://learn.chatgpt.com/docs/extend/mcp?surface=cli",
+    "https://registry.npmjs.org",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.npmjs.com/package/mcp-vk-ads"
+  ],
+  "environment_variable_names": [
+    "VK_ADS_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "MCP server for VK Ads (VK \u0420\u0435\u043a\u043b\u0430\u043c\u0430) API: manage ad plans, ad groups, banners, and statistics.",
+      "name": "io.github.askads/mcp-vk-ads",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Optional ready-made VK Ads OAuth2 access token (Bearer) for CI and unattended installs \u2014 full account access, treat it as a secret. Without it the server connects from the chat via start_login/finish_login.",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "VK_ADS_TOKEN"
+            },
+            {
+              "default": "ru",
+              "description": "Language for API responses (Accept-Language header), e.g. ru, en.",
+              "isRequired": false,
+              "name": "VK_ADS_LANG"
+            },
+            {
+              "default": "60000",
+              "description": "Per-request timeout in milliseconds.",
+              "isRequired": false,
+              "name": "VK_ADS_TIMEOUT_MS"
+            },
+            {
+              "default": "3",
+              "description": "Max retries for transient errors (429 rate limit, 5xx on GET, network errors on GET).",
+              "isRequired": false,
+              "name": "VK_ADS_MAX_RETRIES"
+            },
+            {
+              "default": "https://ads.vk.com/api",
+              "description": "API root without a version segment. Defaults to https://ads.vk.com/api.",
+              "isRequired": false,
+              "name": "VK_ADS_API_BASE"
+            }
+          ],
+          "identifier": "mcp-vk-ads",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.8.3"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/askads/mcp-vk-ads"
+      },
+      "title": "VK Ads MCP",
+      "version": "1.8.3",
+      "websiteUrl": "https://github.com/askads/mcp-vk-ads#readme"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/askads-mcp-vk-ads.json",
+  "schema_version": 1,
+  "source_repository": "askads/mcp-vk-ads",
+  "source_url": "https://github.com/askads/mcp-vk-ads",
+  "status": "disabled_pending_review"
+}

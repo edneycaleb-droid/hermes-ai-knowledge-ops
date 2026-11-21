@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/askads/mcp-vk-ads",
+  "canonical_repository": "askads/mcp-vk-ads",
+  "canonical_url": "https://github.com/askads/mcp-vk-ads",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:58:15.624947Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "db9af90afe78f0dee03deb953918f21a3966451fda7e7434f9d66c2106b1a822",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "fa52418c04bbe696dfc2354b6cedd2e6efe41b16147f0c471f6e22354e41f634",
+    "LICENSE": "f90bf48a9c5079b1a381c05a3e59a5dba4e8afb6a0199137fa2f454a14cce69b",
+    "README.md": "3668fb6ee0e9ca66a16f81358165278e4e48dbaace7c0dadcac020c56d23ba5e",
+    "package.json": "a9ccdede4ea5076dd20d84fb348c5b60e997c74c5f097b29da46e9d3d09dc378",
+    "server.json": "90771a944091939ae29b0dd1798c7e38fdd9e3887426dda8e5c70e1aa75b96ab"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

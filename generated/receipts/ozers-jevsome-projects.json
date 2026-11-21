@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ozers/jevsome-projects",
+  "canonical_repository": "ozers/jevsome-projects",
+  "canonical_url": "https://github.com/ozers/jevsome-projects",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:44.517356Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5791612fb2b6464a63de2216c96a088a4fc8cf463ddbe4801457a146f7bff418",
+  "sampled_file_digests": {
+    "LICENSE": "a62b07f8f93ab625543741de941f71061de7f803b9487be38562d9ae00d83fe9",
+    "README.md": "ed6da5f13b09834386596d20de8b0c33434a820bafbd8e01d8fa412a5358dc2a",
+    "package.json": "a489613cb6e369c38e0a23cfa0f4b514bd84e655c35b6a77427448ad6f7513ff"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

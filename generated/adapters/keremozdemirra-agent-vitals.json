@@ -1,0 +1,83 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/BAAI-Agents/Cradle",
+    "https://github.com/DietrichGebert/ponytail",
+    "https://github.com/GaiaNet-AI/gaianet-node",
+    "https://github.com/Graphify-Labs/graphify",
+    "https://github.com/JuliusBrussee/caveman",
+    "https://github.com/Keremozdemirra/agent-vitals",
+    "https://github.com/Klavis-AI/klavis",
+    "https://github.com/Leonxlnx/taste-skill",
+    "https://github.com/Mintplex-Labs/vector-admin",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/Panniantong/Agent-Reach",
+    "https://github.com/QwenLM/qwen-code",
+    "https://github.com/RayVentura/ShortGPT",
+    "https://github.com/Significant-Gravitas/AutoGPT",
+    "https://github.com/Snailclimb/JavaGuide",
+    "https://github.com/SqueezeAILab/LLMCompiler",
+    "https://github.com/TransformerOptimus/SuperAGI",
+    "https://github.com/abhi1693/openclaw-mission-control",
+    "https://github.com/addyosmani/agent-skills",
+    "https://github.com/affaan-m/ECC",
+    "https://github.com/agentuniverse-ai/agentUniverse",
+    "https://github.com/agno-agi/agno",
+    "https://github.com/airweave-ai/airweave",
+    "https://github.com/aiwaves-cn/agents",
+    "https://github.com/anthropics/skills",
+    "https://github.com/asinghcsu/AgenticRAG-Survey",
+    "https://github.com/browser-use/browser-use",
+    "https://github.com/browserbase/mcp-server-browserbase",
+    "https://github.com/bytebot-ai/bytebot",
+    "https://github.com/bytedance/UI-TARS-desktop",
+    "https://github.com/can1357/oh-my-pi",
+    "https://github.com/chatmcp/mcpso",
+    "https://github.com/chongdashu/unreal-mcp",
+    "https://github.com/cjo4m06/mcp-shrimp-task-manager",
+    "https://github.com/decolua/9router",
+    "https://github.com/deepseek-ai/deepseek-harness",
+    "https://github.com/dot-agent/nextpy",
+    "https://github.com/esengine/DeepSeek-Reasonix",
+    "https://github.com/farion1231/cc-switch",
+    "https://github.com/firecrawl/firecrawl"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/keremozdemirra-agent-vitals.json",
+  "schema_version": 1,
+  "source_repository": "Keremozdemirra/agent-vitals",
+  "source_url": "https://github.com/Keremozdemirra/agent-vitals",
+  "status": "disabled_pending_review"
+}

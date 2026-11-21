@@ -1,0 +1,93 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "hermes",
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/google/osv-scanner/releases/download/$",
+    "https://github.com/memtomem/memtomem",
+    "https://github.com/memtomem/memtomem#quick-start",
+    "https://github.com/memtomem/memtomem-stm",
+    "https://github.com/memtomem/memtomem/discussions",
+    "https://github.com/memtomem/memtomem/issues",
+    "https://github.com/memtomem/memtomem/issues/1477",
+    "https://github.com/memtomem/memtomem/issues/1478",
+    "https://github.com/memtomem/memtomem/labels/good%20first%20issue",
+    "https://github.com/memtomem/memtomem/releases",
+    "https://github.com/memtomem/memtomem/stargazers",
+    "https://img.shields.io/badge/license-Apache%202.0-blue",
+    "https://img.shields.io/github/stars/memtomem/memtomem",
+    "https://img.shields.io/pypi/dm/memtomem",
+    "https://img.shields.io/pypi/v/memtomem",
+    "https://memtomem.com",
+    "https://pypi.org",
+    "https://pypi.org/project/memtomem/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "MEMTOMEM_PROVENANCE_RUN_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Long-term memory for AI coding agents, kept as Markdown you own. Runs locally.",
+      "name": "io.github.memtomem/memtomem",
+      "packages": [
+        {
+          "identifier": "memtomem",
+          "packageArguments": [
+            {
+              "description": "Run the MCP stdio server. The distribution's console script is the CLI, so the server needs this subcommand.",
+              "type": "positional",
+              "value": "serve",
+              "valueHint": "subcommand"
+            }
+          ],
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.7.12"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/memtomem/memtomem"
+      },
+      "version": "0.7.12",
+      "websiteUrl": "https://memtomem.com"
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/memtomem-memtomem.json",
+  "schema_version": 1,
+  "source_repository": "memtomem/memtomem",
+  "source_url": "https://github.com/memtomem/memtomem",
+  "status": "disabled_pending_review"
+}

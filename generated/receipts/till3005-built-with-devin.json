@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Till3005/built-with-devin",
+  "canonical_repository": "Till3005/built-with-devin",
+  "canonical_url": "https://github.com/Till3005/built-with-devin",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:31.597655Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ad1508c5bbafa7b09533452ac8f0a380741a3dd0c141074c7181986e3673050d",
+  "sampled_file_digests": {
+    "LICENSE": "d06492a8af3ebf435233748dbbc572abc189f2e9abcf0505a0e34a0212c728b3",
+    "README.md": "0a3d39333054b7d21d50730fff5211a34f1805282a08db33ee1f3f528a8c11a6"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

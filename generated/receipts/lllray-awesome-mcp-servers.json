@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/lllray/awesome-mcp-servers",
+  "canonical_repository": "lllray/awesome-mcp-servers",
+  "canonical_url": "https://github.com/lllray/awesome-mcp-servers",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:47.334175Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c8e6bd014ff3bb5e7227ab195d034f9f8ffbed460412b699605a61fe32436307",
+  "sampled_file_digests": {
+    "README.md": "8197683f3b8d5fa00f6d30bcd9b5896637d02f46d2134b66c7d429c18e207205"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

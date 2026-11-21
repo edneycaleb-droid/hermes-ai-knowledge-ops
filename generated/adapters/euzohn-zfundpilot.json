@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=Euzohn/ZFundPilot&type=Date",
+    "https://github.com/Euzohn/ZFundPilot",
+    "https://github.com/Euzohn/ZFundPilot/issues",
+    "https://github.com/Euzohn/ZFundPilot/pulls",
+    "https://mirrors.aliyun.com/pypi/simple",
+    "https://registry.npmmirror.com",
+    "https://star-history.com/#Euzohn/ZFundPilot&Date"
+  ],
+  "environment_variable_names": [
+    "URL",
+    "ZFUNDPILOT_SECRET"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/euzohn-zfundpilot.json",
+  "schema_version": 1,
+  "source_repository": "Euzohn/ZFundPilot",
+  "source_url": "https://github.com/Euzohn/ZFundPilot",
+  "status": "disabled_pending_review"
+}

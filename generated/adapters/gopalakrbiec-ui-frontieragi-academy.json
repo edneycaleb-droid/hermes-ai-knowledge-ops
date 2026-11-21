@@ -1,0 +1,73 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/after-transformers-current-methods-and-dead-ends.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-durable-execution.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-identity-permissions.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-layer-map.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-memory-and-planning-patterns.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-memory-state.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-observability-cost.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-production-layer.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-rl-environments.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-sandboxes.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-tech-stack-map.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-tool-gateways.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agent-ui-layer.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-agent-loop.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-bedrock-agentcore.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-blueprint-aws.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-blueprint-azure.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-blueprint-compared.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-blueprint-gcp.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-blueprint-oss.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-builders-compared.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-claude-code.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-claude-sdk-microsoft.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-codex.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-copilot-studio.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-crewai.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-deep-agents.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-developer-workbenches.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-frameworks-compared.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-gemini-jules.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-google-adk.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-hermes-agent.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-langgraph.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-langsmith-deployment.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-loop-explained.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-make.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-n8n.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-openai-agents-sdk.html",
+    "https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/blog/agentic-runtimes-compared.html"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/gopalakrbiec-ui-frontieragi-academy.json",
+  "schema_version": 1,
+  "source_repository": "gopalakrbiec-ui/FrontierAGI-Academy",
+  "source_url": "https://github.com/gopalakrbiec-ui/FrontierAGI-Academy",
+  "status": "disabled_pending_review"
+}

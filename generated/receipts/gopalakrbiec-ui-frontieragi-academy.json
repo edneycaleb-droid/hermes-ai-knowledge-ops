@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/gopalakrbiec-ui/FrontierAGI-Academy",
+  "canonical_repository": "gopalakrbiec-ui/FrontierAGI-Academy",
+  "canonical_url": "https://github.com/gopalakrbiec-ui/FrontierAGI-Academy",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "claude/trusting-mendel-u9s1oh",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:28.442499Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6da5257e3c4f57051b9bb46a995c89e251172e4aab0b0bd5ba00ea58c5a78b47",
+  "sampled_file_digests": {
+    "README.md": "76c45da45b3533df515988e129409b06584b3faf73be81c7a6bc7b540351a93b"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
