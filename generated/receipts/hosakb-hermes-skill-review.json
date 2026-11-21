@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/hosakb/hermes-skill-review",
+  "canonical_repository": "hosakb/hermes-skill-review",
+  "canonical_url": "https://github.com/hosakb/hermes-skill-review",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:19.186252Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "344bfb77ab38422bafe2170078dd549c96c8a92b5002bc9e0b021198272ce5b2",
+  "sampled_file_digests": {
+    "LICENSE": "3096e1e33ff055c96e5c1fb7483030972110155155cc9d91d0fc355868c5e7d7",
+    "README.md": "39b524720f52a0691ee2294a6c1379030e581069a095f5ab667ccf11e56afee2"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

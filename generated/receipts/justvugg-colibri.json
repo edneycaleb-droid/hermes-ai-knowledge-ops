@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/JustVugg/colibri",
+  "canonical_repository": "JustVugg/colibri",
+  "canonical_url": "https://github.com/JustVugg/colibri",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:50.590961Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "73b3e9d6c67a69fab35ea562457be139205a3b136bce056fbbc6409f0dd951e9",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "816ce1b28d23a2f6fd386a15fdf49ef337e59e47d3e1826c0a0fde1d98ccda84",
+    "LICENSE": "fb9b97e1cc193452870025f6cf501003130561681659e265e5fdf6c023f71325",
+    "README.md": "f3b5f0b0db2d911ae5b249339157534a696cf9aefbd0642774027bacc621bc70",
+    "pyproject.toml": "d5e95f770686fbdc476d5477709173bb047423e85f97858ede6553b99c5cced5"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

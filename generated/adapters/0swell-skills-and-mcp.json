@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "api",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://21st.dev",
+    "https://build.nvidia.com",
+    "https://code.claude.com/docs/en/skills",
+    "https://evren-llmapi.ssyz.org.tr",
+    "https://fal.ai",
+    "https://github.com/AgriciDaniel/claude-ads",
+    "https://github.com/AgriciDaniel/jev-seo",
+    "https://github.com/AminForou/mcp-gsc",
+    "https://github.com/Auriti-Labs/geo-optimizer-skill",
+    "https://github.com/BoardUI/boardui",
+    "https://github.com/DietrichGebert/ponytail",
+    "https://github.com/Graphify-Labs/graphify",
+    "https://github.com/Jakeschincariol/instagram-agent-skill",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/TheCraigHewitt/seomachine",
+    "https://github.com/YCSE/nanobanana-mcp",
+    "https://github.com/alexpate/awesome-design-systems",
+    "https://github.com/alirezarezvani/claude-skills",
+    "https://github.com/anthropics/claude-plugins-official",
+    "https://github.com/deepseek-ai/deepseek-harness",
+    "https://github.com/diegosouzapw/OmniRoute",
+    "https://github.com/every-app/open-seo",
+    "https://github.com/github/github-mcp-server",
+    "https://github.com/google/skills",
+    "https://github.com/headroomlabs-ai/headroom",
+    "https://github.com/microsoft/markitdown",
+    "https://github.com/morluto/rea",
+    "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "https://github.com/nidhinjs/prompt-master",
+    "https://github.com/obra/superpowers",
+    "https://github.com/pipeboard-co/meta-ads-mcp",
+    "https://github.com/rebelytics/one-skill-to-rule-them-all",
+    "https://github.com/remotion-dev/skills",
+    "https://github.com/tashfeenahmed/freellmapi",
+    "https://github.com/upstash/context7",
+    "https://github.com/zubair-trabzada/geo-seo-claude",
+    "https://mcp.supabase.com/mcp",
+    "https://stitch.withgoogle.com/docs/mcp/setup",
+    "https://www.npmjs.com/package/@remotion/mcp"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/0swell-skills-and-mcp.json",
+  "schema_version": 1,
+  "source_repository": "0swell/skills-and-mcp",
+  "source_url": "https://github.com/0swell/skills-and-mcp",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/dream-num/univer-cli",
+  "canonical_repository": "dream-num/univer-cli",
+  "canonical_url": "https://github.com/dream-num/univer-cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:58:36.673180Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6e14e25bec32e34f8c672c9e2bdc4bfa7ff9a22a51f23854db073a5afed335bc",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "900105e47081ab568fd353b13b70639b918e4af3b5896852838f83dcaf4de63a",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "449ca9278249ed375f3d2b97dcb45f490eb4d16a4ea907ca723b8bb147594e5c",
+    "package.json": "6124bd944498d69c2bcd40b3edb41152379bffd37ab342bc1f23b76449436fa5"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/777genius/agent-teams-ai",
+  "canonical_repository": "777genius/agent-teams-ai",
+  "canonical_url": "https://github.com/777genius/agent-teams-ai",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:58:27.557002Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "95c4fab06ebdf6bd1e8ef157de035a62c3ea9e142746653de1398b222ff993fa",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "18c5ab9f81e208325dc6bee1c1eeecda0429f1de232c9608b84401823cea9dda",
+    ".mcp.json": "b3429eb0cce45b88aef8d49f12b5490d08d4a9e951c4fc91d2f3381ba35d92de",
+    "LICENSE": "cc37029b4400cf3a6c585d42406d020da105987360d2c787b7b36f18876409f7",
+    "README.md": "576878cf968b32d02f8b9cf5b2c23ce651bcd6653bdba55a3384a93e347e0e29",
+    "package.json": "77d38aa6501f49e42cc556c47446c269cc05e76fc2ae0dc4c6a8b66705a296f9"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

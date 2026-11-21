@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/gimp-mcp/gimp-mcp",
+  "canonical_repository": "gimp-mcp/gimp-mcp",
+  "canonical_url": "https://github.com/gimp-mcp/gimp-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T12:57:54.036997Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "372cd7eef0168c51ec8d8b3518cc895d5c7fa980bc4f77da0e0e833bcde8c8ec",
+  "sampled_file_digests": {
+    ".mcp.json": "b7eb48d688d4893bcc9aa953baaea4d84239d24810ee448a2c07da5356522303",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "f02aa0711d08395f627c125a8aa14feb036f1f2d4765b0f97246eb38b6ac1c62",
+    "pyproject.toml": "977daa50510e4b48c995571b96cf0ee2e2aa7f0869652a9106dbfc62e34c2d42"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

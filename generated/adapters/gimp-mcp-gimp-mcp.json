@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://claude.ai/desktop",
+    "https://coderabbit.ai",
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://fsf.org/",
+    "https://gimp.org",
+    "https://github.com/gimp-mcp/gimp-mcp",
+    "https://github.com/gimp-mcp/gimp-mcp.git",
+    "https://github.com/gimp-mcp/gimp-mcp/issues",
+    "https://github.com/gimp-mcp/gimp-mcp/raw/main/docs/demo.mp4",
+    "https://img.shields.io/badge/CodeRabbit-AI%20Review-171717?logo=coderabbit",
+    "https://img.shields.io/badge/GIMP-3.2-orange.svg",
+    "https://img.shields.io/badge/License-GPLv3-blue.svg",
+    "https://img.shields.io/badge/MCP-Compatible-green.svg",
+    "https://img.shields.io/badge/Works%20with-Claude%20Desktop-7B2CBF.svg",
+    "https://modelcontextprotocol.io",
+    "https://pypi.org/project/gimp-mcp-plugin/",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/gpl-3.0",
+    "https://www.gnu.org/licenses/why-not-lgpl.html"
+  ],
+  "environment_variable_names": [
+    "GIMP_MCP_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "gimp-mcp": {
+          "args": [
+            "run",
+            "--directory",
+            ".",
+            "gimp_mcp_server.py"
+          ],
+          "command": "uv"
+        }
+      }
+    }
+  },
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/gimp-mcp-gimp-mcp.json",
+  "schema_version": 1,
+  "source_repository": "gimp-mcp/gimp-mcp",
+  "source_url": "https://github.com/gimp-mcp/gimp-mcp",
+  "status": "disabled_pending_review"
+}
