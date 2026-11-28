@@ -11,4 +11,4 @@ Hermes AI Knowledge Ops is an active, read-only knowledge-operations repository.
 
 ## Validation
 
-Run `python scripts/check_repository_quality.py`. The scheduled workflow runs the same deterministic, network-free validation. A passing score proves repository controls only; it does not prove upstream availability or runtime safety.
+Run `python scripts/check_repository_quality.py`. The Agent platform quality workflow runs the same deterministic check on pull requests and pushes to main. A passing score covers the repository controls examined by the script.
