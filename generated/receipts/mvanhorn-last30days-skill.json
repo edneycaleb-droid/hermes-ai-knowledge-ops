@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/mvanhorn/last30days-skill",
+  "canonical_repository": "mvanhorn/last30days-skill",
+  "canonical_url": "https://github.com/mvanhorn/last30days-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:16.175996Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8c78209005e1de243ce97266f5ef3dfada4f2e7e4968e4e0231f5eb4f4980b74",
+  "sampled_file_digests": {
+    "LICENSE": "31803213a789825dc419de43542381e1d570b4408cf2bcf2e8a9947a6d3fd2ab",
+    "README.md": "b05f5dacefb55ba243acaa386566acf953e3fb7f9329168781f890a58eb8f20e",
+    "pyproject.toml": "041e61fd7741ab9466f70eb36184ba1c1ce68d4ce944a4cfc6269dbf29592139"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

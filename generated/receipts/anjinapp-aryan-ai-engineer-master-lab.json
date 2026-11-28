@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/anjinapp-aryan/ai-engineer-master-lab",
+  "canonical_repository": "anjinapp-aryan/ai-engineer-master-lab",
+  "canonical_url": "https://github.com/anjinapp-aryan/ai-engineer-master-lab",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:14.354370Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "df2d5a44ab1594d0a9cf49328e6e74f1c5e87296383fbb09b1f1548b1510f03a",
+  "sampled_file_digests": {
+    "LICENSE": "d116e214adbcab1c96e680695bcda5c629f00d72425f83e18770ce5e156c17d4",
+    "README.md": "2c38511f08d7a8d1b4b3a940c3a2a9f1da7083e4b168046cffc518b5cc63be22",
+    "package.json": "da9ac80e2392a99a95de6b032947124249f9c3fd9062488491551af9690229d4",
+    "requirements.txt": "40a9f619205dfe34785f7ac5a7350689feef05e4225b7ce0996ca6af64fea243"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/cyanheads/clinicaltrialsgov-mcp-server",
+  "canonical_repository": "cyanheads/clinicaltrialsgov-mcp-server",
+  "canonical_url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:41.769133Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "69b06358b64fe7391b9054024ed2333d1395d7e7a6c09b6dee012b24ba8fd8bc",
+  "sampled_file_digests": {
+    "Dockerfile": "1b417a089a25d3f668a532f0881ecfee9da4a51f41166347f88233aaa738cbc5",
+    "LICENSE": "a0d03b5044e289503a99a37011565877334167e69b547133d849406fbaece0c5",
+    "README.md": "f8b734426900c3212e4f5b69c2e30daee1617e94e73083c3e6f4e6c6b09b65a5",
+    "mcp.json": "eba955cb3b0552ae2b5eb5a111eeca76c84ea9c31bc35abb0e101fa2be36542b",
+    "package.json": "27b936fccda4c07df0c34b40f4a4d22600fe1d9988b0ff86283e5149613d7efb",
+    "server.json": "86c715ca1523dfedcab026adcd9a68b0faec753c645a05a4834260387555a851"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/hashgraph-online/awesome-ai-plugins",
+  "canonical_repository": "hashgraph-online/awesome-ai-plugins",
+  "canonical_url": "https://github.com/hashgraph-online/awesome-ai-plugins",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:07.962056Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "52293c50c85568af36d4d9124b63f998a4eb12c2e1edcb9cb6a3c66cff39a072",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
