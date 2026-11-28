@@ -193,3 +193,21 @@ Run the focused installer gate with:
 python scripts/validate_skill_library.py
 python -m unittest tests.test_skill_library tests.test_skill_installer -v
 ```
+
+## Prepare Hermes for an existing local Ollama model
+
+The tutorial [Hermes Agent, but 100% uncensored](https://www.youtube.com/watch?v=6kadyV1GkcE&t=752s) tests inference before connecting an agent to messaging. This standalone check applies that sequence to an already installed local model. It uses Python's standard library and connects directly to Ollama on IPv4 loopback. It does not start a server, download weights, use account credentials or modify a running agent.
+
+Use the exact installed tag shown by `ollama list`. For example, on a server that already has `qwen2.5:7b`:
+
+```sh
+python tools/check_local_hermes.py --model qwen2.5:7b --write-config local-candidate.yaml
+python tools/check_local_hermes.py --model qwen2.5:7b --expect-digest YOUR_64_HEX_DIGEST --smoke
+python tools/check_local_hermes.py --model qwen2.5:7b --expect-digest YOUR_64_HEX_DIGEST --tool-smoke
+```
+
+Replace the digest placeholder with `model_manifest_sha256` from the first result. The first command requires an explicit cloud-disabled status from the server and matching identities in the native and OpenAI-compatible inventories. It writes model settings in JSON, which Hermes accepts as YAML. A conflicting destination is preserved. Repeat checks accept the same bytes. The two optional probes each send one fixed request. The tool probe checks the proposed function name and arguments without executing any function. A failed or ambiguous response exits nonzero without retrying.
+
+`inventory_verified` confirms the observed manifest and route. `chat_verified` and `tool_verified` distinguish the two sampled behaviors. The manifest digest identifies Ollama's local tag manifest. Recheck it after a model or server change. The candidate selects only the main conversation route and sets an empty fallback chain. Existing profiles, plugins, auxiliary services, messaging, tools and publication permissions have their own configuration. No part of the discovery service invokes this utility. Discard the candidate file to roll back.
+
+Upstream references: [Hermes local Ollama configuration](https://github.com/NousResearch/hermes-agent/blob/774a456f7a181c3c61ba3e5a3d93d66b1505fa8e/website/docs/guides/local-ollama-setup.md) · [Ollama API types](https://github.com/ollama/ollama/blob/d227b7e210b569e9e01c6b4b0c40748e73dcd01a/api/types.go).
