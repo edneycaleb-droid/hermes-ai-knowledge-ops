@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/makwanaalpesh811-a11y/x-agent-skill",
+  "canonical_repository": "makwanaalpesh811-a11y/x-agent-skill",
+  "canonical_url": "https://github.com/makwanaalpesh811-a11y/x-agent-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:05.896318Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "af138640dea8f083556ccbf661e68c60f74593eb199d8f7af0d21a78f741f6af",
+  "sampled_file_digests": {
+    "LICENSE": "2b4efd10b4d4a46b937b3fb5174d86522c34acd673fa6c5e5a3f6f8387c156ad",
+    "README.md": "129cba67257499d7d7414074ab5f6435bd6643b9f065dfba30705eec1e01e80b"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

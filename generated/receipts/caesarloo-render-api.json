@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/caesarloo/render-api",
+  "canonical_repository": "caesarloo/render-api",
+  "canonical_url": "https://github.com/caesarloo/render-api",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:18.073720Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7bccb56a428be9c19f3ed1aea0e84be44ccd465c2d5b819f9738d3b0073dae73",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "31fb532fe4065013c783d950d22094ff25d53e0fcba58bc22708d6491775d821",
+    "LICENSE": "c85da23e284482a9f52b854c2114adb87f979b1e4ee70132c17304ebe2651281",
+    "README.md": "527cbc21e4e67b70fdca81bd97a673cd8b598a34cbc61c61adfb1ce2353b1874",
+    "package.json": "7733eca0a88e6e484d15eb7f000a7627e2c9eb9e96b22376904623874075c610"
+  },
+  "source_query": "\"model context protocol\" hermes in:name,description,readme"
+}

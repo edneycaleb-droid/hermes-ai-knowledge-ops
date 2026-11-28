@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aiengineeringfromscratch.com",
+    "https://aiengineeringfromscratch.com/certification?id=mcpa-f",
+    "https://aiengineeringfromscratch.com/certifications.html",
+    "https://aiengineeringfromscratch.com/learn/agent-engineering/agent-workbench-why-models-fail?learningPath=using-coding-agents",
+    "https://aiengineeringfromscratch.com/learn/agent-engineering/outcomes-before-output?learningPath=shaping-the-build",
+    "https://aiengineeringfromscratch.com/learn/agent-engineering/the-agent-loop",
+    "https://aiengineeringfromscratch.com/learn/llm-engineering/prompt-engineering",
+    "https://aiengineeringfromscratch.com/learn/math-foundations/linear-algebra-intuition",
+    "https://aiengineeringfromscratch.com/learn/math-foundations/optimization#loss-landscape-visualization",
+    "https://aiengineeringfromscratch.com/learn/setup-and-tooling/dev-environment",
+    "https://aiengineeringfromscratch.com/learn/tools-and-protocols/mcp-fundamentals?learningPath=model-context-protocol",
+    "https://aiengineeringfromscratch.com/learn/tools-and-protocols/program-anatomy-elf-from-scratch?learningPath=reverse-engineering",
+    "https://aiengineeringfromscratch.com/learn/tools-and-protocols/skills-and-agent-sdks?learningPath=agent-skills",
+    "https://aiengineeringfromscratch.com/learning-paths.html",
+    "https://aiengineeringfromscratch.com/prereqs.html",
+    "https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger",
+    "https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing",
+    "https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab",
+    "https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall",
+    "https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once",
+    "https://aiengineeringfromscratch.com/projects.html",
+    "https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank",
+    "https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark",
+    "https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending",
+    "https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark",
+    "https://github.com/rohitg00",
+    "https://github.com/rohitg00/ai-engineering-from-scratch.git",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf",
+    "https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/anjinapp-aryan-ai-engineer-master-lab.json",
+  "schema_version": 1,
+  "source_repository": "anjinapp-aryan/ai-engineer-master-lab",
+  "source_url": "https://github.com/anjinapp-aryan/ai-engineer-master-lab",
+  "status": "disabled_pending_review"
+}

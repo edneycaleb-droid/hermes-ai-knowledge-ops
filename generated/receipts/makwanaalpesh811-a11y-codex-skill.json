@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/makwanaalpesh811-a11y/codex-skill",
+  "canonical_repository": "makwanaalpesh811-a11y/codex-skill",
+  "canonical_url": "https://github.com/makwanaalpesh811-a11y/codex-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:11.919743Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b0069f525a1770d35f10a24146168060bc0def2e53fafb027e2635b3bef738e0",
+  "sampled_file_digests": {
+    "LICENSE": "2b4efd10b4d4a46b937b3fb5174d86522c34acd673fa6c5e5a3f6f8387c156ad",
+    "README.md": "3de0f35557f86d03ecd89783965decbd6f34d6788255e4d42d82c4b074665d1c"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/komako-workshop/stringers",
+  "canonical_repository": "komako-workshop/stringers",
+  "canonical_url": "https://github.com/komako-workshop/stringers",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:32.277255Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4d58fb48357975c44b13619a6dcb348efea1cfd47521c3905226e58d7f9c077b",
+  "sampled_file_digests": {
+    ".mcp.json": "fda78868b752f21077dcc96ca9265ada910029d2f843de9242e955c135c10132",
+    "LICENSE": "e95015750c29a444b4f4e2a181a77c80ad09f0a78960f9d916850244eba84487",
+    "README.md": "45abfc44a09e1ac75a738c2823dcedf3c77e263b92a40429227e829344d70ea8",
+    "server.json": "fa717768fb4e855f19f570561a44b0a82180e4bf1fe4b6069fc980f55ad12337"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

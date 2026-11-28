@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io",
+    "https://app.clawmama.run/skills/2ne05f/hermes?utm_source=github&utm_medium=issue&utm_campaign=skill_outreach_mvanhorn_last30days_skill",
+    "https://claude.ai/customize/skills",
+    "https://docs.x.ai/build/features/skills-plugins-marketplaces",
+    "https://github.com/Xquik-dev/tweetclaw",
+    "https://github.com/deepseek-ai/deepseek-harness",
+    "https://github.com/j-sperling",
+    "https://github.com/mvanhorn/last30days-skill",
+    "https://github.com/mvanhorn/last30days-skill.git",
+    "https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml",
+    "https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml/badge.svg",
+    "https://github.com/mvanhorn/last30days-skill/issues/",
+    "https://github.com/mvanhorn/last30days-skill/issues/532",
+    "https://github.com/mvanhorn/last30days-skill/releases/latest",
+    "https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill",
+    "https://github.com/mvanhorn/last30days-skill/stargazers",
+    "https://github.com/vercel-labs/skills",
+    "https://github.com/xai-org/plugin-marketplace",
+    "https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING",
+    "https://raw.githubusercontent.com/mvanhorn/last30days-skill/star-history-assets/star-history-dark.svg",
+    "https://raw.githubusercontent.com/mvanhorn/last30days-skill/star-history-assets/star-history-light.svg",
+    "https://trendshift.io/api/badge/repositories/21997",
+    "https://trendshift.io/repositories/21997",
+    "https://www.python.org/downloads/",
+    "https://x.ai/bot/marketplace/bots/last30days"
+  ],
+  "environment_variable_names": [
+    "GEMINI_API_KEY",
+    "GOOGLE_API_KEY",
+    "GOOGLE_GENAI_API_KEY",
+    "KEY",
+    "LAST30DAYS_KEYCHAIN_ALIASES",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "SCRAPECREATORS_API_KEY",
+    "TRUTHSOCIAL_TOKEN",
+    "URL",
+    "XAI_API_KEY",
+    "XQUIK_API_KEY",
+    "X_BEARER_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "hermes",
+  "provenance_receipt": "generated/receipts/mvanhorn-last30days-skill.json",
+  "schema_version": 1,
+  "source_repository": "mvanhorn/last30days-skill",
+  "source_url": "https://github.com/mvanhorn/last30days-skill",
+  "status": "disabled_pending_review"
+}

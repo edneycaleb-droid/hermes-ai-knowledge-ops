@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/makwanaalpesh811-a11y/video-localization-skill",
+  "canonical_repository": "makwanaalpesh811-a11y/video-localization-skill",
+  "canonical_url": "https://github.com/makwanaalpesh811-a11y/video-localization-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:03.721922Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "661904e9b7b0bf94bc41417c696c5522a20d84be76b04db550f1c7d43fb98211",
+  "sampled_file_digests": {
+    "LICENSE": "2b4efd10b4d4a46b937b3fb5174d86522c34acd673fa6c5e5a3f6f8387c156ad",
+    "README.md": "a4547bcbb1a8ed6931f43848f2e3981fa0db1de6ba219061298b68305562b1b2"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}

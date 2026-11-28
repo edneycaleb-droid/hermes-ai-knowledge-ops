@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/patsevanton/ansible-for-ubuntu-devops-workstation",
+  "canonical_repository": "patsevanton/ansible-for-ubuntu-devops-workstation",
+  "canonical_url": "https://github.com/patsevanton/ansible-for-ubuntu-devops-workstation",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:01.529098Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "dc94c0c93faf4ae7ec4c06d9ef1d3bab3323e03f40ffb596c44dafa0a0f38fc2",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "source_query": "\"hermes agent\" skill in:name,description,readme"
+}
